@@ -2,6 +2,9 @@ module.exports = [
   {
     name: "YDKJS Review",
     desc: "FAQ's based on Kyle Simpson's You Don't Know JS Series",
+    emoji: "💩",
+    id: "you-dont-know-js-review",
+    url: "https://8snib.csb.app/set/you-dont-know-js-review",
     faqs: [
       "1kxmhgp",
       "swl1uaa",
@@ -18,12 +21,13 @@ module.exports = [
       "q0u9qzk",
       "8ap4fbp"
     ],
-    id: "you-dont-know-js",
-    emoji: "💩"
   },
   {
     name: "Programming 101",
     desc: "Quick QnA for a Beginner Programmer",
+    emoji: "🍏",
+    id: "programming-101",
+    url: "https://8snib.csb.app/set/programming-101",
     faqs: [
       "o1m8bh8",
       "1fn4aw5",
@@ -33,14 +37,14 @@ module.exports = [
       "rjbi72p",
       "e1bejw9"
     ],
-    id: "programming-101",
-    emoji: "🍏"
   },
   {
     name: "JavaScript Interview Questions - Strings",
     desc:
       "FAQ's for all those StackOverflow questions you've been digging through.",
+    emoji: "🌟",
     id: "javascript-interview-questions-strings",
+    url: "https://8snib.csb.app/set/javascript-interview-questions-strings",
     faqs: [
       "r460xpv",
       "n679h6",
@@ -63,13 +67,14 @@ module.exports = [
       "bvl9h3f",
       "etqai3t"
     ],
-    emoji: "🌟"
   },
   {
     name: "JavaScript Interview Questions - Arrays",
     desc:
       "FAQ's for all those StackOverflow questions you've been digging through.",
+    emoji: "🌟",
     id: "javascript-interview-questions-arrays",
+    url: "https://8snib.csb.app/set/javascript-interview-questions-arrays",
     faqs: [
       "otgvjxf",
       "kr0ns2b",
@@ -89,14 +94,5 @@ module.exports = [
       "mo1dpw",
       "pkjkh4p"
     ],
-    emoji: "🌟"
-  },
-  {
-    name: "JS Frameworks",
-    desc:
-      "Having a hard time keeping up with all the front-end trends? We got you covered.",
-    id: "js-frameworks-2019",
-    faqs: [],
-    emoji: "❇️"
   }
 ];

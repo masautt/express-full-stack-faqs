@@ -1832,14 +1832,6 @@ module.exports = [
     id: "z6cxsox"
   },
   {
-    question: "How to replace all occurrences of a string in JavaScript?",
-    answer: "https://gist.github.com/masautt/c27efdded65c976f7dc19cef9c6a8e2c",
-    tags: ["JavaScript"],
-    type: "Code",
-    number: 200,
-    id: "n679h6"
-  },
-  {
     question: "How to capitalize first letter of a string in JavaScript?",
     answer: "https://gist.github.com/masautt/963203e3217f1e57d08ec36911a9b2ac",
     tags: ["JavaScript"],
@@ -2789,5 +2781,13 @@ module.exports = [
     type: "Definition",
     number: 312,
     id: "e1bejw9"
-  }
+  },
+  {
+    question: "How to replace all occurrences of a string in JavaScript?",
+    answer: "https://gist.github.com/masautt/c27efdded65c976f7dc19cef9c6a8e2c",
+    tags: ["JavaScript"],
+    type: "Code",
+    number: 313,
+    id: "n679h6"
+  },
 ];

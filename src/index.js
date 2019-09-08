@@ -9,10 +9,6 @@ const app = express();
 
 app.use(cors())
 
-app.get('/', function(req, res) {
-  res.sendFile('index.html', { root: __dirname });
-});
-
 app.get("/info", (req, res) => {
   return res.json({
       total: faqs.length,
@@ -63,5 +59,6 @@ app.get("/type/:str", (req, res) => {
 app.get("/sets", (req, res) => {
   return res.json(sets);
 });
+
 
 app.listen(3000, () => console.log(`Example app listening on port 3000!`));
