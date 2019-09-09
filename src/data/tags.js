@@ -87,17 +87,17 @@ module.exports = [
     url:"https://8snib.csb.app/tag/software-engineering"
   },
   {
-    name: "JS Libraries",
+    name: "JavaScript Libraries",
     desc: "Packages and libraries that extend a particular language",
     emoji: "📦",
-    id: "js-libraries",
+    id: "javascript-libraries",
     url:"https://8snib.csb.app/tag/js-libraries"
   },
   {
     name: "Databases",
     desc: "Methods to organize high amounts of data to optimze access.",
     emoji: "🗂️",
-    id: "databasees",
+    id: "databases",
     url:"https://8snib.csb.app/tag/databases"
   },
   {

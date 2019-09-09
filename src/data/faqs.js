@@ -10,6 +10,16 @@ module.exports = [
     id: "56h6vqe",
     sources: [
       {
+        name: "Vanilla CSS vs Bootstrap vs Tailwind CSS - Which one should you choose?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=vmXIGdP8KN8"
+      },
+      {
+        name: "Tailwind Or Bootstrap?",
+        site: "medium",
+        url: "https://medium.com/@dolonhunt/tailwind-or-bootstrap-f62c1ac6c0b3"
+      },
+      {
         name: "Utility-first CSS - You have to try it first!",
         site: "dev",
         url: "https://dev.to/mzanggl/utility-first-css-you-have-to-try-it-first-3m85"
@@ -29,6 +39,16 @@ module.exports = [
         name: "What is TypeScript and why would I use it in place of JavaScript?",
         site: "stack-overflow",
         url: "https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript"
+      },
+      {
+        name: "TypeScript Basics 4 - TypeScript versus JavaScript",
+        sites: "youtube",
+        url: "https://www.youtube.com/watch?v=JAT0xC-5_Jk"
+      },
+      {
+        name: "JavaScript vs TypeScript",
+        site: "free-code-camp",
+        url: "https://guide.freecodecamp.org/typescript/javascript-vs-typescript/"
       }
     ],
   },
@@ -47,6 +67,11 @@ module.exports = [
         url: "https://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work"
       },
       {
+        name: "JavaScript for Developers 38 - Understanding the this keyword",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=URVdQG96MUw"
+      }
+      {
         name: "What's this? - You Don't Know JS",
         site: "github",
         url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch1.md#whats-this"
@@ -60,7 +85,19 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 3,
-    id: "wyw25ob"
+    id: "wyw25ob",
+    sources: [
+      {
+        name: "What does \"use strict\" do in JavaScript, and what is the reasoning behind it?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it"
+      },
+      {
+        name: "Strict Mode - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch2.md#strict-mode"
+      }
+    ]
   },
   {
     question: "What is closure?",
@@ -69,7 +106,19 @@ module.exports = [
     tags: ["javascript", "programming-fundamentals"],
     type: "definition",
     number: 4,
-    id: "v8e59bt"
+    id: "v8e59bt",
+    sources: [
+      {
+        name: "How do JavaScript closures work?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/111102/how-do-javascript-closures-work"
+      },
+      {
+        name: "Nitty Gritty - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch5.md#nitty-gritty"
+      }
+    ]
   },
   {
     question: "What is the DOM?",
@@ -78,7 +127,19 @@ module.exports = [
     tags: ["dom", "front-end"],
     type: "definition",
     number: 5,
-    id: "toxu21t"
+    id: "toxu21t",
+    sources: [
+      {
+        name: "The DOM: What's the Document Object Model? -freeCodeCamp.org",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=80Mr2Z6Qikc"
+      },
+      {
+        name: "HTML DOM",
+        site: "free-code0camp",
+        url: "https://guide.freecodecamp.org/javascript/html-dom/"
+      }
+    ]
   },
   {
     question:
@@ -88,7 +149,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 6,
-    id: "bnxjlb"
+    id: "bnxjlb",
+    sources: [
+      {
+        name : "What's the difference between using \"let\" and \"var\"?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var"
+      },
+      {
+        name: "JavaScript Let, Const & Var: A Complete Guide",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=dzEieWaOJE0"
+      },
+      {
+        name: "Function vs. Block Scope Review - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#review-tldr"
+      }
+    ]
   },
   {
     question: "What is the box model in CSS?",
@@ -97,7 +175,19 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 7,
-    id: "28b4e2yl"
+    id: "28b4e2yl",
+    sources: [
+      {
+        name: "The box model for beginners web design tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=MrAnu4zdjjY"
+      },
+      {
+        name: "Introduction to the CSS basic box model",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"
+      }
+    ]
   },
   {
     question: "What's the difference between == and === in JavaScript?",
@@ -106,7 +196,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 8,
-    id: "6b1n3q"
+    id: "6b1n3q",
+    sources: [
+      {
+        name: "Which equals operator (== vs ===) should be used in JavaScript comparisons?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons"
+      },
+      {
+        name: "== vs === - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=kVOmc7NK1M0"
+      },
+      {
+        name: "Loose Equals vs. Strict Equals - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch4.md#loose-equals-vs-strict-equals"
+      }
+    ]
   },
   {
     question: "What's the difference between null and undefined in JavaScript?",
@@ -115,7 +222,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 9,
-    id: "3xi3xlt"
+    id: "3xi3xlt",
+    sources: [
+      {
+        name: "What is the difference between null and undefined in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript"
+      },
+      {
+        name: "JavaScript for Developers 14 - Difference between undefined and null",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=JM-fQHknjh8"
+      },
+      {
+        name: "JavaScript — Null vs. Undefined",
+        site: "medium",
+        url: "https://codeburst.io/javascript-null-vs-undefined-20f955215a2"
+      }
+    ]
   },
   {
     question:
@@ -125,36 +249,100 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 10,
-    id: "h6uz3x"
+    id: "h6uz3x",
+    sources: [
+      {
+        name: "variable === undefined vs. typeof variable === \"undefined\"",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/4725603/variable-undefined-vs-typeof-variable-undefined"
+      },
+      {
+        name: "JavaScript for Developers 12 - Understanding undefined",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=oYhyG1M-W-o"
+      },
+      {
+        name: "undefined vs \"undeclared\" - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#undefined-vs-undeclared"
+      }
+    ]
+    
   },
   {
     question:
       "What's the difference between the window and document in the DOM?",
     answer:
       "The window refers to the object that represents the browser's window. All global JavaScript objects, functions, and variables automatically become members of the window object. The document is nested in the window object and refers to the actual HTML code of the webpage.",
-    tags: ["dom", "front-end"],
+    tags: ["dom", "front-end", "javascript"],
     type: "comparison",
     number: 11,
-    id: "p2y6csz"
+    id: "p2y6csz",
+    sources: [
+      {
+        name: "What is the difference between window, screen, and document in Javascript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/9895202/what-is-the-difference-between-window-screen-and-document-in-javascript"
+      },
+      {
+        name: "Javascript Window vs. Document vs. Screen WHAT??",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=pIBKyooZrJQ"
+      },
+    ]
   },
   {
-    question: "What is event bubbling?",
+    question: "What's the difference between event bubbling and capturing?",
     answer:
-      'When a user interacts with a nested element and the event "bubbles" to the top through its ancestor elements.',
-    tags: ["dom", "front-end"],
+      'When a user interacts with a nested element and the event "bubbles" to the top through its ancestor elements. Capturing is the opposite where events are captured down to the deepest target.',
+    tags: ["dom", "front-end", "javascript"],
     type: "definition",
     number: 12,
-    id: "66ks56"
+    id: "66ks56",
+    sources: [
+      {
+        name: "What is event bubbling and capturing?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing"
+      },
+      {
+        name: "Event Bubbling and Capturing in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=sfKDOOJgbSI"
+      },
+      {
+        name: "Event Bubbling and Event Capturing in JavaScript",
+        site: "medium",
+        url: "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"
+      }
+    ]
   },
   {
     question:
-      "What's the difference between the call and apply functions in JavaScript?",
+      "What's the difference between the call, apply, and bind functions in JavaScript?",
     answer:
       "Both are function prototypes that call the function while passing in a this object. apply takes in and array of arguments as the second function while call does not require the array and will take an infinite amount of arguments.",
     tags: ["javascript"],
     type: "comparison",
     number: 13,
-    id: "z3okrth"
+    id: "z3okrth",
+    sources: [
+      {
+        name: "Javascript call() & apply() vs bind()?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind"
+      },
+      {
+        name: "JavaScript Practical Applications of Call, Apply and Bind functions",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=AYVYxezrMWA"
+      },
+      {
+        name: "Javascript tips — Apply vs. Call vs. Bind",
+        site: "medium",
+        url: "https://medium.com/@leonardobrunolima/javascript-tips-apply-vs-call-vs-bind-d738a9e8b4e1"
+      }
+    ]
   },
   {
     question: "What's the difference between a shallow copy and deep copy?",
@@ -163,7 +351,24 @@ module.exports = [
     tags: ["javascript", "programming-fundamentals"],
     type: "comparison",
     number: 14,
-    id: "q0u9qzk"
+    id: "q0u9qzk",
+    sources: [
+      {
+        name: "What is the difference between a deep copy and a shallow copy?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy"
+      },
+      {
+        name: "Copying Arrays (deep and shallow) - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=EeZBKv34mm4"
+      },
+      {
+        name: "How to differentiate between deep and shallow copies in JavaScript",
+        site: "free-code-camp",
+        url: "https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/"
+      }
+    ]
   },
   {
     question: "What is immutable?",
@@ -172,7 +377,14 @@ module.exports = [
     tags: ["javascript", "programming-fundamentals"],
     type: "definition",
     number: 15,
-    id: "aplmx6f"
+    id: "aplmx6f",
+    sources: [
+      {
+        name: "What does immutable mean?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/3200211/what-does-immutable-mean"
+      }
+    ]
   },
   {
     question:
