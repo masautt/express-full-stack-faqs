@@ -70,7 +70,7 @@ module.exports = [
         name: "JavaScript for Developers 38 - Understanding the this keyword",
         site: "youtube",
         url: "https://www.youtube.com/watch?v=URVdQG96MUw"
-      }
+      },
       {
         name: "What's this? - You Don't Know JS",
         site: "github",
@@ -746,7 +746,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 29,
-    id: "g2hzd3v"
+    id: "g2hzd3v",
+    sources: [
+      {
+        name: "if (key in object) or if(object.hasOwnProperty(key)",
+        type: "stack-overflow",
+        url: "https://stackoverflow.com/questions/13632999/if-key-in-object-or-ifobject-hasownpropertykey"
+      },
+      {
+        name: "Check if a property is in an object - Beau teaches JavaScript",
+        type: "youtube",
+        url: "https://www.youtube.com/watch?v=dpTFcPUe2oo"
+      },
+      {
+        name: "The Uses of 'in' vs 'hasOwnProperty'",
+        type: "globe",
+        url: "http://adripofjavascript.com/blog/drips/the-uses-of-in-vs-hasownproperty.html"
+      }
+    ]
   },
   {
     question:
@@ -756,17 +773,46 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 30,
-    id: "8gkoaid"
+    id: "8gkoaid",
+    sources: [
+      {
+        name: "How does the \"this\" keyword work?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/17514482"
+      },
+      {
+        name: "this all Makes Sense Now! - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#review-tldr"
+      }
+    ]
   },
   {
     question:
-      'What are the 4 things events that occur when a function is invoked with the "new" keyword?',
+      'What are the 4 events that occur when a function is invoked with the "new" keyword?',
     answer:
       "1. A brand new object is created (aka, constructed) out of thin air. 2. The newly constructed object is prototype linked. 3. The newly constructed object is set as the this binding for that function call. 4. Unless the function returns its own alternate object, the new invoked function call will automatically return the newly constructed object",
     tags: ["javascript"],
     type: "list",
     number: 31,
-    id: "zrhh9vo"
+    id: "zrhh9vo",
+    sources : [
+      {
+        name: "What is the 'new' keyword in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/3658673"
+      },
+      {
+        name: "Using the new Keyword in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=I2CdrKlPdAY"
+      },
+      {
+        name: "new Binding - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#new-binding"
+      }
+    ]
   },
   {
     question:
@@ -776,26 +822,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 32,
-    id: "88x8ub"
-  },
-  {
-    question:
-      "What's the difference between HTTP Basic Authentication and OAuth?",
-    answer:
-      "HTTP Basic and requires the client keeps the password in clear text and send it with each request. OAuth is faster because it relies on security token validation (digital signature verification)",
-    tags: ["security", "back-end"],
-    type: "comparison",
-    number: 33,
-    id: "qom515"
-  },
-  {
-    question: "Why should you never use HTTP Basic Authentication?",
-    answer:
-      "1. You are not allowed to specify only certain features of a web service with just a username and password. 2. This process blocks other devices trying to access the same service with the username and password 3. No support for extensions like two-factor authentication",
-    tags: ["security", "back-end"],
-    type: "explanation",
-    number: 34,
-    id: "elht4bv"
+    id: "88x8ub",
+    sources: [
+      {
+        name: "Property Accessors",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
+      },
+      {
+        name: "Object properties and propety accessors in JS",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=sXed76BTqfA"
+      },
+      {
+        name: "Objects - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#contents"
+      }
+    ]
   },
   {
     question: "What is an IIFE in JavaScript?",
@@ -804,7 +848,25 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 35,
-    id: "7h9x8fl"
+    id: "7h9x8fl",
+    sources: [
+      {
+        name: "What is the (function() { } )() construct in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/8228308"
+      },
+      {
+        name: "Scopes and Closures In-dept 06 - IIFE",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=q21QSRpNaAQ"
+      },
+      {
+        name: "Invoking Function Expressions Immediately - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch3.md#invoking-function-expressions-immediately"
+      }
+
+    ]
   },
   {
     question: "What is SEO?",
@@ -813,7 +875,19 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 36,
-    id: "a945jyi"
+    id: "a945jyi",
+    sources: [
+      {
+        name: "A guide to SEO FOr the Impatient",
+        site: "medium",
+        url: "https://medium.com/swlh/a-guide-to-seo-for-the-impatient-2878b5d02967"
+      },
+      {
+        name: "What is SEO and How Does it Work? (2019)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=D7UxlkwdYc0"
+      }
+    ]
   },
   {
     question: "What are some ways to increase SEO?",
@@ -822,16 +896,50 @@ module.exports = [
     tags: ["front-end"],
     type: "list",
     number: 36,
-    id: "hcyc0aa"
+    id: "hcyc0aa",
+    sources: [
+      {
+        name: "What are the best ways to increase a site's position in Google?",
+        site: "stack-overflow",
+        url: "https://webmasters.stackexchange.com/questions/2/what-are-the-best-ways-to-increase-a-sites-position-in-google"
+      },
+      {
+        name: "How to Improve Your Google Rankings Fast: 9 Steps to Rank Higher Using Analytics",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=xI1SicZRve0"
+      },
+      {
+        name: "SEO best practices - 17 tips to seriously improve SEO",
+        site: "medium",
+        url: "https://medium.com/@felixtarcomnicu/seo-best-practices-17-tips-to-seriously-improve-seo-e4f4af6d57ef"
+      }
+    ]
   },
   {
-    question: "What is an XML sitemap?",
+    question: "What's the difference between HTML sitemaps and XML sitemaps?",
     answer:
-      "XML sitemaps list a website's important pages, making sure a search engine can find and crawl through all pages.",
+      "",
     tags: ["front-end"],
-    type: "definition",
+    type: "comparison",
     number: 37,
-    id: "pl11mhl"
+    id: "pl11mhl",
+    sources: [
+      {
+        name: "What is the difference between HTML sitemaps and XML sitemaps?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-difference-between-HTML-sitemaps-and-XML-sitemaps"
+      },
+      {
+        name: "31: How to Create an XML Sitemap | Register a Sitemap with Google | Learn HTML & CSS | HTML Tutorial",
+        site: "youtube",
+        url: "https://youtu.be/xtoAfUB6Ubw?t=178"
+      },
+      {
+        name: "Search the Daily Egg What Are the SEO Benefits of XML & HTML Sitemaps?",
+        site: "globe",
+        url: "https://www.crazyegg.com/blog/seo-benefits-of-xml-html-sitemaps/"
+      }
+    ]
   },
   {
     question: "What is the robots.txt file?",
@@ -840,7 +948,24 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 38,
-    id: "6wuyr6o6"
+    id: "6wuyr6o6",
+    sources: [
+      {
+        name: "What is robots.txt and what is it used for?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-robots-txt-and-what-is-it-used-for"
+      },
+      {
+        name: "What is a Robots.txt File? (An Overview for SEO + Key Insight)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=LlJy5LRkUfs"
+      },
+      {
+        name: "What is a robots.txt file?",
+        site: "medium",
+        url: "https://medium.com/@sourabhnagori/what-is-a-robots-txt-file-8c398ac9f8b4"
+      }
+    ]
   },
   {
     question: "What is minification?",
@@ -849,7 +974,24 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 39,
-    id: "ak3z66u"
+    id: "ak3z66u",
+    sources: [
+      {
+        name: "What is the real difference between a minified and uncompressed file? What are the benefits of each?",
+        site: "stack-overflow",
+        url: "https://softwareengineering.stackexchange.com/a/232588"
+      },
+      {
+        name: "Website Performance Tutorial #8 - Minify Your CSS & JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=8aAuNQqgGAg",
+      },
+      {
+        name: "Gzipping vs Minification: What the heck?",
+        site: "medium",
+        url: "https://medium.com/@manuelro/gzipping-vs-minification-what-the-heck-ba698fa6037c"
+      }
+    ]
   },
   {
     question: "What is a favicon?",
