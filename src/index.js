@@ -1,30 +1,61 @@
 //Fullstack backend
 const express = require("express");
-const faqs = require("./data/faqs");
-const tags = require("./data/tags");
-const types = require("./data/types");
-const sets = require("./data/sets");
+const faqsData = require("./data/faqs");
+const tagsData = require("./data/tags");
+const typesData = require("./data/types");
+const setsData = require("./data/sets");
+
 const cors = require('cors')
 const app = express();
 
 app.use(cors())
 
-app.get("/info", (req, res) => {
+// Just returns a general overview of what options are available
+app.get("/about", (req, res) => {
   return res.json({
-      total: faqs.length,
-      unanswered: faqs.filter(faq => faq.answer === "").length,
-      types: {
+    total: faqsData.length,
+    unanswered: faqsData.filter(faq => faq.answer === "").length,
+    types: {
+      api: "https://8snib.sse.codesandbox.io/types",
+      total: typesData.length,
+    },
+    tags: {
+      api: "https://8snib.sse.codesandbox.io/tags",
+      total: tagsData.length,
+    },
+    sets: {
+      api: "https://8snib.sse.codesandbox.io/sets",
+      total: setsData.length,
+    }
+  });
+});
+
+// Returns about + data for each option in about
+app.get("/data", (req, res) => {
+  return res.json({
+    total: faqsData.length,
+    unanswered: faqsData.filter(faq => faq.answer === "").length,
+    types: {
+      about: {
         api: "https://8snib.sse.codesandbox.io/types",
-        total:  types.length,
+        total: typesData.length,
       },
-      tags: {
+      data: typesData,
+    },
+    tags: {
+      about: {
         api: "https://8snib.sse.codesandbox.io/tags",
-        total:  tags.length,
+        total: tagsData.length,
       },
-      sets: {
+      data: tagsData,
+    },
+    sets: {
+      about: {
         api: "https://8snib.sse.codesandbox.io/sets",
-        total:  sets.length,
-      }
+        total: setsData.length,
+      },
+      data: setsData,
+    }
   });
 });
 
@@ -33,31 +64,34 @@ app.get(["/rand/:num", "/rand/", "/rand"], (req, res) => {
   //If the limit is greater than 20, less than zero or not given then just return 10
   let num = req.params.num;
   let limit = num > 50 || num <= 0 || num === undefined ? 1 : num;
-  return(res.json(faqs.sort(() => Math.random() - 0.5).slice(0, limit)));
+  return (res.json(faqsData.sort(() => Math.random() - 0.5).slice(0, limit)));
 });
 
 //Return a faq based on an id, also generates related facts
-app.get(["/faq/:str","/faq/", "/faq"], (req, res) => {
-  return res.json(faqs.filter(faq => faq.id === req.params.str.toLowerCase()));
+app.get(["/faq/:str", "/faq/", "/faq"], (req, res) => {
+  return res.json(faqsData.filter(faq => faq.id === req.params.str.toLowerCase()));
 })
 
 app.get("/tags", (req, res) => {
-  return res.json(tags);
+  return res.json(tagsData.map(tagData => {
+    tagData["total"] = faqsData.filter(faqData => faqData.tags.includes(tagData.name)).length
+    return tagData;
+  }));
 });
 
 app.get("/tag/:str", (req, res) => {
-  return res.json(tags.filter(tag => tag.name.toLowerCase() === req.params.str.toLowerCase()));
+  return res.json(tagsData.filter(tag => tag.id === req.params.str.toLowerCase()));
 });
 
 app.get("/types", (req, res) => {
-  return res.json(types);
+  return res.json(typesData);
 });
 
 app.get("/type/:str", (req, res) => {
-  return res.json(types.filter(type => type.name.toLowerCase() === req.params.str.toLowerCase()));
+  return res.json(typesData.filter(type => type.name.toLowerCase() === req.params.str.toLowerCase()));
 });
 app.get("/sets", (req, res) => {
-  return res.json(sets);
+  return res.json(setsData);
 });
 
 
