@@ -374,7 +374,7 @@ module.exports = [
     question: "What is immutable?",
     answer:
       "When we say something is immutable it means it we cannot modify it's value after assignment, we would need to create a copy of it. Numbers and strings are immutable while objects, arrays, functions, classes, sets, and maps are not.",
-    tags: ["javascript", "programming-fundamentals"],
+    tags: ["programming-fundamentals", "javascript"],
     type: "definition",
     number: 15,
     id: "aplmx6f",
@@ -383,6 +383,16 @@ module.exports = [
         name: "What does immutable mean?",
         site: "stack-overflow",
         url: "https://stackoverflow.com/questions/3200211/what-does-immutable-mean"
+      },
+      {
+        name: "Programming Terms: Mutable vs Immutable",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=5qQQ3yzbKp8",
+      },
+      {
+        name: "Learn immutability with JavaScript",
+        site: "medium",
+        url: "https://medium.com/@cristiansalcescu/learn-immutability-with-javascript-6a67e4a48d7f"
       }
     ]
   },
@@ -394,7 +404,24 @@ module.exports = [
     tags: ["react-js", "javascript", "front-end", "javascript-libraries"],
     type: "list",
     number: 16,
-    id: "tc14j9"
+    id: "tc14j9",
+    sources: [
+      {
+        name: "What's the purpose of using React.js?",
+        site: "quora",
+        url: "https://www.quora.com/Whats-the-purpose-of-using-React-js"
+      },
+      {
+        name: "Why React is Awesome",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=SH2tck0pHWI"
+      },
+      {
+        name: "Why React Should Be Your First Choice?",
+        site: "medium",
+        url: "https://medium.com/swlh/why-react-should-be-your-first-choice-d469fe201c08"
+      }
+    ]
   },
   {
     question: "What is specificity in CSS?",
@@ -403,7 +430,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 17,
-    id: "hqwgumk"
+    id: "hqwgumk",
+    sources: [
+      {
+        name: "What is the rationale behind how CSS specificity works?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-rationale-behind-how-CSS-specificity-works"
+      },
+      {
+        name: "CSS Basics (Part6) — Specificity",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=fy07HYm-geM"
+      },
+      {
+        name: "CSS Specificity Didn’t Work the Way I Thought",
+        site: "medium",
+        url: "https://medium.com/@TedYav/css-specificity-didnt-work-the-way-i-thought-752148275033"
+      }
+    ]
   },
   {
     question:
@@ -412,24 +456,75 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 18,
-    id: "p6js7e"
+    id: "p6js7e",
+    sources: [
+      {
+        name: "What is the difference between visibility:hidden and display:none?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone/27939784"
+      },
+      {
+        name: "CSS display none vs visibility hidden",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=xZexBjHWSOs"
+      },
+      {
+        name: "visbility",
+        site: "mozilla",
+        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/visibility"
+      }
+    ]
   },
   {
     question: "What is a first class function?",
     answer:
       "This means functions can be stored in a variable, object, or array and they can be passed into and returned from a function.",
-    tags: ["javascript", "programming-fundamentals"],
+    tags: ["programming-fundamentals", "javascript"],
     type: "definition",
     number: 19,
-    id: "pclvevr"
+    id: "pclvevr",
+    sources: [
+      {
+        name: "What is meant by 'first class object'?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/705173/what-is-meant-by-first-class-object"
+      },
+      {
+        name: "First Class Functions in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=4UeWzn4jzwM"
+      },
+      {
+        name: "JavaScript Weekly: An Introduction to First-Class Functions",
+        site: "medium",
+        url: "https://medium.com/launch-school/javascript-weekly-an-introduction-to-first-class-functions-9d069e6fb137"
+      }
+    ]
   },
   {
     question: "What is a lambda function?",
     answer: "These are essentially nameless functions.",
-    tags: ["javascript", "programming-fundamentals"],
+    tags: ["python", "programming-fundamentals"],
     type: "definition",
     number: 20,
-    id: "kdt45mr"
+    id: "kdt45mr",
+    sources: [
+      {
+        name: "What is a lambda (function)?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/16501/what-is-a-lambda-function"
+      },
+      {
+        name: "Python Programming Tutorial - Anonymous function | Lambda Function",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=1wjoljgubkM"
+      },
+      {
+        name: "Understanding Lambda Expressions",
+        site: "medium",
+        url: "https://medium.com/@luijar/understanding-lambda-expressions-4fb7ed216bc5"
+      }
+    ]
   },
   {
     question: "What is an arrow function in JavaScript?",
@@ -438,35 +533,103 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 21,
-    id: "v3w9mj"
+    id: "v3w9mj",
+    sources : [
+      {
+        name: "What is the arrow function in ES6? Why are we using arrow function?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-arrow-function-in-ES6-Why-are-we-using-arrow-function"
+      },
+      {
+        name: "ARROW FUNCTIONS IN JAVASCRIPT",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=tHT_YdtVEaE"
+      },
+      {
+        name: "ES6 Arrow Function Is Simple, This Article Just Made It Simpler For JS Beginners",
+        site: "medium",
+        url: "https://medium.com/ph-devconnect/es6-arrow-function-is-simple-this-article-just-made-it-simpler-for-js-beginners-e5a944af7fc6"
+      }
+    ]
   },
   {
     question: "What are features of a functional programming language?",
     answer:
-      "1. First-class functions: functions can be stored in a variable object or array and can be passed in or returned from functions. 2. Higher Order Functions: (Factory Functions) functions that can build other functions by taking a function as an argument. 3. Lambda functions: A nameless function",
-    tags: ["functional-programming"],
+      "1. First-class functions: functions can be stored in a variable object or array and can be passed in or returned from functions. 2. Higher Order Functions: (Factory Functions) functions that can build other functions by taking a function as an argument. 3. Lambda functions (arrow functions): A nameless function",
+    tags: ["functional-programming", "javascript"],
     type: "list",
     number: 22,
-    id: "5j07ive"
+    id: "5j07ive",
+    sources: [
+      {
+        name: "Functional programming and non-functional programming",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/24279/functional-programming-and-non-functional-programming"
+      },
+      {
+        name: "Functional Programming & Haskell - Computerphile",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=LnX3B9oaKzw"
+      },
+      {
+        name: "Functional Programming",
+        site: "medium",
+        url: "https://medium.com/the-renaissance-developer/functional-programming-40dfe049461e"
+      }
+    ]
   },
   {
     question: "What is a higher order function?",
     answer:
       "These are functions that take a function as an argument and/or return a new function.",
-    tags: ["functional-programming"],
+    tags: ["functional-programming", "javascript"],
     type: "definition",
     number: 23,
-    id: "qlcklyn"
+    id: "qlcklyn",
+    sources: [
+      {
+        name: "What is a simple explanation of higher order functions and callbacks in JavaScript?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-simple-explanation-of-higher-order-functions-and-callbacks-in-JavaScript"
+      },
+      {
+        name: "Higher Order Functions Solution - Programming Languages",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Bci13zZe3yc"
+      },
+      {
+        name: "Higher-order Functions In JavaScript",
+        site: "medium",
+        url: "https://medium.com/@js_tut/higher-order-functions-in-javascript-732dc7a1952d"
+      }
+    ]
   },
   {
     question:
       "What's the difference between classical and prototypal inheritance?",
     answer:
       "Classical relies on classes and prototypal relies on prototypes. Classes are immutable, you can't modify or add new methods at runtime while prototypes can be either. Classes may or may not support multiple inheritance where objects can inherit from multiple prototypes.",
-    tags: ["object-oriented-programming", "functional-programming"],
+    tags: ["object-oriented-programming", "functional-programming", "javascript"],
     type: "comparison",
     number: 24,
-    id: "b5yf47h"
+    id: "b5yf47h",
+    sources: [
+      {
+        name: "Benefits of prototypal inheritance over classical?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/2800964/benefits-of-prototypal-inheritance-over-classical/16872315"
+      },
+      {
+        name: "[JavaScript Tutorials] 15 Conceptual Aside Classical vs Prototypal Inheritance",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=gX1GMwOXOxk"
+      },
+      {
+        name: "Classical vs. Prototypal Inheritance",
+        site: "dev",
+        url: "https://dev.to/crishanks/classical-vs-prototypal-inheritance-2o5a"
+      }
+    ]
   },
   {
     question: "What are the 3 property descriptors in JavaScript?",
@@ -475,27 +638,78 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 25,
-    id: "8ap4fbp"
+    id: "8ap4fbp",
+    sources: [
+      {
+        name: "JavaScript Object Property Descriptors",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=LD1tQEWsjz4"
+      },
+      {
+        name: "JavaScript — Property Descriptor",
+        site: "medium",
+        url: "https://codeburst.io/javascript-object-property-attributes-ac012be317e2"
+      },
+      {
+        name: "Property Descriptors - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#property-descriptors"
+      }
+    ]
   },
   {
     question:
-      "What is the purpose of Object,preventExtensions( ) in JavaScript?",
+      "What is the purpose of Object.preventExtensions( ) in JavaScript?",
     answer:
       "When an object is passed into this function, an error will be thrown when there is an attempt to define a property on the object.",
     tags: ["javascript"],
     type: "definition",
     number: 26,
-    id: "r8jroi9"
+    id: "r8jroi9",
+    sources: [
+      {
+        name: "Object.preventExtensions()",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
+      },
+      {
+        name: "JavaScript Video Tutorial - Preventing Extensions on an Object",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=EzWcVZ1QSM8"
+      },
+      {
+        name: "Prevent Extensions - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#prevent-extensions"
+      }
+    ]
   },
   {
     question:
       "What's the difference between sealing, freezing, and deep-freezing an object in JavaScript?",
     answer:
-      "Object.seal( ): Prevent new properties being added and marks existing properties as non-configurable but they are still writable. Object.freeze( ) Will do same as seal but not have the values be writable. Object.deepFreeze is not a function but it means to freeze the properties of objects nested in the main object.",
+      "Object.seal( ): Prevent new properties being added and marks existing properties as non-configurable but they are still writable. Object.freeze( ) Will do same as seal but not have the values be writable. Object.deepFreeze is not a built in function but it means to freeze the properties of objects nested in the main object.",
     tags: ["javascript"],
     type: "comparison",
     number: 27,
-    id: "oais0xm"
+    id: "oais0xm",
+    sources: [
+      {
+        name: "Variable immutability with Object freeze, seal and preventExtensions methods",
+        site: "medium",
+        url: "https://medium.com/@obaranovskyi/variable-immutability-with-object-freeze-seal-and-preventextensions-methods-7e0d2ebfd920"
+      },
+      {
+        name: "Object seal, freeze, and preventExtensions",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ZdF2aOYpIqw"
+      },
+      {
+        name: "Seal, Freeze - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#seal"
+      },
+    ]
   },
   {
     question:
@@ -505,7 +719,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 28,
-    id: "wbnjha"
+    id: "wbnjha",
+    sources: [
+      {
+        name: "What is the difference between typeof and instanceof and when should one be used vs. the other?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/899574/what-is-the-difference-between-typeof-and-instanceof-and-when-should-one-be-used"
+      },
+      {
+        name: "JavaScript for Developers 16 - The typeof operator",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ol_su88I3kw" 
+      },
+      {
+        name: "instanceof vs. typeof",
+        site: "globe",
+        url: "https://bambielli.com/til/2017-06-18-typeof-vs-instanceof/"
+      }
+    ]
   },
   {
     question:
