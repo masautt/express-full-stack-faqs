@@ -1000,43 +1000,76 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 40,
-    id: "1rqbpy"
+    id: "1rqbpy",
+    sources: [
+      {
+        name: "How to set-up a favicon?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/54826033"
+      },
+      {
+        name: "Add A Favicon to A Website in HTML | Learn HTML and CSS | HTML Tutorial | HTML for Beginners",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=kEf1xSwX5D8"
+      },
+      {
+        name: "How to Create a Favicon For Your Website",
+        site: "medium",
+        url: "https://medium.com/@hansfinest/how-to-create-a-favicon-for-your-website-89b031e6448b"
+      }
+    ]
   },
   {
     question: "What is SSL?",
     answer:
-      "SSL (secure sockets layer) is the standard security technology for establishing an encrypted link between a web server and a browser. Without SSL, data sent between clients and servers is sent in plain text - which makes it really easy to be intercepted.",
+      "SSL (secure sockets layer) is the standard security technology for establishing an encrypted link between a web server and a browser. Without SSL, data sent between clients and servers is sent in plain text. HTTP + SSL = HTTPS",
     tags: ["front-end", "back-end", "security", "networking"],
     type: "definition",
     number: 41,
-    id: "s6txkx8"
-  },
-  {
-    question: "What is the three-way handshake?",
-    answer:
-      "The three-way handshake is a method used in a TCP/IP network to create a connection between a local host/client and server. It is a 3 step process that requires both the client and server to exchange SYN and ACK packets before actual data communication begins.",
-    tags: ["networking"],
-    type: "definition",
-    number: 42,
-    id: "g2com2m"
+    id: "s6txkx8",
+    sources: [
+      {
+        name: "What is SSL and how does it relate to HTTPS?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/45122215"
+      },
+      {
+        name: "What is SSL and how does it work?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=rROgWTfA5qE"
+      },
+      {
+        name: "What is SSL and How Does it Work?",
+        site: "medium",
+        url: "https://medium.com/@User3141592/what-is-ssl-and-how-does-it-work-a5465d19b494"
+      }
+    ]
   },
   {
     question: "What are the steps of a three-way handshake",
     answer:
-      "1. The client sends a SYN data packet over an IP network to a server on the same or an external network. 2. The target server must have open ports that can accept and initiate new connections before it receives the SYN packet and responds with a confirmation receipt - the ACK packet or SYN/ACK packet. 3. The client node receives the SYN/ACK packed from the server and responds with an ACK packet.",
+      "A method used in TCP/IP network to create a connection: 1. SYN:  Client sends packet with random sequence number to the server. 2. SYN-ACK:. Server responds with +1 to sequence number. 3. ACK: Client sends back messaging saying handshake has been complete. ",
     tags: ["networking"],
     type: "list",
     number: 43,
-    id: "gcgapp29"
-  },
-  {
-    question: "What's the difference between an ACK, SYN, and SYN-ACK packet?",
-    answer:
-      "SYN refers to a request to SYNCHRONNIZE. ACK refers to a general ACKNOWLEDGEMENT. SYN-ACK refers to an ACKNOWLEDGEMENT to a SYNCHRONIZE request",
-    tags: ["networking"],
-    type: "comparison",
-    number: 44,
-    id: "9uxc2km"
+    id: "gcgapp29",
+    sources: [
+      {
+        name: "two-way handshake and three-way handshake",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/23774096"
+      },
+      {
+        name: "TCP Three Way Handshake",
+        site: "youtube",
+        url: "https://youtu.be/8-WpoF1cLtc?t=17"
+      },
+      {
+        name: "TCP 3-Way Handshake",
+        site: "medium",
+        url: "https://medium.com/@yildirimabdrhm/tcp-3-way-handshake-2e4d4d674ff6"
+      }
+    ]
   },
   {
     question: "What is a SYN flood?",
@@ -1045,25 +1078,50 @@ module.exports = [
     tags: ["networking", "security"],
     type: "definition",
     number: 45,
-    id: "9oosnwu"
-  },
-  {
-    question: "What is a Denial-of-Service attack?",
-    answer:
-      "Any attempt to shut down a machine or network, making it inaccessible to its intended users. These attacks are usually accomplished by flooding the target with traffic, or sending it information that triggers a crash.",
-    tags: ["networking", "security"],
-    type: "definition",
-    number: 46,
-    id: "clp5y5"
+    id: "9oosnwu",
+    sources: [
+      {
+        name: "What is SYN flood?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-SYN-flood"
+      },
+      {
+        name: "02 05 SYN Flood Attacks",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=-FPawMupsKY"
+      },
+      {
+        name: "Understanding DDOS Attack",
+        site: "medium",
+        url: "https://medium.com/@kapil.sharma91812/understanding-ddos-attack-15dd2cbce2a"
+      }
+    ]
   },
   {
     question: "What's the difference between a DOS and a DDOS attack?",
     answer:
-      "A DDOS (Distributed Denial of Service) attack is more threatening because it means the attempts to override the target with traffic are coming from multiple IP Addresses. This makes it difficult to distinguish legitimate traffic from malicious.",
+      "A DDOS (Distributed Denial of Service) attack is more threatening because it means the attempts to override the target with traffic are coming from multiple IP Addresses (DOS is only 1). This makes it difficult to distinguish legitimate traffic from malicious.",
     tags: ["networking", "security"],
     type: "comparison",
     number: 47,
-    id: "bl8ay5n"
+    id: "bl8ay5n",
+    sources: [
+      {
+        name: "What is a DoS Attack and how does it differ from a DDoS attack?",
+        site: "stack-overflow",
+        url: "https://security.stackexchange.com/questions/22809/what-is-a-dos-attack-and-how-does-it-differ-from-a-ddos-attack",
+      },
+      {
+        name: "DDoS Attack — Explained",
+        site: "medium",
+        url: "https://medium.com/datadriveninvestor/ddos-attack-explained-9d67d467b1aa",
+      },
+      {
+        name: "DDoS Attacks as Fast As Possible",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=0I4O4hoKzb8",
+      }
+    ]
   },
   {
     question: "What is the purpose of a meta tag?",
@@ -1072,16 +1130,50 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "definition",
     number: 48,
-    id: "6t7vsuj"
+    id: "6t7vsuj",
+    sources: [
+      {
+        name: "What is a meta tag?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-meta-tag",
+      },
+      {
+        name: "27: Which HTML Meta Tags Are Required in A Website? | Learn HTML and CSS | HTML Tutorial | HTML SEO",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=o3Gfsc6kihk",
+      },
+      {
+        name: "Beginners Guide: Meta tags",
+        site: "medium",
+        url: "https://medium.com/@vinesheg/beginners-guide-meta-tags-217e6e0dfda6",
+      }
+    ]
   },
   {
-    question: "What is the first line you include in any HTML file?",
+    question: "What is DOCTYPE in html?",
     answer:
       "You need to use <!DOCTYPE html> at the top of your HTML file. This is not an HTML tag, this is an instruction to the web browser about what version of HTML the page is written in.",
     tags: ["html", "front-end"],
     type: "definition",
     number: 49,
-    id: "ph1xzdn"
+    id: "ph1xzdn",
+    sources: [
+      {
+        name: "What is DOCTYPE?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/414993",
+      },
+      {
+        name: "What is DOCTYPE in HTML",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=-nzV5MlFIkM",
+      },
+      {
+        name: "Why Do We Write <! DOCTYPE html> ?",
+        site: "medium",
+        url: "https://medium.com/@islam.sayed8/why-do-we-write-doctype-html-fe2797a3f1c8",
+      }
+    ]
   },
   {
     question: "What is HTTP keep-alive?",
@@ -1090,34 +1182,50 @@ module.exports = [
     tags: ["networking"],
     type: "definition",
     number: 50,
-    id: "wsyrzjr"
+    id: "wsyrzjr",
+    sources: [
+      {
+        name: "How does http keep-alive work?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/20764180",
+      },
+      {
+        name: "2.08 - Non Persistent & Persistent HTTP Connection - Part II",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=-Zzb95r0bxg",
+      },
+      {
+        name: "Persistent HTTPS Connections: Reduce API call time by 50%",
+        site: "medium",
+        url: "https://medium.com/@msyshani/persistent-https-connections-reduce-api-call-time-by-50-3ca23723b336",
+      }
+    ]
   },
   {
-    question: "What is DNS lookup?",
+    question: "What is DNS?",
     answer:
-      "DNS (Domain Name System) lookup refers to the process of mapping domain names to IP addresses.",
+      "DNS (Domain Name System) the program that translates a hostname (google.com) to an IP address (8.8.4.4).",
     tags: ["networking"],
     type: "definition",
     number: 51,
-    id: "vuuwgas"
-  },
-  {
-    question: "Why do some consider @import bad practice in CSS?",
-    answer:
-      "@import is not recognized by older browsers, however this is starting to change. @import also synchronously links CSS files while <link> is asynchronous.",
-    tags: ["css", "front-end"],
-    type: "explanation",
-    number: 52,
-    id: "1o5kdx5"
-  },
-  {
-    question: "What's the difference between <link> and @import with CSS?",
-    answer:
-      "<link> is the HTML method for including CSS while @import is the CSS method. @import allows you to include CSS files inside another CSS file because it's written in CSS. <link> allows for multiple CSS files to be loaded asynchronously. Older browsers might not work properly with @import.",
-    tags: ["css", "html", "front-end"],
-    type: "comparison",
-    number: 53,
-    id: "koakm6o"
+    id: "vuuwgas",
+    sources: [
+      {
+        name: "What is DNS? How does it work?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-DNS-How-does-it-work",
+      },
+      {
+        name: "DNS as Fast As Possible",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Rck3BALhI5c",
+      },
+      {
+        name: "DNS in One Picture",
+        site: "medium",
+        url: "https://medium.com/@kamranahmedse/dns-in-one-picture-d7f4783db06a",
+      }
+    ]
   },
   {
     question:
@@ -1127,25 +1235,24 @@ module.exports = [
     tags: ["front-end"],
     type: "comparison",
     number: 54,
-    id: "x2ux0c"
-  },
-  {
-    question: "What are some ways to prevent bots from scraping an API?",
-    answer: "-Incorporate Rate Limiting, -Set up Authentication",
-    tags: ["back-end", "security"],
-    type: "list",
-    number: 55,
-    id: "4qglepf"
-  },
-  {
-    question:
-      "What status codes are acceptable when a user attempts to create a resource that already exists through a REST API?",
-    answer:
-      "-409 Conflict: Widely-Acceptable. -422 Unprocessable Entity: Acceptable. -400 Bad Request: Acceptable but discouraged",
-    tags: ["back-end", "rest"],
-    type: "list",
-    number: 56,
-    id: "iojtn3e"
+    id: "x2ux0c",
+    sources: [
+      {
+        name: "Difference between HTML implementation for Art Direction and Resolution Switching (responsive images)",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/52347345",
+      },
+      {
+        name: "8 Responsive Images in HTML Art Direction and Density Switching",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=vfd10kL5skA",
+      },
+      {
+        name: "Responsive images",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
+      }
+    ]
   },
   {
     question: "What's the difference between CSS Flexbox and CSS Grid?",
@@ -1154,25 +1261,50 @@ module.exports = [
     tags: ["front-end", "css"],
     type: "comparison",
     number: 57,
-    id: "pu6qt9b"
+    id: "pu6qt9b",
+    sources: [
+      {
+        name: "Should I use Flexbox or Grid?",
+        site: "quora",
+        url: "https://www.quora.com/Should-I-use-Flexbox-or-Grid",
+      },
+      {
+        name: "Flexbox vs. CSS Grid — Which is Better?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=hs3piaN4b5I",
+      },
+      {
+        name: "Beginner’s Guide To CSS Grid And Flexbox",
+        site: "medium",
+        url: "https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412",
+      }
+    ]
   },
   {
     question: "What are the SOLID principles?",
     answer:
       "SOLID is an acronym to remember fundamental software engineering principles. S - Single responsibility. O - Open Closed. L - Liskov substitution. I - Interface Segregation. D - Dependency Inversion",
-    tags: ["software-engineering"],
+    tags: ["software-engineering", "design-patterns", "object-oriented-programming"],
     type: "list",
     number: 58,
-    id: "wl5p003"
-  },
-  {
-    question: "What is the single responsibility principle?",
-    answer:
-      "The principle that every module, class, or function should only have one reason to change. Single responsibility is the S in SOLID software engineering principles.",
-    tags: ["software-engineering"],
-    type: "definition",
-    number: 59,
-    id: "vlhdsl"
+    id: "wl5p003",
+    sources: [
+      {
+        name: "Can't seem to understand SOLID principles and design patterns [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/13692196",
+      },
+      {
+        name: "S.O.L.I.D. Principles of Object-Oriented Design - A Tutorial on Object-Oriented Design",
+        site: "youtube",
+        url: "https://youtu.be/GtZtQ2VFweA?t=112",
+      },
+      {
+        name: "The SOLID Principles",
+        site: "medium",
+        url: "https://blog.usejournal.com/the-solid-principles-80f8dbdec114",
+      }
+    ]
   },
   {
     question:
