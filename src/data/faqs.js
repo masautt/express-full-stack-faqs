@@ -183,7 +183,7 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=MrAnu4zdjjY"
       },
       {
-        name: "Introduction to the CSS basic box model",
+        name: "Introduction to the CSS basic box model - MDN Web Docs",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"
       }
@@ -668,7 +668,7 @@ module.exports = [
     id: "r8jroi9",
     sources: [
       {
-        name: "Object.preventExtensions()",
+        name: "Object.preventExtensions() - MDN Web Docs",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
       },
@@ -825,7 +825,7 @@ module.exports = [
     id: "88x8ub",
     sources: [
       {
-        name: "Property Accessors",
+        name: "Property Accessors - MDN Web Docs",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
       },
@@ -1248,7 +1248,7 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=vfd10kL5skA",
       },
       {
-        name: "Responsive images",
+        name: "Responsive images - MDN Web Docs",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
       }
@@ -1308,23 +1308,30 @@ module.exports = [
   },
   {
     question:
-      "What's the difference between two-way data binding and one-way data flow?",
+      "What's the difference between React.js and Angular.JS's approach on data binding? ",
     answer:
-      "Two-way data binding means UI fields are bound to model data dynamically such that when a UI field changes, the model data changes with it and vice-versa. One-way data flow means the model is the single source of truth such that changes in the UI trigger measures that signal user intent to the model. Only the model has access to change the states app's state.",
-    tags: ["front-end", "javascript"],
-    type: "comparison",
-    number: 60,
-    id: "jvkr0f"
-  },
-  {
-    question:
-      "What's the difference between React.js and Angular.JS's approach on data binding?",
-    answer:
-      "React.js uses a one-way data flow while Angular uses two-way binding.",
+      "React.js uses a one-way data flow while Angular uses two-way binding. Two-way data binding means UI fields are bound to model data dynamically such that when a UI field changes, the model data changes with it and vice-versa. One-way data flow means the model is the single source of truth such that changes in the UI trigger measures that signal user intent to the model. Only the model has access to change the states app's state.",
     tags: ["front-end", "javascript", "react-js", "javascript-libraries"],
     type: "comparison",
     number: 61,
-    id: "aydefca"
+    id: "aydefca",
+    sources: [
+        {
+            name: "What advantages does two-way data binding have over unitary data flow models?",
+            site: "quora",
+            url: "https://www.quora.com/What-advantages-does-two-way-data-binding-have-over-unitary-data-flow-models"
+        },
+        {
+            name: "Tech Talk: 1 vs 2 way Data Binding in React and Angular",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=DUP5TJtBL3I"
+        },
+        {
+            name: "React.js vs Angular",
+            site: "medium",
+            url: "https://medium.com/@davisonpro/react-js-vs-angular-7a7bed92b5f6"
+        }
+    ]
   },
   {
     question:
@@ -1334,7 +1341,24 @@ module.exports = [
     tags: ["design-patterns", "back-end"],
     type: "comparison",
     number: 62,
-    id: "92i4liw"
+    id: "92i4liw",
+    sources: [
+        {
+            name: "Microservices vs Monolithic Architecture [closed]",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/33662057",
+        },
+        {
+            name: "Monolithic vs Microservice Architecture Debate",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=RJkn9VHM7lc",
+        },
+        {
+            name: "Monolithic vs Microservice Architecture",
+            site: "medium",
+            url: "https://medium.com/@raycad.seedotech/monolithic-vs-microservice-architecture-e74bd951fc14",
+        },
+    ],
   },
   {
     question:
@@ -1344,60 +1368,179 @@ module.exports = [
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
     number: 63,
-    id: "xsn9zys"
+    id: "xsn9zys",
+    sources: [
+        {
+            name: "Asynchronous vs synchronous execution, what does it really mean?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/748235",
+        },
+        {
+            name: "Asynchronous Vs Synchronous Programming",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=Kpn2ajSa92c",
+        },
+        {
+            name: "Async vs Sync",
+            site: "medium",
+            url: "https://medium.com/@pjbrn26/async-vs-sync-d369a4ef95e5",
+        },
+    ]
   },
   {
     question: "What is the open/closed principle?",
     answer:
-      "Software entities should be open for extension but closed for modification. The base functionality shouldn't change but additional features can be added.",
-    tags: ["software-engineering"],
+      "Object oriented principle that states software entities should be open for extension but closed for modification. The base functionality shouldn't change but additional features can be added.",
+      tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
     number: 64,
-    id: "fr08j5g"
+    id: "fr08j5g",
+    sources: [
+        {
+            name: "What is the meaning and reasoning behind the Open/Closed Principle?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/59427",
+        },
+        {
+            name: "Understanding the Open Closed Principle",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=Ryhy7333mqQ",
+        },
+        {
+            name: "OCP: The Open-Closed Principle",
+            site: "medium",
+            url: "https://medium.com/@gabriellamedas/ocp-the-open-closed-principle-b994922bed94",
+        },
+    ]
   },
   {
     question: "What is the Liskov substitution principle?",
     answer:
-      "Functions that use pointers to base classes must be able to use objects of derived classes without knowing it.",
-    tags: ["software-engineering", "programming-fundamentals"],
+      "Object oriented principle that states functions that use pointers to base classes must be able to use objects of derived classes without knowing it.",
+    tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
     number: 65,
-    id: "l3aa7or"
+    id: "l3aa7or",
+    sources: [
+        {
+            name: "What is an example of the Liskov Substitution Principle?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/584732",
+        },
+        {
+            name: "Understanding the Liskov Substitution Principle",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=Mmy1EUKC_iE",
+        },
+        {
+            name: "The Liskov Substitution Principle",
+            site: "medium",
+            url: "https://medium.com/@dholnessii/the-liskov-substitution-principle-3d2b65ae6a65",
+        },
+    ]
   },
   {
     question: "What is the Interface Segregation Principle?",
-    answer: "No client should be forced to depend on methods it does not use.",
-    tags: ["software-engineering"],
+    answer: "Object oriented design pattern that states no client should be forced to depend on methods it does not use.",
+    tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
     number: 66,
-    id: "id38a"
+    id: "id38a",
+    sources: [
+        {
+            name: "What is the interface segregation principle (ISP)?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-the-interface-segregation-principle-ISP",
+        },
+        {
+            name: "OOP Design Principles: Interface Segregation Principle",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=Ye1h3zKl1lg",
+        },
+        {
+            name: "Interface Segregation Principle",
+            site: "medium",
+            url: "https://medium.com/@bean00/interface-segregation-principle-433b39ba5303",
+        },
+    ]
   },
   {
     question: "What is the dependency inversion principle?",
     answer:
-      "High level modules should not depend on low level modules. Both should depend on abstractions. These abstractions should not depend on details the details should depend on abstractions.",
-    tags: ["software-engineering"],
+      "Object oriented design pattern that states high level modules should not depend on low level modules. Both should depend on abstractions. These abstractions should not depend on details the details should depend on abstractions.",
+      tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
     number: 67,
-    id: "68tbjwa"
+    id: "68tbjwa",
+    sources: [
+        {
+            name: "What is the dependency inversion principle and why is it important?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/62577",
+        },
+        {
+            name: "OOP Design Principles: Dependency Inversion Principle",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=qL2-5g_lJTs",
+        },
+        {
+            name: "Dependency Inversion Principle",
+            site: "medium",
+            url: "https://medium.com/@mglover/dependency-inversion-principle-c0264a405d57",
+        },
+    ]
   },
   {
-    question: "What is the KISS principle?",
+    question: "What's the difference between the YAGNI and KISS principles?",
     answer:
-      "KISS (Keep it Simple Stupid / Keep it Stupid Simple) is a design principle noted by the US Navy that states systems work best when they are kept simple.",
+      "KISS (Keep it Simple Stupid / Keep it Stupid Simple) is a design principle noted by the US Navy that states systems work best when they are kept simple wheras the YAGNI (You Aren't Gonna Need It) states that you shouldn't add extra functionality until it becomes a necessity to the application.",
     tags: ["software-engineering"],
-    type: "definition",
+    type: "comparison",
     number: 68,
-    id: "2gg7zgj"
+    id: "2gg7zgj",
+    sources: [
+        {
+            name: "What's the difference between principles YAGNI and KISS?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/52804673",
+        },
+        {
+            name: "Software Development Principles - DRY, KISS, & YAGNI - #09",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=4qPYWBHkS4w",
+        },
+        {
+            name: "How to become a better programmer?",
+            site: "medium",
+            url: "https://medium.com/@derodu/design-patterns-kiss-dry-tda-yagni-soc-828c112b89ee",
+        },
+    ]
   },
   {
-    question: "What is the main benefit we receive with React Hooks?",
+    question: "What are React Hooks?",
     answer:
       "React hooks allows us to only write function in JavaScript and removes the need for the class and this keywords.",
     tags: ["front-end", "javascript", "react-js", "javascript-libraries"],
-    type: "explanation",
+    type: "definition",
     number: 69,
-    id: "5xgvj56"
+    id: "5xgvj56",
+    sources: [
+        {
+            name: "What are React hooks?",
+            site: "quora",
+            url: "https://www.quora.com/What-are-React-hooks",
+        },
+        {
+            name: "#1 What Are React Hooks?",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=d-aAs_4SQ7c",
+        },
+        {
+            name: "React Hooks — Why and How",
+            site: "medium",
+            url: "https://medium.com/frontmen/react-hooks-why-and-how-e4d2a5f0347",
+        },
+    ]
   },
   {
     question: "What's the difference between Context API and React Redux?",
@@ -1406,24 +1549,75 @@ module.exports = [
     tags: ["react-js", "front-end", "javascript", "javascript-libraries"],
     type: "comparison",
     number: 70,
-    id: "be08gkk"
+    id: "be08gkk",
+    sources: [
+        {
+            name: "React Context vs React Redux, when should I use each one? [closed]",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/49569183",
+        },
+        {
+            name: "Redux or Context in React",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=5gUHfe-ETuo",
+        },
+        {
+            name: "React Context vs Redux",
+            site: "medium",
+            url: "https://medium.com/@hnkn1998/react-context-vs-redux-e507e9059a06",
+        },
+    ]
   },
   {
-    question: "What is behavior driven development?",
+    question: "What's the difference between behavior and test driven development?",
     answer:
-      "A part of the Agile Software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project.",
+      "Behavior driven is a specialized form of test driven that focuses on the behavioral aspect of the system rather than the implementation aspect. Behavior gives a clearer understanding as to what the system should do from the perspective of both the developer and customer.",
     tags: ["software-engineering"],
-    type: "definition",
+    type: "comparison",
     number: 71,
-    id: "ebvqb8e"
+    id: "ebvqb8e",
+    sources: [
+        {
+            name: "What is the difference between test driven development (TDD) and behaviour driven development (BDD)?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-the-difference-between-test-driven-development-TDD-and-behaviour-driven-development-BDD",
+        },
+        {
+            name: "Test Driven Development vs Behaviour Driven Development + FREE CHEAT SHEET",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=4QFYTQy47yA",
+        },
+        {
+            name: "TDD vs BDD",
+            site: "medium",
+            url: "https://medium.com/@pkentrytest/tdd-vs-bdd-9361f632ee4e",
+        },
+    ]
   },
   {
-    question: "What are the 6 JavaScript Primary Types?",
-    answer: "Number, String, Boolean, Object, Null, and Undefined",
+    question: "What are the 7 JavaScript Primary Data Types?",
+    answer: "Number, String, Boolean, Object, Null, Undefined and Symbol",
     tags: ["javascript"],
     type: "list",
     number: 72,
-    id: "qpw4l0b"
+    id: "qpw4l0b",
+    sources: [
+        {
+            name: "JavaScript data types and data structures - MDN Web Docs",
+            site: "firefox",
+            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types",
+        },
+        {
+            name: "Data Types - Beau teaches JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=808eYu9B9Yw",
+        },
+        {
+            name: "Built-in Types - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#built-in-types",
+        },
+    ]
   },
   {
     question: "Who is the creator of JavaScript?",
@@ -1431,25 +1625,50 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 73,
-    id: "etjgjsd"
+    id: "etjgjsd",
+    sources: [
+        {
+            name: "Who made JavaScript?",
+            site: "qoura",
+            url: "https://www.quora.com/Who-made-JavaScript",
+        },
+        {
+            name: "The Weird History of JavaScript",
+            site: "youtube",
+            url: "https://youtu.be/Sh6lK57Cuk4?t=84",
+        },
+        {
+            name: "A brief history of JavaScript",
+            site: "medium",
+            url: "https://medium.com/@benastontweet/lesson-1a-the-history-of-javascript-8c1ce3bffb17",
+        },
+    ]
   },
   {
-    question: "What's the difference between ViewState and SessionState?",
-    answer:
-      "ViewState refers to a specific page in a session. SessionState is specific to user specific data that can be accessed across all pages in a web application.",
-    tags: ["front-end", "back-end"],
-    type: "comparison",
-    number: 74,
-    id: "xwd4si9"
-  },
-  {
-    question: "What is the purpose of Void(0) in JavaScript?",
+    question: "What is Void(0) in JavaScript?",
     answer:
       "Void(0) can be used to prevent the page from refreshing because it calls another method instead.",
     tags: ["javascript"],
     type: "definition",
     number: 75,
-    id: "3kdsb9p"
+    id: "3kdsb9p",
+    sources: [
+        {
+            name: "What does `void 0` mean? [duplicate]",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/7452352/9715166",
+        },
+        {
+            name: "javascript void(0) - Explaination and How to use",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=xcQPwaig4nI",
+        },
+        {
+            name: "What is the difference between href=“”, href=“#” and href=“javascript:void(0)”",
+            site: "medium",
+            url: "https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-href-javascript-void-0-54e3cf31c9bd",
+        },
+    ]
   },
   {
     question: "What is a cookie?",
@@ -1458,45 +1677,151 @@ module.exports = [
     tags: ["front-end", "back-end"],
     type: "definition",
     number: 76,
-    id: "78k7tjt"
+    id: "78k7tjt",
+    sources: [
+        {
+            name: "How cookies work?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1968734/9715166",
+        },
+        {
+            name: "Cookies As Fast As Possible",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=BTlq6WmWqMk",
+        },
+        {
+            name: "Sessions and cookies",
+            site: "medium",
+            url: "https://medium.com/@piraveenaparalogarajah/sessions-and-cookies-2c0919552f29",
+        },
+    ]
   },
   {
     question:
       "What is the difference between lexical scope and dynamic scope in JavaScript?",
     answer:
       "When we traverse up the lexical scope we are looking at the nesting of brackets {} but when we traverse up dynamic scope we are following the function call's scopes.",
-    tags: ["javascript"],
+    tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
     number: 77,
-    id: "swl1uaa"
+    id: "swl1uaa",
+    sources: [
+        {
+            name: "Static (Lexical) Scoping vs Dynamic Scoping (Pseudocode)",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/22395580/9715166",
+        },
+        {
+            name: "006 Lexical Scope",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=dHYhMP8ESuk",
+        },
+        {
+            name: "Chapter 2: Lexical Scope - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#chapter-2-lexical-scope",
+        },
+    ]
   },
   {
-    question: "Why is using innerHTML discouraged?",
+    question: "What's the difference between innerText and innerHTML?",
     answer:
-      "There is no method to append content already defined with innnerHTML. The entire innerHTML content is re-parsed and built into elements, therefore its much slower. innerHTML does not provide validation so if we insert invalid or broken HTML we can break the document.",
+      "Unlike innerText, innerHTML lets you work with HTML rich text and doesn't automatically encode and decode text. In other words, innerText retrieves and sets the content of the tag as plain text, whereas innerHTML retrieves and sets the content in HTML format.",
     tags: ["javascript", "dom", "html"],
-    type: "explanation",
+    type: "comparison",
     number: 78,
-    id: "hunyfsa"
+    id: "hunyfsa",
+    sources: [
+        {
+            name: "Difference between innerText and innerHTML",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/19032002/9715166",
+        },
+        {
+            name: ".innerHTML vs .innerText",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=A0inUUp5Q3o",
+        },
+        {
+            name: "What’s Best: innerText vs. innerHTML vs. textContent",
+            site: "medium",
+            url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
+        },
+    ]
   },
   {
-    question: "What are the 3 types of errors in JavaScript?",
+    question: "What's the difference between innerText and textContent?",
     answer:
-      "-Syntax Errors: (Parsing Errors) occur at interpret time. -Runtime Errors: (Exceptions) occur during execution, the syntax could be right but the code might not execute properly. -Logical Errors:  Errors that occur due to improper code, most difficult to debug.",
+      "innerText returns the visible text contained in a node, while textContent returns the full text. innerText was non-standard, while textContent was standardized earlier.",
+    tags: ["javascript", "dom", "html"],
+    type: "comparison",
+    number: 78,
+    id: "waw420c",
+    sources: [
+        {
+            name: "Difference between textContent vs innerText",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/35213639/9715166",
+        },
+        {
+            name: "textContent vs innerHTML in the JavaScript DOM",
+            site: "youtube",
+            url: "textContent vs innerHTML in the JavaScript DOM",
+        },
+        {
+            name: "What’s Best: innerText vs. innerHTML vs. textContent",
+            site: "medium",
+            url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
+        },
+    ]
+  },
+  {
+    question: "What are the 7 types of errors in JavaScript?",
+    answer:
+      "EvalError, InteernalError, RangeError, ReferenceError, SyntaxError, TypeError, and URIError.",
     tags: ["javascript"],
     type: "list",
     number: 79,
-    id: "10qgphm"
+    id: "10qgphm",
+    sources: [
+        {
+            name: "Error - MDN Web Docs",
+            site: "firefox",
+            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Error_types"
+        },
+        {
+            name: "Errors in JavaScript / Intro to JavaScript ES6 programming, lesson 7",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=O0EHKBi7iXU"
+        },
+        {
+            name: "Type of errors in JavaScript",
+            site: "medium",
+            url: "https://medium.com/@wlodarczyk_j/type-of-errors-in-javascript-18458ba9d818"
+        }
+    ]
   },
   {
     question:
-      "What's the difference between window.onload and onDocumentReady?",
+      "What's the difference between onload and ready events?",
     answer:
-      "The onload function is not run until all the information on the page is loaded. onDocumentReady loads the code just after the DOM is loaded. This allows early manipulation of code. ",
-    tags: ["dom"],
+      "The ready event occurs after the HTML document has been loaded, while the onload event occurs later, when all content (e.g. images) also has been loaded.",
+    tags: ["dom", "javascript"],
     type: "comparison",
     number: 80,
-    id: "lh4ywi9"
+    id: "lh4ywi9",
+    sources: [
+        {
+            name: "window.onload vs $(document).ready()",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/3698214/9715166"
+        },
+        {
+            name: "🔥 window.onload VS document.ready 🔥 The Difference",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=3dnc-gmlDvw"
+        },
+    ]
   },
   {
     question: "What is JSONP?",
@@ -1505,7 +1830,24 @@ module.exports = [
     tags: ["javascript", "front-end"],
     type: "definition",
     number: 81,
-    id: "ptqbnzf"
+    id: "ptqbnzf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "Why was JSONP created?",
@@ -1514,7 +1856,24 @@ module.exports = [
     tags: ["javascript", "front-end"],
     type: "explanation",
     number: 82,
-    id: "9aobgwf"
+    id: "9aobgwf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "Why should we no longer use JSONP?",
@@ -1523,7 +1882,24 @@ module.exports = [
     tags: ["javascript", "front-end"],
     type: "explanation",
     number: 83,
-    id: "x86pt4f"
+    id: "x86pt4f",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1533,7 +1909,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 84,
-    id: "3secxr"
+    id: "3secxr",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is a Screen Object?",
@@ -1542,7 +1935,24 @@ module.exports = [
     tags: ["javascript", "front-end"],
     type: "definition",
     number: 85,
-    id: "74ats9b"
+    id: "74ats9b",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1552,7 +1962,24 @@ module.exports = [
     tags: ["javascript", "front-end"],
     type: "comparison",
     number: 86,
-    id: "l14kcv0d"
+    id: "l14kcv0d",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1562,7 +1989,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 87,
-    id: "drilbwi"
+    id: "drilbwi",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1572,7 +2016,24 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 88,
-    id: "wrrcv2n"
+    id: "wrrcv2n",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1582,7 +2043,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 89,
-    id: "1jk19m"
+    id: "1jk19m",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is hoisting?",
@@ -1591,7 +2069,24 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 90,
-    id: "c7mwo7"
+    id: "c7mwo7",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1601,7 +2096,24 @@ module.exports = [
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
     number: 91,
-    id: "yuzewe"
+    id: "yuzewe",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is HTML?",
@@ -1610,7 +2122,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "definition",
     number: 92,
-    id: "uzcquf"
+    id: "uzcquf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is an HTML tag?",
@@ -1619,7 +2148,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "definition",
     number: 93,
-    id: "1nc5l0n"
+    id: "1nc5l0n",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "Which HTML tags do not require an end tag?",
@@ -1627,7 +2173,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "list",
     number: 94,
-    id: "pvesa7"
+    id: "pvesa7",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "How many default heading sizes are there in HTML?",
@@ -1636,7 +2199,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "list",
     number: 95,
-    id: "lgs7gei"
+    id: "lgs7gei",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "How to create hyperlink in HTML?",
@@ -1644,7 +2224,24 @@ module.exports = [
     tags: ["html"],
     type: "code",
     number: 96,
-    id: "e37uqws"
+    id: "e37uqws",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What are the 3 types of lists available with HTML?",
@@ -1653,7 +2250,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "list",
     number: 97,
-    id: "neozsrf"
+    id: "neozsrf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is the difference between HTML elements and tags?",
@@ -1662,7 +2276,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "comparison",
     number: 98,
-    id: "w22kcp"
+    id: "w22kcp",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1672,7 +2303,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "comparison",
     number: 99,
-    id: "rwqhyw"
+    id: "rwqhyw",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is an image map?",
@@ -1681,7 +2329,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "definition",
     number: 100,
-    id: "p74hpso"
+    id: "p74hpso",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "Is it possible to imbed other websites on our webpage?",
@@ -1690,7 +2355,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "explanation",
     number: 101,
-    id: "ty28g8c"
+    id: "ty28g8c",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "Is it possible to change the color of a bullet in an <ul> tag?",
@@ -1699,7 +2381,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "explanation",
     number: 102,
-    id: "kwojsm"
+    id: "kwojsm",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "How many empty elements are there in HTML?",
@@ -1708,7 +2407,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "list",
     number: 103,
-    id: "1jecy8t"
+    id: "1jecy8t",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What are the uses for a span tag?",
@@ -1717,7 +2433,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "explanation",
     number: 104,
-    id: "h9e2tu4"
+    id: "h9e2tu4",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is the purpose behind the iframe tag?",
@@ -1726,7 +2459,24 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "definition",
     number: 105,
-    id: "x8xct1"
+    id: "x8xct1",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question:
@@ -1736,7 +2486,24 @@ module.exports = [
     tags: ["javascript", "programming-fundamentals"],
     type: "comparison",
     number: 106,
-    id: "nz6uigo"
+    id: "nz6uigo",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is the difference between compiling and interpreting code?",
@@ -1745,7 +2512,24 @@ module.exports = [
     tags: ["javascript", "programming-fundamentals"],
     type: "comparison",
     number: 107,
-    id: "8w2045j"
+    id: "8w2045j",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is CSS?",
@@ -1753,7 +2537,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 108,
-    id: "zuryx7t"
+    id: "zuryx7t",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What are the 3 types of CSS stylings?",
@@ -1762,7 +2563,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "list",
     number: 109,
-    id: "w0md9j"
+    id: "w0md9j",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is a CSS selector?",
@@ -1771,7 +2589,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 110,
-    id: "0f140i"
+    id: "0f140i",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is Tweening?",
@@ -1780,7 +2615,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 111,
-    id: "p8puyrf"
+    id: "p8puyrf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What is a CSS image sprite?",
@@ -1789,7 +2641,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 112,
-    id: "q2885b"
+    id: "q2885b",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "What are CSS counters?",
@@ -1798,7 +2667,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 113,
-    id: "q3pygwk"
+    id: "q3pygwk",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ],
   },
   {
     question: "How do you round the corners of an element with CSS?",
