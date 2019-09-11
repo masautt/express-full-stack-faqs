@@ -152,7 +152,7 @@ module.exports = [
     id: "bnxjlb",
     sources: [
       {
-        name : "What's the difference between using \"let\" and \"var\"?",
+        name: "What's the difference between using \"let\" and \"var\"?",
         site: "stack-overflow",
         url: "https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var"
       },
@@ -267,11 +267,11 @@ module.exports = [
         url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#undefined-vs-undeclared"
       }
     ]
-    
+
   },
   {
     question:
-      "What's the difference between the window and document in the DOM?",
+      "What's the difference between the window, screen, and document in the DOM?",
     answer:
       "The window refers to the object that represents the browser's window. All global JavaScript objects, functions, and variables automatically become members of the window object. The document is nested in the window object and refers to the actual HTML code of the webpage.",
     tags: ["dom", "front-end", "javascript"],
@@ -289,6 +289,11 @@ module.exports = [
         site: "youtube",
         url: "https://www.youtube.com/watch?v=pIBKyooZrJQ"
       },
+      {
+        name: "Window - MDN",
+        site: "medium",
+        url: "https://developer.mozilla.org/en-US/docs/Web/API/Window"
+      }
     ]
   },
   {
@@ -534,7 +539,7 @@ module.exports = [
     type: "definition",
     number: 21,
     id: "v3w9mj",
-    sources : [
+    sources: [
       {
         name: "What is the arrow function in ES6? Why are we using arrow function?",
         site: "quora",
@@ -729,7 +734,7 @@ module.exports = [
       {
         name: "JavaScript for Developers 16 - The typeof operator",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=ol_su88I3kw" 
+        url: "https://www.youtube.com/watch?v=ol_su88I3kw"
       },
       {
         name: "instanceof vs. typeof",
@@ -796,7 +801,7 @@ module.exports = [
     type: "list",
     number: 31,
     id: "zrhh9vo",
-    sources : [
+    sources: [
       {
         name: "What is the 'new' keyword in JavaScript?",
         site: "stack-overflow",
@@ -1316,21 +1321,21 @@ module.exports = [
     number: 61,
     id: "aydefca",
     sources: [
-        {
-            name: "What advantages does two-way data binding have over unitary data flow models?",
-            site: "quora",
-            url: "https://www.quora.com/What-advantages-does-two-way-data-binding-have-over-unitary-data-flow-models"
-        },
-        {
-            name: "Tech Talk: 1 vs 2 way Data Binding in React and Angular",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=DUP5TJtBL3I"
-        },
-        {
-            name: "React.js vs Angular",
-            site: "medium",
-            url: "https://medium.com/@davisonpro/react-js-vs-angular-7a7bed92b5f6"
-        }
+      {
+        name: "What advantages does two-way data binding have over unitary data flow models?",
+        site: "quora",
+        url: "https://www.quora.com/What-advantages-does-two-way-data-binding-have-over-unitary-data-flow-models"
+      },
+      {
+        name: "Tech Talk: 1 vs 2 way Data Binding in React and Angular",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=DUP5TJtBL3I"
+      },
+      {
+        name: "React.js vs Angular",
+        site: "medium",
+        url: "https://medium.com/@davisonpro/react-js-vs-angular-7a7bed92b5f6"
+      }
     ]
   },
   {
@@ -1343,21 +1348,21 @@ module.exports = [
     number: 62,
     id: "92i4liw",
     sources: [
-        {
-            name: "Microservices vs Monolithic Architecture [closed]",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/33662057",
-        },
-        {
-            name: "Monolithic vs Microservice Architecture Debate",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=RJkn9VHM7lc",
-        },
-        {
-            name: "Monolithic vs Microservice Architecture",
-            site: "medium",
-            url: "https://medium.com/@raycad.seedotech/monolithic-vs-microservice-architecture-e74bd951fc14",
-        },
+      {
+        name: "Microservices vs Monolithic Architecture [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/33662057",
+      },
+      {
+        name: "Monolithic vs Microservice Architecture Debate",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=RJkn9VHM7lc",
+      },
+      {
+        name: "Monolithic vs Microservice Architecture",
+        site: "medium",
+        url: "https://medium.com/@raycad.seedotech/monolithic-vs-microservice-architecture-e74bd951fc14",
+      },
     ],
   },
   {
@@ -1370,47 +1375,47 @@ module.exports = [
     number: 63,
     id: "xsn9zys",
     sources: [
-        {
-            name: "Asynchronous vs synchronous execution, what does it really mean?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/748235",
-        },
-        {
-            name: "Asynchronous Vs Synchronous Programming",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=Kpn2ajSa92c",
-        },
-        {
-            name: "Async vs Sync",
-            site: "medium",
-            url: "https://medium.com/@pjbrn26/async-vs-sync-d369a4ef95e5",
-        },
+      {
+        name: "Asynchronous vs synchronous execution, what does it really mean?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/748235",
+      },
+      {
+        name: "Asynchronous Vs Synchronous Programming",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Kpn2ajSa92c",
+      },
+      {
+        name: "Async vs Sync",
+        site: "medium",
+        url: "https://medium.com/@pjbrn26/async-vs-sync-d369a4ef95e5",
+      },
     ]
   },
   {
     question: "What is the open/closed principle?",
     answer:
       "Object oriented principle that states software entities should be open for extension but closed for modification. The base functionality shouldn't change but additional features can be added.",
-      tags: ["object-oriented-programming", "design-patterns"],
+    tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
     number: 64,
     id: "fr08j5g",
     sources: [
-        {
-            name: "What is the meaning and reasoning behind the Open/Closed Principle?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/59427",
-        },
-        {
-            name: "Understanding the Open Closed Principle",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=Ryhy7333mqQ",
-        },
-        {
-            name: "OCP: The Open-Closed Principle",
-            site: "medium",
-            url: "https://medium.com/@gabriellamedas/ocp-the-open-closed-principle-b994922bed94",
-        },
+      {
+        name: "What is the meaning and reasoning behind the Open/Closed Principle?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/59427",
+      },
+      {
+        name: "Understanding the Open Closed Principle",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Ryhy7333mqQ",
+      },
+      {
+        name: "OCP: The Open-Closed Principle",
+        site: "medium",
+        url: "https://medium.com/@gabriellamedas/ocp-the-open-closed-principle-b994922bed94",
+      },
     ]
   },
   {
@@ -1422,21 +1427,21 @@ module.exports = [
     number: 65,
     id: "l3aa7or",
     sources: [
-        {
-            name: "What is an example of the Liskov Substitution Principle?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/584732",
-        },
-        {
-            name: "Understanding the Liskov Substitution Principle",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=Mmy1EUKC_iE",
-        },
-        {
-            name: "The Liskov Substitution Principle",
-            site: "medium",
-            url: "https://medium.com/@dholnessii/the-liskov-substitution-principle-3d2b65ae6a65",
-        },
+      {
+        name: "What is an example of the Liskov Substitution Principle?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/584732",
+      },
+      {
+        name: "Understanding the Liskov Substitution Principle",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Mmy1EUKC_iE",
+      },
+      {
+        name: "The Liskov Substitution Principle",
+        site: "medium",
+        url: "https://medium.com/@dholnessii/the-liskov-substitution-principle-3d2b65ae6a65",
+      },
     ]
   },
   {
@@ -1447,47 +1452,47 @@ module.exports = [
     number: 66,
     id: "id38a",
     sources: [
-        {
-            name: "What is the interface segregation principle (ISP)?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-the-interface-segregation-principle-ISP",
-        },
-        {
-            name: "OOP Design Principles: Interface Segregation Principle",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=Ye1h3zKl1lg",
-        },
-        {
-            name: "Interface Segregation Principle",
-            site: "medium",
-            url: "https://medium.com/@bean00/interface-segregation-principle-433b39ba5303",
-        },
+      {
+        name: "What is the interface segregation principle (ISP)?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-interface-segregation-principle-ISP",
+      },
+      {
+        name: "OOP Design Principles: Interface Segregation Principle",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Ye1h3zKl1lg",
+      },
+      {
+        name: "Interface Segregation Principle",
+        site: "medium",
+        url: "https://medium.com/@bean00/interface-segregation-principle-433b39ba5303",
+      },
     ]
   },
   {
     question: "What is the dependency inversion principle?",
     answer:
       "Object oriented design pattern that states high level modules should not depend on low level modules. Both should depend on abstractions. These abstractions should not depend on details the details should depend on abstractions.",
-      tags: ["object-oriented-programming", "design-patterns"],
+    tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
     number: 67,
     id: "68tbjwa",
     sources: [
-        {
-            name: "What is the dependency inversion principle and why is it important?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/62577",
-        },
-        {
-            name: "OOP Design Principles: Dependency Inversion Principle",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=qL2-5g_lJTs",
-        },
-        {
-            name: "Dependency Inversion Principle",
-            site: "medium",
-            url: "https://medium.com/@mglover/dependency-inversion-principle-c0264a405d57",
-        },
+      {
+        name: "What is the dependency inversion principle and why is it important?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/62577",
+      },
+      {
+        name: "OOP Design Principles: Dependency Inversion Principle",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=qL2-5g_lJTs",
+      },
+      {
+        name: "Dependency Inversion Principle",
+        site: "medium",
+        url: "https://medium.com/@mglover/dependency-inversion-principle-c0264a405d57",
+      },
     ]
   },
   {
@@ -1499,21 +1504,21 @@ module.exports = [
     number: 68,
     id: "2gg7zgj",
     sources: [
-        {
-            name: "What's the difference between principles YAGNI and KISS?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/52804673",
-        },
-        {
-            name: "Software Development Principles - DRY, KISS, & YAGNI - #09",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=4qPYWBHkS4w",
-        },
-        {
-            name: "How to become a better programmer?",
-            site: "medium",
-            url: "https://medium.com/@derodu/design-patterns-kiss-dry-tda-yagni-soc-828c112b89ee",
-        },
+      {
+        name: "What's the difference between principles YAGNI and KISS?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/52804673",
+      },
+      {
+        name: "Software Development Principles - DRY, KISS, & YAGNI - #09",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=4qPYWBHkS4w",
+      },
+      {
+        name: "How to become a better programmer?",
+        site: "medium",
+        url: "https://medium.com/@derodu/design-patterns-kiss-dry-tda-yagni-soc-828c112b89ee",
+      },
     ]
   },
   {
@@ -1525,21 +1530,21 @@ module.exports = [
     number: 69,
     id: "5xgvj56",
     sources: [
-        {
-            name: "What are React hooks?",
-            site: "quora",
-            url: "https://www.quora.com/What-are-React-hooks",
-        },
-        {
-            name: "#1 What Are React Hooks?",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=d-aAs_4SQ7c",
-        },
-        {
-            name: "React Hooks — Why and How",
-            site: "medium",
-            url: "https://medium.com/frontmen/react-hooks-why-and-how-e4d2a5f0347",
-        },
+      {
+        name: "What are React hooks?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-React-hooks",
+      },
+      {
+        name: "#1 What Are React Hooks?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=d-aAs_4SQ7c",
+      },
+      {
+        name: "React Hooks — Why and How",
+        site: "medium",
+        url: "https://medium.com/frontmen/react-hooks-why-and-how-e4d2a5f0347",
+      },
     ]
   },
   {
@@ -1551,21 +1556,21 @@ module.exports = [
     number: 70,
     id: "be08gkk",
     sources: [
-        {
-            name: "React Context vs React Redux, when should I use each one? [closed]",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/49569183",
-        },
-        {
-            name: "Redux or Context in React",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=5gUHfe-ETuo",
-        },
-        {
-            name: "React Context vs Redux",
-            site: "medium",
-            url: "https://medium.com/@hnkn1998/react-context-vs-redux-e507e9059a06",
-        },
+      {
+        name: "React Context vs React Redux, when should I use each one? [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/49569183",
+      },
+      {
+        name: "Redux or Context in React",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=5gUHfe-ETuo",
+      },
+      {
+        name: "React Context vs Redux",
+        site: "medium",
+        url: "https://medium.com/@hnkn1998/react-context-vs-redux-e507e9059a06",
+      },
     ]
   },
   {
@@ -1577,21 +1582,21 @@ module.exports = [
     number: 71,
     id: "ebvqb8e",
     sources: [
-        {
-            name: "What is the difference between test driven development (TDD) and behaviour driven development (BDD)?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-the-difference-between-test-driven-development-TDD-and-behaviour-driven-development-BDD",
-        },
-        {
-            name: "Test Driven Development vs Behaviour Driven Development + FREE CHEAT SHEET",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=4QFYTQy47yA",
-        },
-        {
-            name: "TDD vs BDD",
-            site: "medium",
-            url: "https://medium.com/@pkentrytest/tdd-vs-bdd-9361f632ee4e",
-        },
+      {
+        name: "What is the difference between test driven development (TDD) and behaviour driven development (BDD)?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-difference-between-test-driven-development-TDD-and-behaviour-driven-development-BDD",
+      },
+      {
+        name: "Test Driven Development vs Behaviour Driven Development + FREE CHEAT SHEET",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=4QFYTQy47yA",
+      },
+      {
+        name: "TDD vs BDD",
+        site: "medium",
+        url: "https://medium.com/@pkentrytest/tdd-vs-bdd-9361f632ee4e",
+      },
     ]
   },
   {
@@ -1602,21 +1607,21 @@ module.exports = [
     number: 72,
     id: "qpw4l0b",
     sources: [
-        {
-            name: "JavaScript data types and data structures - MDN Web Docs",
-            site: "firefox",
-            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types",
-        },
-        {
-            name: "Data Types - Beau teaches JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=808eYu9B9Yw",
-        },
-        {
-            name: "Built-in Types - You Don't Know JS",
-            site: "github",
-            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#built-in-types",
-        },
+      {
+        name: "JavaScript data types and data structures - MDN Web Docs",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types",
+      },
+      {
+        name: "Data Types - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=808eYu9B9Yw",
+      },
+      {
+        name: "Built-in Types - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/types-grammar/ch1.md#built-in-types",
+      },
     ]
   },
   {
@@ -1627,21 +1632,21 @@ module.exports = [
     number: 73,
     id: "etjgjsd",
     sources: [
-        {
-            name: "Who made JavaScript?",
-            site: "qoura",
-            url: "https://www.quora.com/Who-made-JavaScript",
-        },
-        {
-            name: "The Weird History of JavaScript",
-            site: "youtube",
-            url: "https://youtu.be/Sh6lK57Cuk4?t=84",
-        },
-        {
-            name: "A brief history of JavaScript",
-            site: "medium",
-            url: "https://medium.com/@benastontweet/lesson-1a-the-history-of-javascript-8c1ce3bffb17",
-        },
+      {
+        name: "Who made JavaScript?",
+        site: "qoura",
+        url: "https://www.quora.com/Who-made-JavaScript",
+      },
+      {
+        name: "The Weird History of JavaScript",
+        site: "youtube",
+        url: "https://youtu.be/Sh6lK57Cuk4?t=84",
+      },
+      {
+        name: "A brief history of JavaScript",
+        site: "medium",
+        url: "https://medium.com/@benastontweet/lesson-1a-the-history-of-javascript-8c1ce3bffb17",
+      },
     ]
   },
   {
@@ -1653,21 +1658,21 @@ module.exports = [
     number: 75,
     id: "3kdsb9p",
     sources: [
-        {
-            name: "What does `void 0` mean? [duplicate]",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/7452352/9715166",
-        },
-        {
-            name: "javascript void(0) - Explaination and How to use",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=xcQPwaig4nI",
-        },
-        {
-            name: "What is the difference between href=“”, href=“#” and href=“javascript:void(0)”",
-            site: "medium",
-            url: "https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-href-javascript-void-0-54e3cf31c9bd",
-        },
+      {
+        name: "What does `void 0` mean? [duplicate]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/7452352/9715166",
+      },
+      {
+        name: "javascript void(0) - Explaination and How to use",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=xcQPwaig4nI",
+      },
+      {
+        name: "What is the difference between href=“”, href=“#” and href=“javascript:void(0)”",
+        site: "medium",
+        url: "https://medium.com/@heitorhherzog/what-is-the-difference-between-href-href-and-href-javascript-void-0-54e3cf31c9bd",
+      },
     ]
   },
   {
@@ -1679,21 +1684,21 @@ module.exports = [
     number: 76,
     id: "78k7tjt",
     sources: [
-        {
-            name: "How cookies work?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1968734/9715166",
-        },
-        {
-            name: "Cookies As Fast As Possible",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=BTlq6WmWqMk",
-        },
-        {
-            name: "Sessions and cookies",
-            site: "medium",
-            url: "https://medium.com/@piraveenaparalogarajah/sessions-and-cookies-2c0919552f29",
-        },
+      {
+        name: "How cookies work?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1968734/9715166",
+      },
+      {
+        name: "Cookies As Fast As Possible",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=BTlq6WmWqMk",
+      },
+      {
+        name: "Sessions and cookies",
+        site: "medium",
+        url: "https://medium.com/@piraveenaparalogarajah/sessions-and-cookies-2c0919552f29",
+      },
     ]
   },
   {
@@ -1706,21 +1711,21 @@ module.exports = [
     number: 77,
     id: "swl1uaa",
     sources: [
-        {
-            name: "Static (Lexical) Scoping vs Dynamic Scoping (Pseudocode)",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/22395580/9715166",
-        },
-        {
-            name: "006 Lexical Scope",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=dHYhMP8ESuk",
-        },
-        {
-            name: "Chapter 2: Lexical Scope - You Don't Know JS",
-            site: "github",
-            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#chapter-2-lexical-scope",
-        },
+      {
+        name: "Static (Lexical) Scoping vs Dynamic Scoping (Pseudocode)",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/22395580/9715166",
+      },
+      {
+        name: "006 Lexical Scope",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=dHYhMP8ESuk",
+      },
+      {
+        name: "Chapter 2: Lexical Scope - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#chapter-2-lexical-scope",
+      },
     ]
   },
   {
@@ -1732,21 +1737,21 @@ module.exports = [
     number: 78,
     id: "hunyfsa",
     sources: [
-        {
-            name: "Difference between innerText and innerHTML",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/19032002/9715166",
-        },
-        {
-            name: ".innerHTML vs .innerText",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=A0inUUp5Q3o",
-        },
-        {
-            name: "What’s Best: innerText vs. innerHTML vs. textContent",
-            site: "medium",
-            url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
-        },
+      {
+        name: "Difference between innerText and innerHTML",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/19032002/9715166",
+      },
+      {
+        name: ".innerHTML vs .innerText",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=A0inUUp5Q3o",
+      },
+      {
+        name: "What’s Best: innerText vs. innerHTML vs. textContent",
+        site: "medium",
+        url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
+      },
     ]
   },
   {
@@ -1758,21 +1763,21 @@ module.exports = [
     number: 78,
     id: "waw420c",
     sources: [
-        {
-            name: "Difference between textContent vs innerText",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/35213639/9715166",
-        },
-        {
-            name: "textContent vs innerHTML in the JavaScript DOM",
-            site: "youtube",
-            url: "textContent vs innerHTML in the JavaScript DOM",
-        },
-        {
-            name: "What’s Best: innerText vs. innerHTML vs. textContent",
-            site: "medium",
-            url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
-        },
+      {
+        name: "Difference between textContent vs innerText",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/35213639/9715166",
+      },
+      {
+        name: "textContent vs innerHTML in the JavaScript DOM",
+        site: "youtube",
+        url: "textContent vs innerHTML in the JavaScript DOM",
+      },
+      {
+        name: "What’s Best: innerText vs. innerHTML vs. textContent",
+        site: "medium",
+        url: "https://medium.com/better-programming/whats-best-innertext-vs-innerhtml-vs-textcontent-903ebc43a3fc",
+      },
     ]
   },
   {
@@ -1784,21 +1789,21 @@ module.exports = [
     number: 79,
     id: "10qgphm",
     sources: [
-        {
-            name: "Error - MDN Web Docs",
-            site: "firefox",
-            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Error_types"
-        },
-        {
-            name: "Errors in JavaScript / Intro to JavaScript ES6 programming, lesson 7",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=O0EHKBi7iXU"
-        },
-        {
-            name: "Type of errors in JavaScript",
-            site: "medium",
-            url: "https://medium.com/@wlodarczyk_j/type-of-errors-in-javascript-18458ba9d818"
-        }
+      {
+        name: "Error - MDN Web Docs",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Error_types"
+      },
+      {
+        name: "Errors in JavaScript / Intro to JavaScript ES6 programming, lesson 7",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=O0EHKBi7iXU"
+      },
+      {
+        name: "Type of errors in JavaScript",
+        site: "medium",
+        url: "https://medium.com/@wlodarczyk_j/type-of-errors-in-javascript-18458ba9d818"
+      }
     ]
   },
   {
@@ -1811,94 +1816,42 @@ module.exports = [
     number: 80,
     id: "lh4ywi9",
     sources: [
-        {
-            name: "window.onload vs $(document).ready()",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/3698214/9715166"
-        },
-        {
-            name: "🔥 window.onload VS document.ready 🔥 The Difference",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=3dnc-gmlDvw"
-        },
+      {
+        name: "window.onload vs $(document).ready()",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/3698214/9715166"
+      },
+      {
+        name: "🔥 window.onload VS document.ready 🔥 The Difference",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=3dnc-gmlDvw"
+      },
     ]
   },
   {
     question: "What is JSONP?",
     answer:
-      "Also known as JSON with padding is a script tag injection that generates a dynamic script tag used to trick the browser into making a connection with a new domain.",
-    tags: ["javascript", "front-end"],
-    type: "definition",
-    number: 81,
-    id: "ptqbnzf",
-    sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-    ],
-  },
-  {
-    question: "Why was JSONP created?",
-    answer:
-      "JSONP was used to circumvent the restriction that JavaScript files cannot make calls to domains that are not where that file originates from, (to avoid cross site scripting). Instead, JavaScript code is used to generate script tags with the domain of the server to fetch data from, thus the browser will call to the domain hoping to fetch a JavaScript file. The src file will include a parameter ?callback=variable which will execute JavaScript code that returns JSON and assigns it to that variable.",
+      "JSONPadding was used to circumvent the restriction that JavaScript files cannot make calls to domains that are not where that file originates from, (to avoid cross site scripting). Instead, JavaScript code is used to generate script tags with the domain of the server to fetch data from, thus the browser will call to the domain hoping to fetch a JavaScript file. The src file will include a parameter ?callback=variable which will execute JavaScript code that returns JSON and assigns it to that variable.",
     tags: ["javascript", "front-end"],
     type: "explanation",
     number: 82,
     id: "9aobgwf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-    ],
-  },
-  {
-    question: "Why should we no longer use JSONP?",
-    answer:
-      "JSONP exposes multiple vulnerabilities - it assumes excessive trust, it also further exposes Cross-Site Request Forgery vulnerabilities. There is also no proper way to get failure codes back when you request JSON data form an endpoint.",
-    tags: ["javascript", "front-end"],
-    type: "explanation",
-    number: 83,
-    id: "x86pt4f",
-    sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "How does the JSONP work?",
+        site: "quora",
+        url: "https://www.quora.com/How-does-the-JSONP-work"
+      },
+      {
+        name: "2.5 cors, json, jsonp - undergrad webdev summer 1 2017",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=stvCHJZq5MI"
+      },
+      {
+        name: "Cross domain, cross browser ajax with JSONP",
+        site: "medium",
+        url: "https://medium.com/creative-technology-concepts-code/cross-domain-cross-browser-ajax-with-jsonp-96f49484d765"
+      },
     ],
   },
   {
@@ -1911,47 +1864,21 @@ module.exports = [
     number: 84,
     id: "3secxr",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-    ],
-  },
-  {
-    question: "What is a Screen Object?",
-    answer:
-      "The screen object contains information about the user's screen. availHeight, availWidth, colorDept, height, pixelDepth, and width.",
-    tags: ["javascript", "front-end"],
-    type: "definition",
-    number: 85,
-    id: "74ats9b",
-    sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What's the difference between Event Listeners & Handlers in Java?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/4725342"
+      },
+      {
+        name: "33: What Are JavaScript Events | JavaScript Events | JavaScript Tutorial | mmtuts",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=mlxi1WUSO_8"
+      },
+      {
+        name: "Programmer dictionary: Event listener vs event handler",
+        site: "medium",
+        url: "https://blog.kotlin-academy.com/programmer-dictionary-event-listener-vs-event-handler-305c667d0e3c"
+      },
     ],
   },
   {
@@ -1964,26 +1891,21 @@ module.exports = [
     number: 86,
     id: "l14kcv0d",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "screen.width and screen.availwidth difference in javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/5456601"
+      },
+      {
+        name: "JavaScript: screen.width vs. screen.availWidth",
+        site: "codepen",
+        url: "https://codepen.io/machal/pen/gjNpYg"
+      },
     ],
   },
   {
     question:
-      "What's the difference between the escape and unescaped functions?",
+      "What's the difference between escaped and unescaped output?",
     answer:
       'Escapes and unescapes are both used for removing traces of offending characters that could prevent interprelation. For example, when you call unescape("\thi") you will get the tab inserted, but when you call escape("\thi") you will see "\\thi"',
     tags: ["javascript"],
@@ -1991,26 +1913,26 @@ module.exports = [
     number: 87,
     id: "drilbwi",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is “Escaped” & “Unescaped” output",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/20727923"
+      },
+      {
+        name: "JavaScript Unicode Characters and Escape Sequences",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=UsVbdOgd3kM"
+      },
+      {
+        name: "Working with strings in JavaScript",
+        site: "medium",
+        url: "https://medium.com/swlh/working-with-strings-in-javascript-34060a1c17a9"
+      },
     ],
   },
   {
     question:
-      "What is the drawback of creating true private methods in JavaScript?",
+      "How does JavaScript implement private methods?",
     answer:
       "True private methods are very memory inefficient as a new copy of the method would be created for each instance.",
     tags: ["javascript"],
@@ -2018,26 +1940,26 @@ module.exports = [
     number: 88,
     id: "wrrcv2n",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Private properties in JavaScript ES6 classes",
+        site: "stack-overflow",
+        url: "Javascript Tutorial 15: Private Methods And Properties"
+      },
+      {
+        name: "Javascript Tutorial 15: Private Methods And Properties",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=P-w_SXPfVY8"
+      },
+      {
+        name: "Natural JavaScript private methods",
+        site: "blogger",
+        url: "http://webreflection.blogspot.com/2008/04/natural-javascript-private-methods.html"
+      },
     ],
   },
   {
     question:
-      "What's the difference between declaring a function at run-time vs. parse-time?",
+      "What's the difference between declaring a function at run-time vs. parse-time in JavaScript?",
     answer:
       "Run time var foo = function( ) means that if we call foo( ) before that statement we will receive and error. However if we use parse-time with function foo( ) then calling foo( ) above will not result in an error.",
     tags: ["javascript"],
@@ -2045,47 +1967,37 @@ module.exports = [
     number: 89,
     id: "1jk19m",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "In JavaScript, what code executes at runtime and what code executes at parsetime?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/4023769"
+      },
     ],
   },
   {
     question: "What is hoisting?",
     answer:
-      "Before run-time JavaScript looks for all variable and function declarations and then hoists them ot the top of the function before they are declared.",
+      "Before run-time JavaScript looks for all variable and function declarations in the scope and then hoists them ot the top of the function before they are declared.",
     tags: ["javascript"],
     type: "definition",
     number: 90,
     id: "c7mwo7",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Javascript function scoping and hoisting",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/7506937"
+      },
+      {
+        name: "Hoisting - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=C1PZh_ea-7I"
+      },
+      {
+        name: "Review (TL;DR) - You Don't Know JS",
+        site: "github",
+        url: "In JavaScript, what code executes at runtime and what code executes at parsetime?"
+      },
     ],
   },
   {
@@ -2098,21 +2010,21 @@ module.exports = [
     number: 91,
     id: "yuzewe",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is the difference between indexed arrays and the associative arrays?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-difference-between-indexed-arrays-and-the-associative-arrays"
+      },
+      {
+        name: "5.2: Associative Arrays in JavaScript - Programming with Text",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=_5jdE6RKxVk"
+      },
+      {
+        name: "Symbol Tables (Associative Arrays)",
+        site: "medium",
+        url: "https://medium.com/omarelgabrys-blog/symbol-tables-associative-arrays-ece1f52aa07f"
+      },
     ],
   },
   {
@@ -2124,21 +2036,21 @@ module.exports = [
     number: 92,
     id: "uzcquf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is HTML?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-HTML-6"
+      },
+      {
+        name: "HTML5 as Fast As Possible",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=IsXEVQRaTX8"
+      },
+      {
+        name: "Learn HTML in 5 minutes",
+        site: "free-code-camp",
+        url: "https://www.freecodecamp.org/news/learn-html-in-5-minutes-ccd378d2ab72/"
+      },
     ],
   },
   {
@@ -2150,46 +2062,46 @@ module.exports = [
     number: 93,
     id: "1nc5l0n",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is a tag in HTML?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-tag-in-HTML"
+      },
+      {
+        name: "What are HTML Tags?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=aSiI9B6rzRM"
+      },
+      {
+        name: "Tag - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/Tag"
+      },
     ],
   },
   {
-    question: "Which HTML tags do not require an end tag?",
-    answer: "The <img> and <br> tags do not require an end tag.",
+    question: "What are void elements in HTML?",
+    answer: "Void elements area, base, br, col, command, embed, hr, img, input, keygen, link, meta, param, source, track, wbr do not require and end tag. These are called void elements.",
     tags: ["html", "front-end"],
     type: "list",
     number: 94,
     id: "pvesa7",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Do we still need end slashes in HTML5?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/3558119/are-non-void-self-closing-tags-valid-in-html5"
+      },
+      {
+        name: "HTML5 tutorial 22 | HTML Void Elements",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=PkE7edyf6xk"
+      },
+      {
+        name: "Empty Element - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/Empty_element"
+      },
     ],
   },
   {
@@ -2201,21 +2113,21 @@ module.exports = [
     number: 95,
     id: "lgs7gei",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2226,21 +2138,21 @@ module.exports = [
     number: 96,
     id: "e37uqws",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2252,21 +2164,21 @@ module.exports = [
     number: 97,
     id: "neozsrf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2278,21 +2190,21 @@ module.exports = [
     number: 98,
     id: "w22kcp",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2305,21 +2217,21 @@ module.exports = [
     number: 99,
     id: "rwqhyw",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2331,21 +2243,21 @@ module.exports = [
     number: 100,
     id: "p74hpso",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2357,21 +2269,21 @@ module.exports = [
     number: 101,
     id: "ty28g8c",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2383,21 +2295,21 @@ module.exports = [
     number: 102,
     id: "kwojsm",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2409,21 +2321,21 @@ module.exports = [
     number: 103,
     id: "1jecy8t",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2435,21 +2347,21 @@ module.exports = [
     number: 104,
     id: "h9e2tu4",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2461,21 +2373,21 @@ module.exports = [
     number: 105,
     id: "x8xct1",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2488,21 +2400,21 @@ module.exports = [
     number: 106,
     id: "nz6uigo",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2514,21 +2426,21 @@ module.exports = [
     number: 107,
     id: "8w2045j",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2539,21 +2451,21 @@ module.exports = [
     number: 108,
     id: "zuryx7t",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2565,21 +2477,21 @@ module.exports = [
     number: 109,
     id: "w0md9j",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2591,21 +2503,21 @@ module.exports = [
     number: 110,
     id: "0f140i",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2617,21 +2529,21 @@ module.exports = [
     number: 111,
     id: "p8puyrf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2643,21 +2555,21 @@ module.exports = [
     number: 112,
     id: "q2885b",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
@@ -2669,21 +2581,21 @@ module.exports = [
     number: 113,
     id: "q3pygwk",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ],
   },
   {
