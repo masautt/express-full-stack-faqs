@@ -2105,33 +2105,33 @@ module.exports = [
     ],
   },
   {
-    question: "How many default heading sizes are there in HTML?",
+    question: "What are default headings in HTML?",
     answer:
-      "There are 6 headings ranging from <h1> to <h6>, with <h1> the largest.",
+      "There are 6 headings ranging from <h1> to <h6>, with <h1> being the largest.",
     tags: ["html", "front-end"],
-    type: "list",
+    type: "definition",
     number: 95,
     id: "lgs7gei",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are the most common font-sizes for H1-H6 tags [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/6140504"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Learn HTML code: H1 - H6",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ErfDXNmHOWU"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "<h1>–<h6>: The HTML Section Heading elements",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
       },
     ],
   },
   {
-    question: "How to create hyperlink in HTML?",
+    question: "How to have a hyperlink in HTML open in another window or tab?",
     answer: "https://gist.github.com/masautt/a61f53afbf1cc2a8988ea6a38c47c0d7",
     tags: ["html"],
     type: "code",
@@ -2139,19 +2139,19 @@ module.exports = [
     id: "e37uqws",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to make HTML open a hyperlink in another window or tab?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/2343939"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to make links in html | open link in another tab in html | Learn HTML5",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=hBsZ5XR6WDI"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Creating hyperlinks",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks"
       },
     ],
   },
@@ -2165,19 +2165,19 @@ module.exports = [
     id: "neozsrf",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How many types of list are in HTML? Can you define each?",
+        site: "quora",
+        url: "https://www.quora.com/How-many-types-of-list-are-in-HTML-Can-you-define-each"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Learn HTML code: lists",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Dl1V6CagWfU"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Day 13: Using HTML Lists — Spaghetti Recipe",
+        site: "medium",
+        url: "https://medium.com/@kbrook10/day-13-using-html-lists-spaghetti-recipe-efaa86b0cf09"
       },
     ],
   },
@@ -2191,19 +2191,19 @@ module.exports = [
     id: "w22kcp",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the difference between HTML tags and elements?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/8937454"
+      },
+            {
+        name: "HTML Tags, Attributes and Elements",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=vNOyRZIkC7o"
       },
       {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
+        name: "What Is An HTML Tag Versus an HTML Element? - Lifewire",
+        site: "globe",
+        url: "https://www.lifewire.com/html-tag-vs-element-3466507"
       },
     ],
   },
@@ -2218,19 +2218,19 @@ module.exports = [
     id: "rwqhyw",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Semantic and non Semantic elements",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/54924899"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Semantic HTML5 Tags vs Formatting Tags",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=rKcAjg9wC5I"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "The importance of Semantic HTML",
+        site: "medium",
+        url: "https://medium.com/adalab/the-importance-of-semantic-html-78e74fb75ff0"
       },
     ],
   },
@@ -2244,24 +2244,24 @@ module.exports = [
     id: "p74hpso",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is an image map in HTML?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-an-image-map-in-HTML"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to make an HTML image map",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ZomNtWJEFfs"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Creating an Interactive Map using SVG and CSS",
+        site: "medium",
+        url: "https://medium.com/@mattcroak718/creating-an-interactive-map-using-svg-and-css-94a688c11bd6"
       },
     ],
   },
   {
-    question: "Is it possible to imbed other websites on our webpage?",
+    question: "How to imbed other websites in a website through HTML?",
     answer:
       "The <iframe> tag is used to load other webpages by setting the src equal to the website.",
     tags: ["html", "front-end"],
