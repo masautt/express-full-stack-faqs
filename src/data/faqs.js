@@ -2478,19 +2478,19 @@ module.exports = [
     id: "q2885b",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are CSS sprites? How is it useful?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-CSS-sprites-How-is-it-useful"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Tutorials #21 - CSS Sprites",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=zfKI2ltz7K0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Sprites: What They Are, Why They’re Cool, and How To Use Them",
+        site: "globe",
+        url: "https://css-tricks.com/css-sprites/"
       },
     ],
   },
@@ -2504,19 +2504,19 @@ module.exports = [
     id: "q3pygwk",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Using CSS counters",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is counters in css and how to use them?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=1t6G8LDPrbk"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "A Guide to CSS counter",
+        site: "dev",
+        url: "https://dev.to/samanthaming/a-guide-to-css-counter-3aaa"
       },
     ],
   },
@@ -2530,19 +2530,19 @@ module.exports = [
     id: "qjmpnhw",
         sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Can I create a div with a Curved bottom?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/17040896/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Advanced CSS Border-Radius Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=j3Z4DR0o8bk"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Border-Radius Can Do That?",
+        site: "medium",
+        url: "https://medium.com/9elements/css-border-radius-can-do-that-d46df1d013ae"
       },
     ],
   },
@@ -2556,19 +2556,19 @@ module.exports = [
     id: "0im5ofr",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "How do you code in CSS with linear-gradient?",
+          site: "quora",
+          url: "https://www.quora.com/How-do-you-code-in-CSS-with-linear-gradient"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "CSS Gradients and repeating gradients",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=4kWHW7da4U8"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "HTML Gradients with CSS — Colorful Slippery Slope",
+          site: "medium",
+          url: "https://medium.com/@js_tut/html-gradients-with-css-colorful-slippery-slope-59f98c6b99cf"
         },
       ],
     },
@@ -2582,19 +2582,19 @@ module.exports = [
     id: "5mn4ena",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is flex-box?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-flex-box"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Learn Flexbox in 15 Minutes",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=fYq5PXgSsbE"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "A 10 Step Guide to Flexbox",
+          site: "medium",
+          url: "https://medium.com/@ensallee/a-10-step-guide-to-flexbox-fa00e7b03bf7"
         },
       ],
     },
@@ -2608,45 +2608,45 @@ module.exports = [
     id: "ej0ew97",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "When to use margin vs padding in CSS [closed]",
+          site: "stack-overflow",
+          url: "https://stackoverflow.com/a/9183818/9715166"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "CSS : the difference between padding and margin",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=gBj8fxRBBNg"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Margin vs Padding",
+          site: "medium",
+          url: "https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf"
         },
       ],
   },
   {
-    question: "What is a CSS pseudo class?",
+    question: "What's the difference between a pseudo-class and pseudo-element in CSS?",
     answer:
-      "Pseudo classes are used to define a special state of an element such as hover, active, and visited. These are identified by adding a ( : ) to the end of a selector.",
+      "Pseudo-classes act as simple selectors in a sequence of selectors and thereby classify elements on non-presentational characteristics, pseudo-elements create new virtual elements.",
     tags: ["css", "front-end"],
-    type: "definition",
+    type: "comparison",
     number: 118,
     id: "pl8l5t",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is the difference between a pseudo-class and a pseudo-element in CSS?",
+          site: "stack-overflow",
+          url: "https://stackoverflow.com/a/11701951/9715166"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Pseudo-Classes vs Pseudo-Elements in CSS",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=0VDx1570X3U"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Summaries of Pseudo-classes & Pseudo-elements",
+          site: "medium",
+          url: "https://medium.com/@keisei.jia/summaries-of-pseudo-classes-pseudo-elements-359403885c9c"
         },
       ],
   },
@@ -2659,19 +2659,19 @@ module.exports = [
     id: "h29l0ss",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Can you explain positioning in CSS?",
+          site: "quora",
+          url: "https://www.quora.com/Can-you-explain-positioning-in-CSS"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Learn CSS Position In 9 Minutes",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=jx5jmI0UlXU"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Understanding Position in CSS",
+          site: "medium",
+          url: "https://medium.com/@jacobgreenaway12/taming-the-css-beast-master-positioning-5882bad14458"
         },
       ],
   },
@@ -2685,19 +2685,19 @@ module.exports = [
     id: "pibwqy",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "CSS display: inline vs inline-block [duplicate]",
+          site: "stack-overflow",
+          url: "https://stackoverflow.com/a/9189873/9715166"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "#5 - The Difference Between Block and Inline Elements",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=NfwBn1ItXhM"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Understanding HTML Block and Inline Elements: A Learning Journey to Web Development",
+          site: "medium",
+          url: "https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599"
         },
       ],
   },
@@ -2710,19 +2710,19 @@ module.exports = [
     id: "0afiemj",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What's the difference between an id and a class?",
+          site: "stack-overflow",
+          url: "https://stackoverflow.com/a/544052/9715166"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "8: Introduction to Classes and IDs in HTML | Learn HTML and CSS | HTML Tutorial",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=wXUhTZpF_HQ"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "The Difference Between ID and Class",
+          site: "medium",
+          url: "https://medium.com/@jennylaister/the-difference-between-id-and-class-689377b22e6d"
         },
       ],
   },
@@ -2736,19 +2736,19 @@ module.exports = [
     id: "z69xlr",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is software engineering?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-software-engineering"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Software Engineering: Crash Course Computer Science #16",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=O753uuutqH8"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Software Engineering is different from Programming",
+          site: "medium",
+          url: "https://medium.com/edge-coders/software-engineering-is-different-from-programming-b108c135af26"
         },
       ],
   },
@@ -2762,19 +2762,19 @@ module.exports = [
     id: "4auxcar",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is software development lifecycle?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-software-development-lifecycle"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Software Development Lifecycle in 9 minutes!",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=i-QyW8D3ei0"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What Are the Software Development Life Cycle (SDLC) Stages?",
+          site: "medium",
+          url: "https://medium.com/@bydrecinc/what-are-the-software-development-life-cycle-sdlc-stages-7f505ed0dd18"
         },
       ],
   },
@@ -2788,97 +2788,45 @@ module.exports = [
     id: "pl22qf",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What are the pros and cons of the waterfall and agile/scrum project management approach?",
+          site: "quora",
+          url: "https://www.quora.com/What-are-the-pros-and-cons-of-the-waterfall-and-agile-scrum-project-management-approach"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Agile vs. Waterfall",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=e1_eD-5zkGY"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Waterfall vs Agile",
+          site: "medium",
+          url: "https://medium.com/@101/waterfall-vs-agile-9da25daf18e8"
         },
       ],
   },
   {
-    question: "What is the role of a Software Project Manager?",
+    question: "What's the difference between a Development, Program, and Project Manager?",
     answer:
-      "Software project managers provide the consistency needed to see the software projects from start to finish. They must have a strong understanding of technical knowledge and leadership.",
+      "Project manages an individual project. Program managers a number of projects that reach a common goal. Development are on the side ready to deploy engineers for projects whe managers request them so they are in charge of training/mentoring developers directly.",
     tags: ["software-engineering"],
     type: "definition",
     number: 125,
     id: "hndiub",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Difference between these 3 manager roles [closed]",
+          site: "stack-overflow",
+          url: "https://softwareengineering.stackexchange.com/a/107213"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Product Manager vs Project Manager - Project Management Training",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=WGvj_I2L020"
         },
         {
-          name: "",
-          site: "",
-          url: ""
-        },
-      ],
-  },
-  {
-    question: "What is Software Project Scope?",
-    answer:
-      "The project scope is the part of project planning that involves determining a list of specific project goals, deliverables, tasks, cost, and deadlines.",
-    tags: ["software-engineering"],
-    type: "definition",
-    number: 126,
-    id: "96ym70s",
-    sources: [
-        {
-          name: "",
-          site: "",
-          url: ""
-        },
-        {
-          name: "",
-          site: "",
-          url: ""
-        },
-        {
-          name: "",
-          site: "",
-          url: ""
-        },
-      ],
-  },
-  {
-    question: "What is Software Project Estimation?",
-    answer:
-      "The process of predicting the most realistic amount of effort (work-hours or money) required to develop or maintain software.",
-    tags: ["software-engineering"],
-    type: "definition",
-    number: 127,
-    id: "g2i0vf",
-    sources: [
-        {
-          name: "",
-          site: "",
-          url: ""
-        },
-        {
-          name: "",
-          site: "",
-          url: ""
-        },
-        {
-          name: "",
-          site: "",
-          url: ""
+          name: "Software Project Team Roles and Responsibilities",
+          site: "medium",
+          url: "https://medium.com/@SherrieRose/software-project-team-roles-and-responsibilities-152a7d575759"
         },
       ],
   },
@@ -2892,24 +2840,24 @@ module.exports = [
     id: "mg5vik",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is A/B testing?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-A-B-testing-1"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "A/B Testing",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=8H6QmMQWPEI"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "A/B and see: a beginner’s guide to A/B testing",
+          site: "medium",
+          url: "https://medium.com/@InVisionApp/a-b-and-see-a-beginner-s-guide-to-a-b-testing-a16406f1a239"
         },
       ],
   },
   {
-    question: "What is a baseline?",
+    question: "What is a baseline in Software Engineering?",
     answer:
       "A baseline is a reference point in the software development life cycle marked by the completion and formal approval of a set of predefined work products.",
     tags: ["software-engineering"],
@@ -2918,19 +2866,19 @@ module.exports = [
     id: "a2qk2ve",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is the meaning of baseline in software configuration management?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-the-meaning-of-baseline-in-software-configuration-management"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is a baseline?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=Tr5_mh4oOiw"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Modern Software Configuration Management",
+          site: "medium",
+          url: "https://medium.com/@ReganKoopmans/modern-software-configuration-management-69e2eb9e40c9"
         },
       ],
   },
@@ -2943,24 +2891,24 @@ module.exports = [
     id: "3qzny1",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is software configuration management?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-software-configuration-management"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is Configuration Management? - Course Introduction",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=W49zokvnL2g"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Software Configuration Management (SCM) Process and Procedure",
+          site: "medium",
+          url: "https://medium.com/@sudarhtc/software-configuration-management-scm-process-and-procedure-80a73c40915d"
         },
       ],
   },
   {
-    question: "What is Change Control?",
+    question: "What is Change Management?",
     answer:
       "A systematic approach to managing all changes made to product or system. The purpose is to ensure that no unnecessary changes are made, that all changes are documentated, that services are not unnecessarily disrupted and that resources are used efficiently.",
     tags: ["software-engineering"],
@@ -2969,24 +2917,24 @@ module.exports = [
     id: "ba23y8g",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is Change Management?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-Change-Management"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What Is Change Management In Project Management Terms?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=KSHyvLjZHcw"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Change Management Process",
+          site: "medium",
+          url: "https://medium.com/@stangarfield/change-management-process-98948aa347bf"
         },
       ],
   },
   {
-    question: "What is a Software Requirement?",
+    question: "What are Software Requirements?",
     answer:
       "Software requirements are a description of features and funtionalities of the target system.",
     tags: ["software-engineering"],
@@ -2995,19 +2943,19 @@ module.exports = [
     id: "2cc5trs",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What are software requirements?",
+          site: "quora",
+          url: "https://www.quora.com/What-are-software-requirements"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Software Requirements",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=8uk-2-mX53U"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Software requirements specification. What do you need to know.",
+          site: "medium",
+          url: "https://medium.com/globalluxsoft/software-requirements-specification-what-do-you-need-to-know-22a6b8585945"
         },
       ],
   },
@@ -3021,58 +2969,126 @@ module.exports = [
     id: "f43el8",
     sources: [
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "What is a feasibility study? What are the main objectives?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-a-feasibility-study-What-are-the-main-objectives"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "How to Conduct a Feasibility Study - Project Management Training",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=WI6_snOjlm0"
         },
         {
-          name: "",
-          site: "",
-          url: ""
+          name: "Step by Step Guide to Write a Good Feasibility Report?",
+          site: "medium",
+          url: "https://medium.com/waqar-hussain/step-by-step-guide-to-write-a-good-feasibility-report-f951896d6c87"
         },
       ],
   },
   {
     question:
-      "What's the difference between function and non-functional requirements?",
+      "What's the difference between functional and non-functional requirements?",
     answer:
       "A functional requirement describes what a software system should do, while non-functional place constraints on how the system will do so.",
     tags: ["software-engineering"],
     type: "comparison",
     number: 134,
-    id: "nn69yl3"
+    id: "nn69yl3",
+    sources: [
+        {
+            name: "What is the difference between functional and non functional requirement? [closed]",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/16476014/9715166"
+        },
+        {
+            name: "Functional and Nonfunctional Requirements - Georgia Tech - Software Development Process",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=zCX-N1H8Vps"
+        },
+        {
+            name: "The Essential Function of Non-Functional Requirements",
+            site: "medium",
+            url: "https://medium.com/elevator-up/the-essential-function-of-non-functional-requirements-668ae9686ee0"
+        },
+    ]
   },
   {
-    question: "What are Software Metrics?",
+    question: "What are Software Quality Metrics?",
     answer:
       "A software metric is a measure of software characteristics which quantifiable or countable such as performance.",
     tags: ["software-engineering"],
     type: "definition",
     number: 135,
-    id: "yyin0k9"
+    id: "yyin0k9",
+    sources: [
+        {
+            name: "What is software quality metrics?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-software-quality-metrics"
+        },
+        {
+            name: "Software Quality Metrics You Need To Know",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=lc0Y1BX7Fig"
+        },
+        {
+            name: "64 Test Metrics For Measuring Progress, Quality, Productivity & More!",
+            site: "medium",
+            url: "https://medium.com/qasymphony/64-test-metrics-for-measuring-progress-quality-productivity-more-4ef220f78b1b"
+        },
+    ]
   },
   {
-    question: "What is Modularization?",
+    question: "What is Software Modularity?",
     answer:
       "A technique to divide a software system into multiple discrete and independent modules which are expected to be capable of carrying out tasks independently.",
-    tags: ["software-engineering"],
+    tags: ["design-patterns"],
     type: "definition",
     number: 136,
-    id: "cze3n2"
+    id: "cze3n2",
+    sources: [
+        {
+            name: "What is modularity?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-modularity"
+        },
+        {
+            name: "Modular Design",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=DuK4dKH0zOA"
+        },
+        {
+            name: "On Modular Architectures",
+            site: "medium",
+            url: "https://medium.com/on-software-architecture/on-modular-architectures-53ec61f88ff4"
+        },
+    ]
   },
   {
-    question: "What is Cohesion?",
+    question: "What is Cohesion in Software?",
     answer:
       "A measure of the degree to which the elements of the module are functionally related. Good software will have high cohesion.",
     tags: ["software-engineering"],
     type: "definition",
     number: 137,
-    id: "5a4a1y"
+    id: "5a4a1y",
+    sources: [
+        {
+            name: "What is cohesion?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-cohesion"
+        },
+        {
+            name: "Cohesion",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=7WWJceMwk48"
+        },
+        {
+            name: "Low Coupling, High Cohesion",
+            site: "medium",
+            url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
+        },
+    ]
   },
   {
     question: "What is Coupling?",
@@ -3081,16 +3097,50 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 138,
-    id: "v1hikh8"
+    id: "v1hikh8",
+    sources: [
+        {
+            name: "What is meant by cohesion and coupling in software engineering? Are there some examples available?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-meant-by-cohesion-and-coupling-in-software-engineering-Are-there-some-examples-available"
+        },
+        {
+            name: "Coupling and Cohesion",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
+        },
+        {
+            name: "Low Coupling, High Cohesion",
+            site: "medium",
+            url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
+        },
+    ]
   },
   {
-    question: "What is DFD Level 0?",
+    question: "What is a Data Flow Diagram?",
     answer:
       "The Data Flow Diagram at Level 0, also known as the context diagram, shows a data system as a whole and emphasizes the way it interacts with external entities.",
     tags: ["software-engineering"],
     type: "definition",
     number: 139,
-    id: "icj1v4l"
+    id: "icj1v4l",
+    sources: [
+        {
+            name: "What is a data flow diagram?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-a-data-flow-diagram"
+        },
+        {
+            name: "Data Flow Diagrams - What is DFD? Data Flow Diagram Symbols and More",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=6VGTvgaJllM"
+        },
+        {
+            name: "Data Flow Diagram Comprehensive Guide with Examples",
+            site: "medium",
+            url: "https://medium.com/@warren2lynch/data-flow-diagram-comprehensive-guide-with-examples-d9858387f25e"
+        },
+    ]
   },
   {
     question:
@@ -3100,24 +3150,49 @@ module.exports = [
     tags: ["software-engineering"],
     type: "comparison",
     number: 140,
-    id: "o1nh53e"
+    id: "o1nh53e",
+    sources: [
+        {
+            name: "What is black box testing and white box testing?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-black-box-testing-and-white-box-testing"
+        },
+        {
+            name: "Black and White Box Testing Introduction - Georgia Tech - Software Development Process",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=jRwwb7iaRsU"
+        },
+        {
+            name: "White Box Testing Vs. Black Box Testing",
+            site: "medium",
+            url: "https://medium.com/@techbloggers/white-box-testing-vs-black-box-testing-19754e950398"
+        },
+    ]
   },
   {
-    question: "What are the 3 types of Software Maintenance?",
-    answer: "Adaptive, Perfective, and Preventive.",
+    question: "What are the 4 types of Software Maintenance?",
+    answer: "Adaptive, Perfective, Preventive, and Corrective",
     tags: ["software-engineering"],
     type: "list",
     number: 141,
-    id: "0e8et6s"
-  },
-  {
-    question: "What is a CASE tool?",
-    answer:
-      "CASE or Computer Aided Software Engineering Tool is a standard term used to indicate any form of automated support for software engineering.",
-    tags: ["software-engineering"],
-    type: "definition",
-    number: 142,
-    id: "uf52gpa"
+    id: "0e8et6s",
+    sources: [
+        {
+            name: "Software Maintenance, Understanding the 4 Types",
+            site: "globe",
+            url: "https://www.coderhood.com/software-maintenance-understanding-the-4-types/"
+        },
+        {
+            name: "software maintenance | software engineering |",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=8swQr0kckZI"
+        },
+        {
+            name: "The 4 Types of Software Maintenance",
+            site: "medium",
+            url: "https://medium.com/endertech-insights/the-4-types-of-software-maintenance-7c3e96424f22"
+        },
+    ]
   },
   {
     question: "What are the 5 things you can decorate in TypeScript?",
@@ -3126,16 +3201,50 @@ module.exports = [
     tags: ["typescript"],
     type: "list",
     number: 143,
-    id: "xmzbnwl"
+    id: "xmzbnwl",
+    sources: [
+        {
+            name: "Decorators  - TypeScriptLang",
+            site: "globe",
+            url: "https://www.typescriptlang.org/docs/handbook/decorators.html#decorators"
+        },
+        {
+            name: "The Magic of TypeScript Decorators",
+            site: "youtube",
+            url: "https://youtu.be/O6A-u_FoEX8?t=80"
+        },
+        {
+            name: "A Gentle Introduction to TypeScript Decorators",
+            site: "medium",
+            url: "https://medium.com/iqoqo-engineering/understand-typescript-decorators-in-5-minutes-26ffc6189082"
+        },
+    ]
   },
   {
-    question: "What is event delegation in JavaScript?",
+    question: "What is DOM event delegation?",
     answer:
       "When we have several elements we want to listen to, event delegation refers to assigning a handler to a common ancestor instead of a handler on each.",
-    tags: ["javascript"],
+    tags: ["dom", "javascript"],
     type: "definition",
     number: 144,
-    id: "e5newlv"
+    id: "e5newlv",
+    sources: [
+        {
+            name: "What is DOM Event delegation?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1688293/9715166"
+        },
+        {
+            name: "What is Event Delegation? - JavaScript DOM Tutorial",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=pKzf80F3O0U"
+        },
+        {
+            name: "Part 4: What is Event Delegation in JavaScript?",
+            site: "medium",
+            url: "https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983"
+        },
+    ]
   },
   {
     question: "What is prototypal inheritance in JavaScript?",
@@ -3144,25 +3253,76 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 145,
-    id: "icpqd3f"
+    id: "icpqd3f",
+    sources: [
+        {
+            name: "prototypal inheritance concept in javascript as a prototype based language",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/12201800/9715166"
+        },
+        {
+            name: "Advanced Javascript - Prototypal Inheritance In 1 Minute",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=G6l5CHl67HQ"
+        },
+        {
+            name: "Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?",
+            site: "medium",
+            url: "https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9"
+        },
+    ]
   },
   {
-    question: "What's the difference between forEach and map loops?",
+    question: "What's the difference between forEach and map loops in JavaScript?",
     answer:
       "foreach executes a provided function once for each array element while map will create a new array with the results of calling a provided function on every element.",
     tags: ["javascript"],
     type: "comparison",
     number: 146,
-    id: "bb33agd"
+    id: "bb33agd",
+    sources: [
+        {
+            name: "JavaScript: Difference between .forEach() and .map()",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/34426481/9715166"
+        },
+        {
+            name: "Javascript Basics | Map V/s ForEach",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=zfkFIj-Nt0E"
+        },
+        {
+            name: "JavaScript — Map vs. ForEach",
+            site: "medium",
+            url: "https://codeburst.io/javascript-map-vs-foreach-f38111822c0f"
+        },
+    ]
   },
   {
-    question: "What is a JavaScript module?",
+    question: "What are JavaScript modules?",
     answer:
       "Within a module you can use the export keyword to export functionality of a JavaScript file to other components that either require( ) or import.",
     tags: ["javascript"],
     type: "definition",
     number: 147,
-    id: "7eku06"
+    id: "7eku06",
+    sources: [
+        {
+            name: "What is Modular JavaScript?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-Modular-JavaScript"
+        },
+        {
+            name: "Module Design Pattern - Beau teaches JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=3pXVHRT-amw"
+        },
+        {
+            name: "JavaScript Modules: A Beginner’s Guide",
+            site: "medium",
+            url: "https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/"
+        },
+    ]
   },
   {
     question: "What is AJAX?",
@@ -3171,35 +3331,103 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 148,
-    id: "v32zapv"
+    id: "v32zapv",
+    sources: [
+        {
+            name: "What is Ajax and what is it used for?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-Ajax-and-what-is-it-used-for"
+        },
+        {
+            name: "JavaScript and AJAX tutorial: What is AJAX? | lynda.com",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=RDo3hBL1rfA"
+        },
+        {
+            name: "The beginners guide to jQuery & AJAX",
+            site: "medium",
+            url: "https://medium.com/@peterchic/how-to-care-for-your-ajax-f8bd167de6f6"
+        },
+    ]
   },
   {
     question: "What is JavaScript templating?",
     answer:
       "JavaScript templating is a fast and efficient technique to render client-side templates with JavaScript using a JSON data source. The template refers to an HTML file with special tags that get variables inserted within them using JavaScript.",
-    tags: ["javascript"],
+    tags: ["javascript", "html"],
     type: "definition",
     number: 149,
-    id: "1fa7dx"
+    id: "1fa7dx",
+    sources: [
+        {
+            name: "Intro to JavaScript Template Engines",
+            site: "globe",
+            url: "https://www.htmlgoodies.com/beyond/javascript/js-ref/intro-to-javascript-template-engines.html"
+        },
+        {
+            name: "JavaScript Templating Tutorial | Introduction",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=zO9pBjgR8N0"
+        },
+        {
+            name: "JavaScript Templating: What is Templating?",
+            site: "medium",
+            url: "https://medium.com/@BuildMySite1/javascript-templating-what-is-templating-7ff49d97db6b"
+        },
+    ]
   },
   {
     question:
-      "What is the difference between an attribute and property in JavaScript?",
+      "What is the difference between HTML attributes and DOM properties?",
     answer:
-      "Essentially, attributes are the keys and properties are the values in JavaScript objects.",
-    tags: ["javascript"],
+      "When writing HTML source code, you can define attributes on your HTML elements. Then, once the browser parses your code, a corresponding DOM node will be created. This node is an object, and therefore it has properties.",
+    tags: ["html", "dom"],
     type: "comparison",
     number: 150,
-    id: "gmmjlgj"
+    id: "gmmjlgj",
+    sources: [
+        {
+            name: "What is the difference between properties and attributes in HTML?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/6004028/9715166"
+        },
+        {
+            name: "html attribute vs dom property",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=Ut-ATm23_Pg"
+        },
+        {
+            name: "HTML Attributes vs DOM Properties and Angular 2 Data Binding",
+            site: "medium",
+            url: "https://medium.com/@vaqifagayev/html-attributes-vs-dom-properties-and-angular-2-data-binding-9e6e5a09c69d"
+        },
+    ]
   },
   {
-    question: "Why is extending built in JavaScript objects not a good idea?",
+    question: "Why is extending native JavaScript objects considered bad practice?",
     answer:
       "When we override built in JavaScript objects, we are creating new behaviors of the language that are not recognized. If a programmer tries to walkthrough our code they will have a harder time understanding because they need to learn our specific flavor of JavaScript.",
     tags: ["javascript"],
     type: "explanation",
     number: 151,
-    id: "4yowwya"
+    id: "4yowwya",
+    sources: [
+        {
+            name: "Why is extending native objects a bad practice?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/14034242/9715166"
+        },
+        {
+            name: "Extending built in JS objects. Good or bad?",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=DbZz8AtxH8Q"
+        },
+        {
+            name: "Extending Native JavaScript Objects",
+            site: "globe",
+            url: "https://www.stevebrownlee.com/extending-native-javascript-objects/"
+        },
+    ]
   },
   {
     question: "What is the same origin policy?",
@@ -3208,7 +3436,24 @@ module.exports = [
     tags: ["security", "front-end"],
     type: "definition",
     number: 152,
-    id: "b1d1rhr"
+    id: "b1d1rhr",
+    sources: [
+        {
+            name: "What is same-origin policy? Why is it required? How is it a security vulnerability?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-same-origin-policy-Why-is-it-required-How-is-it-a-security-vulnerability"
+        },
+        {
+            name: "CSRF Introduction and what is the Same-Origin Policy? - web 0x04",
+            site: "yotube",
+            url: "https://youtu.be/KaEj_qZgiKY?t=50"
+        },
+        {
+            name: "Same Origin Policy and ways to Bypass",
+            site: "medium",
+            url: "https://medium.com/@minosagap/same-origin-policy-and-ways-to-bypass-250effdc4a12"
+        },
+    ]
   },
   {
     question: "What is a Ternary Operator?",
@@ -3217,16 +3462,50 @@ module.exports = [
     tags: ["programming-fundamentals", "javascript"],
     type: "definition",
     number: 153,
-    id: "zmwho7"
+    id: "zmwho7",
+    sources: [
+        {
+            name: "How do I use the conditional operator?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/392946/9715166"
+        },
+        {
+            name: "Ternary Operator - Beau teaches JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=s4sB1hm73tw"
+        },
+        {
+            name: "Ternary Operators in JavaScript",
+            site: "medium",
+            url: "https://medium.com/@davidokpare/ternary-operators-in-javascript-94467c6c9e12"
+        },
+    ]
   },
   {
     question: "Why should we avoid using the global scope?",
     answer:
       "One main reason we avoid creating variables in the global scope is we can have variables that contradict each other by name.",
-    tags: ["javascript"],
+    tags: ["programming-fundamentals", "javascript"],
     type: "explanation",
     number: 154,
-    id: "13pmbm"
+    id: "13pmbm",
+    sources: [
+        {
+            name: "Why are global variables considered bad practice?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/10525602/9715166"
+        },
+        {
+            name: "4 Reasons to Stop Using Global Scope in JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=kD-VkzQ5fXI"
+        },
+        {
+            name: "JS and Global scope",
+            site: "medium",
+            url: "https://medium.com/code-smells/js-and-global-scope-5014087badcd"
+        },
+    ]
   },
   {
     question: "What is a single page application?",
@@ -3235,7 +3514,24 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 155,
-    id: "hxzu33b"
+    id: "hxzu33b",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between mutable and immutable objects?",
@@ -3244,7 +3540,24 @@ module.exports = [
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
     number: 156,
-    id: "muv675d"
+    id: "muv675d",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the event loop?",
@@ -3252,7 +3565,24 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 157,
-    id: "c8s3phx"
+    id: "c8s3phx",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the difference between stack and heap?",
@@ -3261,7 +3591,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "comparison",
     number: 158,
-    id: "q932mxm"
+    id: "q932mxm",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3271,7 +3618,24 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 159,
-    id: "2zxjzh"
+    id: "2zxjzh",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the spread operator in JavaScript?",
@@ -3280,7 +3644,24 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 160,
-    id: "0dypif"
+    id: "0dypif",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3290,7 +3671,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 161,
-    id: "s77x6ap"
+    id: "s77x6ap",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the purpose of the history object?",
@@ -3299,7 +3697,24 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 162,
-    id: "93gy2j"
+    id: "93gy2j",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the 3 ways to create an object?",
@@ -3308,7 +3723,24 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 163,
-    id: "hb15iid"
+    id: "hb15iid",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3318,7 +3750,24 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 164,
-    id: "rg8h0r9"
+    id: "rg8h0r9",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is an Array Literal in JavaScript?",
@@ -3327,7 +3776,24 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 165,
-    id: "uqsr0e5"
+    id: "uqsr0e5",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How do you access nested array elements in JavaScript?",
@@ -3336,7 +3802,24 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 166,
-    id: "3a9p2lm"
+    id: "3a9p2lm",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the pre-determined falsy values in JavaScript?",
@@ -3344,7 +3827,24 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 167,
-    id: "mzni5"
+    id: "mzni5",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the purpose of the console.time( ) function?",
@@ -3353,7 +3853,24 @@ module.exports = [
     tags: ["dom"],
     type: "explanation",
     number: 168,
-    id: "30mg3o8"
+    id: "30mg3o8",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How do you round numbers in JavaScript?",
@@ -3362,7 +3879,24 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 169,
-    id: "5qpt0yu"
+    id: "5qpt0yu",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How do you get the remainder?",
@@ -3370,7 +3904,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "explanation",
     number: 170,
-    id: "vjcgpef"
+    id: "vjcgpef",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the purpose of the isNaN function in JavaScript?",
@@ -3379,7 +3930,24 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 171,
-    id: "q3npd"
+    id: "q3npd",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3389,7 +3957,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 172,
-    id: "277zx1n"
+    id: "277zx1n",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the difference between the prefix and postfix operator?",
@@ -3398,7 +3983,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "comparison",
     number: 173,
-    id: "e7yexgf"
+    id: "e7yexgf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the Object Literal in JavaScript?",
@@ -3407,7 +4009,24 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 174,
-    id: "1fcixm6"
+    id: "1fcixm6",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the 3 types of popup boxes?",
@@ -3415,7 +4034,24 @@ module.exports = [
     tags: ["javascript", "Front End"],
     type: "list",
     number: 175,
-    id: "skcrblb"
+    id: "skcrblb",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is String Concatenation?",
@@ -3423,7 +4059,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 176,
-    id: "ryj3919"
+    id: "ryj3919",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the purpose of the trim( ) command?",
@@ -3431,7 +4084,24 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 177,
-    id: "anc4mfc"
+    id: "anc4mfc",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the difference between charAt( ) and indexOf( )?",
@@ -3440,7 +4110,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 178,
-    id: "apkwlha"
+    id: "apkwlha",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a CSS property?",
@@ -3449,7 +4136,24 @@ module.exports = [
     tags: ["css"],
     type: "definition",
     number: 179,
-    id: "5knaiwu"
+    id: "5knaiwu",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3459,7 +4163,24 @@ module.exports = [
     tags: ["css"],
     type: "comparison",
     number: 180,
-    id: "t518ngu9"
+    id: "t518ngu9",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3469,7 +4190,24 @@ module.exports = [
     tags: ["css"],
     type: "comparison",
     number: 181,
-    id: "qa8mnhn"
+    id: "qa8mnhn",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are child selectors in CSS?",
@@ -3478,7 +4216,24 @@ module.exports = [
     tags: ["css"],
     type: "definition",
     number: 182,
-    id: "gpgybc"
+    id: "gpgybc",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the operators you can apply to child selectors in CSS?",
@@ -3486,7 +4241,24 @@ module.exports = [
     tags: ["css"],
     type: "list",
     number: 183,
-    id: "3dveaxt"
+    id: "3dveaxt",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the universal selector in CSS?",
@@ -3495,7 +4267,24 @@ module.exports = [
     tags: ["css"],
     type: "definition",
     number: 184,
-    id: "exo36m"
+    id: "exo36m",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a <div> element?",
@@ -3504,7 +4293,24 @@ module.exports = [
     tags: ["html"],
     type: "definition",
     number: 185,
-    id: "qen6nq"
+    id: "qen6nq",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a hyperlink?",
@@ -3513,7 +4319,24 @@ module.exports = [
     tags: ["front-end", "html"],
     type: "definition",
     number: 186,
-    id: "tqham1"
+    id: "tqham1",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to redirect to another webpage in JavaScript?",
@@ -3521,7 +4344,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 187,
-    id: "h0fs1xb"
+    id: "h0fs1xb",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if a string contains a substring in JavaScript?",
@@ -3529,7 +4369,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 188,
-    id: "r460xpv"
+    id: "r460xpv",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to remove an element from an array in JavaScript?",
@@ -3537,7 +4394,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 189,
-    id: "otgvjxf"
+    id: "otgvjxf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to remove a property from an Object in JavaScript?",
@@ -3546,7 +4420,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 190,
-    id: "u0g7hrb"
+    id: "u0g7hrb",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to deep clone and object in JavaScript?",
@@ -3555,7 +4446,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 191,
-    id: "l40vui"
+    id: "l40vui",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3564,7 +4472,24 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 192,
-    id: "eyv6az"
+    id: "eyv6az",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How can I include a JavaScript file in another JavaScript file?",
@@ -3572,7 +4497,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 193,
-    id: "ncrmxrg"
+    id: "ncrmxrg",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check whether a box is checked using JavaScript?",
@@ -3580,7 +4522,24 @@ module.exports = [
     tags: ["javascript", "dom"],
     type: "code",
     number: 194,
-    id: "ccv7qtn"
+    id: "ccv7qtn",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to validate an email address in JavaScript?",
@@ -3588,7 +4547,24 @@ module.exports = [
     tags: ["javascript", "Regular Expressions"],
     type: "code",
     number: 195,
-    id: "qvbghki"
+    id: "qvbghki",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What does it mean to use a # in the href?",
@@ -3597,7 +4573,24 @@ module.exports = [
     tags: ["html"],
     type: "explanation",
     number: 196,
-    id: "uqtpw7f"
+    id: "uqtpw7f",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3607,7 +4600,24 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 197,
-    id: "8ld9vff"
+    id: "8ld9vff",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to generate a GUID / UUID in JavaScript?",
@@ -3615,7 +4625,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 198,
-    id: "irpqnt"
+    id: "irpqnt",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How do you get a timestamp in JavaScript?",
@@ -3623,7 +4650,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 199,
-    id: "q72rjvf"
+    id: "q72rjvf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the primary reason for third-party cookies?",
@@ -3632,7 +4676,24 @@ module.exports = [
     tags: ["front-end"],
     type: "explanation",
     number: 200,
-    id: "z6cxsox"
+    id: "z6cxsox",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to capitalize first letter of a string in JavaScript?",
@@ -3640,7 +4701,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 201,
-    id: "isy74qv"
+    id: "isy74qv",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to append to array in JavaScript?",
@@ -3648,7 +4726,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 202,
-    id: "kr0ns2b"
+    id: "kr0ns2b",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3657,7 +4752,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 203,
-    id: "js40uib"
+    id: "js40uib",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the purpose of using the (!!) NOT NOT operator?",
@@ -3666,7 +4778,24 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 204,
-    id: "8q6thep"
+    id: "8q6thep",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if key exists in Object in JavaScript?",
@@ -3674,7 +4803,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 205,
-    id: "jwdkwj8"
+    id: "jwdkwj8",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to loop through Object in JavaScript?",
@@ -3682,7 +4828,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 206,
-    id: "atlqkai"
+    id: "atlqkai",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to change element's class using JavaScript?",
@@ -3690,7 +4853,24 @@ module.exports = [
     tags: ["javascript", "html", "css"],
     type: "code",
     number: 207,
-    id: "9awohc2"
+    id: "9awohc2",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check for empty Object in JavaScript?",
@@ -3698,7 +4878,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 208,
-    id: "10n1myo"
+    id: "10n1myo",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to sort array in JavaScript?",
@@ -3706,7 +4903,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 209,
-    id: "hieewlp"
+    id: "hieewlp",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to sort array of objects by value in JavaScript?",
@@ -3714,7 +4928,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 210,
-    id: "wioawyg"
+    id: "wioawyg",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "Why are global and static objects not recommended?",
@@ -3723,7 +4954,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "explanation",
     number: 211,
-    id: "rjbi72p"
+    id: "rjbi72p",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Inversion of Control?",
@@ -3732,7 +4980,24 @@ module.exports = [
     tags: ["design-patterns", "object-oriented-programming"],
     type: "explanation",
     number: 212,
-    id: "pkpevzg"
+    id: "pkpevzg",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the Law of Demeter?",
@@ -3741,7 +5006,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 213,
-    id: "629ynud"
+    id: "629ynud",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the Principle of Least Knowledge?",
@@ -3750,7 +5032,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 214,
-    id: "stfkz6"
+    id: "stfkz6",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the Active Record pattern?",
@@ -3759,7 +5058,24 @@ module.exports = [
     tags: ["design-patterns", "databases"],
     type: "definition",
     number: 215,
-    id: "t7ol12f"
+    id: "t7ol12f",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the Data Mapper pattern?",
@@ -3768,7 +5084,24 @@ module.exports = [
     tags: ["design-patterns", "databases"],
     type: "definition",
     number: 216,
-    id: "9zjg24"
+    id: "9zjg24",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the Anti Corruption Layer pattern?",
@@ -3777,7 +5110,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 217,
-    id: "m5rd8"
+    id: "m5rd8",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the Singleton pattern?",
@@ -3786,7 +5136,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 218,
-    id: "lv50qyj"
+    id: "lv50qyj",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Data Abstraction",
@@ -3795,7 +5162,24 @@ module.exports = [
     tags: ["databases", "design-patterns"],
     type: "definition",
     number: 219,
-    id: "x9opl2f"
+    id: "x9opl2f",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the DRY Principle?",
@@ -3804,7 +5188,24 @@ module.exports = [
     tags: ["design-patterns", "software-engineering"],
     type: "definition",
     number: 220,
-    id: "uflbl7a"
+    id: "uflbl7a",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3814,7 +5215,24 @@ module.exports = [
     tags: ["programming-fundamentals", "design-patterns"],
     type: "explanation",
     number: 221,
-    id: "8k82eig"
+    id: "8k82eig",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the robustness principle?",
@@ -3822,7 +5240,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 222,
-    id: "8b2gso"
+    id: "8b2gso",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the separation of concerns principle?",
@@ -3831,7 +5266,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 223,
-    id: "0htvje"
+    id: "0htvje",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "Why do we need high cohesion and loose coupling?",
@@ -3840,7 +5292,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "explanation",
     number: 224,
-    id: "2brm8fg"
+    id: "2brm8fg",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between cohesion and coupling",
@@ -3849,7 +5318,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "comparison",
     number: 225,
-    id: "sj2650p"
+    id: "sj2650p",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is code refactoring",
@@ -3858,7 +5344,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 226,
-    id: "3155i1d"
+    id: "3155i1d",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -3868,7 +5371,24 @@ module.exports = [
     tags: ["front-end", "back-end"],
     type: "comparison",
     number: 227,
-    id: "2tu82q"
+    id: "2tu82q",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is stateless?",
@@ -3877,7 +5397,24 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 228,
-    id: "j9iazb"
+    id: "j9iazb",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is eventual consistency?",
@@ -3886,7 +5423,24 @@ module.exports = [
     tags: ["databases", "back-end"],
     type: "definition",
     number: 229,
-    id: "ho9veyj"
+    id: "ho9veyj",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the CAP theorem?",
@@ -3895,7 +5449,24 @@ module.exports = [
     tags: ["databases", "back-end"],
     type: "definition",
     number: 230,
-    id: "qrwi1oa"
+    id: "qrwi1oa",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between SQL and NoSQL?",
@@ -3904,7 +5475,24 @@ module.exports = [
     tags: ["databases"],
     type: "comparison",
     number: 231,
-    id: "1nygprp"
+    id: "1nygprp",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Kubernetes?",
@@ -3913,7 +5501,24 @@ module.exports = [
     tags: ["back-end"],
     type: "definition",
     number: 232,
-    id: "q1muolx"
+    id: "q1muolx",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "Why are virtual machines important to back-end?",
@@ -3921,7 +5526,24 @@ module.exports = [
     tags: ["back-end"],
     type: "explanation",
     number: 233,
-    id: "1ssdyt"
+    id: "1ssdyt",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Linux?",
@@ -3930,7 +5552,24 @@ module.exports = [
     tags: ["back-end"],
     type: "definition",
     number: 234,
-    id: "p37q47j"
+    id: "p37q47j",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "Why are most servers built with Linux than Windows?",
@@ -3939,7 +5578,24 @@ module.exports = [
     tags: ["linux", "operating-systems"],
     type: "explanation",
     number: 235,
-    id: "lgr33qb"
+    id: "lgr33qb",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between Linux and Windows?",
@@ -3948,7 +5604,24 @@ module.exports = [
     tags: ["linux", "operating-systems"],
     type: "explanation",
     number: 236,
-    id: "3q48k4v"
+    id: "3q48k4v",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Agile?",
@@ -3957,7 +5630,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 237,
-    id: "0hffi2"
+    id: "0hffi2",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a Sprint?",
@@ -3966,7 +5656,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 238,
-    id: "26k5ne"
+    id: "26k5ne",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is an API?",
@@ -3975,7 +5682,24 @@ module.exports = [
     tags: ["APIs", "back-end"],
     type: "definition",
     number: 239,
-    id: "r0jowmd"
+    id: "r0jowmd",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is REST?",
@@ -3984,7 +5708,24 @@ module.exports = [
     tags: ["rest", "design-patterns"],
     type: "definition",
     number: 240,
-    id: "6pehq9o"
+    id: "6pehq9o",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the 5 REST Methods?",
@@ -3992,7 +5733,24 @@ module.exports = [
     tags: ["rest", "design-patterns"],
     type: "definition",
     number: 241,
-    id: "ojww2ff"
+    id: "ojww2ff",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is JQuery?",
@@ -4001,7 +5759,24 @@ module.exports = [
     tags: ["javascript", "front-end", "javascript-libraries"],
     type: "definition",
     number: 242,
-    id: "uorwuur"
+    id: "uorwuur",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is CoffeeScript?",
@@ -4010,7 +5785,24 @@ module.exports = [
     tags: ["javascript", "javascript-libraries"],
     type: "definition",
     number: 243,
-    id: "ljdn42"
+    id: "ljdn42",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between JQuery and CoffeeScript?",
@@ -4019,7 +5811,24 @@ module.exports = [
     tags: ["javascript", "javascript-libraries"],
     type: "explanation",
     number: 244,
-    id: "cjax144"
+    id: "cjax144",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "Why is JQuery no longer popular?",
@@ -4028,7 +5837,24 @@ module.exports = [
     tags: ["javascript", "javascript-libraries"],
     type: "explanation",
     number: 245,
-    id: "ao7slwl"
+    id: "ao7slwl",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a bug?",
@@ -4037,7 +5863,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 246,
-    id: "0kovdkf"
+    id: "0kovdkf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is debugging?",
@@ -4046,7 +5889,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 247,
-    id: "43f5llk"
+    id: "43f5llk",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is code?",
@@ -4055,7 +5915,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 248,
-    id: "rtt06o"
+    id: "rtt06o",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a Data Structure?",
@@ -4064,7 +5941,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 249,
-    id: "9dmt7uk"
+    id: "9dmt7uk",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is deployment?",
@@ -4073,7 +5967,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 250,
-    id: "islr4q"
+    id: "islr4q",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is documentation?",
@@ -4082,7 +5993,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 251,
-    id: "54n8r5"
+    id: "54n8r5",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a domain name?",
@@ -4091,7 +6019,24 @@ module.exports = [
     tags: ["networking"],
     type: "definition",
     number: 252,
-    id: "9dvpxk"
+    id: "9dvpxk",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a framework?",
@@ -4100,7 +6045,24 @@ module.exports = [
     tags: ["javascript-libraries"],
     type: "definition",
     number: 253,
-    id: "tnc2dxj"
+    id: "tnc2dxj",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the front-end?",
@@ -4109,7 +6071,24 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 254,
-    id: "07fox7s"
+    id: "07fox7s",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the back-end?",
@@ -4118,7 +6097,24 @@ module.exports = [
     tags: ["back-end"],
     type: "definition",
     number: 255,
-    id: "b2mkpu5"
+    id: "b2mkpu5",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is full-stack?",
@@ -4127,7 +6123,24 @@ module.exports = [
     tags: ["front-end", "back-end"],
     type: "definition",
     number: 256,
-    id: "n22ljc3"
+    id: "n22ljc3",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Git?",
@@ -4136,7 +6149,24 @@ module.exports = [
     tags: ["git"],
     type: "definition",
     number: 257,
-    id: "dhrzz7h"
+    id: "dhrzz7h",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Github?",
@@ -4144,7 +6174,24 @@ module.exports = [
     tags: ["git"],
     type: "definition",
     number: 258,
-    id: "6q7be0q"
+    id: "6q7be0q",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find longest substring without repeating characters in JavaScript?",
@@ -4152,7 +6199,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 259,
-    id: "7bbszl"
+    id: "7bbszl",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to convert a string to a number in JavaScript?",
@@ -4160,7 +6224,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 260,
-    id: "olq9ps"
+    id: "olq9ps",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to convert a number to a string in JavaScript?",
@@ -4168,7 +6249,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 261,
-    id: "a3mjlio"
+    id: "a3mjlio",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to remove vowels from string in JavaScript?",
@@ -4176,7 +6274,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 262,
-    id: "19k7g5"
+    id: "19k7g5",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to reverse an array in JavaScript?",
@@ -4184,7 +6299,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 263,
-    id: "h74jep"
+    id: "h74jep",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to reverse a string in JavaScript?",
@@ -4192,7 +6324,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 264,
-    id: "u7t2s1q"
+    id: "u7t2s1q",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if a string is all uppercase in JavaScript?",
@@ -4200,7 +6349,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 265,
-    id: "4eqrzp8"
+    id: "4eqrzp8",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if a string is all lowercase in JavaScript?",
@@ -4208,7 +6374,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 266,
-    id: "trhvy6"
+    id: "trhvy6",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find most reoccuring character in JavaScript?",
@@ -4216,7 +6399,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 267,
-    id: "2fmdui8"
+    id: "2fmdui8",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to get all permutations of a string in JavaScript?",
@@ -4224,7 +6424,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 268,
-    id: "nq1zehe"
+    id: "nq1zehe",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to reverse a sentence in JavaScript?",
@@ -4232,7 +6449,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 270,
-    id: "pdeg7lj"
+    id: "pdeg7lj",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find first non-repeating character in JavaScript?",
@@ -4240,7 +6474,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 271,
-    id: "g3y4as9"
+    id: "g3y4as9",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if string is palindrome in JavaScript?",
@@ -4248,7 +6499,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 272,
-    id: "j99xx3o"
+    id: "j99xx3o",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is responsive design",
@@ -4256,7 +6524,24 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 273,
-    id: "i2x0f9"
+    id: "i2x0f9",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Big O Efficiency / Big O Notation?",
@@ -4264,7 +6549,24 @@ module.exports = [
     tags: ["algorithms", "programming-fundamentals"],
     type: "definition",
     number: 274,
-    id: "dg97u4"
+    id: "dg97u4",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the best runtime for Big O?",
@@ -4272,7 +6574,24 @@ module.exports = [
     tags: ["algorithms"],
     type: "explanation",
     number: 275,
-    id: "2391eqr"
+    id: "2391eqr",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is the worst runtime for Big O?",
@@ -4280,7 +6599,24 @@ module.exports = [
     tags: ["algorithms"],
     type: "explanation",
     number: 276,
-    id: "ziecsv8"
+    id: "ziecsv8",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a hash table?",
@@ -4288,7 +6624,24 @@ module.exports = [
     tags: ["data-structures"],
     type: "definition",
     number: 277,
-    id: "05hyulk"
+    id: "05hyulk",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a software stack?",
@@ -4296,7 +6649,24 @@ module.exports = [
     tags: ["back-end", "front-end"],
     type: "definition",
     number: 278,
-    id: "clmv0xn"
+    id: "clmv0xn",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -4305,7 +6675,24 @@ module.exports = [
     tags: ["data-structures"],
     type: "comparison",
     number: 279,
-    id: "wjmzlea"
+    id: "wjmzlea",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "Why are hash tables important in algorithms?",
@@ -4313,7 +6700,24 @@ module.exports = [
     tags: ["algorithms", "Data Structures"],
     type: "explanation",
     number: 280,
-    id: "vh5ikj2"
+    id: "vh5ikj2",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between UX and UI Design?",
@@ -4321,7 +6725,24 @@ module.exports = [
     tags: ["front-end"],
     type: "comparison",
     number: 281,
-    id: "7bl2ums"
+    id: "7bl2ums",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between a mobile app and a web app?",
@@ -4329,7 +6750,24 @@ module.exports = [
     tags: ["front-end", "back-end"],
     type: "comparison",
     number: 282,
-    id: "vkx3jr0r"
+    id: "vkx3jr0r",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if string has only digits in JavaScript?",
@@ -4337,7 +6775,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 283,
-    id: "c3bt8ij"
+    id: "c3bt8ij",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to get number of vowels and consonants in JavaScript?",
@@ -4345,7 +6800,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 284,
-    id: "j6epsxe"
+    id: "j6epsxe",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to count number of occurrences of a string in JavaScript?",
@@ -4353,7 +6825,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 285,
-    id: "daldhei"
+    id: "daldhei",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find longest palindrome of a string in JavaScript?",
@@ -4361,7 +6850,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 286,
-    id: "bvl9h3f"
+    id: "bvl9h3f",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -4370,7 +6876,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 287,
-    id: "uwq5qpf"
+    id: "uwq5qpf",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if array contains a value in JavaScript?",
@@ -4378,7 +6901,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 288,
-    id: "luglhko"
+    id: "luglhko",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if all elements in an array are unique in JavaScript?",
@@ -4386,7 +6926,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 289,
-    id: "i9hzdt"
+    id: "i9hzdt",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find the largest value of an array in JavaScript?",
@@ -4394,7 +6951,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 290,
-    id: "8osyb4f"
+    id: "8osyb4f",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find the smallest value of an array in JavaScript?",
@@ -4402,7 +6976,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 291,
-    id: "v5jvz0e"
+    id: "v5jvz0e",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find the intersection of 2 arrays in JavaScript?",
@@ -4410,7 +7001,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 292,
-    id: "tb57y5j"
+    id: "tb57y5j",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to check if 2 strings are anagrams in JavaScript?",
@@ -4418,7 +7026,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 293,
-    id: "etqai3t"
+    id: "etqai3t",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to remove all odd numbers from an array in JavaScript?",
@@ -4426,15 +7051,49 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 294,
-    id: "86526vu"
-  },
+    id: "86526vu",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
+},
   {
     question: "How to remove all even numbers from an array in JavaScript?",
     answer: "https://gist.github.com/masautt/7c7766dc75bfd420df4d53c58133b866",
     tags: ["javascript"],
     type: "code",
     number: 295,
-    id: "6x0juy"
+    id: "6x0juy",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to find the first duplicate element of an array in JavaScript?",
@@ -4442,7 +7101,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 296,
-    id: "q2b43jv"
+    id: "q2b43jv",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to remove the first element from an array?",
@@ -4450,7 +7126,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 297,
-    id: "4kl7b58"
+    id: "4kl7b58",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to remove the last element from an array?",
@@ -4458,7 +7151,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 298,
-    id: "mo1dpw"
+    id: "mo1dpw",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to shuffle an array in JavaScript?",
@@ -4466,7 +7176,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 299,
-    id: "pkjkh4p"
+    id: "pkjkh4p",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the 3 steps of compilation?",
@@ -4475,7 +7202,24 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 300,
-    id: "hfv4gir"
+    id: "hfv4gir",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the 2 ways to cheat lexical scope in JavaScript?",
@@ -4484,7 +7228,24 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 301,
-    id: "1kxmhgp"
+    id: "1kxmhgp",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question:
@@ -4494,7 +7255,24 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 302,
-    id: "az6wgql"
+    id: "az6wgql",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What are the 9 Built-in Objects in JavaScript?",
@@ -4503,7 +7281,24 @@ module.exports = [
     tags: ["javascript"],
     type: "list",
     number: 303,
-    id: "dxmugsh"
+    id: "dxmugsh",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between a variable and a value?",
@@ -4512,7 +7307,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "comparison",
     number: 304,
-    id: "o1m8bh8"
+    id: "o1m8bh8",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a loop?",
@@ -4521,7 +7333,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 305,
-    id: "1fn4aw5"
+    id: "1fn4aw5",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What's the difference between troubleshooting and debugging?",
@@ -4530,7 +7359,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "comparison",
     number: 306,
-    id: "es2fym3s"
+    id: "es2fym3s",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a data structure?",
@@ -4539,7 +7385,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 307,
-    id: "6bdumv6"
+    id: "6bdumv6",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is a function?",
@@ -4548,7 +7411,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 308,
-    id: "uxyt91a"
+    id: "uxyt91a",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is recursion?",
@@ -4557,7 +7437,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 309,
-    id: "gg14f8e"
+    id: "gg14f8e",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to randomly generate alpha-numeric id in JavaScript?",
@@ -4565,7 +7462,24 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 310,
-    id: "y80wde7"
+    id: "y80wde7",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is Software localization?",
@@ -4574,7 +7488,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 311,
-    id: "jexkah"
+    id: "jexkah",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "What is scope?",
@@ -4583,7 +7514,24 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 312,
-    id: "e1bejw9"
+    id: "e1bejw9",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
   {
     question: "How to replace all occurrences of a string in JavaScript?",
@@ -4591,6 +7539,23 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 313,
-    id: "n679h6"
+    id: "n679h6",
+    sources: [
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+        {
+            name: "",
+            site: "",
+            url: ""
+        },
+    ]
   },
 ];
