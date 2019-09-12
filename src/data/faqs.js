@@ -2261,28 +2261,28 @@ module.exports = [
     ],
   },
   {
-    question: "How to imbed other websites in a website through HTML?",
+    question: "What's the difference between iframe, imbed, and object elements in HTML?",
     answer:
-      "The <iframe> tag is used to load other webpages by setting the src equal to the website.",
+      "<iframe> is the HTML 5 standard for including resources from other domains or subdomains as well as content. <embed> was also standardized in HTML 5 but is used to embed content for browser plugins. <object> is more versatile and can handle the first 2",
     tags: ["html", "front-end"],
-    type: "explanation",
+    type: "comparison",
     number: 101,
     id: "ty28g8c",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "difference between iframe, embed and object elements",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/21115112/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "HTML video tutorial - 77 - iframe tag vs object embed tags",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ZNy2ajRiGXc"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "From object to iframe — other embedding technologies",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies"
       },
     ],
   },
@@ -2296,124 +2296,72 @@ module.exports = [
     id: "kwojsm",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Is there an easy way to change the color of a bullet in a list?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/76626/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Bulleted List HTML, Change the color of Bullets | Quick Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=oGHguEotnDY"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Styling lists",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists"
       },
     ],
   },
   {
-    question: "How many empty elements are there in HTML?",
+    question: "What's the difference between span and div tags?",
     answer:
-      "Empty elements do not have any parameters and thus do not render and content. These include the <br> and <hr> tags.",
-    tags: ["html", "front-end"],
-    type: "list",
-    number: 103,
-    id: "1jecy8t",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ],
-  },
-  {
-    question: "What are the uses for a span tag?",
-    answer:
-      "The span tag is used to add color on text, background on text, and highlight on text.",
+      "In terms of CSS, div is a block element while span is inline. This means we should be using divs to wrap sections of a document while spans should be used to wrap small portions of text and images.",
     tags: ["html", "front-end"],
     type: "explanation",
     number: 104,
     id: "h9e2tu4",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the difference between HTML tags <div> and <span>?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/183536/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Divs vs Spans",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=UBWl37Rr9_c"
       },
       {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ],
-  },
-  {
-    question: "What is the purpose behind the iframe tag?",
-    answer:
-      "The iframe tag is used to display external web pages within your webpage.",
-    tags: ["html", "front-end"],
-    type: "definition",
-    number: 105,
-    id: "x8xct1",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
+        name: "Span and Div",
+        site: "globe",
+        url: "https://www.google.com/search?q=medium+span+vs+div+tags&rlz=1C1GCEB_enUS850US850&oq=medium+span+vs+div+tags&aqs=chrome..69i57j33l5.4840j0j4&sourceid=chrome&ie=UTF-8"
       },
     ],
   },
   {
     question:
-      "What is the difference between an expression and a statement in JavaScript?",
+      "What is the difference between an expression and a statement?",
     answer:
       "An expression is any reference to a variable or value, or a set of variables and values combined with operators. Statements are made up of expressions and are defined as a group of words, numbers, and operators that performs a specific task.",
-    tags: ["javascript", "programming-fundamentals"],
+    tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
     number: 106,
     id: "nz6uigo",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the difference between an expression and a statement in Python?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/questions/4728073/what-is-the-difference-between-an-expression-and-a-statement-in-python"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Expressions vs. Statements in JS / Intro to JavaScript ES6 programming, lesson 15",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=WVyCrI1cHi8"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Statements - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md#statements"
       },
     ],
   },
@@ -2421,25 +2369,25 @@ module.exports = [
     question: "What is the difference between compiling and interpreting code?",
     answer:
       "Interpreting code means translating the commands from top to bottom, line by line, every time the program is run whereas compiling code means the translation is done ahead of time.",
-    tags: ["javascript", "programming-fundamentals"],
+    tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
     number: 107,
     id: "8w2045j",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Compiled vs. Interpreted Languages",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/3265602/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Short Lesson - Compilation vs Interpretation",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=JNMy969SjyU"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Executing a Program - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/getting-started/ch1.md#executing-a-program"
       },
     ],
   },
@@ -2452,19 +2400,19 @@ module.exports = [
     id: "zuryx7t",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are Cascading Style Sheets (CSS)?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-Cascading-Style-Sheets-CSS"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Basics (Part1) — What is CSS?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=s7ONvIgOWdM"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS for Beginners: What is CSS and How to Use it in Web Development?",
+        site: "medium",
+        url: "https://medium.com/swlh/css-for-beginners-what-is-css-and-how-to-use-it-in-web-development-5985afe53096"
       },
     ],
   },
@@ -2478,19 +2426,19 @@ module.exports = [
     id: "w0md9j",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Comparison of loading CSS inline, embedded and from external files",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/2455658/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to Link CSS to HTML Document",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=y4gWr2fya0I"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to add CSS to HTML",
+        site: "globe",
+        url: "https://matthewjamestaylor.com/add-css-to-html"
       },
     ],
   },
@@ -2504,45 +2452,19 @@ module.exports = [
     id: "0f140i",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What does CSS selector mean?",
+        site: "quora",
+        url: "https://www.quora.com/What-does-CSS-selector-mean"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What's A CSS Selector?",
+        site: "youtube",
+        url: "https://youtu.be/9YNJkJ2hdno?t=34"
       },
       {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ],
-  },
-  {
-    question: "What is Tweening?",
-    answer:
-      "A key process in all types of animations which involves generating intermediate frames between two images called keyframes. Allowing for the appearance of animation.",
-    tags: ["css", "front-end"],
-    type: "definition",
-    number: 111,
-    id: "p8puyrf",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
+        name: "Understanding CSS Selectors",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/understanding-css-selectors-1c03267e7cd2"
       },
     ],
   },
@@ -2605,7 +2527,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "code",
     number: 114,
-    id: "qjmpnhw"
+    id: "qjmpnhw",
+        sources: [
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+    ],
   },
   {
     question: "What is the difference between a Radial and Linear Gradient?",
@@ -2614,8 +2553,25 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 115,
-    id: "0im5ofr"
-  },
+    id: "0im5ofr",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
+    },
   {
     question: "What is flexbox?",
     answer:
@@ -2623,8 +2579,25 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "list",
     number: 116,
-    id: "5mn4ena"
-  },
+    id: "5mn4ena",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
+    },
   {
     question: "What is the difference between padding and margin?",
     answer:
@@ -2632,7 +2605,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 117,
-    id: "ej0ew97"
+    id: "ej0ew97",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is a CSS pseudo class?",
@@ -2641,7 +2631,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 118,
-    id: "pl8l5t"
+    id: "pl8l5t",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What are the types of positions in CSS?",
@@ -2649,7 +2656,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "list",
     number: 119,
-    id: "h29l0ss"
+    id: "h29l0ss",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What's the difference between inline and block elements in CSS?",
@@ -2658,7 +2682,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 120,
-    id: "pibwqy"
+    id: "pibwqy",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What's the difference between ID's and classes in CSS?",
@@ -2666,7 +2707,24 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 121,
-    id: "0afiemj"
+    id: "0afiemj",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is Software Engineering?",
@@ -2675,7 +2733,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 122,
-    id: "z69xlr"
+    id: "z69xlr",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What are the 7 steps of the Software Development Life Cycle?",
@@ -2684,7 +2759,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "list",
     number: 123,
-    id: "4auxcar"
+    id: "4auxcar",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What's the difference between the Waterfall and Agile Model?",
@@ -2693,7 +2785,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "comparison",
     number: 124,
-    id: "pl22qf"
+    id: "pl22qf",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is the role of a Software Project Manager?",
@@ -2702,7 +2811,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 125,
-    id: "hndiub"
+    id: "hndiub",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is Software Project Scope?",
@@ -2711,7 +2837,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 126,
-    id: "96ym70s"
+    id: "96ym70s",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is Software Project Estimation?",
@@ -2720,7 +2863,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 127,
-    id: "g2i0vf"
+    id: "g2i0vf",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is AB Testing?",
@@ -2729,7 +2889,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 128,
-    id: "mg5vik"
+    id: "mg5vik",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is a baseline?",
@@ -2738,7 +2915,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 129,
-    id: "a2qk2ve"
+    id: "a2qk2ve",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is Software Configuration Management?",
@@ -2746,7 +2940,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 130,
-    id: "3qzny1"
+    id: "3qzny1",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is Change Control?",
@@ -2755,7 +2966,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 131,
-    id: "ba23y8g"
+    id: "ba23y8g",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is a Software Requirement?",
@@ -2764,7 +2992,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 132,
-    id: "2cc5trs"
+    id: "2cc5trs",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question: "What is the Feasibility Study?",
@@ -2773,7 +3018,24 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 133,
-    id: "f43el8"
+    id: "f43el8",
+    sources: [
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+        {
+          name: "",
+          site: "",
+          url: ""
+        },
+      ],
   },
   {
     question:
