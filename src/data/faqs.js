@@ -6728,19 +6728,19 @@ module.exports = [
     id: "7bl2ums",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is the difference between UI design and UX design?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-the-difference-between-UI-design-and-UX-design"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "UX vs UI Design - What each of them does",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=hQ1rpJKyj68"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "UI vs UX Design (an overview)",
+            site: "medium",
+            url: "https://medium.com/@iamjesseshow/ux-vs-us-7431dd859418"
         },
     ]
   },
@@ -6753,19 +6753,19 @@ module.exports = [
     id: "vkx3jr0r",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What are the difference between web app and mobile app?",
+            site: "quora",
+            url: "https://www.quora.com/What-are-the-difference-between-web-app-and-mobile-app"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Mobile Apps - Web vs. Native vs. Hybrid",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=ZikVtdopsfY"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Mobile Website or Mobile App: What to choose?",
+            site: "medium",
+            url: "https://medium.com/swlh/mobile-website-or-mobile-app-what-to-choose-28d0cf19d93c"
         },
     ]
   },
@@ -6778,19 +6778,19 @@ module.exports = [
     id: "c3bt8ij",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Check if string contains only digits",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1779019/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript - how to make html input text Allow only Numeric values In JS [ with source code ]",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=6bKvevjR7GM"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Regex tutorial — A quick cheatsheet by examples",
+            site: "medium",
+            url: "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285"
         },
     ]
   },
@@ -6803,19 +6803,19 @@ module.exports = [
     id: "j6epsxe",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Counting number of vowels in a string with JavaScript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/29450463"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript Challenges - Count the number of vowels in a string",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
+            site: "dev",
+            url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
         },
     ]
   },
@@ -6828,19 +6828,19 @@ module.exports = [
     id: "daldhei",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Count the number of occurrences of a character in a string in Javascript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/881111"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JavaScript Tips and Tricks 03 - Count number of characters",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=BxPxXk0ubA4"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "String Practice Problems",
+            site: "medium",
+            url: "https://medium.com/@codingfreak/string-practice-problems-i-c64e073a7138"
         },
     ]
   },
@@ -6853,19 +6853,19 @@ module.exports = [
     id: "bvl9h3f",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Given a string s, find the longest palindromic substring in s.",
+            site: "jsfiddle",
+            url: "https://jsfiddle.net/vovchuck_bogdan/yv6u9d1u/2/"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "LONGEST PALINDROME SUB STRING WITH DYNAMIC PROGRAMMING",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=Fi5INvcmDos"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Longest Palindromic Substring",
+            site: "medium",
+            url: "https://medium.com/@bhprtk/longest-palindromic-substring-a8190fab03ff"
         },
     ]
   },
@@ -6879,19 +6879,19 @@ module.exports = [
     id: "uwq5qpf",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Get all unique values in a JavaScript array (remove duplicates)",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/14438954/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Remove duplicates from array in JavaScript – the only right way",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to Remove Array Duplicates in ES6",
+            site: "medium",
+            url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
         },
     ]
   },
@@ -6904,19 +6904,19 @@ module.exports = [
     id: "luglhko",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How do I check if an array includes an object in JavaScript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1473742/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JavaScript Problem: Searching an Array for a Value",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=MLNmrzGQYdU"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Arrays in JavaScript",
+            site: "medium",
+            url: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
         },
     ]
   },
@@ -6929,24 +6929,24 @@ module.exports = [
     id: "i9hzdt",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Check if an array contains duplicate values",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/34192063/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Remove duplicates from array in JavaScript – the only right way",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to Remove Array Duplicates in ES6",
+            site: "medium",
+            url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
         },
     ]
   },
   {
-    question: "How to find the largest value of an array in JavaScript?",
+    question: "How to find the min/max value of an array in JavaScript?",
     answer: "https://gist.github.com/masautt/c666b85dc77ba2b0d913162a5e55548a",
     tags: ["javascript"],
     type: "code",
@@ -6954,44 +6954,19 @@ module.exports = [
     id: "8osyb4f",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Find the min/max element of an Array in JavaScript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1669222/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JavaScript Tip: Finding the Minimum or Maximum Value in an Array",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=IY7TRbXLU6c"
         },
         {
-            name: "",
-            site: "",
-            url: ""
-        },
-    ]
-  },
-  {
-    question: "How to find the smallest value of an array in JavaScript?",
-    answer: "https://gist.github.com/masautt/e083d73429887f53fa384b726d82deea",
-    tags: ["javascript"],
-    type: "code",
-    number: 291,
-    id: "v5jvz0e",
-    sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
+            name: "Calculate the Max/Min value from an array",
+            site: "globe",
+            url: "https://www.jstips.co/en/javascript/calculate-the-max-min-value-from-an-array/"
         },
     ]
   },
@@ -7004,19 +6979,19 @@ module.exports = [
     id: "tb57y5j",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Simplest code for array intersection in javascript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1885569/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to find intersection of two arrays in JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=m3U69xPawkw"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Array intersection, difference and union in ES6",
+            site: "medium",
+            url: "https://medium.com/@alvaro.saburido/set-theory-for-arrays-in-es6-eb2f20a61848"
         },
     ]
   },
@@ -7029,19 +7004,19 @@ module.exports = [
     id: "etqai3t",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JavaScript anagram comparison",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/23785653/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JS Interview - Anagrams - Question 15",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=YCpxWfxU0NQ"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Solving the anagram problem",
+            site: "medium",
+            url: "https://medium.com/@gianpaul.r/solving-the-anagram-problem-c4589211c130"
         },
     ]
   },
@@ -7054,19 +7029,19 @@ module.exports = [
     id: "86526vu",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Testing whether a value is odd or even",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/6211660/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to Check a Number is Even or Odd in JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Check if Number is Even/Odd",
+            site: "globe",
+            url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
         },
     ]
 },
@@ -7079,19 +7054,19 @@ module.exports = [
     id: "6x0juy",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Testing whether a value is odd or even",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/6211660/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to Check a Number is Even or Odd in JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Check if Number is Even/Odd",
+            site: "globe",
+            url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
         },
     ]
   },
@@ -7104,19 +7079,19 @@ module.exports = [
     id: "q2b43jv",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript: How to find first duplicate value and return its index?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/39346715/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "CodeFights: Interview Practice - First Duplicate from Google",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=L0VivTGm0nQ"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Algorithms Exercise: Find the First Duplicate in an Array",
+            site: "medium",
+            url: "https://medium.com/@joshsaintjacque/algorithms-exercise-find-the-first-duplicate-in-an-array-e97e9ed282c1"
         },
     ]
   },
@@ -7129,19 +7104,19 @@ module.exports = [
     id: "4kl7b58",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "https://stackoverflow.com/questions/2003815/how-to-remove-element-from-an-array-in-javascript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/2003825/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to remove the first element of a JavaScript Array - Array.prototype.shift()",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=8xFxxhfuw7g"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to remove an element from a JavaScript array.",
+            site: "medium",
+            url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
         },
     ]
   },
@@ -7154,19 +7129,19 @@ module.exports = [
     id: "mo1dpw",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Remove last item from array",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/19544478/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JavaScript Array - 05 - Remove the last element",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=RbrrOQEiotU"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to remove an element from a JavaScript array.",
+            site: "medium",
+            url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
         },
     ]
   },
@@ -7179,19 +7154,19 @@ module.exports = [
     id: "pkjkh4p",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to randomize (shuffle) a JavaScript array?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/12646864/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JavaScript Problem: Shuffling an Array",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=myL4xmtAVtw"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How To Correctly Shuffle An Array in JavaScript",
+            site: "medium",
+            url: "https://medium.com/@nitinpatel_20236/how-to-shuffle-correctly-shuffle-an-array-in-javascript-15ea3f84bfb"
         },
     ]
   },
@@ -7205,19 +7180,19 @@ module.exports = [
     id: "hfv4gir",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is compilation?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-compilation"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Compilation - Part One: Overview of the Stages of Compilation",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=0A079QpDAzY"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Compiler Theory - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch1.md#compiler-theory"
         },
     ]
   },
@@ -7231,19 +7206,19 @@ module.exports = [
     id: "1kxmhgp",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Cheating Lexical Scope: eval",
+            site: "globe",
+            url: "https://frontendmasters.com/courses/advanced-javascript/cheating-lexical-scope-eval/"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Cheating lexical scoping in JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=W_StzOwiKXk"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Cheating Lexical - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#cheating-lexical"
         },
     ]
   },
@@ -7258,45 +7233,19 @@ module.exports = [
     id: "az6wgql",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "what are the advantages and disadvantages of anonymous methods in javascript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/9123921/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "16.3: ES6 Arrow Function - Topics of JavaScript/ES6",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=mrYMzpbFz18"
         },
         {
-            name: "",
-            site: "",
-            url: ""
-        },
-    ]
-  },
-  {
-    question: "What are the 9 Built-in Objects in JavaScript?",
-    answer:
-      "String, Number, Boolean, Object, Function, Array, Date, RegExp, Error",
-    tags: ["javascript"],
-    type: "list",
-    number: 303,
-    id: "dxmugsh",
-    sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
+            name: "Unlexical - You Don't Know JS",
+            site: "github",
+            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch6.md#unlexical"
         },
     ]
   },
@@ -7310,19 +7259,19 @@ module.exports = [
     id: "o1m8bh8",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is a variable?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-a-variable"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+            site: "youtube",
+            url: "https://youtu.be/l26oaHV7D40?t=56"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "The Visual Guide To JavaScript Variable Definitions & Scope",
+            site: "medium",
+            url: "https://medium.com/@js_tut/the-visual-guide-to-javascript-variable-definitions-scope-abfb86edad"
         },
     ]
   },
@@ -7336,19 +7285,19 @@ module.exports = [
     id: "1fn4aw5",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is a for loop?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-a-for-loop"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+            site: "youtube",
+            url: "https://youtu.be/l26oaHV7D40?t=256"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "The Complete Guide To Loops",
+            site: "medium",
+            url: "https://medium.com/@js_tut/the-complete-guide-to-loops-cfa6522157e9"
         },
     ]
   },
@@ -7362,19 +7311,19 @@ module.exports = [
     id: "es2fym3s",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "debugging vs. troubleshooting",
+            site: "globe",
+            url: "https://forum.wordreference.com/threads/debugging-vs-troubleshooting.2909914/"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Debugging Tips - What is bug and debugging?",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Troubleshooting vs Debugging: What’s the Difference & Best Practices",
+            site: "globe",
+            url: "https://stackify.com/troubleshooting-vs-debugging-whats-the-difference-best-practices/"
         },
     ]
   },
@@ -7388,19 +7337,19 @@ module.exports = [
     id: "6bdumv6",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What exactly is a data structure?",
+            site: "quora",
+            url: "https://www.quora.com/What-exactly-is-a-data-structure"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Data Structures: Crash Course Computer Science #14",
+            site: "youtube",
+            url: "https://youtu.be/DuDz6B4cqVc"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Introduction to Data Structures",
+            site: "medium",
+            url: "https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6"
         },
     ]
   },
@@ -7414,19 +7363,19 @@ module.exports = [
     id: "uxyt91a",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is a function in computer programming?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-a-function-in-computer-programming"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+            site: "youtube",
+            url: "https://youtu.be/l26oaHV7D40?t=459"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Basic JavaScript: Write Reusable JavaScript with Functions",
+            site: "free-code-camp",
+            url: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions/"
         },
     ]
   },
@@ -7440,19 +7389,19 @@ module.exports = [
     id: "gg14f8e",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is recursion?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-recursion"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What Is Recursion - Recursion Explained In 3 Minutes",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=YZcO_jRhvxs"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Recursion Made Simple",
+            site: "medium",
+            url: "https://medium.com/code-zen/recursion-demystified-24867f045c62"
         },
     ]
   },
@@ -7465,19 +7414,19 @@ module.exports = [
     id: "y80wde7",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Generate random string/characters in JavaScript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/8084248/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Using Math.random() in JavaScript",
+            site: "medium",
+            url: "https://medium.com/@josephcardillo/using-math-random-in-javascript-c49eff920b11"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to generate random numbers in JavaScript - Math.random",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=1Rq_LrpcgIM"
         },
     ]
   },
@@ -7491,19 +7440,19 @@ module.exports = [
     id: "jexkah",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is Software Localization?",
+            site: "globe",
+            url: "https://www.sdltrados.com/solutions/software-localization/"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Translation and Localization",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=J7ODeZK8TDI"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Best Practices for the Software Localization Process",
+            site: "medium",
+            url: "https://medium.com/webeagle/best-practices-for-the-software-localization-process-d35b8dac6f0f"
         },
     ]
   },
@@ -7517,19 +7466,19 @@ module.exports = [
     id: "e1bejw9",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is scope of the variable?",
+            site: "quora",
+            url: "https://www.quora.com/What-is-scope-of-the-variable"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Scope - Programming Languages",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=wTn6oQ56MV8"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Scope vs. Context in JavaScript",
+            site: "medium",
+            url: "https://medium.com/better-programming/scope-vs-context-in-javascript-b31818f58558"
         },
     ]
   },
@@ -7542,19 +7491,19 @@ module.exports = [
     id: "n679h6",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to replace all occurrences of a string?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/17606289/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to replace all occurrences of a string in JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=7FcavNZnLAc"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to replace all occurrences of a string in JavaScript",
+            site: "globe",
+            url: "https://flaviocopes.com/how-to-replace-all-occurrences-string-javascript/"
         },
     ]
   },
