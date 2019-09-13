@@ -6277,19 +6277,19 @@ module.exports = [
     id: "19k7g5",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Counting number of vowels in a string with JavaScript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/29450463"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript Challenges - Count the number of vowels in a string",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
+            site: "dev",
+            url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
         },
     ]
   },
@@ -6302,19 +6302,19 @@ module.exports = [
     id: "h74jep",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is the most efficient way to reverse an array in Javascript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/9113136/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript reverse an Array",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=_KUdewtpQL4"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Code Recipe: How to Reverse an Array in JavaScript",
+            site: "medium",
+            url: "https://medium.com/dailyjs/code-recipe-how-to-reverse-an-array-in-javascript-4a0306001d28"
         },
     ]
   },
@@ -6327,19 +6327,19 @@ module.exports = [
     id: "u7t2s1q",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How do you reverse a string in place in JavaScript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/959004/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript Coding Challenge #1: Reverse a String (FreeCodeCamp)",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=miiM5JJgrQo"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Reverse a String in JavaScript",
+            site: "medium",
+            url: "https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c"
         },
     ]
   },
@@ -6352,19 +6352,19 @@ module.exports = [
     id: "4eqrzp8",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1077692/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "String.prototype.toUpperCase()",
+            site: "firefox",
+            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
         },
     ]
   },
@@ -6377,19 +6377,19 @@ module.exports = [
     id: "trhvy6",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/1077692/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "String.prototype.toLowerCase()",
+            site: "firefox",
+            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase"
         },
     ]
   },
@@ -6402,19 +6402,19 @@ module.exports = [
     id: "2fmdui8",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Finding the most frequent character in a string javascript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/22590204/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript Array Exercise: Majority Element",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=wQIEnwsXECs"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Find the most commonly used character in string",
+            site: "medium",
+            url: "https://medium.com/@Dragonza/find-the-most-commonly-used-character-in-string-ed00dc2279be"
         },
     ]
   },
@@ -6427,19 +6427,19 @@ module.exports = [
     id: "nq1zehe",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Permutations in JavaScript?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/20871714/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "JavaScript the Basics - Algorithms Part 3 Permutations",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=rxO6BFKr6ww"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Implement All Permutations of a Set in JavaScript",
+            site: "medium",
+            url: "https://initjs.org/all-permutations-of-a-set-f1be174c79f8"
         },
     ]
   },
@@ -6452,19 +6452,19 @@ module.exports = [
     id: "pdeg7lj",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Reverse a sentence and print each word in reverse order in Javascript [closed]",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/34083746/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "How to reverse word order in a sentence in 40 seconds ! JavaScript.",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=XK8-AUQSPW0"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "A popular programming interview question — reverse words of a sentence.",
+            site: "medium",
+            url: "https://medium.com/@hmurari/a-popular-programming-interview-question-reverse-words-of-a-sentence-3bac606d15a2"
         },
     ]
   },
@@ -6477,19 +6477,19 @@ module.exports = [
     id: "g3y4as9",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "return the first non repeating character in a string in javascript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/24793128/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Finding the First Non Repeating Character - JavaScript - Simplest Approach",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=tGoqKsPltxE"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "First non-repeating letter",
+            site: "medium",
+            url: "https://medium.com/@brendt_bly/first-non-repeating-letter-c00ef6a2e9b8"
         },
     ]
   },
@@ -6502,19 +6502,19 @@ module.exports = [
     id: "j99xx3o",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Palindrome check in Javascript",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/14813569/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Javascript Coding Challenge #3: Palindrome Check (Freecodecamp)",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=hvV48xfwZCs"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Three ways to check for palindromes in JavaScript",
+            site: "dev",
+            url: "https://dev.to/domazet93/three-ways-to-check-for-palindromes-in-javascript-jbk"
         },
     ]
   },
@@ -6527,19 +6527,19 @@ module.exports = [
     id: "i2x0f9",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is responsive web design",
+            site: "quora",
+            url: "https://www.quora.com/What-is-responsive-web-design-2"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Responsive Website Basics (in 3 simple steps)",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=h3IdEqpjMvQ"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Responsive design",
+            site: "medium",
+            url: "https://medium.com/owl-studios/responsive-design-af7a1f14b991"
         },
     ]
   },
@@ -6552,19 +6552,19 @@ module.exports = [
     id: "dg97u4",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What's the best way to explain big-O notation in laymen's terms?",
+            site: "quora",
+            url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Big O Notation",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "The Big Scary O Notation",
+            site: "medium",
+            url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
         },
     ]
   },
@@ -6577,19 +6577,19 @@ module.exports = [
     id: "2391eqr",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What's the best way to explain big-O notation in laymen's terms?",
+            site: "quora",
+            url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Big O Notation",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "The Big Scary O Notation",
+            site: "medium",
+            url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
         },
     ]
   },
@@ -6602,19 +6602,19 @@ module.exports = [
     id: "ziecsv8",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What's the best way to explain big-O notation in laymen's terms?",
+            site: "quora",
+            url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Big O Notation",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "The Big Scary O Notation",
+            site: "medium",
+            url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
         },
     ]
   },
@@ -6627,19 +6627,19 @@ module.exports = [
     id: "05hyulk",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What are hash tables and why are they useful?",
+            site: "quora",
+            url: "https://www.quora.com/What-are-hash-tables-and-why-are-they-useful"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Hash Tables - Beau teaches JavaScript",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=F95z5Wxd9ks"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Hash Tables",
+            site: "medium",
+            url: "https://medium.com/@bilalak90/hash-tables-c84d1b7aeb96"
         },
     ]
   },
@@ -6652,19 +6652,19 @@ module.exports = [
     id: "clmv0xn",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Software Stack - Techopedia",
+            site: "globe",
+            url: "https://www.techopedia.com/definition/27268/software-stack"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is Technology Stack? - Fast Tech Skills",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=AGBnP_CSp7Y"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What is a tech stack?",
+            site: "globe",
+            url: "https://learn.g2.com/what-is-a-tech-stack"
         },
     ]
   },
@@ -6678,19 +6678,19 @@ module.exports = [
     id: "wjmzlea",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Microsoft Asks: Singly List or Doubly List? What are the pros and cons of using each?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/10708820/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Data Structures: Linked Lists",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=njTh_OwMljA"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Data Structures — Linked List & Doubly Linked List",
+            site: "medium",
+            url: "https://medium.com/@ariel.salem1989/data-structures-linked-list-doubly-linked-list-f8cf1b1c9f28"
         },
     ]
   },
@@ -6703,19 +6703,19 @@ module.exports = [
     id: "vh5ikj2",
     sources: [
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "What's the point of a hash table?",
+            site: "stack-overflow",
+            url: "https://stackoverflow.com/a/2180053/9715166"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Data Structures: Hash Tables",
+            site: "youtube",
+            url: "https://www.youtube.com/watch?v=shs0KM3wKv8"
         },
         {
-            name: "",
-            site: "",
-            url: ""
+            name: "Hash Crash: The Basics of Hash Tables",
+            site: "medium",
+            url: "https://medium.com/@bartobri/hash-crash-the-basics-of-hash-tables-bef82a8ea550"
         },
     ]
   },
