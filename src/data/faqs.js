@@ -3516,21 +3516,21 @@ module.exports = [
     number: 155,
     id: "hxzu33b",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is SPA (single page application)?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-SPA-single-page-application"
+      },
+      {
+        name: "What Is A Single Page Applicaiton?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=xfGciVdbktI"
+      },
+      {
+        name: "How Single-Page Applications Work",
+        site: "medium",
+        url: "https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46"
+      },
     ]
   },
   {
@@ -3542,46 +3542,46 @@ module.exports = [
     number: 156,
     id: "muv675d",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Mutable vs immutable objects",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/214718"
+      },
+      {
+        name: "Programming Terms: Mutable vs Immutable",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=5qQQ3yzbKp8"
+      },
+      {
+        name: "Mutability & Immutability In Javascript",
+        site: "medium",
+        url: "https://medium.com/@ibraheemabukaff/mutability-immutability-in-javascript-48022d660015"
+      },
     ]
   },
   {
-    question: "What is the event loop?",
-    answer: "The event loop allows languages like JavaScript to use callbacks and promises. It waits for and dispatches events or messages in a program.",
+    question: "What is the event loop in JavaScript?",
+    answer: "The event loop allows JavaScript to use callbacks and promises. It waits for and dispatches events or messages in a program.",
     tags: ["javascript"],
     type: "definition",
     number: 157,
     id: "c8s3phx",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is the 'Event Loop' in Javascript?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-Event-Loop-in-Javascript"
+      },
+      {
+        name: "Javascript event loop | Every Javascript developer must know !",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=XzXIMZMN9k4"
+      },
+      {
+        name: "JavaScript Event Loop Explained",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4"
+      },
     ]
   },
   {
@@ -3593,21 +3593,21 @@ module.exports = [
     number: 158,
     id: "q932mxm",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What and where are the stack and heap?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/80113"
+      },
+      {
+        name: "Stack Versus Heap",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=IX3fDYz0WyM"
+      },
+      {
+        name: "Stack vs Heap. What’s the difference and why should I care?",
+        site: "medium",
+        url: "https://medium.com/@nickteixeira/stack-vs-heap-whats-the-difference-and-why-should-i-care-5abc78da1a88"
+      },
     ]
   },
   {
@@ -3620,21 +3620,21 @@ module.exports = [
     number: 159,
     id: "2zxjzh",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Understanding \"this\" in javascript with arrow functions",
+        site: "globe",
+        url: "https://www.codementor.io/dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc"
+      },
+      {
+        name: "Arrow function and this keyword in javascript😃",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=tANuyOClBIY"
+      },
+      {
+        name: "Lexical This - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch2.md#lexical-this"
+      },
     ]
   },
   {
@@ -3646,21 +3646,21 @@ module.exports = [
     number: 160,
     id: "0dypif",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What do the three dots (...) mean in JavaScript?",
+        site: "globe",
+        url: "https://oprea.rocks/blog/what-do-the-three-dots-mean-in-javascript/"
+      },
+      {
+        name: "...spread operator and rest operator - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=iLx4ma8ZqvQ"
+      },
+      {
+        name: "JavaScript ES6: Spread Operator and Rest Parameters",
+        site: "medium",
+        url: "https://medium.com/@luke_smaki/javascript-es6-spread-operator-and-rest-parameters-b3e89d112281"
+      },
     ]
   },
   {
@@ -3673,21 +3673,21 @@ module.exports = [
     number: 161,
     id: "s77x6ap",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "JavaScript: test vs exec",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/11005065"
+      },
+      {
+        name: "2.6: Regular Expressions: test() and match() - Programming with Text",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=W7S_Vmq0GSs"
+      },
+      {
+        name: "JS RegExp, Fast and Slow",
+        site: "medium",
+        url: "https://medium.com/dailyjs/js-regexp-fast-and-slow-d29d6b77b06"
+      },
     ]
   },
   {
@@ -3699,21 +3699,21 @@ module.exports = [
     number: 162,
     id: "93gy2j",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "History API",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
+      },
+      {
+        name: "Browser history tutorial - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=C9vsQkMu5gk"
+      },
+      {
+        name: "A little bit of history",
+        site: "medium",
+        url: "https://medium.com/@pshrmn/a-little-bit-of-history-f245306f48dd"
+      },
     ]
   },
   {
@@ -3725,21 +3725,21 @@ module.exports = [
     number: 163,
     id: "hb15iid",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Different ways of creating an Object in javascript",
+        site: "globe",
+        url: "https://coderwall.com/p/p5cf5w/different-ways-of-creating-an-object-in-javascript"
+      },
+      {
+        name: "Different Ways of Creating Objects in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=UrM9xgPxq1E"
+      },
+      {
+        name: "A thing or two about Objects in JavaScript.",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/a-thing-or-two-about-objects-in-javascript-c426a12e8b5f"
+      },
     ]
   },
   {
