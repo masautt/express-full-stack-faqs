@@ -4106,79 +4106,53 @@ module.exports = [
   {
     question: "What is the difference between string.charAt(x) and string[x]?",
     answer:
-      "",
+      "The bracket notation string[x] does not work in IE7 and below.",
     tags: ["javascript"],
     type: "comparison",
     number: 178,
     id: "apkwlha",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "string.charAt(x) or string[x]?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/5943760"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Strings: [bracket notation] - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=sPmRfjJdg5Y"
       },
       {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
-  },
-  {
-    question: "What is a CSS property?",
-    answer:
-      "Inside the declaration block, declarations are made and separated by semicolons. Each declaration includes a CSS property name and the value set for that property.",
-    tags: ["css"],
-    type: "definition",
-    number: 179,
-    id: "5knaiwu",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
+        name: "7 JavaScript Patterns Part 3: The Bracket Notation",
+        site: "medium",
+        url: "https://medium.com/better-programming/7-js-pattern-part-3-the-bracket-notation-f571c2548c0a"
       },
     ]
   },
   {
     question:
-      "What's the difference between CSS font-style and font-variant properties?",
+      "What's the difference between CSS font-style and font-weight properties?",
     answer:
-      "font-style is mostly used to specify italic text while font-variant determines whether or not the text should be displayed in small-caps font.",
+      "font-weight sets how thick or thin the characters should be while font-style specifies the style such as italic or bold.",
     tags: ["css"],
     type: "comparison",
     number: 180,
     id: "t518ngu9",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the difference between font-weight and font-style on CSS?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-difference-between-font-weight-and-font-style-on-CSS"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "XHTML and CSS Tutorial - 18 - font-weight & font-style",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=sW6CRoJaaoI"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Weight and Style",
+        site: "globe",
+        url: "https://smad.jmu.edu/shen/webtype/weight.html"
       },
     ]
   },
@@ -4193,19 +4167,19 @@ module.exports = [
     id: "qa8mnhn",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Attribute Selectors - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Tutorial For Beginners 18 - Attribute Selectors",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=GVocONem9lw"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are CSS Selectors?",
+        site: "medium",
+        url: "https://medium.com/beginners-guide-to-mobile-web-development/what-are-css-selectors-1ce3796c326c"
       },
     ]
   },
@@ -4219,44 +4193,44 @@ module.exports = [
     id: "gpgybc",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a child selector in CSS?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-child-selector-in-CSS"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Tutorial For Beginners 16 - Child Selectors",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=MlJrAhGVIis"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Introduction to nth-child CSS Selector",
+        site: "medium",
+        url: "https://medium.com/better-programming/introduction-to-nth-child-css-selector-9a94c9f00268"
       },
     ]
   },
   {
-    question: "What are the operators you can apply to child selectors in CSS?",
-    answer: "> + ~",
+    question: "What are the 3 combinators in CSS?",
+    answer: "1. > (Child combinator) where 2nd element is the child of the the 1st. 2. +  (Adjacent sibling combinator) where 2nd element immediately follows the 1st and both are children of the same parent. 3. ~ (General sibling combinator) where both elements are sibling of same parent but not directly adjacent.",
     tags: ["css"],
     type: "list",
     number: 183,
     id: "3dveaxt",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Combinators",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Combinator Selectors",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=L6Y9Yltj15A"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Smart Selectors, Part 1 of 2",
+        site: "medium",
+        url: "https://medium.com/@davidagash/css-smart-selectors-part-1-of-2-300597beba86"
       },
     ]
   },
@@ -4270,19 +4244,19 @@ module.exports = [
     id: "exo36m",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Universal selectors - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CSS Tutorial For Beginners 26 - The Universal Selector",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=EO4ToIX-ZQk"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Understanding CSS Selectors",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/understanding-css-selectors-1c03267e7cd2"
       },
     ]
   },
@@ -4296,19 +4270,19 @@ module.exports = [
     id: "qen6nq",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is use of <div> tag?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-use-of-div-tag"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "HTML Tutorial for Beginners 13 - The div Tag",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=-XQlr727A8w"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Basic Introduction to CSS",
+        site: "medium",
+        url: "https://medium.com/the-andela-way/basic-introduction-to-css-81f6041b92d0"
       },
     ]
   },
@@ -4322,19 +4296,19 @@ module.exports = [
     id: "tqham1",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a hyperlink?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-hyperlink"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "12: How to Create Links in HTML | Basics of CSS | Learn HTML and CSS | HTML Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=DiSvq5SgLMI"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to hyperlink!",
+        site: "medium",
+        url: "https://medium.com/@jack411ig/how-to-hyperlink-ac5a7a54d45c"
       },
     ]
   },
@@ -4347,19 +4321,19 @@ module.exports = [
     id: "h0fs1xb",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do I redirect to another webpage?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/506004"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Tutorial 34 - Redirect Page in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=jjxvNpsb6H0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do you redirect to another page in Javascript?",
+        site: "medium",
+        url: "https://medium.com/@marikalam/how-do-you-redirect-to-another-page-in-javascript-6c7524c1f88a"
       },
     ]
   },
