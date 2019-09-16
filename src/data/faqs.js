@@ -4346,19 +4346,19 @@ module.exports = [
     id: "r460xpv",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to check whether a string contains a substring in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1789952"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Array includes method",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=iOml7u_sAVk"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Array Includes() and IndexOf() Methods in JavaScript",
+        site: "medium",
+        url: "https://medium.com/better-programming/array-includes-method-in-javascript-38d919b59c41"
       },
     ]
   },
@@ -4371,19 +4371,19 @@ module.exports = [
     id: "otgvjxf",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do I remove a particular element from an array in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/5767357"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Tip: Deleting an Element from an Array",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=lQ5TnRXZoPs"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to remove an element from a JavaScript array.",
+        site: "medium",
+        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
       },
     ]
   },
@@ -4397,24 +4397,24 @@ module.exports = [
     id: "u0g7hrb",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do I remove a property from a JavaScript object?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/208106"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript for Developers 27 - Deleting properties with the delete operator",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ET8WE2pVihU"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Object’s tricky parts in JavaScript",
+        site: "medium",
+        url: "https://medium.com/code-to-express/objects-its-tricky-part-in-javascript-f40eb096f18a"
       },
     ]
   },
   {
-    question: "How to deep clone and object in JavaScript?",
+    question: "How to deep clone an object in JavaScript?",
     answer:
       "If the object does not have any functions a simple conversion to JSON and back will deep clone --> JSON.parse(JSON.stringify(objectToClone)). But if there are functions in the object or the object is a function, you should look at external libraries such as underscore or lodash.",
     tags: ["javascript"],
@@ -4423,19 +4423,19 @@ module.exports = [
     id: "l40vui",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the most efficient way to deep clone an object in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/122704"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Deep Copying vs Shallow Copying",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=duyshh9Fs1U"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to differentiate between deep and shallow copies in JavaScript",
+        site: "medium",
+        url: "https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/"
       },
     ]
   },
@@ -4449,19 +4449,19 @@ module.exports = [
     id: "eyv6az",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do I return the response from an asynchronous call?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/14220323"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Async JS Crash Course - Callbacks, Promises, Async Await",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=PoRJizFvM7s"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Callbacks, Promises and Async/Await",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/callbacks-promises-and-async-await-ad4756e01d90"
       },
     ]
   },
@@ -4474,19 +4474,19 @@ module.exports = [
     id: "ncrmxrg",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do I include a JavaScript file in another JavaScript file?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/950146"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "import / export (modules) - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Jqn_wjkSZwo"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "A simple intro to Javascript imports and exports",
+        site: "medium",
+        url: "https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac"
       },
     ]
   },
@@ -4499,44 +4499,44 @@ module.exports = [
     id: "ccv7qtn",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Checking if a checkbox is checked with Javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/5176274"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Javascript Checkbox - How To Check If A Check Box Is Checked Or Not [ with source code ]",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=yFYEHSh2iTQ"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Handling Checkboxes Onclick",
+        site: "globe",
+        url: "https://www.dyn-web.com/tutorials/forms/checkbox/group.php"
       },
     ]
   },
   {
     question: "How to validate an email address in JavaScript?",
     answer: "https://gist.github.com/masautt/622e9742ec56f77e33124257ddce19c6",
-    tags: ["javascript", "Regular Expressions"],
+    tags: ["javascript"],
     type: "code",
     number: 195,
     id: "qvbghki",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to validate an email address in JavaScript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/46181"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Regular Expressions (RegEx) Tutorial #15 - Email RegEx Pattern",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=QxjAOSUQjP0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to validate an email address in JavaScript",
+        site: "medium",
+        url: "https://medium.com/swlh/how-to-validate-an-email-address-in-javascript-78d33f87f5c6"
       },
     ]
   },
@@ -4550,19 +4550,19 @@ module.exports = [
     id: "uqtpw7f",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is href=“#” and why is it used?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/21397285"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "12: How to Create Links in HTML | Basics of CSS | Learn HTML and CSS | HTML Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=DiSvq5SgLMI"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to link to a specific paragraph in your Medium article (2018 Table of Contents method)",
+        site: "free-code-camp",
+        url: "https://www.freecodecamp.org/news/how-to-link-to-a-specific-paragraph-in-your-medium-article-2018-table-of-contents-method-e66595fea549/"
       },
     ]
   },
@@ -4577,19 +4577,19 @@ module.exports = [
     id: "8ld9vff",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Which “href” value should I use for JavaScript links, “#” or “javascript:void(0)”?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/138233"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript void Operator",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=TcVdiO6Pw90"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "void operator and JavaScript URIs - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void#JavaScript_URIs"
       },
     ]
   },
@@ -4602,19 +4602,19 @@ module.exports = [
     id: "irpqnt",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Create GUID / UUID in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/2117523"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JS Package Spotlight Ep.1 - Moment, BcryptJS, JWT Simple, Request & More",
+        site: "youtube",
+        url: "https://youtu.be/ON3I5N3PZKs?t=1680"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "It’s ok to use JavaScript generated GUID in a browser?",
+        site: "medium",
+        url: "https://medium.com/este-js-framework/its-ok-to-use-javascript-generated-guid-in-a-browser-373ca6431cf7"
       },
     ]
   },
@@ -4627,45 +4627,19 @@ module.exports = [
     id: "q72rjvf",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do you get a timestamp in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/221297"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to get the current timestamp in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=dOq9q-nCgLE"
       },
       {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
-  },
-  {
-    question: "What is the primary reason for third-party cookies?",
-    answer:
-      "Third-party cookies are used primarily in ad targeting. They are used to gather the information on user behavior such as visited websites, time spent, clicks, geographical location, etc",
-    tags: ["front-end"],
-    type: "explanation",
-    number: 200,
-    id: "z6cxsox",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
+        name: "Javascript Date and Time in Detail",
+        site: "youtube",
+        url: "https://medium.com/front-end-weekly/javascript-date-and-time-in-detail-270e85a68124"
       },
     ]
   },
@@ -4678,19 +4652,19 @@ module.exports = [
     id: "isy74qv",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do I make the first letter of a string uppercase in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1026087"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Capitalize First Letter: How to make strings and arrays sentence case",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=8IEI-7fj2j4"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Three Ways to Title Case a Sentence in JavaScript",
+        site: "free-code-camp",
+        url: "https://www.freecodecamp.org/news/three-ways-to-title-case-a-sentence-in-javascript-676a9175eb27/"
       },
     ]
   },
@@ -4703,19 +4677,19 @@ module.exports = [
     id: "kr0ns2b",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to append something to an array?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/351421"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Common Array Methods - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=MeZVVxLn26E"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript: Array Methods Cheatsheet",
+        site: "medium",
+        url: "https://medium.com/@timhancodes/javascript-array-methods-cheatsheet-633f761ac250"
       },
     ]
   },
@@ -4729,19 +4703,19 @@ module.exports = [
     id: "js40uib",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "prevent refresh of page when button inside form clicked",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/13262305"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to Disable a Submit Button on Submit - JavaScript Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ACVnMfeXo_U"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Form validation with JavaScript",
+        site: "medium",
+        url: "https://medium.com/the-ui-files/form-validation-with-javascript-4fcf4dd32846"
       },
     ]
   },
@@ -4755,19 +4729,19 @@ module.exports = [
     id: "8q6thep",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the !! (not not) operator in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/784946"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Double Bang!! Cast to Boolean",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=vsYc4K23FAM"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JS Double Bang — or “The Not Operator Part !!”",
+        site: "medium",
+        url: "https://medium.com/@edplatomail/js-double-bang-or-the-not-operator-part-40e55d089bf0"
       },
     ]
   },
@@ -4780,19 +4754,19 @@ module.exports = [
     id: "jwdkwj8",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Checking if a key exists in a JavaScript object?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1098955"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Checking if a key exists in a JavaScript object?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=qPHAgHW7a8E"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "A thing or two about Objects in JavaScript.",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/a-thing-or-two-about-objects-in-javascript-c426a12e8b5f"
       },
     ]
   },
@@ -4805,24 +4779,24 @@ module.exports = [
     id: "atlqkai",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Iterate through object properties",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/16735184"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Nested Loops with Arrays and Objects",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=AqgVLYpBWG8"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Ways to Loop Through Objects in JavaScript",
+        site: "medium",
+        url: "https://medium.com/@darrion/ways-to-loop-through-an-object-in-javascript-622353049c7f"
       },
     ]
   },
   {
-    question: "How to change element's class using JavaScript?",
+    question: "How to change element's CSS class using JavaScript?",
     answer: "https://gist.github.com/masautt/c3f5db7e027591343eef39046a4215cf",
     tags: ["javascript", "html", "css"],
     type: "code",
