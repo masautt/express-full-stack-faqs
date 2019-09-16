@@ -2124,7 +2124,7 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=ErfDXNmHOWU"
       },
       {
-        name: "<h1>–<h6>: The HTML Section Heading elements",
+        name: "<h1>–<h6>: The HTML Section Heading elements -MDN",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
       },
@@ -2149,7 +2149,7 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=hBsZ5XR6WDI"
       },
       {
-        name: "Creating hyperlinks",
+        name: "Creating hyperlinks - MDN",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks"
       },
@@ -2195,7 +2195,7 @@ module.exports = [
         site: "stack-overflow",
         url: "https://stackoverflow.com/a/8937454"
       },
-            {
+      {
         name: "HTML Tags, Attributes and Elements",
         site: "youtube",
         url: "https://www.youtube.com/watch?v=vNOyRZIkC7o"
@@ -2280,7 +2280,7 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=ZNy2ajRiGXc"
       },
       {
-        name: "From object to iframe — other embedding technologies",
+        name: "From object to iframe — other embedding technologies - MDN",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies"
       },
@@ -2306,7 +2306,7 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=oGHguEotnDY"
       },
       {
-        name: "Styling lists",
+        name: "Styling Lists - MDN",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists"
       },
@@ -2504,7 +2504,7 @@ module.exports = [
     id: "q3pygwk",
     sources: [
       {
-        name: "Using CSS counters",
+        name: "Using CSS Counters - MDN",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters"
       },
@@ -2528,7 +2528,7 @@ module.exports = [
     type: "code",
     number: 114,
     id: "qjmpnhw",
-        sources: [
+    sources: [
       {
         name: "Can I create a div with a Curved bottom?",
         site: "stack-overflow",
@@ -2555,23 +2555,23 @@ module.exports = [
     number: 115,
     id: "0im5ofr",
     sources: [
-        {
-          name: "How do you code in CSS with linear-gradient?",
-          site: "quora",
-          url: "https://www.quora.com/How-do-you-code-in-CSS-with-linear-gradient"
-        },
-        {
-          name: "CSS Gradients and repeating gradients",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=4kWHW7da4U8"
-        },
-        {
-          name: "HTML Gradients with CSS — Colorful Slippery Slope",
-          site: "medium",
-          url: "https://medium.com/@js_tut/html-gradients-with-css-colorful-slippery-slope-59f98c6b99cf"
-        },
-      ],
-    },
+      {
+        name: "How do you code in CSS with linear-gradient?",
+        site: "quora",
+        url: "https://www.quora.com/How-do-you-code-in-CSS-with-linear-gradient"
+      },
+      {
+        name: "CSS Gradients and repeating gradients",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=4kWHW7da4U8"
+      },
+      {
+        name: "HTML Gradients with CSS — Colorful Slippery Slope",
+        site: "medium",
+        url: "https://medium.com/@js_tut/html-gradients-with-css-colorful-slippery-slope-59f98c6b99cf"
+      },
+    ],
+  },
   {
     question: "What is flexbox?",
     answer:
@@ -2581,23 +2581,23 @@ module.exports = [
     number: 116,
     id: "5mn4ena",
     sources: [
-        {
-          name: "What is flex-box?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-flex-box"
-        },
-        {
-          name: "Learn Flexbox in 15 Minutes",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=fYq5PXgSsbE"
-        },
-        {
-          name: "A 10 Step Guide to Flexbox",
-          site: "medium",
-          url: "https://medium.com/@ensallee/a-10-step-guide-to-flexbox-fa00e7b03bf7"
-        },
-      ],
-    },
+      {
+        name: "What is flex-box?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-flex-box"
+      },
+      {
+        name: "Learn Flexbox in 15 Minutes",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=fYq5PXgSsbE"
+      },
+      {
+        name: "A 10 Step Guide to Flexbox",
+        site: "medium",
+        url: "https://medium.com/@ensallee/a-10-step-guide-to-flexbox-fa00e7b03bf7"
+      },
+    ],
+  },
   {
     question: "What is the difference between padding and margin?",
     answer:
@@ -2607,22 +2607,22 @@ module.exports = [
     number: 117,
     id: "ej0ew97",
     sources: [
-        {
-          name: "When to use margin vs padding in CSS [closed]",
-          site: "stack-overflow",
-          url: "https://stackoverflow.com/a/9183818/9715166"
-        },
-        {
-          name: "CSS : the difference between padding and margin",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=gBj8fxRBBNg"
-        },
-        {
-          name: "Margin vs Padding",
-          site: "medium",
-          url: "https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf"
-        },
-      ],
+      {
+        name: "When to use margin vs padding in CSS [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/9183818/9715166"
+      },
+      {
+        name: "CSS : the difference between padding and margin",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=gBj8fxRBBNg"
+      },
+      {
+        name: "Margin vs Padding",
+        site: "medium",
+        url: "https://medium.com/frontendshortcut/margin-vs-padding-c1fc8ea8bfaf"
+      },
+    ],
   },
   {
     question: "What's the difference between a pseudo-class and pseudo-element in CSS?",
@@ -2633,22 +2633,22 @@ module.exports = [
     number: 118,
     id: "pl8l5t",
     sources: [
-        {
-          name: "What is the difference between a pseudo-class and a pseudo-element in CSS?",
-          site: "stack-overflow",
-          url: "https://stackoverflow.com/a/11701951/9715166"
-        },
-        {
-          name: "Pseudo-Classes vs Pseudo-Elements in CSS",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=0VDx1570X3U"
-        },
-        {
-          name: "Summaries of Pseudo-classes & Pseudo-elements",
-          site: "medium",
-          url: "https://medium.com/@keisei.jia/summaries-of-pseudo-classes-pseudo-elements-359403885c9c"
-        },
-      ],
+      {
+        name: "What is the difference between a pseudo-class and a pseudo-element in CSS?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/11701951/9715166"
+      },
+      {
+        name: "Pseudo-Classes vs Pseudo-Elements in CSS",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=0VDx1570X3U"
+      },
+      {
+        name: "Summaries of Pseudo-classes & Pseudo-elements",
+        site: "medium",
+        url: "https://medium.com/@keisei.jia/summaries-of-pseudo-classes-pseudo-elements-359403885c9c"
+      },
+    ],
   },
   {
     question: "What are the types of positions in CSS?",
@@ -2658,22 +2658,22 @@ module.exports = [
     number: 119,
     id: "h29l0ss",
     sources: [
-        {
-          name: "Can you explain positioning in CSS?",
-          site: "quora",
-          url: "https://www.quora.com/Can-you-explain-positioning-in-CSS"
-        },
-        {
-          name: "Learn CSS Position In 9 Minutes",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=jx5jmI0UlXU"
-        },
-        {
-          name: "Understanding Position in CSS",
-          site: "medium",
-          url: "https://medium.com/@jacobgreenaway12/taming-the-css-beast-master-positioning-5882bad14458"
-        },
-      ],
+      {
+        name: "Can you explain positioning in CSS?",
+        site: "quora",
+        url: "https://www.quora.com/Can-you-explain-positioning-in-CSS"
+      },
+      {
+        name: "Learn CSS Position In 9 Minutes",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=jx5jmI0UlXU"
+      },
+      {
+        name: "Understanding Position in CSS",
+        site: "medium",
+        url: "https://medium.com/@jacobgreenaway12/taming-the-css-beast-master-positioning-5882bad14458"
+      },
+    ],
   },
   {
     question: "What's the difference between inline and block elements in CSS?",
@@ -2684,22 +2684,22 @@ module.exports = [
     number: 120,
     id: "pibwqy",
     sources: [
-        {
-          name: "CSS display: inline vs inline-block [duplicate]",
-          site: "stack-overflow",
-          url: "https://stackoverflow.com/a/9189873/9715166"
-        },
-        {
-          name: "#5 - The Difference Between Block and Inline Elements",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=NfwBn1ItXhM"
-        },
-        {
-          name: "Understanding HTML Block and Inline Elements: A Learning Journey to Web Development",
-          site: "medium",
-          url: "https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599"
-        },
-      ],
+      {
+        name: "CSS display: inline vs inline-block [duplicate]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/9189873/9715166"
+      },
+      {
+        name: "#5 - The Difference Between Block and Inline Elements",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=NfwBn1ItXhM"
+      },
+      {
+        name: "Understanding HTML Block and Inline Elements: A Learning Journey to Web Development",
+        site: "medium",
+        url: "https://medium.com/ux-art/html-block-and-inline-elements-b65775e86599"
+      },
+    ],
   },
   {
     question: "What's the difference between ID's and classes in CSS?",
@@ -2709,22 +2709,22 @@ module.exports = [
     number: 121,
     id: "0afiemj",
     sources: [
-        {
-          name: "What's the difference between an id and a class?",
-          site: "stack-overflow",
-          url: "https://stackoverflow.com/a/544052/9715166"
-        },
-        {
-          name: "8: Introduction to Classes and IDs in HTML | Learn HTML and CSS | HTML Tutorial",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=wXUhTZpF_HQ"
-        },
-        {
-          name: "The Difference Between ID and Class",
-          site: "medium",
-          url: "https://medium.com/@jennylaister/the-difference-between-id-and-class-689377b22e6d"
-        },
-      ],
+      {
+        name: "What's the difference between an id and a class?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/544052/9715166"
+      },
+      {
+        name: "8: Introduction to Classes and IDs in HTML | Learn HTML and CSS | HTML Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=wXUhTZpF_HQ"
+      },
+      {
+        name: "The Difference Between ID and Class",
+        site: "medium",
+        url: "https://medium.com/@jennylaister/the-difference-between-id-and-class-689377b22e6d"
+      },
+    ],
   },
   {
     question: "What is Software Engineering?",
@@ -2735,22 +2735,22 @@ module.exports = [
     number: 122,
     id: "z69xlr",
     sources: [
-        {
-          name: "What is software engineering?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-software-engineering"
-        },
-        {
-          name: "Software Engineering: Crash Course Computer Science #16",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=O753uuutqH8"
-        },
-        {
-          name: "Software Engineering is different from Programming",
-          site: "medium",
-          url: "https://medium.com/edge-coders/software-engineering-is-different-from-programming-b108c135af26"
-        },
-      ],
+      {
+        name: "What is software engineering?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-software-engineering"
+      },
+      {
+        name: "Software Engineering: Crash Course Computer Science #16",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=O753uuutqH8"
+      },
+      {
+        name: "Software Engineering is different from Programming",
+        site: "medium",
+        url: "https://medium.com/edge-coders/software-engineering-is-different-from-programming-b108c135af26"
+      },
+    ],
   },
   {
     question: "What are the 7 steps of the Software Development Life Cycle?",
@@ -2761,22 +2761,22 @@ module.exports = [
     number: 123,
     id: "4auxcar",
     sources: [
-        {
-          name: "What is software development lifecycle?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-software-development-lifecycle"
-        },
-        {
-          name: "Software Development Lifecycle in 9 minutes!",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=i-QyW8D3ei0"
-        },
-        {
-          name: "What Are the Software Development Life Cycle (SDLC) Stages?",
-          site: "medium",
-          url: "https://medium.com/@bydrecinc/what-are-the-software-development-life-cycle-sdlc-stages-7f505ed0dd18"
-        },
-      ],
+      {
+        name: "What is software development lifecycle?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-software-development-lifecycle"
+      },
+      {
+        name: "Software Development Lifecycle in 9 minutes!",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=i-QyW8D3ei0"
+      },
+      {
+        name: "What Are the Software Development Life Cycle (SDLC) Stages?",
+        site: "medium",
+        url: "https://medium.com/@bydrecinc/what-are-the-software-development-life-cycle-sdlc-stages-7f505ed0dd18"
+      },
+    ],
   },
   {
     question: "What's the difference between the Waterfall and Agile Model?",
@@ -2787,22 +2787,22 @@ module.exports = [
     number: 124,
     id: "pl22qf",
     sources: [
-        {
-          name: "What are the pros and cons of the waterfall and agile/scrum project management approach?",
-          site: "quora",
-          url: "https://www.quora.com/What-are-the-pros-and-cons-of-the-waterfall-and-agile-scrum-project-management-approach"
-        },
-        {
-          name: "Agile vs. Waterfall",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=e1_eD-5zkGY"
-        },
-        {
-          name: "Waterfall vs Agile",
-          site: "medium",
-          url: "https://medium.com/@101/waterfall-vs-agile-9da25daf18e8"
-        },
-      ],
+      {
+        name: "What are the pros and cons of the waterfall and agile/scrum project management approach?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-the-pros-and-cons-of-the-waterfall-and-agile-scrum-project-management-approach"
+      },
+      {
+        name: "Agile vs. Waterfall",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=e1_eD-5zkGY"
+      },
+      {
+        name: "Waterfall vs Agile",
+        site: "medium",
+        url: "https://medium.com/@101/waterfall-vs-agile-9da25daf18e8"
+      },
+    ],
   },
   {
     question: "What's the difference between a Development, Program, and Project Manager?",
@@ -2813,22 +2813,22 @@ module.exports = [
     number: 125,
     id: "hndiub",
     sources: [
-        {
-          name: "Difference between these 3 manager roles [closed]",
-          site: "stack-overflow",
-          url: "https://softwareengineering.stackexchange.com/a/107213"
-        },
-        {
-          name: "Product Manager vs Project Manager - Project Management Training",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=WGvj_I2L020"
-        },
-        {
-          name: "Software Project Team Roles and Responsibilities",
-          site: "medium",
-          url: "https://medium.com/@SherrieRose/software-project-team-roles-and-responsibilities-152a7d575759"
-        },
-      ],
+      {
+        name: "Difference between these 3 manager roles [closed]",
+        site: "stack-overflow",
+        url: "https://softwareengineering.stackexchange.com/a/107213"
+      },
+      {
+        name: "Product Manager vs Project Manager - Project Management Training",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=WGvj_I2L020"
+      },
+      {
+        name: "Software Project Team Roles and Responsibilities",
+        site: "medium",
+        url: "https://medium.com/@SherrieRose/software-project-team-roles-and-responsibilities-152a7d575759"
+      },
+    ],
   },
   {
     question: "What is AB Testing?",
@@ -2839,22 +2839,22 @@ module.exports = [
     number: 128,
     id: "mg5vik",
     sources: [
-        {
-          name: "What is A/B testing?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-A-B-testing-1"
-        },
-        {
-          name: "A/B Testing",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=8H6QmMQWPEI"
-        },
-        {
-          name: "A/B and see: a beginner’s guide to A/B testing",
-          site: "medium",
-          url: "https://medium.com/@InVisionApp/a-b-and-see-a-beginner-s-guide-to-a-b-testing-a16406f1a239"
-        },
-      ],
+      {
+        name: "What is A/B testing?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-A-B-testing-1"
+      },
+      {
+        name: "A/B Testing",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=8H6QmMQWPEI"
+      },
+      {
+        name: "A/B and see: a beginner’s guide to A/B testing",
+        site: "medium",
+        url: "https://medium.com/@InVisionApp/a-b-and-see-a-beginner-s-guide-to-a-b-testing-a16406f1a239"
+      },
+    ],
   },
   {
     question: "What is a baseline in Software Engineering?",
@@ -2865,22 +2865,22 @@ module.exports = [
     number: 129,
     id: "a2qk2ve",
     sources: [
-        {
-          name: "What is the meaning of baseline in software configuration management?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-the-meaning-of-baseline-in-software-configuration-management"
-        },
-        {
-          name: "What is a baseline?",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=Tr5_mh4oOiw"
-        },
-        {
-          name: "Modern Software Configuration Management",
-          site: "medium",
-          url: "https://medium.com/@ReganKoopmans/modern-software-configuration-management-69e2eb9e40c9"
-        },
-      ],
+      {
+        name: "What is the meaning of baseline in software configuration management?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-meaning-of-baseline-in-software-configuration-management"
+      },
+      {
+        name: "What is a baseline?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Tr5_mh4oOiw"
+      },
+      {
+        name: "Modern Software Configuration Management",
+        site: "medium",
+        url: "https://medium.com/@ReganKoopmans/modern-software-configuration-management-69e2eb9e40c9"
+      },
+    ],
   },
   {
     question: "What is Software Configuration Management?",
@@ -2890,22 +2890,22 @@ module.exports = [
     number: 130,
     id: "3qzny1",
     sources: [
-        {
-          name: "What is software configuration management?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-software-configuration-management"
-        },
-        {
-          name: "What is Configuration Management? - Course Introduction",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=W49zokvnL2g"
-        },
-        {
-          name: "Software Configuration Management (SCM) Process and Procedure",
-          site: "medium",
-          url: "https://medium.com/@sudarhtc/software-configuration-management-scm-process-and-procedure-80a73c40915d"
-        },
-      ],
+      {
+        name: "What is software configuration management?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-software-configuration-management"
+      },
+      {
+        name: "What is Configuration Management? - Course Introduction",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=W49zokvnL2g"
+      },
+      {
+        name: "Software Configuration Management (SCM) Process and Procedure",
+        site: "medium",
+        url: "https://medium.com/@sudarhtc/software-configuration-management-scm-process-and-procedure-80a73c40915d"
+      },
+    ],
   },
   {
     question: "What is Change Management?",
@@ -2916,22 +2916,22 @@ module.exports = [
     number: 131,
     id: "ba23y8g",
     sources: [
-        {
-          name: "What is Change Management?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-Change-Management"
-        },
-        {
-          name: "What Is Change Management In Project Management Terms?",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=KSHyvLjZHcw"
-        },
-        {
-          name: "Change Management Process",
-          site: "medium",
-          url: "https://medium.com/@stangarfield/change-management-process-98948aa347bf"
-        },
-      ],
+      {
+        name: "What is Change Management?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-Change-Management"
+      },
+      {
+        name: "What Is Change Management In Project Management Terms?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=KSHyvLjZHcw"
+      },
+      {
+        name: "Change Management Process",
+        site: "medium",
+        url: "https://medium.com/@stangarfield/change-management-process-98948aa347bf"
+      },
+    ],
   },
   {
     question: "What are Software Requirements?",
@@ -2942,22 +2942,22 @@ module.exports = [
     number: 132,
     id: "2cc5trs",
     sources: [
-        {
-          name: "What are software requirements?",
-          site: "quora",
-          url: "https://www.quora.com/What-are-software-requirements"
-        },
-        {
-          name: "Software Requirements",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=8uk-2-mX53U"
-        },
-        {
-          name: "Software requirements specification. What do you need to know.",
-          site: "medium",
-          url: "https://medium.com/globalluxsoft/software-requirements-specification-what-do-you-need-to-know-22a6b8585945"
-        },
-      ],
+      {
+        name: "What are software requirements?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-software-requirements"
+      },
+      {
+        name: "Software Requirements",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=8uk-2-mX53U"
+      },
+      {
+        name: "Software requirements specification. What do you need to know.",
+        site: "medium",
+        url: "https://medium.com/globalluxsoft/software-requirements-specification-what-do-you-need-to-know-22a6b8585945"
+      },
+    ],
   },
   {
     question: "What is the Feasibility Study?",
@@ -2968,22 +2968,22 @@ module.exports = [
     number: 133,
     id: "f43el8",
     sources: [
-        {
-          name: "What is a feasibility study? What are the main objectives?",
-          site: "quora",
-          url: "https://www.quora.com/What-is-a-feasibility-study-What-are-the-main-objectives"
-        },
-        {
-          name: "How to Conduct a Feasibility Study - Project Management Training",
-          site: "youtube",
-          url: "https://www.youtube.com/watch?v=WI6_snOjlm0"
-        },
-        {
-          name: "Step by Step Guide to Write a Good Feasibility Report?",
-          site: "medium",
-          url: "https://medium.com/waqar-hussain/step-by-step-guide-to-write-a-good-feasibility-report-f951896d6c87"
-        },
-      ],
+      {
+        name: "What is a feasibility study? What are the main objectives?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-feasibility-study-What-are-the-main-objectives"
+      },
+      {
+        name: "How to Conduct a Feasibility Study - Project Management Training",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=WI6_snOjlm0"
+      },
+      {
+        name: "Step by Step Guide to Write a Good Feasibility Report?",
+        site: "medium",
+        url: "https://medium.com/waqar-hussain/step-by-step-guide-to-write-a-good-feasibility-report-f951896d6c87"
+      },
+    ],
   },
   {
     question:
@@ -2995,21 +2995,21 @@ module.exports = [
     number: 134,
     id: "nn69yl3",
     sources: [
-        {
-            name: "What is the difference between functional and non functional requirement? [closed]",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/16476014/9715166"
-        },
-        {
-            name: "Functional and Nonfunctional Requirements - Georgia Tech - Software Development Process",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=zCX-N1H8Vps"
-        },
-        {
-            name: "The Essential Function of Non-Functional Requirements",
-            site: "medium",
-            url: "https://medium.com/elevator-up/the-essential-function-of-non-functional-requirements-668ae9686ee0"
-        },
+      {
+        name: "What is the difference between functional and non functional requirement? [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/16476014/9715166"
+      },
+      {
+        name: "Functional and Nonfunctional Requirements - Georgia Tech - Software Development Process",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=zCX-N1H8Vps"
+      },
+      {
+        name: "The Essential Function of Non-Functional Requirements",
+        site: "medium",
+        url: "https://medium.com/elevator-up/the-essential-function-of-non-functional-requirements-668ae9686ee0"
+      },
     ]
   },
   {
@@ -3021,21 +3021,21 @@ module.exports = [
     number: 135,
     id: "yyin0k9",
     sources: [
-        {
-            name: "What is software quality metrics?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-software-quality-metrics"
-        },
-        {
-            name: "Software Quality Metrics You Need To Know",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=lc0Y1BX7Fig"
-        },
-        {
-            name: "64 Test Metrics For Measuring Progress, Quality, Productivity & More!",
-            site: "medium",
-            url: "https://medium.com/qasymphony/64-test-metrics-for-measuring-progress-quality-productivity-more-4ef220f78b1b"
-        },
+      {
+        name: "What is software quality metrics?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-software-quality-metrics"
+      },
+      {
+        name: "Software Quality Metrics You Need To Know",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=lc0Y1BX7Fig"
+      },
+      {
+        name: "64 Test Metrics For Measuring Progress, Quality, Productivity & More!",
+        site: "medium",
+        url: "https://medium.com/qasymphony/64-test-metrics-for-measuring-progress-quality-productivity-more-4ef220f78b1b"
+      },
     ]
   },
   {
@@ -3047,21 +3047,21 @@ module.exports = [
     number: 136,
     id: "cze3n2",
     sources: [
-        {
-            name: "What is modularity?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-modularity"
-        },
-        {
-            name: "Modular Design",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=DuK4dKH0zOA"
-        },
-        {
-            name: "On Modular Architectures",
-            site: "medium",
-            url: "https://medium.com/on-software-architecture/on-modular-architectures-53ec61f88ff4"
-        },
+      {
+        name: "What is modularity?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-modularity"
+      },
+      {
+        name: "Modular Design",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=DuK4dKH0zOA"
+      },
+      {
+        name: "On Modular Architectures",
+        site: "medium",
+        url: "https://medium.com/on-software-architecture/on-modular-architectures-53ec61f88ff4"
+      },
     ]
   },
   {
@@ -3073,21 +3073,21 @@ module.exports = [
     number: 137,
     id: "5a4a1y",
     sources: [
-        {
-            name: "What is cohesion?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-cohesion"
-        },
-        {
-            name: "Cohesion",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=7WWJceMwk48"
-        },
-        {
-            name: "Low Coupling, High Cohesion",
-            site: "medium",
-            url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
-        },
+      {
+        name: "What is cohesion?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-cohesion"
+      },
+      {
+        name: "Cohesion",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=7WWJceMwk48"
+      },
+      {
+        name: "Low Coupling, High Cohesion",
+        site: "medium",
+        url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
+      },
     ]
   },
   {
@@ -3099,21 +3099,21 @@ module.exports = [
     number: 138,
     id: "v1hikh8",
     sources: [
-        {
-            name: "What is meant by cohesion and coupling in software engineering? Are there some examples available?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-meant-by-cohesion-and-coupling-in-software-engineering-Are-there-some-examples-available"
-        },
-        {
-            name: "Coupling and Cohesion",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
-        },
-        {
-            name: "Low Coupling, High Cohesion",
-            site: "medium",
-            url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
-        },
+      {
+        name: "What is meant by cohesion and coupling in software engineering? Are there some examples available?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-meant-by-cohesion-and-coupling-in-software-engineering-Are-there-some-examples-available"
+      },
+      {
+        name: "Coupling and Cohesion",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
+      },
+      {
+        name: "Low Coupling, High Cohesion",
+        site: "medium",
+        url: "https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6"
+      },
     ]
   },
   {
@@ -3125,21 +3125,21 @@ module.exports = [
     number: 139,
     id: "icj1v4l",
     sources: [
-        {
-            name: "What is a data flow diagram?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-a-data-flow-diagram"
-        },
-        {
-            name: "Data Flow Diagrams - What is DFD? Data Flow Diagram Symbols and More",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=6VGTvgaJllM"
-        },
-        {
-            name: "Data Flow Diagram Comprehensive Guide with Examples",
-            site: "medium",
-            url: "https://medium.com/@warren2lynch/data-flow-diagram-comprehensive-guide-with-examples-d9858387f25e"
-        },
+      {
+        name: "What is a data flow diagram?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-data-flow-diagram"
+      },
+      {
+        name: "Data Flow Diagrams - What is DFD? Data Flow Diagram Symbols and More",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=6VGTvgaJllM"
+      },
+      {
+        name: "Data Flow Diagram Comprehensive Guide with Examples",
+        site: "medium",
+        url: "https://medium.com/@warren2lynch/data-flow-diagram-comprehensive-guide-with-examples-d9858387f25e"
+      },
     ]
   },
   {
@@ -3152,21 +3152,21 @@ module.exports = [
     number: 140,
     id: "o1nh53e",
     sources: [
-        {
-            name: "What is black box testing and white box testing?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-black-box-testing-and-white-box-testing"
-        },
-        {
-            name: "Black and White Box Testing Introduction - Georgia Tech - Software Development Process",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=jRwwb7iaRsU"
-        },
-        {
-            name: "White Box Testing Vs. Black Box Testing",
-            site: "medium",
-            url: "https://medium.com/@techbloggers/white-box-testing-vs-black-box-testing-19754e950398"
-        },
+      {
+        name: "What is black box testing and white box testing?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-black-box-testing-and-white-box-testing"
+      },
+      {
+        name: "Black and White Box Testing Introduction - Georgia Tech - Software Development Process",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=jRwwb7iaRsU"
+      },
+      {
+        name: "White Box Testing Vs. Black Box Testing",
+        site: "medium",
+        url: "https://medium.com/@techbloggers/white-box-testing-vs-black-box-testing-19754e950398"
+      },
     ]
   },
   {
@@ -3177,21 +3177,21 @@ module.exports = [
     number: 141,
     id: "0e8et6s",
     sources: [
-        {
-            name: "Software Maintenance, Understanding the 4 Types",
-            site: "globe",
-            url: "https://www.coderhood.com/software-maintenance-understanding-the-4-types/"
-        },
-        {
-            name: "software maintenance | software engineering |",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=8swQr0kckZI"
-        },
-        {
-            name: "The 4 Types of Software Maintenance",
-            site: "medium",
-            url: "https://medium.com/endertech-insights/the-4-types-of-software-maintenance-7c3e96424f22"
-        },
+      {
+        name: "Software Maintenance, Understanding the 4 Types",
+        site: "globe",
+        url: "https://www.coderhood.com/software-maintenance-understanding-the-4-types/"
+      },
+      {
+        name: "software maintenance | software engineering |",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=8swQr0kckZI"
+      },
+      {
+        name: "The 4 Types of Software Maintenance",
+        site: "medium",
+        url: "https://medium.com/endertech-insights/the-4-types-of-software-maintenance-7c3e96424f22"
+      },
     ]
   },
   {
@@ -3203,21 +3203,21 @@ module.exports = [
     number: 143,
     id: "xmzbnwl",
     sources: [
-        {
-            name: "Decorators  - TypeScriptLang",
-            site: "globe",
-            url: "https://www.typescriptlang.org/docs/handbook/decorators.html#decorators"
-        },
-        {
-            name: "The Magic of TypeScript Decorators",
-            site: "youtube",
-            url: "https://youtu.be/O6A-u_FoEX8?t=80"
-        },
-        {
-            name: "A Gentle Introduction to TypeScript Decorators",
-            site: "medium",
-            url: "https://medium.com/iqoqo-engineering/understand-typescript-decorators-in-5-minutes-26ffc6189082"
-        },
+      {
+        name: "Decorators  - TypeScriptLang",
+        site: "globe",
+        url: "https://www.typescriptlang.org/docs/handbook/decorators.html#decorators"
+      },
+      {
+        name: "The Magic of TypeScript Decorators",
+        site: "youtube",
+        url: "https://youtu.be/O6A-u_FoEX8?t=80"
+      },
+      {
+        name: "A Gentle Introduction to TypeScript Decorators",
+        site: "medium",
+        url: "https://medium.com/iqoqo-engineering/understand-typescript-decorators-in-5-minutes-26ffc6189082"
+      },
     ]
   },
   {
@@ -3229,21 +3229,21 @@ module.exports = [
     number: 144,
     id: "e5newlv",
     sources: [
-        {
-            name: "What is DOM Event delegation?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1688293/9715166"
-        },
-        {
-            name: "What is Event Delegation? - JavaScript DOM Tutorial",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=pKzf80F3O0U"
-        },
-        {
-            name: "Part 4: What is Event Delegation in JavaScript?",
-            site: "medium",
-            url: "https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983"
-        },
+      {
+        name: "What is DOM Event delegation?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1688293/9715166"
+      },
+      {
+        name: "What is Event Delegation? - JavaScript DOM Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=pKzf80F3O0U"
+      },
+      {
+        name: "Part 4: What is Event Delegation in JavaScript?",
+        site: "medium",
+        url: "https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983"
+      },
     ]
   },
   {
@@ -3255,21 +3255,21 @@ module.exports = [
     number: 145,
     id: "icpqd3f",
     sources: [
-        {
-            name: "prototypal inheritance concept in javascript as a prototype based language",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/12201800/9715166"
-        },
-        {
-            name: "Advanced Javascript - Prototypal Inheritance In 1 Minute",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=G6l5CHl67HQ"
-        },
-        {
-            name: "Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?",
-            site: "medium",
-            url: "https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9"
-        },
+      {
+        name: "prototypal inheritance concept in javascript as a prototype based language",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/12201800/9715166"
+      },
+      {
+        name: "Advanced Javascript - Prototypal Inheritance In 1 Minute",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=G6l5CHl67HQ"
+      },
+      {
+        name: "Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?",
+        site: "medium",
+        url: "https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9"
+      },
     ]
   },
   {
@@ -3281,21 +3281,21 @@ module.exports = [
     number: 146,
     id: "bb33agd",
     sources: [
-        {
-            name: "JavaScript: Difference between .forEach() and .map()",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/34426481/9715166"
-        },
-        {
-            name: "Javascript Basics | Map V/s ForEach",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=zfkFIj-Nt0E"
-        },
-        {
-            name: "JavaScript — Map vs. ForEach",
-            site: "medium",
-            url: "https://codeburst.io/javascript-map-vs-foreach-f38111822c0f"
-        },
+      {
+        name: "JavaScript: Difference between .forEach() and .map()",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/34426481/9715166"
+      },
+      {
+        name: "Javascript Basics | Map V/s ForEach",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=zfkFIj-Nt0E"
+      },
+      {
+        name: "JavaScript — Map vs. ForEach",
+        site: "medium",
+        url: "https://codeburst.io/javascript-map-vs-foreach-f38111822c0f"
+      },
     ]
   },
   {
@@ -3307,21 +3307,21 @@ module.exports = [
     number: 147,
     id: "7eku06",
     sources: [
-        {
-            name: "What is Modular JavaScript?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-Modular-JavaScript"
-        },
-        {
-            name: "Module Design Pattern - Beau teaches JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=3pXVHRT-amw"
-        },
-        {
-            name: "JavaScript Modules: A Beginner’s Guide",
-            site: "medium",
-            url: "https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/"
-        },
+      {
+        name: "What is Modular JavaScript?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-Modular-JavaScript"
+      },
+      {
+        name: "Module Design Pattern - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=3pXVHRT-amw"
+      },
+      {
+        name: "JavaScript Modules: A Beginner’s Guide",
+        site: "medium",
+        url: "https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/"
+      },
     ]
   },
   {
@@ -3333,21 +3333,21 @@ module.exports = [
     number: 148,
     id: "v32zapv",
     sources: [
-        {
-            name: "What is Ajax and what is it used for?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-Ajax-and-what-is-it-used-for"
-        },
-        {
-            name: "JavaScript and AJAX tutorial: What is AJAX? | lynda.com",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=RDo3hBL1rfA"
-        },
-        {
-            name: "The beginners guide to jQuery & AJAX",
-            site: "medium",
-            url: "https://medium.com/@peterchic/how-to-care-for-your-ajax-f8bd167de6f6"
-        },
+      {
+        name: "What is Ajax and what is it used for?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-Ajax-and-what-is-it-used-for"
+      },
+      {
+        name: "JavaScript and AJAX tutorial: What is AJAX? | lynda.com",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=RDo3hBL1rfA"
+      },
+      {
+        name: "The beginners guide to jQuery & AJAX",
+        site: "medium",
+        url: "https://medium.com/@peterchic/how-to-care-for-your-ajax-f8bd167de6f6"
+      },
     ]
   },
   {
@@ -3359,21 +3359,21 @@ module.exports = [
     number: 149,
     id: "1fa7dx",
     sources: [
-        {
-            name: "Intro to JavaScript Template Engines",
-            site: "globe",
-            url: "https://www.htmlgoodies.com/beyond/javascript/js-ref/intro-to-javascript-template-engines.html"
-        },
-        {
-            name: "JavaScript Templating Tutorial | Introduction",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=zO9pBjgR8N0"
-        },
-        {
-            name: "JavaScript Templating: What is Templating?",
-            site: "medium",
-            url: "https://medium.com/@BuildMySite1/javascript-templating-what-is-templating-7ff49d97db6b"
-        },
+      {
+        name: "Intro to JavaScript Template Engines",
+        site: "globe",
+        url: "https://www.htmlgoodies.com/beyond/javascript/js-ref/intro-to-javascript-template-engines.html"
+      },
+      {
+        name: "JavaScript Templating Tutorial | Introduction",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=zO9pBjgR8N0"
+      },
+      {
+        name: "JavaScript Templating: What is Templating?",
+        site: "medium",
+        url: "https://medium.com/@BuildMySite1/javascript-templating-what-is-templating-7ff49d97db6b"
+      },
     ]
   },
   {
@@ -3386,21 +3386,21 @@ module.exports = [
     number: 150,
     id: "gmmjlgj",
     sources: [
-        {
-            name: "What is the difference between properties and attributes in HTML?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/6004028/9715166"
-        },
-        {
-            name: "html attribute vs dom property",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=Ut-ATm23_Pg"
-        },
-        {
-            name: "HTML Attributes vs DOM Properties and Angular 2 Data Binding",
-            site: "medium",
-            url: "https://medium.com/@vaqifagayev/html-attributes-vs-dom-properties-and-angular-2-data-binding-9e6e5a09c69d"
-        },
+      {
+        name: "What is the difference between properties and attributes in HTML?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/6004028/9715166"
+      },
+      {
+        name: "html attribute vs dom property",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Ut-ATm23_Pg"
+      },
+      {
+        name: "HTML Attributes vs DOM Properties and Angular 2 Data Binding",
+        site: "medium",
+        url: "https://medium.com/@vaqifagayev/html-attributes-vs-dom-properties-and-angular-2-data-binding-9e6e5a09c69d"
+      },
     ]
   },
   {
@@ -3412,21 +3412,21 @@ module.exports = [
     number: 151,
     id: "4yowwya",
     sources: [
-        {
-            name: "Why is extending native objects a bad practice?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/14034242/9715166"
-        },
-        {
-            name: "Extending built in JS objects. Good or bad?",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=DbZz8AtxH8Q"
-        },
-        {
-            name: "Extending Native JavaScript Objects",
-            site: "globe",
-            url: "https://www.stevebrownlee.com/extending-native-javascript-objects/"
-        },
+      {
+        name: "Why is extending native objects a bad practice?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/14034242/9715166"
+      },
+      {
+        name: "Extending built in JS objects. Good or bad?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=DbZz8AtxH8Q"
+      },
+      {
+        name: "Extending Native JavaScript Objects",
+        site: "globe",
+        url: "https://www.stevebrownlee.com/extending-native-javascript-objects/"
+      },
     ]
   },
   {
@@ -3438,21 +3438,21 @@ module.exports = [
     number: 152,
     id: "b1d1rhr",
     sources: [
-        {
-            name: "What is same-origin policy? Why is it required? How is it a security vulnerability?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-same-origin-policy-Why-is-it-required-How-is-it-a-security-vulnerability"
-        },
-        {
-            name: "CSRF Introduction and what is the Same-Origin Policy? - web 0x04",
-            site: "yotube",
-            url: "https://youtu.be/KaEj_qZgiKY?t=50"
-        },
-        {
-            name: "Same Origin Policy and ways to Bypass",
-            site: "medium",
-            url: "https://medium.com/@minosagap/same-origin-policy-and-ways-to-bypass-250effdc4a12"
-        },
+      {
+        name: "What is same-origin policy? Why is it required? How is it a security vulnerability?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-same-origin-policy-Why-is-it-required-How-is-it-a-security-vulnerability"
+      },
+      {
+        name: "CSRF Introduction and what is the Same-Origin Policy? - web 0x04",
+        site: "yotube",
+        url: "https://youtu.be/KaEj_qZgiKY?t=50"
+      },
+      {
+        name: "Same Origin Policy and ways to Bypass",
+        site: "medium",
+        url: "https://medium.com/@minosagap/same-origin-policy-and-ways-to-bypass-250effdc4a12"
+      },
     ]
   },
   {
@@ -3464,21 +3464,21 @@ module.exports = [
     number: 153,
     id: "zmwho7",
     sources: [
-        {
-            name: "How do I use the conditional operator?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/392946/9715166"
-        },
-        {
-            name: "Ternary Operator - Beau teaches JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=s4sB1hm73tw"
-        },
-        {
-            name: "Ternary Operators in JavaScript",
-            site: "medium",
-            url: "https://medium.com/@davidokpare/ternary-operators-in-javascript-94467c6c9e12"
-        },
+      {
+        name: "How do I use the conditional operator?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/392946/9715166"
+      },
+      {
+        name: "Ternary Operator - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=s4sB1hm73tw"
+      },
+      {
+        name: "Ternary Operators in JavaScript",
+        site: "medium",
+        url: "https://medium.com/@davidokpare/ternary-operators-in-javascript-94467c6c9e12"
+      },
     ]
   },
   {
@@ -3490,21 +3490,21 @@ module.exports = [
     number: 154,
     id: "13pmbm",
     sources: [
-        {
-            name: "Why are global variables considered bad practice?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/10525602/9715166"
-        },
-        {
-            name: "4 Reasons to Stop Using Global Scope in JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=kD-VkzQ5fXI"
-        },
-        {
-            name: "JS and Global scope",
-            site: "medium",
-            url: "https://medium.com/code-smells/js-and-global-scope-5014087badcd"
-        },
+      {
+        name: "Why are global variables considered bad practice?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/10525602/9715166"
+      },
+      {
+        name: "4 Reasons to Stop Using Global Scope in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=kD-VkzQ5fXI"
+      },
+      {
+        name: "JS and Global scope",
+        site: "medium",
+        url: "https://medium.com/code-smells/js-and-global-scope-5014087badcd"
+      },
     ]
   },
   {
@@ -3700,7 +3700,7 @@ module.exports = [
     id: "93gy2j",
     sources: [
       {
-        name: "History API",
+        name: "History API - MDN",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Web/API/History_API"
       },
@@ -3752,21 +3752,21 @@ module.exports = [
     number: 164,
     id: "rg8h0r9",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "javascript deep copy using JSON",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/q/20662319"
+      },
+      {
+        name: "Copying Arrays (deep and shallow) - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://youtu.be/EeZBKv34mm4?t=236"
+      },
+      {
+        name: "Duplicating Objects - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#duplicating-objects"
+      },
     ]
   },
   {
@@ -3778,21 +3778,21 @@ module.exports = [
     number: 165,
     id: "uqsr0e5",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is array literal notation in javascript and when should you use it?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1094734"
+      },
+      {
+        name: "56 Array literal - Javascript Tutorial 2018",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=3gUIWMP1aHI"
+      },
+      {
+        name: "Arrays in JavaScript",
+        site: "medium",
+        url: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
+      },
     ]
   },
   {
@@ -3804,21 +3804,21 @@ module.exports = [
     number: 166,
     id: "3a9p2lm",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "How can I access and process nested objects, arrays or JSON?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/48804507"
+      },
+      {
+        name: "Nested Loops & 2D Arrays | Javascript | Tutorial 25",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=6m6QWuhLGZc"
+      },
+      {
+        name: "Basic JavaScript: Accessing Nested Arrays",
+        site: "free-code-camp",
+        url: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays/"
+      },
     ]
   },
   {
@@ -3829,98 +3829,98 @@ module.exports = [
     number: 167,
     id: "mzni5",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "All falsey values in JavaScript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/19839953"
+      },
+      {
+        name: "Truthy/Falsy - JavaScript Basics",
+        site: "youtube",
+        url: "https://youtu.be/O7rZJdtG10g?t=42"
+      },
+      {
+        name: "Dealing with Javascript falsy values",
+        site: "medium",
+        url: "https://medium.com/@sgobinda007/dealing-with-javascript-falsy-values-d75a2f1b1c90"
+      },
     ]
   },
   {
-    question: "What is the purpose of the console.time( ) function?",
+    question: "How to keep track of time elapsed in JavaScript?",
     answer:
-      "This starts a timer you can use to track how long an operation takes. You can give the timer a name to determine ",
-    tags: ["dom"],
-    type: "explanation",
+      "https://gist.github.com/masautt/dc3b9ee9e9fe1b40f9ad1f53f4158006",
+    tags: ["javascript"],
+    type: "code",
     number: 168,
     id: "30mg3o8",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Keep track of how much time is spent showing certain elements on the page",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/6341813"
+      },
+      {
+        name: "JavaScript Tip: Tracking Elapsed Time",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=knbUg0Q3qLU"
+      },
+      {
+        name: "Javascript Date and Time in Detail",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/javascript-date-and-time-in-detail-270e85a68124"
+      },
     ]
   },
   {
     question: "How do you round numbers in JavaScript?",
     answer:
-      "By using Math.round, numbers will be rounded to the nearest integer. Math.floor will round up and Math.ceil will round down.",
+      "https://gist.github.com/masautt/2c83af1c919bf16f4dad21fe84d3f3aa",
     tags: ["javascript"],
-    type: "explanation",
+    type: "code",
     number: 169,
     id: "5qpt0yu",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "How to round up a number in Javascript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/5191133"
+      },
+      {
+        name: "Rounding and Formatting Numbers",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=uyp6WkyPt9Y"
+      },
+      {
+        name: "How to Round Numbers in JavaScript",
+        site: "medium",
+        url: "https://medium.com/@hohanga/how-to-round-numbers-in-javascript-d0c5cfa1a0c"
+      },
     ]
   },
   {
     question: "How do you get the remainder?",
-    answer: "The modulus operator returns the division remainder.",
+    answer: "The modulus operator returns the division remainder 7 % 8 --> 7.",
     tags: ["programming-fundamentals"],
     type: "explanation",
     number: 170,
     id: "vjcgpef",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Understanding The Modulus Operator %",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/17525046"
+      },
+      {
+        name: "Modulus Operator - CS101 - Udacity",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=MrTtsX2Wg9Q"
+      },
+      {
+        name: "Arithmetic Operators - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators"
+      },
     ]
   },
   {
@@ -3932,26 +3932,26 @@ module.exports = [
     number: 171,
     id: "q3npd",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is the use of the isNaN function in JavaScript?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-use-of-the-isNaN-function-in-JavaScript"
+      },
+      {
+        name: "JavaScript Tutorial For Beginners - NaN (Not a Number)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=0ZiltZDg9Gg"
+      },
+      {
+        name: "isNaN() - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN"
+      },
     ]
   },
   {
     question:
-      "What is the difference between the Number.isNaN( ) and isNaN( ) function in JavaScript?",
+      "What's the difference between the Number.isNaN( ) and isNaN( ) function in JavaScript?",
     answer:
       "isNaN checks whether a value is NaN whereas Number.isNaN checks if it is NaN and if its type is Number.",
     tags: ["javascript"],
@@ -3959,25 +3959,25 @@ module.exports = [
     number: 172,
     id: "277zx1n",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Is Number.IsNaN() more broken than isNaN()",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/25176685"
+      },
+      {
+        name: "JavaScript Tip: Testing for NaN",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=MOFCavcLVD0"
+      },
+      {
+        name: "Difference between isNaN and Number.isNaN",
+        site: "medium",
+        url: "https://medium.com/@ismailsimsek/difference-between-isnan-and-number-isnan-19e71c8b7faf"
+      },
     ]
   },
   {
-    question: "What is the difference between the prefix and postfix operator?",
+    question: "What's the difference between the prefix and postfix operator?",
     answer:
       "The prefix (--num or ++num) will change the value by 1 and then return it whereas postfix (num-- or num++) will return the value and then change by 1.",
     tags: ["programming-fundamentals"],
@@ -3985,47 +3985,47 @@ module.exports = [
     number: 173,
     id: "e7yexgf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What is the difference between prefix and postfix operators?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/7031409"
+      },
+      {
+        name: "Programming Misconceptions #5: i++ vs ++i - prefix vs postfix increment or decrement operators",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=1SJMR0QW3Sw"
+      },
+      {
+        name: "Increment/decrement operators in JS",
+        site: "medium",
+        url: "https://medium.com/@Dragonza/increment-decrement-operators-in-js-7f21d4e8848d"
+      },
     ]
   },
   {
     question: "What is the Object Literal in JavaScript?",
     answer:
-      "Instead of using the Object.create( ) method, the Object Literals encapsulate data in a scope and assign the key-value pairs inside to an object.",
+      "Instead of using the Object.create( ) method, the Object Literals encapsulate data in a scope { } and assign the key-value pairs inside to an object.",
     tags: ["javascript"],
     type: "definition",
     number: 174,
     id: "1fcixm6",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Should I be using object literals or constructor functions?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/4859846"
+      },
+      {
+        name: "JavaScript for Developers 20 - The Object Literal",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Ccop3E9pJoU"
+      },
+      {
+        name: "Object Literal vs. Constructor in Javascript",
+        site: "medium",
+        url: "https://medium.com/@mandeepkaur1/object-literal-vs-constructor-in-javascript-df143296b816"
+      },
     ]
   },
   {
@@ -4036,21 +4036,21 @@ module.exports = [
     number: 175,
     id: "skcrblb",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "Popups - MDN",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups"
+      },
+      {
+        name: "Pop up boxes tutorial - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=y6P8uvqRYgw"
+      },
+      {
+        name: "Popup Boxes",
+        site: "free-code-camp",
+        url: "https://guide.freecodecamp.org/javascript/popup-boxes/"
+      },
     ]
   },
   {
@@ -4061,72 +4061,72 @@ module.exports = [
     number: 176,
     id: "ryj3919",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "What are “concatenating strings” in C++?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-%E2%80%9Cconcatenating-strings%E2%80%9D-in-C++"
+      },
+      {
+        name: "String Concatenation In Python 3",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=EBvVDmVm3YU"
+      },
+      {
+        name: "Working with strings in JavaScript",
+        site: "medium",
+        url: "https://medium.com/swlh/working-with-strings-in-javascript-34060a1c17a9"
+      },
     ]
   },
   {
-    question: "What is the purpose of the trim( ) command?",
-    answer: "Removes whitespace from the beginning and end of a string.",
+    question: "How to remove whitespace from a string in JavaScript?",
+    answer: "https://gist.github.com/masautt/9fd6d671232ced7a6dcebfd417e155f2",
     tags: ["javascript"],
-    type: "definition",
+    type: "code",
     number: 177,
     id: "anc4mfc",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "How to remove leading and trailing white spaces from a given html string?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/54212708"
+      },
+      {
+        name: "32 Remove Whitespace from Start and End - Regular Expressions - freeCodeCamp",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Y1u0ETCwEj8"
+      },
+      {
+        name: "Removing space in string in Javascript",
+        site: "medium",
+        url: "https://medium.com/front-end-weekly/removing-space-in-string-in-javascript-c1bd09a63ad9"
+      },
     ]
   },
   {
-    question: "What is the difference between charAt( ) and indexOf( )?",
+    question: "What is the difference between string.charAt(x) and string[x]?",
     answer:
-      "indexOf( ) returns the position of the first occurence of a specified value in a string while charAt( ) returns the character at a specific index in a string.",
+      "",
     tags: ["javascript"],
     type: "comparison",
     number: 178,
     id: "apkwlha",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4138,21 +4138,21 @@ module.exports = [
     number: 179,
     id: "5knaiwu",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4165,21 +4165,21 @@ module.exports = [
     number: 180,
     id: "t518ngu9",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4192,21 +4192,21 @@ module.exports = [
     number: 181,
     id: "qa8mnhn",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4218,21 +4218,21 @@ module.exports = [
     number: 182,
     id: "gpgybc",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4243,21 +4243,21 @@ module.exports = [
     number: 183,
     id: "3dveaxt",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4269,21 +4269,21 @@ module.exports = [
     number: 184,
     id: "exo36m",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4295,21 +4295,21 @@ module.exports = [
     number: 185,
     id: "qen6nq",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4321,21 +4321,21 @@ module.exports = [
     number: 186,
     id: "tqham1",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4346,21 +4346,21 @@ module.exports = [
     number: 187,
     id: "h0fs1xb",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4371,21 +4371,21 @@ module.exports = [
     number: 188,
     id: "r460xpv",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4396,21 +4396,21 @@ module.exports = [
     number: 189,
     id: "otgvjxf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4422,21 +4422,21 @@ module.exports = [
     number: 190,
     id: "u0g7hrb",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4448,21 +4448,21 @@ module.exports = [
     number: 191,
     id: "l40vui",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4474,21 +4474,21 @@ module.exports = [
     number: 192,
     id: "eyv6az",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4499,21 +4499,21 @@ module.exports = [
     number: 193,
     id: "ncrmxrg",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4524,21 +4524,21 @@ module.exports = [
     number: 194,
     id: "ccv7qtn",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4549,21 +4549,21 @@ module.exports = [
     number: 195,
     id: "qvbghki",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4575,21 +4575,21 @@ module.exports = [
     number: 196,
     id: "uqtpw7f",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4602,21 +4602,21 @@ module.exports = [
     number: 197,
     id: "8ld9vff",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4627,21 +4627,21 @@ module.exports = [
     number: 198,
     id: "irpqnt",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4652,21 +4652,21 @@ module.exports = [
     number: 199,
     id: "q72rjvf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4678,21 +4678,21 @@ module.exports = [
     number: 200,
     id: "z6cxsox",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4703,21 +4703,21 @@ module.exports = [
     number: 201,
     id: "isy74qv",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4728,21 +4728,21 @@ module.exports = [
     number: 202,
     id: "kr0ns2b",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4754,21 +4754,21 @@ module.exports = [
     number: 203,
     id: "js40uib",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4780,21 +4780,21 @@ module.exports = [
     number: 204,
     id: "8q6thep",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4805,21 +4805,21 @@ module.exports = [
     number: 205,
     id: "jwdkwj8",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4830,21 +4830,21 @@ module.exports = [
     number: 206,
     id: "atlqkai",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4855,21 +4855,21 @@ module.exports = [
     number: 207,
     id: "9awohc2",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4880,21 +4880,21 @@ module.exports = [
     number: 208,
     id: "10n1myo",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4905,21 +4905,21 @@ module.exports = [
     number: 209,
     id: "hieewlp",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4930,21 +4930,21 @@ module.exports = [
     number: 210,
     id: "wioawyg",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4956,21 +4956,21 @@ module.exports = [
     number: 211,
     id: "rjbi72p",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -4982,21 +4982,21 @@ module.exports = [
     number: 212,
     id: "pkpevzg",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5008,21 +5008,21 @@ module.exports = [
     number: 213,
     id: "629ynud",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5034,21 +5034,21 @@ module.exports = [
     number: 214,
     id: "stfkz6",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5060,21 +5060,21 @@ module.exports = [
     number: 215,
     id: "t7ol12f",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5086,21 +5086,21 @@ module.exports = [
     number: 216,
     id: "9zjg24",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5112,21 +5112,21 @@ module.exports = [
     number: 217,
     id: "m5rd8",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5138,21 +5138,21 @@ module.exports = [
     number: 218,
     id: "lv50qyj",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5164,21 +5164,21 @@ module.exports = [
     number: 219,
     id: "x9opl2f",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5190,21 +5190,21 @@ module.exports = [
     number: 220,
     id: "uflbl7a",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5217,21 +5217,21 @@ module.exports = [
     number: 221,
     id: "8k82eig",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5242,21 +5242,21 @@ module.exports = [
     number: 222,
     id: "8b2gso",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5268,21 +5268,21 @@ module.exports = [
     number: 223,
     id: "0htvje",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5294,21 +5294,21 @@ module.exports = [
     number: 224,
     id: "2brm8fg",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5320,21 +5320,21 @@ module.exports = [
     number: 225,
     id: "sj2650p",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5346,21 +5346,21 @@ module.exports = [
     number: 226,
     id: "3155i1d",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5373,21 +5373,21 @@ module.exports = [
     number: 227,
     id: "2tu82q",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5399,21 +5399,21 @@ module.exports = [
     number: 228,
     id: "j9iazb",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5425,21 +5425,21 @@ module.exports = [
     number: 229,
     id: "ho9veyj",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5451,21 +5451,21 @@ module.exports = [
     number: 230,
     id: "qrwi1oa",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5477,21 +5477,21 @@ module.exports = [
     number: 231,
     id: "1nygprp",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5503,21 +5503,21 @@ module.exports = [
     number: 232,
     id: "q1muolx",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5528,21 +5528,21 @@ module.exports = [
     number: 233,
     id: "1ssdyt",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5554,21 +5554,21 @@ module.exports = [
     number: 234,
     id: "p37q47j",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5580,21 +5580,21 @@ module.exports = [
     number: 235,
     id: "lgr33qb",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5606,21 +5606,21 @@ module.exports = [
     number: 236,
     id: "3q48k4v",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5632,21 +5632,21 @@ module.exports = [
     number: 237,
     id: "0hffi2",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5658,21 +5658,21 @@ module.exports = [
     number: 238,
     id: "26k5ne",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5684,21 +5684,21 @@ module.exports = [
     number: 239,
     id: "r0jowmd",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5710,21 +5710,21 @@ module.exports = [
     number: 240,
     id: "6pehq9o",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5735,21 +5735,21 @@ module.exports = [
     number: 241,
     id: "ojww2ff",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5761,21 +5761,21 @@ module.exports = [
     number: 242,
     id: "uorwuur",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5787,21 +5787,21 @@ module.exports = [
     number: 243,
     id: "ljdn42",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5813,21 +5813,21 @@ module.exports = [
     number: 244,
     id: "cjax144",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5839,21 +5839,21 @@ module.exports = [
     number: 245,
     id: "ao7slwl",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5865,21 +5865,21 @@ module.exports = [
     number: 246,
     id: "0kovdkf",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5891,21 +5891,21 @@ module.exports = [
     number: 247,
     id: "43f5llk",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5917,21 +5917,21 @@ module.exports = [
     number: 248,
     id: "rtt06o",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5943,21 +5943,21 @@ module.exports = [
     number: 249,
     id: "9dmt7uk",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5969,21 +5969,21 @@ module.exports = [
     number: 250,
     id: "islr4q",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -5995,21 +5995,21 @@ module.exports = [
     number: 251,
     id: "54n8r5",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6021,21 +6021,21 @@ module.exports = [
     number: 252,
     id: "9dvpxk",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6047,21 +6047,21 @@ module.exports = [
     number: 253,
     id: "tnc2dxj",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6073,21 +6073,21 @@ module.exports = [
     number: 254,
     id: "07fox7s",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6099,21 +6099,21 @@ module.exports = [
     number: 255,
     id: "b2mkpu5",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6125,21 +6125,21 @@ module.exports = [
     number: 256,
     id: "n22ljc3",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6151,21 +6151,21 @@ module.exports = [
     number: 257,
     id: "dhrzz7h",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6176,21 +6176,21 @@ module.exports = [
     number: 258,
     id: "6q7be0q",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6201,21 +6201,21 @@ module.exports = [
     number: 259,
     id: "7bbszl",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6226,21 +6226,21 @@ module.exports = [
     number: 260,
     id: "olq9ps",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6251,21 +6251,21 @@ module.exports = [
     number: 261,
     id: "a3mjlio",
     sources: [
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
-        {
-            name: "",
-            site: "",
-            url: ""
-        },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
+      {
+        name: "",
+        site: "",
+        url: ""
+      },
     ]
   },
   {
@@ -6276,21 +6276,21 @@ module.exports = [
     number: 262,
     id: "19k7g5",
     sources: [
-        {
-            name: "Counting number of vowels in a string with JavaScript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/29450463"
-        },
-        {
-            name: "Javascript Challenges - Count the number of vowels in a string",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
-        },
-        {
-            name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
-            site: "dev",
-            url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
-        },
+      {
+        name: "Counting number of vowels in a string with JavaScript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/29450463"
+      },
+      {
+        name: "Javascript Challenges - Count the number of vowels in a string",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
+      },
+      {
+        name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
+        site: "dev",
+        url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
+      },
     ]
   },
   {
@@ -6301,21 +6301,21 @@ module.exports = [
     number: 263,
     id: "h74jep",
     sources: [
-        {
-            name: "What is the most efficient way to reverse an array in Javascript?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/9113136/9715166"
-        },
-        {
-            name: "Javascript reverse an Array",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=_KUdewtpQL4"
-        },
-        {
-            name: "Code Recipe: How to Reverse an Array in JavaScript",
-            site: "medium",
-            url: "https://medium.com/dailyjs/code-recipe-how-to-reverse-an-array-in-javascript-4a0306001d28"
-        },
+      {
+        name: "What is the most efficient way to reverse an array in Javascript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/9113136/9715166"
+      },
+      {
+        name: "Javascript reverse an Array",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=_KUdewtpQL4"
+      },
+      {
+        name: "Code Recipe: How to Reverse an Array in JavaScript",
+        site: "medium",
+        url: "https://medium.com/dailyjs/code-recipe-how-to-reverse-an-array-in-javascript-4a0306001d28"
+      },
     ]
   },
   {
@@ -6326,21 +6326,21 @@ module.exports = [
     number: 264,
     id: "u7t2s1q",
     sources: [
-        {
-            name: "How do you reverse a string in place in JavaScript?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/959004/9715166"
-        },
-        {
-            name: "Javascript Coding Challenge #1: Reverse a String (FreeCodeCamp)",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=miiM5JJgrQo"
-        },
-        {
-            name: "Reverse a String in JavaScript",
-            site: "medium",
-            url: "https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c"
-        },
+      {
+        name: "How do you reverse a string in place in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/959004/9715166"
+      },
+      {
+        name: "Javascript Coding Challenge #1: Reverse a String (FreeCodeCamp)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=miiM5JJgrQo"
+      },
+      {
+        name: "Reverse a String in JavaScript",
+        site: "medium",
+        url: "https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c"
+      },
     ]
   },
   {
@@ -6351,21 +6351,21 @@ module.exports = [
     number: 265,
     id: "4eqrzp8",
     sources: [
-        {
-            name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1077692/9715166"
-        },
-        {
-            name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
-        },
-        {
-            name: "String.prototype.toUpperCase()",
-            site: "firefox",
-            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
-        },
+      {
+        name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1077692/9715166"
+      },
+      {
+        name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
+      },
+      {
+        name: "String.prototype.toUpperCase()",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
+      },
     ]
   },
   {
@@ -6376,21 +6376,21 @@ module.exports = [
     number: 266,
     id: "trhvy6",
     sources: [
-        {
-            name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1077692/9715166"
-        },
-        {
-            name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
-        },
-        {
-            name: "String.prototype.toLowerCase()",
-            site: "firefox",
-            url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase"
-        },
+      {
+        name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1077692/9715166"
+      },
+      {
+        name: "Core Javascript Tutorial - toLowerCase(), toUpperCase() and trim() method of String Object",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=hivLxFl-kAg"
+      },
+      {
+        name: "String.prototype.toLowerCase()",
+        site: "firefox",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase"
+      },
     ]
   },
   {
@@ -6401,21 +6401,21 @@ module.exports = [
     number: 267,
     id: "2fmdui8",
     sources: [
-        {
-            name: "Finding the most frequent character in a string javascript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/22590204/9715166"
-        },
-        {
-            name: "Javascript Array Exercise: Majority Element",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=wQIEnwsXECs"
-        },
-        {
-            name: "Find the most commonly used character in string",
-            site: "medium",
-            url: "https://medium.com/@Dragonza/find-the-most-commonly-used-character-in-string-ed00dc2279be"
-        },
+      {
+        name: "Finding the most frequent character in a string javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/22590204/9715166"
+      },
+      {
+        name: "Javascript Array Exercise: Majority Element",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=wQIEnwsXECs"
+      },
+      {
+        name: "Find the most commonly used character in string",
+        site: "medium",
+        url: "https://medium.com/@Dragonza/find-the-most-commonly-used-character-in-string-ed00dc2279be"
+      },
     ]
   },
   {
@@ -6426,21 +6426,21 @@ module.exports = [
     number: 268,
     id: "nq1zehe",
     sources: [
-        {
-            name: "Permutations in JavaScript?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/20871714/9715166"
-        },
-        {
-            name: "JavaScript the Basics - Algorithms Part 3 Permutations",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=rxO6BFKr6ww"
-        },
-        {
-            name: "Implement All Permutations of a Set in JavaScript",
-            site: "medium",
-            url: "https://initjs.org/all-permutations-of-a-set-f1be174c79f8"
-        },
+      {
+        name: "Permutations in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/20871714/9715166"
+      },
+      {
+        name: "JavaScript the Basics - Algorithms Part 3 Permutations",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=rxO6BFKr6ww"
+      },
+      {
+        name: "Implement All Permutations of a Set in JavaScript",
+        site: "medium",
+        url: "https://initjs.org/all-permutations-of-a-set-f1be174c79f8"
+      },
     ]
   },
   {
@@ -6451,21 +6451,21 @@ module.exports = [
     number: 270,
     id: "pdeg7lj",
     sources: [
-        {
-            name: "Reverse a sentence and print each word in reverse order in Javascript [closed]",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/34083746/9715166"
-        },
-        {
-            name: "How to reverse word order in a sentence in 40 seconds ! JavaScript.",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=XK8-AUQSPW0"
-        },
-        {
-            name: "A popular programming interview question — reverse words of a sentence.",
-            site: "medium",
-            url: "https://medium.com/@hmurari/a-popular-programming-interview-question-reverse-words-of-a-sentence-3bac606d15a2"
-        },
+      {
+        name: "Reverse a sentence and print each word in reverse order in Javascript [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/34083746/9715166"
+      },
+      {
+        name: "How to reverse word order in a sentence in 40 seconds ! JavaScript.",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=XK8-AUQSPW0"
+      },
+      {
+        name: "A popular programming interview question — reverse words of a sentence.",
+        site: "medium",
+        url: "https://medium.com/@hmurari/a-popular-programming-interview-question-reverse-words-of-a-sentence-3bac606d15a2"
+      },
     ]
   },
   {
@@ -6476,21 +6476,21 @@ module.exports = [
     number: 271,
     id: "g3y4as9",
     sources: [
-        {
-            name: "return the first non repeating character in a string in javascript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/24793128/9715166"
-        },
-        {
-            name: "Finding the First Non Repeating Character - JavaScript - Simplest Approach",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=tGoqKsPltxE"
-        },
-        {
-            name: "First non-repeating letter",
-            site: "medium",
-            url: "https://medium.com/@brendt_bly/first-non-repeating-letter-c00ef6a2e9b8"
-        },
+      {
+        name: "return the first non repeating character in a string in javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/24793128/9715166"
+      },
+      {
+        name: "Finding the First Non Repeating Character - JavaScript - Simplest Approach",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=tGoqKsPltxE"
+      },
+      {
+        name: "First non-repeating letter",
+        site: "medium",
+        url: "https://medium.com/@brendt_bly/first-non-repeating-letter-c00ef6a2e9b8"
+      },
     ]
   },
   {
@@ -6501,21 +6501,21 @@ module.exports = [
     number: 272,
     id: "j99xx3o",
     sources: [
-        {
-            name: "Palindrome check in Javascript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/14813569/9715166"
-        },
-        {
-            name: "Javascript Coding Challenge #3: Palindrome Check (Freecodecamp)",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=hvV48xfwZCs"
-        },
-        {
-            name: "Three ways to check for palindromes in JavaScript",
-            site: "dev",
-            url: "https://dev.to/domazet93/three-ways-to-check-for-palindromes-in-javascript-jbk"
-        },
+      {
+        name: "Palindrome check in Javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/14813569/9715166"
+      },
+      {
+        name: "Javascript Coding Challenge #3: Palindrome Check (Freecodecamp)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=hvV48xfwZCs"
+      },
+      {
+        name: "Three ways to check for palindromes in JavaScript",
+        site: "dev",
+        url: "https://dev.to/domazet93/three-ways-to-check-for-palindromes-in-javascript-jbk"
+      },
     ]
   },
   {
@@ -6526,21 +6526,21 @@ module.exports = [
     number: 273,
     id: "i2x0f9",
     sources: [
-        {
-            name: "What is responsive web design",
-            site: "quora",
-            url: "https://www.quora.com/What-is-responsive-web-design-2"
-        },
-        {
-            name: "Responsive Website Basics (in 3 simple steps)",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=h3IdEqpjMvQ"
-        },
-        {
-            name: "Responsive design",
-            site: "medium",
-            url: "https://medium.com/owl-studios/responsive-design-af7a1f14b991"
-        },
+      {
+        name: "What is responsive web design",
+        site: "quora",
+        url: "https://www.quora.com/What-is-responsive-web-design-2"
+      },
+      {
+        name: "Responsive Website Basics (in 3 simple steps)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=h3IdEqpjMvQ"
+      },
+      {
+        name: "Responsive design",
+        site: "medium",
+        url: "https://medium.com/owl-studios/responsive-design-af7a1f14b991"
+      },
     ]
   },
   {
@@ -6551,21 +6551,21 @@ module.exports = [
     number: 274,
     id: "dg97u4",
     sources: [
-        {
-            name: "What's the best way to explain big-O notation in laymen's terms?",
-            site: "quora",
-            url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
-        },
-        {
-            name: "Big O Notation",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
-        },
-        {
-            name: "The Big Scary O Notation",
-            site: "medium",
-            url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
-        },
+      {
+        name: "What's the best way to explain big-O notation in laymen's terms?",
+        site: "quora",
+        url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
+      },
+      {
+        name: "Big O Notation",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
+      },
+      {
+        name: "The Big Scary O Notation",
+        site: "medium",
+        url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
+      },
     ]
   },
   {
@@ -6576,21 +6576,21 @@ module.exports = [
     number: 275,
     id: "2391eqr",
     sources: [
-        {
-            name: "What's the best way to explain big-O notation in laymen's terms?",
-            site: "quora",
-            url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
-        },
-        {
-            name: "Big O Notation",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
-        },
-        {
-            name: "The Big Scary O Notation",
-            site: "medium",
-            url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
-        },
+      {
+        name: "What's the best way to explain big-O notation in laymen's terms?",
+        site: "quora",
+        url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
+      },
+      {
+        name: "Big O Notation",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
+      },
+      {
+        name: "The Big Scary O Notation",
+        site: "medium",
+        url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
+      },
     ]
   },
   {
@@ -6601,21 +6601,21 @@ module.exports = [
     number: 276,
     id: "ziecsv8",
     sources: [
-        {
-            name: "What's the best way to explain big-O notation in laymen's terms?",
-            site: "quora",
-            url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
-        },
-        {
-            name: "Big O Notation",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
-        },
-        {
-            name: "The Big Scary O Notation",
-            site: "medium",
-            url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
-        },
+      {
+        name: "What's the best way to explain big-O notation in laymen's terms?",
+        site: "quora",
+        url: "https://www.quora.com/Whats-the-best-way-to-explain-big-O-notation-in-laymens-terms"
+      },
+      {
+        name: "Big O Notation",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=v4cd1O4zkGw"
+      },
+      {
+        name: "The Big Scary O Notation",
+        site: "medium",
+        url: "https://medium.com/omarelgabrys-blog/the-big-scary-o-notation-ce9352d827ce"
+      },
     ]
   },
   {
@@ -6626,21 +6626,21 @@ module.exports = [
     number: 277,
     id: "05hyulk",
     sources: [
-        {
-            name: "What are hash tables and why are they useful?",
-            site: "quora",
-            url: "https://www.quora.com/What-are-hash-tables-and-why-are-they-useful"
-        },
-        {
-            name: "Hash Tables - Beau teaches JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=F95z5Wxd9ks"
-        },
-        {
-            name: "Hash Tables",
-            site: "medium",
-            url: "https://medium.com/@bilalak90/hash-tables-c84d1b7aeb96"
-        },
+      {
+        name: "What are hash tables and why are they useful?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-hash-tables-and-why-are-they-useful"
+      },
+      {
+        name: "Hash Tables - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=F95z5Wxd9ks"
+      },
+      {
+        name: "Hash Tables",
+        site: "medium",
+        url: "https://medium.com/@bilalak90/hash-tables-c84d1b7aeb96"
+      },
     ]
   },
   {
@@ -6651,21 +6651,21 @@ module.exports = [
     number: 278,
     id: "clmv0xn",
     sources: [
-        {
-            name: "Software Stack - Techopedia",
-            site: "globe",
-            url: "https://www.techopedia.com/definition/27268/software-stack"
-        },
-        {
-            name: "What is Technology Stack? - Fast Tech Skills",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=AGBnP_CSp7Y"
-        },
-        {
-            name: "What is a tech stack?",
-            site: "globe",
-            url: "https://learn.g2.com/what-is-a-tech-stack"
-        },
+      {
+        name: "Software Stack - Techopedia",
+        site: "globe",
+        url: "https://www.techopedia.com/definition/27268/software-stack"
+      },
+      {
+        name: "What is Technology Stack? - Fast Tech Skills",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=AGBnP_CSp7Y"
+      },
+      {
+        name: "What is a tech stack?",
+        site: "globe",
+        url: "https://learn.g2.com/what-is-a-tech-stack"
+      },
     ]
   },
   {
@@ -6677,21 +6677,21 @@ module.exports = [
     number: 279,
     id: "wjmzlea",
     sources: [
-        {
-            name: "Microsoft Asks: Singly List or Doubly List? What are the pros and cons of using each?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/10708820/9715166"
-        },
-        {
-            name: "Data Structures: Linked Lists",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=njTh_OwMljA"
-        },
-        {
-            name: "Data Structures — Linked List & Doubly Linked List",
-            site: "medium",
-            url: "https://medium.com/@ariel.salem1989/data-structures-linked-list-doubly-linked-list-f8cf1b1c9f28"
-        },
+      {
+        name: "Microsoft Asks: Singly List or Doubly List? What are the pros and cons of using each?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/10708820/9715166"
+      },
+      {
+        name: "Data Structures: Linked Lists",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=njTh_OwMljA"
+      },
+      {
+        name: "Data Structures — Linked List & Doubly Linked List",
+        site: "medium",
+        url: "https://medium.com/@ariel.salem1989/data-structures-linked-list-doubly-linked-list-f8cf1b1c9f28"
+      },
     ]
   },
   {
@@ -6702,21 +6702,21 @@ module.exports = [
     number: 280,
     id: "vh5ikj2",
     sources: [
-        {
-            name: "What's the point of a hash table?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/2180053/9715166"
-        },
-        {
-            name: "Data Structures: Hash Tables",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=shs0KM3wKv8"
-        },
-        {
-            name: "Hash Crash: The Basics of Hash Tables",
-            site: "medium",
-            url: "https://medium.com/@bartobri/hash-crash-the-basics-of-hash-tables-bef82a8ea550"
-        },
+      {
+        name: "What's the point of a hash table?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/2180053/9715166"
+      },
+      {
+        name: "Data Structures: Hash Tables",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=shs0KM3wKv8"
+      },
+      {
+        name: "Hash Crash: The Basics of Hash Tables",
+        site: "medium",
+        url: "https://medium.com/@bartobri/hash-crash-the-basics-of-hash-tables-bef82a8ea550"
+      },
     ]
   },
   {
@@ -6727,21 +6727,21 @@ module.exports = [
     number: 281,
     id: "7bl2ums",
     sources: [
-        {
-            name: "What is the difference between UI design and UX design?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-the-difference-between-UI-design-and-UX-design"
-        },
-        {
-            name: "UX vs UI Design - What each of them does",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=hQ1rpJKyj68"
-        },
-        {
-            name: "UI vs UX Design (an overview)",
-            site: "medium",
-            url: "https://medium.com/@iamjesseshow/ux-vs-us-7431dd859418"
-        },
+      {
+        name: "What is the difference between UI design and UX design?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-difference-between-UI-design-and-UX-design"
+      },
+      {
+        name: "UX vs UI Design - What each of them does",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=hQ1rpJKyj68"
+      },
+      {
+        name: "UI vs UX Design (an overview)",
+        site: "medium",
+        url: "https://medium.com/@iamjesseshow/ux-vs-us-7431dd859418"
+      },
     ]
   },
   {
@@ -6752,21 +6752,21 @@ module.exports = [
     number: 282,
     id: "vkx3jr0r",
     sources: [
-        {
-            name: "What are the difference between web app and mobile app?",
-            site: "quora",
-            url: "https://www.quora.com/What-are-the-difference-between-web-app-and-mobile-app"
-        },
-        {
-            name: "Mobile Apps - Web vs. Native vs. Hybrid",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=ZikVtdopsfY"
-        },
-        {
-            name: "Mobile Website or Mobile App: What to choose?",
-            site: "medium",
-            url: "https://medium.com/swlh/mobile-website-or-mobile-app-what-to-choose-28d0cf19d93c"
-        },
+      {
+        name: "What are the difference between web app and mobile app?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-the-difference-between-web-app-and-mobile-app"
+      },
+      {
+        name: "Mobile Apps - Web vs. Native vs. Hybrid",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ZikVtdopsfY"
+      },
+      {
+        name: "Mobile Website or Mobile App: What to choose?",
+        site: "medium",
+        url: "https://medium.com/swlh/mobile-website-or-mobile-app-what-to-choose-28d0cf19d93c"
+      },
     ]
   },
   {
@@ -6777,21 +6777,21 @@ module.exports = [
     number: 283,
     id: "c3bt8ij",
     sources: [
-        {
-            name: "Check if string contains only digits",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1779019/9715166"
-        },
-        {
-            name: "Javascript - how to make html input text Allow only Numeric values In JS [ with source code ]",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=6bKvevjR7GM"
-        },
-        {
-            name: "Regex tutorial — A quick cheatsheet by examples",
-            site: "medium",
-            url: "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285"
-        },
+      {
+        name: "Check if string contains only digits",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1779019/9715166"
+      },
+      {
+        name: "Javascript - how to make html input text Allow only Numeric values In JS [ with source code ]",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=6bKvevjR7GM"
+      },
+      {
+        name: "Regex tutorial — A quick cheatsheet by examples",
+        site: "medium",
+        url: "https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285"
+      },
     ]
   },
   {
@@ -6802,21 +6802,21 @@ module.exports = [
     number: 284,
     id: "j6epsxe",
     sources: [
-        {
-            name: "Counting number of vowels in a string with JavaScript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/29450463"
-        },
-        {
-            name: "Javascript Challenges - Count the number of vowels in a string",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
-        },
-        {
-            name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
-            site: "dev",
-            url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
-        },
+      {
+        name: "Counting number of vowels in a string with JavaScript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/29450463"
+      },
+      {
+        name: "Javascript Challenges - Count the number of vowels in a string",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=j8CU_quwHv0"
+      },
+      {
+        name: "Javascript Algorithms #1: Counting the Vowels in a String Of Text",
+        site: "dev",
+        url: "https://dev.to/worldclassdev/javascript-algorithms-1-counting-the-vowels-in-a-string-oftext-5ejl"
+      },
     ]
   },
   {
@@ -6827,21 +6827,21 @@ module.exports = [
     number: 285,
     id: "daldhei",
     sources: [
-        {
-            name: "Count the number of occurrences of a character in a string in Javascript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/881111"
-        },
-        {
-            name: "JavaScript Tips and Tricks 03 - Count number of characters",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=BxPxXk0ubA4"
-        },
-        {
-            name: "String Practice Problems",
-            site: "medium",
-            url: "https://medium.com/@codingfreak/string-practice-problems-i-c64e073a7138"
-        },
+      {
+        name: "Count the number of occurrences of a character in a string in Javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/881111"
+      },
+      {
+        name: "JavaScript Tips and Tricks 03 - Count number of characters",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=BxPxXk0ubA4"
+      },
+      {
+        name: "String Practice Problems",
+        site: "medium",
+        url: "https://medium.com/@codingfreak/string-practice-problems-i-c64e073a7138"
+      },
     ]
   },
   {
@@ -6852,21 +6852,21 @@ module.exports = [
     number: 286,
     id: "bvl9h3f",
     sources: [
-        {
-            name: "Given a string s, find the longest palindromic substring in s.",
-            site: "jsfiddle",
-            url: "https://jsfiddle.net/vovchuck_bogdan/yv6u9d1u/2/"
-        },
-        {
-            name: "LONGEST PALINDROME SUB STRING WITH DYNAMIC PROGRAMMING",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=Fi5INvcmDos"
-        },
-        {
-            name: "Longest Palindromic Substring",
-            site: "medium",
-            url: "https://medium.com/@bhprtk/longest-palindromic-substring-a8190fab03ff"
-        },
+      {
+        name: "Given a string s, find the longest palindromic substring in s.",
+        site: "jsfiddle",
+        url: "https://jsfiddle.net/vovchuck_bogdan/yv6u9d1u/2/"
+      },
+      {
+        name: "LONGEST PALINDROME SUB STRING WITH DYNAMIC PROGRAMMING",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Fi5INvcmDos"
+      },
+      {
+        name: "Longest Palindromic Substring",
+        site: "medium",
+        url: "https://medium.com/@bhprtk/longest-palindromic-substring-a8190fab03ff"
+      },
     ]
   },
   {
@@ -6878,21 +6878,21 @@ module.exports = [
     number: 287,
     id: "uwq5qpf",
     sources: [
-        {
-            name: "Get all unique values in a JavaScript array (remove duplicates)",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/14438954/9715166"
-        },
-        {
-            name: "Remove duplicates from array in JavaScript – the only right way",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
-        },
-        {
-            name: "How to Remove Array Duplicates in ES6",
-            site: "medium",
-            url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
-        },
+      {
+        name: "Get all unique values in a JavaScript array (remove duplicates)",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/14438954/9715166"
+      },
+      {
+        name: "Remove duplicates from array in JavaScript – the only right way",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
+      },
+      {
+        name: "How to Remove Array Duplicates in ES6",
+        site: "medium",
+        url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
+      },
     ]
   },
   {
@@ -6903,21 +6903,21 @@ module.exports = [
     number: 288,
     id: "luglhko",
     sources: [
-        {
-            name: "How do I check if an array includes an object in JavaScript?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1473742/9715166"
-        },
-        {
-            name: "JavaScript Problem: Searching an Array for a Value",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=MLNmrzGQYdU"
-        },
-        {
-            name: "Arrays in JavaScript",
-            site: "medium",
-            url: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
-        },
+      {
+        name: "How do I check if an array includes an object in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1473742/9715166"
+      },
+      {
+        name: "JavaScript Problem: Searching an Array for a Value",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=MLNmrzGQYdU"
+      },
+      {
+        name: "Arrays in JavaScript",
+        site: "medium",
+        url: "https://medium.com/swlh/arrays-in-javascript-e64b873ad801"
+      },
     ]
   },
   {
@@ -6928,21 +6928,21 @@ module.exports = [
     number: 289,
     id: "i9hzdt",
     sources: [
-        {
-            name: "Check if an array contains duplicate values",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/34192063/9715166"
-        },
-        {
-            name: "Remove duplicates from array in JavaScript – the only right way",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
-        },
-        {
-            name: "How to Remove Array Duplicates in ES6",
-            site: "medium",
-            url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
-        },
+      {
+        name: "Check if an array contains duplicate values",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/34192063/9715166"
+      },
+      {
+        name: "Remove duplicates from array in JavaScript – the only right way",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=bRpVR1x_O8Q"
+      },
+      {
+        name: "How to Remove Array Duplicates in ES6",
+        site: "medium",
+        url: "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c"
+      },
     ]
   },
   {
@@ -6953,21 +6953,21 @@ module.exports = [
     number: 290,
     id: "8osyb4f",
     sources: [
-        {
-            name: "Find the min/max element of an Array in JavaScript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1669222/9715166"
-        },
-        {
-            name: "JavaScript Tip: Finding the Minimum or Maximum Value in an Array",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=IY7TRbXLU6c"
-        },
-        {
-            name: "Calculate the Max/Min value from an array",
-            site: "globe",
-            url: "https://www.jstips.co/en/javascript/calculate-the-max-min-value-from-an-array/"
-        },
+      {
+        name: "Find the min/max element of an Array in JavaScript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1669222/9715166"
+      },
+      {
+        name: "JavaScript Tip: Finding the Minimum or Maximum Value in an Array",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=IY7TRbXLU6c"
+      },
+      {
+        name: "Calculate the Max/Min value from an array",
+        site: "globe",
+        url: "https://www.jstips.co/en/javascript/calculate-the-max-min-value-from-an-array/"
+      },
     ]
   },
   {
@@ -6978,21 +6978,21 @@ module.exports = [
     number: 292,
     id: "tb57y5j",
     sources: [
-        {
-            name: "Simplest code for array intersection in javascript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/1885569/9715166"
-        },
-        {
-            name: "How to find intersection of two arrays in JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=m3U69xPawkw"
-        },
-        {
-            name: "Array intersection, difference and union in ES6",
-            site: "medium",
-            url: "https://medium.com/@alvaro.saburido/set-theory-for-arrays-in-es6-eb2f20a61848"
-        },
+      {
+        name: "Simplest code for array intersection in javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1885569/9715166"
+      },
+      {
+        name: "How to find intersection of two arrays in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=m3U69xPawkw"
+      },
+      {
+        name: "Array intersection, difference and union in ES6",
+        site: "medium",
+        url: "https://medium.com/@alvaro.saburido/set-theory-for-arrays-in-es6-eb2f20a61848"
+      },
     ]
   },
   {
@@ -7003,21 +7003,21 @@ module.exports = [
     number: 293,
     id: "etqai3t",
     sources: [
-        {
-            name: "JavaScript anagram comparison",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/23785653/9715166"
-        },
-        {
-            name: "JS Interview - Anagrams - Question 15",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=YCpxWfxU0NQ"
-        },
-        {
-            name: "Solving the anagram problem",
-            site: "medium",
-            url: "https://medium.com/@gianpaul.r/solving-the-anagram-problem-c4589211c130"
-        },
+      {
+        name: "JavaScript anagram comparison",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/23785653/9715166"
+      },
+      {
+        name: "JS Interview - Anagrams - Question 15",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=YCpxWfxU0NQ"
+      },
+      {
+        name: "Solving the anagram problem",
+        site: "medium",
+        url: "https://medium.com/@gianpaul.r/solving-the-anagram-problem-c4589211c130"
+      },
     ]
   },
   {
@@ -7028,23 +7028,23 @@ module.exports = [
     number: 294,
     id: "86526vu",
     sources: [
-        {
-            name: "Testing whether a value is odd or even",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/6211660/9715166"
-        },
-        {
-            name: "How to Check a Number is Even or Odd in JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
-        },
-        {
-            name: "Check if Number is Even/Odd",
-            site: "globe",
-            url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
-        },
+      {
+        name: "Testing whether a value is odd or even",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/6211660/9715166"
+      },
+      {
+        name: "How to Check a Number is Even or Odd in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
+      },
+      {
+        name: "Check if Number is Even/Odd",
+        site: "globe",
+        url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
+      },
     ]
-},
+  },
   {
     question: "How to remove all even numbers from an array in JavaScript?",
     answer: "https://gist.github.com/masautt/7c7766dc75bfd420df4d53c58133b866",
@@ -7053,21 +7053,21 @@ module.exports = [
     number: 295,
     id: "6x0juy",
     sources: [
-        {
-            name: "Testing whether a value is odd or even",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/6211660/9715166"
-        },
-        {
-            name: "How to Check a Number is Even or Odd in JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
-        },
-        {
-            name: "Check if Number is Even/Odd",
-            site: "globe",
-            url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
-        },
+      {
+        name: "Testing whether a value is odd or even",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/6211660/9715166"
+      },
+      {
+        name: "How to Check a Number is Even or Odd in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=h9gsO0arDgY"
+      },
+      {
+        name: "Check if Number is Even/Odd",
+        site: "globe",
+        url: "https://css-tricks.com/snippets/javascript/check-if-number-is-evenodd/"
+      },
     ]
   },
   {
@@ -7078,21 +7078,21 @@ module.exports = [
     number: 296,
     id: "q2b43jv",
     sources: [
-        {
-            name: "Javascript: How to find first duplicate value and return its index?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/39346715/9715166"
-        },
-        {
-            name: "CodeFights: Interview Practice - First Duplicate from Google",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=L0VivTGm0nQ"
-        },
-        {
-            name: "Algorithms Exercise: Find the First Duplicate in an Array",
-            site: "medium",
-            url: "https://medium.com/@joshsaintjacque/algorithms-exercise-find-the-first-duplicate-in-an-array-e97e9ed282c1"
-        },
+      {
+        name: "Javascript: How to find first duplicate value and return its index?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/39346715/9715166"
+      },
+      {
+        name: "CodeFights: Interview Practice - First Duplicate from Google",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=L0VivTGm0nQ"
+      },
+      {
+        name: "Algorithms Exercise: Find the First Duplicate in an Array",
+        site: "medium",
+        url: "https://medium.com/@joshsaintjacque/algorithms-exercise-find-the-first-duplicate-in-an-array-e97e9ed282c1"
+      },
     ]
   },
   {
@@ -7103,21 +7103,21 @@ module.exports = [
     number: 297,
     id: "4kl7b58",
     sources: [
-        {
-            name: "https://stackoverflow.com/questions/2003815/how-to-remove-element-from-an-array-in-javascript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/2003825/9715166"
-        },
-        {
-            name: "How to remove the first element of a JavaScript Array - Array.prototype.shift()",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=8xFxxhfuw7g"
-        },
-        {
-            name: "How to remove an element from a JavaScript array.",
-            site: "medium",
-            url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
-        },
+      {
+        name: "https://stackoverflow.com/questions/2003815/how-to-remove-element-from-an-array-in-javascript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/2003825/9715166"
+      },
+      {
+        name: "How to remove the first element of a JavaScript Array - Array.prototype.shift()",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=8xFxxhfuw7g"
+      },
+      {
+        name: "How to remove an element from a JavaScript array.",
+        site: "medium",
+        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
+      },
     ]
   },
   {
@@ -7128,21 +7128,21 @@ module.exports = [
     number: 298,
     id: "mo1dpw",
     sources: [
-        {
-            name: "Remove last item from array",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/19544478/9715166"
-        },
-        {
-            name: "JavaScript Array - 05 - Remove the last element",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=RbrrOQEiotU"
-        },
-        {
-            name: "How to remove an element from a JavaScript array.",
-            site: "medium",
-            url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
-        },
+      {
+        name: "Remove last item from array",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/19544478/9715166"
+      },
+      {
+        name: "JavaScript Array - 05 - Remove the last element",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=RbrrOQEiotU"
+      },
+      {
+        name: "How to remove an element from a JavaScript array.",
+        site: "medium",
+        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
+      },
     ]
   },
   {
@@ -7153,21 +7153,21 @@ module.exports = [
     number: 299,
     id: "pkjkh4p",
     sources: [
-        {
-            name: "How to randomize (shuffle) a JavaScript array?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/12646864/9715166"
-        },
-        {
-            name: "JavaScript Problem: Shuffling an Array",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=myL4xmtAVtw"
-        },
-        {
-            name: "How To Correctly Shuffle An Array in JavaScript",
-            site: "medium",
-            url: "https://medium.com/@nitinpatel_20236/how-to-shuffle-correctly-shuffle-an-array-in-javascript-15ea3f84bfb"
-        },
+      {
+        name: "How to randomize (shuffle) a JavaScript array?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/12646864/9715166"
+      },
+      {
+        name: "JavaScript Problem: Shuffling an Array",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=myL4xmtAVtw"
+      },
+      {
+        name: "How To Correctly Shuffle An Array in JavaScript",
+        site: "medium",
+        url: "https://medium.com/@nitinpatel_20236/how-to-shuffle-correctly-shuffle-an-array-in-javascript-15ea3f84bfb"
+      },
     ]
   },
   {
@@ -7179,21 +7179,21 @@ module.exports = [
     number: 300,
     id: "hfv4gir",
     sources: [
-        {
-            name: "What is compilation?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-compilation"
-        },
-        {
-            name: "Compilation - Part One: Overview of the Stages of Compilation",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=0A079QpDAzY"
-        },
-        {
-            name: "Compiler Theory - You Don't Know JS",
-            site: "github",
-            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch1.md#compiler-theory"
-        },
+      {
+        name: "What is compilation?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-compilation"
+      },
+      {
+        name: "Compilation - Part One: Overview of the Stages of Compilation",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=0A079QpDAzY"
+      },
+      {
+        name: "Compiler Theory - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch1.md#compiler-theory"
+      },
     ]
   },
   {
@@ -7205,21 +7205,21 @@ module.exports = [
     number: 301,
     id: "1kxmhgp",
     sources: [
-        {
-            name: "Cheating Lexical Scope: eval",
-            site: "globe",
-            url: "https://frontendmasters.com/courses/advanced-javascript/cheating-lexical-scope-eval/"
-        },
-        {
-            name: "Cheating lexical scoping in JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=W_StzOwiKXk"
-        },
-        {
-            name: "Cheating Lexical - You Don't Know JS",
-            site: "github",
-            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#cheating-lexical"
-        },
+      {
+        name: "Cheating Lexical Scope: eval",
+        site: "globe",
+        url: "https://frontendmasters.com/courses/advanced-javascript/cheating-lexical-scope-eval/"
+      },
+      {
+        name: "Cheating lexical scoping in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=W_StzOwiKXk"
+      },
+      {
+        name: "Cheating Lexical - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch2.md#cheating-lexical"
+      },
     ]
   },
   {
@@ -7232,21 +7232,21 @@ module.exports = [
     number: 302,
     id: "az6wgql",
     sources: [
-        {
-            name: "what are the advantages and disadvantages of anonymous methods in javascript?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/9123921/9715166"
-        },
-        {
-            name: "16.3: ES6 Arrow Function - Topics of JavaScript/ES6",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=mrYMzpbFz18"
-        },
-        {
-            name: "Unlexical - You Don't Know JS",
-            site: "github",
-            url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch6.md#unlexical"
-        },
+      {
+        name: "what are the advantages and disadvantages of anonymous methods in javascript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/9123921/9715166"
+      },
+      {
+        name: "16.3: ES6 Arrow Function - Topics of JavaScript/ES6",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=mrYMzpbFz18"
+      },
+      {
+        name: "Unlexical - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch6.md#unlexical"
+      },
     ]
   },
   {
@@ -7258,21 +7258,21 @@ module.exports = [
     number: 304,
     id: "o1m8bh8",
     sources: [
-        {
-            name: "What is a variable?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-a-variable"
-        },
-        {
-            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
-            site: "youtube",
-            url: "https://youtu.be/l26oaHV7D40?t=56"
-        },
-        {
-            name: "The Visual Guide To JavaScript Variable Definitions & Scope",
-            site: "medium",
-            url: "https://medium.com/@js_tut/the-visual-guide-to-javascript-variable-definitions-scope-abfb86edad"
-        },
+      {
+        name: "What is a variable?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-variable"
+      },
+      {
+        name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+        site: "youtube",
+        url: "https://youtu.be/l26oaHV7D40?t=56"
+      },
+      {
+        name: "The Visual Guide To JavaScript Variable Definitions & Scope",
+        site: "medium",
+        url: "https://medium.com/@js_tut/the-visual-guide-to-javascript-variable-definitions-scope-abfb86edad"
+      },
     ]
   },
   {
@@ -7284,21 +7284,21 @@ module.exports = [
     number: 305,
     id: "1fn4aw5",
     sources: [
-        {
-            name: "What is a for loop?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-a-for-loop"
-        },
-        {
-            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
-            site: "youtube",
-            url: "https://youtu.be/l26oaHV7D40?t=256"
-        },
-        {
-            name: "The Complete Guide To Loops",
-            site: "medium",
-            url: "https://medium.com/@js_tut/the-complete-guide-to-loops-cfa6522157e9"
-        },
+      {
+        name: "What is a for loop?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-for-loop"
+      },
+      {
+        name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+        site: "youtube",
+        url: "https://youtu.be/l26oaHV7D40?t=256"
+      },
+      {
+        name: "The Complete Guide To Loops",
+        site: "medium",
+        url: "https://medium.com/@js_tut/the-complete-guide-to-loops-cfa6522157e9"
+      },
     ]
   },
   {
@@ -7310,21 +7310,21 @@ module.exports = [
     number: 306,
     id: "es2fym3s",
     sources: [
-        {
-            name: "debugging vs. troubleshooting",
-            site: "globe",
-            url: "https://forum.wordreference.com/threads/debugging-vs-troubleshooting.2909914/"
-        },
-        {
-            name: "Debugging Tips - What is bug and debugging?",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
-        },
-        {
-            name: "Troubleshooting vs Debugging: What’s the Difference & Best Practices",
-            site: "globe",
-            url: "https://stackify.com/troubleshooting-vs-debugging-whats-the-difference-best-practices/"
-        },
+      {
+        name: "debugging vs. troubleshooting",
+        site: "globe",
+        url: "https://forum.wordreference.com/threads/debugging-vs-troubleshooting.2909914/"
+      },
+      {
+        name: "Debugging Tips - What is bug and debugging?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
+      },
+      {
+        name: "Troubleshooting vs Debugging: What’s the Difference & Best Practices",
+        site: "globe",
+        url: "https://stackify.com/troubleshooting-vs-debugging-whats-the-difference-best-practices/"
+      },
     ]
   },
   {
@@ -7336,21 +7336,21 @@ module.exports = [
     number: 307,
     id: "6bdumv6",
     sources: [
-        {
-            name: "What exactly is a data structure?",
-            site: "quora",
-            url: "https://www.quora.com/What-exactly-is-a-data-structure"
-        },
-        {
-            name: "Data Structures: Crash Course Computer Science #14",
-            site: "youtube",
-            url: "https://youtu.be/DuDz6B4cqVc"
-        },
-        {
-            name: "Introduction to Data Structures",
-            site: "medium",
-            url: "https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6"
-        },
+      {
+        name: "What exactly is a data structure?",
+        site: "quora",
+        url: "https://www.quora.com/What-exactly-is-a-data-structure"
+      },
+      {
+        name: "Data Structures: Crash Course Computer Science #14",
+        site: "youtube",
+        url: "https://youtu.be/DuDz6B4cqVc"
+      },
+      {
+        name: "Introduction to Data Structures",
+        site: "medium",
+        url: "https://medium.com/swlh/introduction-to-data-structures-9134b7d064a6"
+      },
     ]
   },
   {
@@ -7362,21 +7362,21 @@ module.exports = [
     number: 308,
     id: "uxyt91a",
     sources: [
-        {
-            name: "What is a function in computer programming?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-a-function-in-computer-programming"
-        },
-        {
-            name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
-            site: "youtube",
-            url: "https://youtu.be/l26oaHV7D40?t=459"
-        },
-        {
-            name: "Basic JavaScript: Write Reusable JavaScript with Functions",
-            site: "free-code-camp",
-            url: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions/"
-        },
+      {
+        name: "What is a function in computer programming?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-function-in-computer-programming"
+      },
+      {
+        name: "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+        site: "youtube",
+        url: "https://youtu.be/l26oaHV7D40?t=459"
+      },
+      {
+        name: "Basic JavaScript: Write Reusable JavaScript with Functions",
+        site: "free-code-camp",
+        url: "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions/"
+      },
     ]
   },
   {
@@ -7388,21 +7388,21 @@ module.exports = [
     number: 309,
     id: "gg14f8e",
     sources: [
-        {
-            name: "What is recursion?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-recursion"
-        },
-        {
-            name: "What Is Recursion - Recursion Explained In 3 Minutes",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=YZcO_jRhvxs"
-        },
-        {
-            name: "Recursion Made Simple",
-            site: "medium",
-            url: "https://medium.com/code-zen/recursion-demystified-24867f045c62"
-        },
+      {
+        name: "What is recursion?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-recursion"
+      },
+      {
+        name: "What Is Recursion - Recursion Explained In 3 Minutes",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=YZcO_jRhvxs"
+      },
+      {
+        name: "Recursion Made Simple",
+        site: "medium",
+        url: "https://medium.com/code-zen/recursion-demystified-24867f045c62"
+      },
     ]
   },
   {
@@ -7413,21 +7413,21 @@ module.exports = [
     number: 310,
     id: "y80wde7",
     sources: [
-        {
-            name: "Generate random string/characters in JavaScript",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/8084248/9715166"
-        },
-        {
-            name: "Using Math.random() in JavaScript",
-            site: "medium",
-            url: "https://medium.com/@josephcardillo/using-math-random-in-javascript-c49eff920b11"
-        },
-        {
-            name: "How to generate random numbers in JavaScript - Math.random",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=1Rq_LrpcgIM"
-        },
+      {
+        name: "Generate random string/characters in JavaScript",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/8084248/9715166"
+      },
+      {
+        name: "Using Math.random() in JavaScript",
+        site: "medium",
+        url: "https://medium.com/@josephcardillo/using-math-random-in-javascript-c49eff920b11"
+      },
+      {
+        name: "How to generate random numbers in JavaScript - Math.random",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=1Rq_LrpcgIM"
+      },
     ]
   },
   {
@@ -7439,21 +7439,21 @@ module.exports = [
     number: 311,
     id: "jexkah",
     sources: [
-        {
-            name: "What is Software Localization?",
-            site: "globe",
-            url: "https://www.sdltrados.com/solutions/software-localization/"
-        },
-        {
-            name: "Translation and Localization",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=J7ODeZK8TDI"
-        },
-        {
-            name: "Best Practices for the Software Localization Process",
-            site: "medium",
-            url: "https://medium.com/webeagle/best-practices-for-the-software-localization-process-d35b8dac6f0f"
-        },
+      {
+        name: "What is Software Localization?",
+        site: "globe",
+        url: "https://www.sdltrados.com/solutions/software-localization/"
+      },
+      {
+        name: "Translation and Localization",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=J7ODeZK8TDI"
+      },
+      {
+        name: "Best Practices for the Software Localization Process",
+        site: "medium",
+        url: "https://medium.com/webeagle/best-practices-for-the-software-localization-process-d35b8dac6f0f"
+      },
     ]
   },
   {
@@ -7465,21 +7465,21 @@ module.exports = [
     number: 312,
     id: "e1bejw9",
     sources: [
-        {
-            name: "What is scope of the variable?",
-            site: "quora",
-            url: "https://www.quora.com/What-is-scope-of-the-variable"
-        },
-        {
-            name: "Scope - Programming Languages",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=wTn6oQ56MV8"
-        },
-        {
-            name: "Scope vs. Context in JavaScript",
-            site: "medium",
-            url: "https://medium.com/better-programming/scope-vs-context-in-javascript-b31818f58558"
-        },
+      {
+        name: "What is scope of the variable?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-scope-of-the-variable"
+      },
+      {
+        name: "Scope - Programming Languages",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=wTn6oQ56MV8"
+      },
+      {
+        name: "Scope vs. Context in JavaScript",
+        site: "medium",
+        url: "https://medium.com/better-programming/scope-vs-context-in-javascript-b31818f58558"
+      },
     ]
   },
   {
@@ -7490,21 +7490,21 @@ module.exports = [
     number: 313,
     id: "n679h6",
     sources: [
-        {
-            name: "How to replace all occurrences of a string?",
-            site: "stack-overflow",
-            url: "https://stackoverflow.com/a/17606289/9715166"
-        },
-        {
-            name: "How to replace all occurrences of a string in JavaScript",
-            site: "youtube",
-            url: "https://www.youtube.com/watch?v=7FcavNZnLAc"
-        },
-        {
-            name: "How to replace all occurrences of a string in JavaScript",
-            site: "globe",
-            url: "https://flaviocopes.com/how-to-replace-all-occurrences-string-javascript/"
-        },
+      {
+        name: "How to replace all occurrences of a string?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/17606289/9715166"
+      },
+      {
+        name: "How to replace all occurrences of a string in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=7FcavNZnLAc"
+      },
+      {
+        name: "How to replace all occurrences of a string in JavaScript",
+        site: "globe",
+        url: "https://flaviocopes.com/how-to-replace-all-occurrences-string-javascript/"
+      },
     ]
   },
 ];
