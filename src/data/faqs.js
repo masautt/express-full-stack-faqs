@@ -6,7 +6,7 @@ module.exports = [
       "Component Frameworks limit writing actual CSS because they offer prebuilt components that can be imported. Utility frameworks encourage inline styling by offering prebuilt classes that correlate to CSS attributes.",
     tags: ["front-end", "css", "javascript-libraries"],
     type: "comparison",
-    number: 0,
+    number: 1,
     id: "56h6vqe",
     sources: [
       {
@@ -32,7 +32,7 @@ module.exports = [
       "TypeScript is a SuperSet of JavaScript created by Microsoft in 2012. TypeScript is strongly-typed which helps identify compilation errors in development.",
     tags: ["javascript", "typescript", "javascript-libraries"],
     type: "comparison",
-    number: 1,
+    number: 2,
     id: "dcfqw4r",
     sources: [
       {
@@ -58,7 +58,7 @@ module.exports = [
       '"this" refers to a binding that is made when a function is invoked, and what it references is determined entirely by the call-site where the function is called.',
     tags: ["javascript"],
     type: "definition",
-    number: 2,
+    number: 3,
     id: "0fg1g5",
     sources: [
       {
@@ -84,7 +84,7 @@ module.exports = [
       'The "use strict" string literal was introduced in ESCMScript 5. When included in a scope, errors are thrown for insecure coding practices like assigning values to undeclared variables. The this keyword does not traverse up the functional scope to the global object when it is undefined.',
     tags: ["javascript"],
     type: "definition",
-    number: 3,
+    number: 4,
     id: "wyw25ob",
     sources: [
       {
@@ -105,7 +105,7 @@ module.exports = [
       "Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.",
     tags: ["javascript", "programming-fundamentals"],
     type: "definition",
-    number: 4,
+    number: 5,
     id: "v8e59bt",
     sources: [
       {
@@ -126,7 +126,7 @@ module.exports = [
       "The DOM is the browsers API that allows a scripting language like JavaScript to manipulate HTML on a webpage.",
     tags: ["dom", "front-end"],
     type: "definition",
-    number: 5,
+    number: 6,
     id: "toxu21t",
     sources: [
       {
@@ -148,7 +148,7 @@ module.exports = [
       "Each are used to declare a variable, but var has been a part of JavaScript since the start while let and const were introduced in ES6. var has functional scope while the others have block scope. const is identical to let but you aren't allowed to redeclare a variable declared with const",
     tags: ["javascript"],
     type: "comparison",
-    number: 6,
+    number: 7,
     id: "bnxjlb",
     sources: [
       {
@@ -174,7 +174,7 @@ module.exports = [
       "The box model is the hierarchy of CSS attributes on elements. Content --> padding --> border --> margin.",
     tags: ["css", "front-end"],
     type: "definition",
-    number: 7,
+    number: 8,
     id: "28b4e2yl",
     sources: [
       {
@@ -195,7 +195,7 @@ module.exports = [
       'The double equals (==) uses implicit conversion when comparing values. If we compare the number 5 with the string "5" (5 == "5"), the string will be converted to a number and compared. The triple equals (===) does not implicitly convert so ("5" === 5) will return false.',
     tags: ["javascript"],
     type: "comparison",
-    number: 8,
+    number: 9,
     id: "6b1n3q",
     sources: [
       {
@@ -221,7 +221,7 @@ module.exports = [
       "undefined is given to a variable that has not been assigned a value. null can only be assigned by a developer.",
     tags: ["javascript"],
     type: "comparison",
-    number: 9,
+    number: 10,
     id: "3xi3xlt",
     sources: [
       {
@@ -248,7 +248,7 @@ module.exports = [
       "Undeclared variables have not been referenced before in the current scope. Undefined variables have been declared but have not been assigned a value.",
     tags: ["javascript"],
     type: "comparison",
-    number: 10,
+    number: 11,
     id: "h6uz3x",
     sources: [
       {
@@ -276,7 +276,7 @@ module.exports = [
       "The window refers to the object that represents the browser's window. All global JavaScript objects, functions, and variables automatically become members of the window object. The document is nested in the window object and refers to the actual HTML code of the webpage.",
     tags: ["dom", "front-end", "javascript"],
     type: "comparison",
-    number: 11,
+    number: 12,
     id: "p2y6csz",
     sources: [
       {
@@ -302,7 +302,7 @@ module.exports = [
       'When a user interacts with a nested element and the event "bubbles" to the top through its ancestor elements. Capturing is the opposite where events are captured down to the deepest target.',
     tags: ["dom", "front-end", "javascript"],
     type: "definition",
-    number: 12,
+    number: 13,
     id: "66ks56",
     sources: [
       {
@@ -329,7 +329,7 @@ module.exports = [
       "Both are function prototypes that call the function while passing in a this object. apply takes in and array of arguments as the second function while call does not require the array and will take an infinite amount of arguments.",
     tags: ["javascript"],
     type: "comparison",
-    number: 13,
+    number: 14,
     id: "z3okrth",
     sources: [
       {
@@ -355,7 +355,7 @@ module.exports = [
       "Shallow copies do not consider the fields of an object that are references to other objects so it keeps the same memory addresses. Deep copies make a copy of dynamically allocated memory that is pointed to by the fields.",
     tags: ["javascript", "programming-fundamentals"],
     type: "comparison",
-    number: 14,
+    number: 15,
     id: "q0u9qzk",
     sources: [
       {
@@ -381,7 +381,7 @@ module.exports = [
       "When we say something is immutable it means it we cannot modify it's value after assignment, we would need to create a copy of it. Numbers and strings are immutable while objects, arrays, functions, classes, sets, and maps are not.",
     tags: ["programming-fundamentals", "javascript"],
     type: "definition",
-    number: 15,
+    number: 16,
     id: "aplmx6f",
     sources: [
       {
@@ -408,7 +408,7 @@ module.exports = [
       "React features JSX, a syntax extension to JavaScript that is similar to other templating languages but comes with the full power of JavaScript. React also uses a virtual dom which is a lightweight copy of the DOM that allows eliminates the need to constantly update the entire DOM which is slow.",
     tags: ["react-js", "javascript", "front-end", "javascript-libraries"],
     type: "list",
-    number: 16,
+    number: 17,
     id: "tc14j9",
     sources: [
       {
@@ -434,7 +434,7 @@ module.exports = [
       "Specificity refers to the weight that is applied to a given CSS declaration. Types < Classes < IDs < !Important keyword.",
     tags: ["css", "front-end"],
     type: "definition",
-    number: 17,
+    number: 18,
     id: "hqwgumk",
     sources: [
       {
@@ -460,7 +460,7 @@ module.exports = [
     answer: "Visibility hidden renders in the DOM while display none does not.",
     tags: ["css", "front-end"],
     type: "comparison",
-    number: 18,
+    number: 19,
     id: "p6js7e",
     sources: [
       {
@@ -486,7 +486,7 @@ module.exports = [
       "This means functions can be stored in a variable, object, or array and they can be passed into and returned from a function.",
     tags: ["programming-fundamentals", "javascript"],
     type: "definition",
-    number: 19,
+    number: 20,
     id: "pclvevr",
     sources: [
       {
@@ -511,7 +511,7 @@ module.exports = [
     answer: "These are essentially nameless functions.",
     tags: ["python", "programming-fundamentals"],
     type: "definition",
-    number: 20,
+    number: 21,
     id: "kdt45mr",
     sources: [
       {
@@ -537,7 +537,7 @@ module.exports = [
       "Arrow functions, new to ES6, are ways to write Lambda functions. These functions however, do not have their own this value. They are bound to the enclosing scope.",
     tags: ["javascript"],
     type: "definition",
-    number: 21,
+    number: 22,
     id: "v3w9mj",
     sources: [
       {
@@ -563,7 +563,7 @@ module.exports = [
       "1. First-class functions: functions can be stored in a variable object or array and can be passed in or returned from functions. 2. Higher Order Functions: (Factory Functions) functions that can build other functions by taking a function as an argument. 3. Lambda functions (arrow functions): A nameless function",
     tags: ["functional-programming", "javascript"],
     type: "list",
-    number: 22,
+    number: 23,
     id: "5j07ive",
     sources: [
       {
@@ -589,7 +589,7 @@ module.exports = [
       "These are functions that take a function as an argument and/or return a new function.",
     tags: ["functional-programming", "javascript"],
     type: "definition",
-    number: 23,
+    number: 24,
     id: "qlcklyn",
     sources: [
       {
@@ -616,7 +616,7 @@ module.exports = [
       "Classical relies on classes and prototypal relies on prototypes. Classes are immutable, you can't modify or add new methods at runtime while prototypes can be either. Classes may or may not support multiple inheritance where objects can inherit from multiple prototypes.",
     tags: ["object-oriented-programming", "functional-programming", "javascript"],
     type: "comparison",
-    number: 24,
+    number: 25,
     id: "b5yf47h",
     sources: [
       {
@@ -642,7 +642,7 @@ module.exports = [
       "1. configurable: alters ability to change other property descriptors and delete the property. 2. enumerable : changes whether the property is displayed when the object is looped over. 3. writable : whether the value can be changed.",
     tags: ["javascript"],
     type: "list",
-    number: 25,
+    number: 26,
     id: "8ap4fbp",
     sources: [
       {
@@ -669,7 +669,7 @@ module.exports = [
       "When an object is passed into this function, an error will be thrown when there is an attempt to define a property on the object.",
     tags: ["javascript"],
     type: "definition",
-    number: 26,
+    number: 27,
     id: "r8jroi9",
     sources: [
       {
@@ -696,7 +696,7 @@ module.exports = [
       "Object.seal( ): Prevent new properties being added and marks existing properties as non-configurable but they are still writable. Object.freeze( ) Will do same as seal but not have the values be writable. Object.deepFreeze is not a built in function but it means to freeze the properties of objects nested in the main object.",
     tags: ["javascript"],
     type: "comparison",
-    number: 27,
+    number: 28,
     id: "oais0xm",
     sources: [
       {
@@ -723,7 +723,7 @@ module.exports = [
       "The typeof operator returns a string indicating the type of the operand while the instanceof operator tests whether the prototype property of a constructor appears anywhere in the prototype chain of an object.",
     tags: ["javascript"],
     type: "comparison",
-    number: 28,
+    number: 29,
     id: "wbnjha",
     sources: [
       {
@@ -750,7 +750,7 @@ module.exports = [
       "The in property returns true if the specified property is in the specified object or it's prototype chain while hasOwnProperty will return true if the object has the specified property as it's own (not just from the prototype chain)",
     tags: ["javascript"],
     type: "comparison",
-    number: 29,
+    number: 30,
     id: "g2hzd3v",
     sources: [
       {
@@ -777,7 +777,7 @@ module.exports = [
       "1. Called with new? Use the newly constructed object. 2. Called with call, apply, or bind? Use that specified object. 3. Called with a context object owning the call? Use that context object. 4. Default: undefined in strict mode and global object otherwise.",
     tags: ["javascript"],
     type: "list",
-    number: 30,
+    number: 31,
     id: "8gkoaid",
     sources: [
       {
@@ -799,7 +799,7 @@ module.exports = [
       "1. A brand new object is created (aka, constructed) out of thin air. 2. The newly constructed object is prototype linked. 3. The newly constructed object is set as the this binding for that function call. 4. Unless the function returns its own alternate object, the new invoked function call will automatically return the newly constructed object",
     tags: ["javascript"],
     type: "list",
-    number: 31,
+    number: 32,
     id: "zrhh9vo",
     sources: [
       {
@@ -826,7 +826,7 @@ module.exports = [
       'The property method (object.property) is the common method to declare an access an object\'s properties. The key method (object["property"]) takes in a string as the property which means you can access variable unusual characters like spaces. You can also pass in computed property names in the key method.',
     tags: ["javascript"],
     type: "comparison",
-    number: 32,
+    number: 33,
     id: "88x8ub",
     sources: [
       {
@@ -852,7 +852,7 @@ module.exports = [
       "An IIFE is an Immediately Invoked Function Expression which runs as soon as it's defined by adding ( ) to the end of the function scope. These functions don't need names so the most common form is an anonymous function.",
     tags: ["javascript"],
     type: "definition",
-    number: 35,
+    number: 34,
     id: "7h9x8fl",
     sources: [
       {
@@ -879,7 +879,7 @@ module.exports = [
       "SEO, Search Engine Optimization is the process of increasing the quality and quantity of a website traffic by increasing the visibility of a website or a web page to users of a web search engine.",
     tags: ["front-end"],
     type: "definition",
-    number: 36,
+    number: 35,
     id: "a945jyi",
     sources: [
       {
@@ -1056,7 +1056,7 @@ module.exports = [
       "A method used in TCP/IP network to create a connection: 1. SYN:  Client sends packet with random sequence number to the server. 2. SYN-ACK:. Server responds with +1 to sequence number. 3. ACK: Client sends back messaging saying handshake has been complete. ",
     tags: ["networking"],
     type: "list",
-    number: 43,
+    number: 42,
     id: "gcgapp29",
     sources: [
       {
@@ -1082,7 +1082,7 @@ module.exports = [
       "A form of denial of service attack in which an attacker sends a succession of SYN requests to a target's system in attempt to consume enough server resources to make the system unresponsive to legitimate traffic.",
     tags: ["networking", "security"],
     type: "definition",
-    number: 45,
+    number: 43,
     id: "9oosnwu",
     sources: [
       {
@@ -1108,7 +1108,7 @@ module.exports = [
       "A DDOS (Distributed Denial of Service) attack is more threatening because it means the attempts to override the target with traffic are coming from multiple IP Addresses (DOS is only 1). This makes it difficult to distinguish legitimate traffic from malicious.",
     tags: ["networking", "security"],
     type: "comparison",
-    number: 47,
+    number: 44,
     id: "bl8ay5n",
     sources: [
       {
@@ -1134,7 +1134,7 @@ module.exports = [
       "Meta tags offer metadata about the HTML page. This can include description, keywords, author, viewport, and charset.",
     tags: ["html", "front-end"],
     type: "definition",
-    number: 48,
+    number: 45,
     id: "6t7vsuj",
     sources: [
       {
@@ -1160,7 +1160,7 @@ module.exports = [
       "You need to use <!DOCTYPE html> at the top of your HTML file. This is not an HTML tag, this is an instruction to the web browser about what version of HTML the page is written in.",
     tags: ["html", "front-end"],
     type: "definition",
-    number: 49,
+    number: 46,
     id: "ph1xzdn",
     sources: [
       {
@@ -1186,7 +1186,7 @@ module.exports = [
       "HTTP keep-alive, aka HTTP persistent connection is an instruction that allows a single TCP connection to remain open for multiple HTTP requests/responses. Enabling the keep-alive header allows you to serve all web page resources over a single connection thus reducing client load times and server load.",
     tags: ["networking"],
     type: "definition",
-    number: 50,
+    number: 47,
     id: "wsyrzjr",
     sources: [
       {
@@ -1212,7 +1212,7 @@ module.exports = [
       "DNS (Domain Name System) the program that translates a hostname (google.com) to an IP address (8.8.4.4).",
     tags: ["networking"],
     type: "definition",
-    number: 51,
+    number: 48,
     id: "vuuwgas",
     sources: [
       {
@@ -1239,7 +1239,7 @@ module.exports = [
       "Art Direction refers to serving several images potentially at the same resolution but cropped differently or with different aspect resolutions to optimize user experience. Resolution switching refers to offering different resolutions for images based on the size of the screen accessing them in order to lower bandwidth.",
     tags: ["front-end"],
     type: "comparison",
-    number: 54,
+    number: 49,
     id: "x2ux0c",
     sources: [
       {
@@ -1265,7 +1265,7 @@ module.exports = [
       "Flexbox allows item's width and height to change (flex) to fill the available space while CSS grid is a set width and height for all elements and keeps the same scale.",
     tags: ["front-end", "css"],
     type: "comparison",
-    number: 57,
+    number: 50,
     id: "pu6qt9b",
     sources: [
       {
@@ -1291,7 +1291,7 @@ module.exports = [
       "SOLID is an acronym to remember fundamental software engineering principles. S - Single responsibility. O - Open Closed. L - Liskov substitution. I - Interface Segregation. D - Dependency Inversion",
     tags: ["software-engineering", "design-patterns", "object-oriented-programming"],
     type: "list",
-    number: 58,
+    number: 51,
     id: "wl5p003",
     sources: [
       {
@@ -1318,7 +1318,7 @@ module.exports = [
       "React.js uses a one-way data flow while Angular uses two-way binding. Two-way data binding means UI fields are bound to model data dynamically such that when a UI field changes, the model data changes with it and vice-versa. One-way data flow means the model is the single source of truth such that changes in the UI trigger measures that signal user intent to the model. Only the model has access to change the states app's state.",
     tags: ["front-end", "javascript", "react-js", "javascript-libraries"],
     type: "comparison",
-    number: 61,
+    number: 52,
     id: "aydefca",
     sources: [
       {
@@ -1345,7 +1345,7 @@ module.exports = [
       "Monolithic uses a set of identical servers behind a load balance while microservices relies on decoupling all servers and spreading them across virtual machines on servers.",
     tags: ["design-patterns", "back-end"],
     type: "comparison",
-    number: 62,
+    number: 53,
     id: "92i4liw",
     sources: [
       {
@@ -1372,7 +1372,7 @@ module.exports = [
       "When trying to grab data in synchronous you would need to wait until all the data has been received but with asynchronous you won't need to wait (block), you will be alerted later when the data has been returned.",
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
-    number: 63,
+    number: 54,
     id: "xsn9zys",
     sources: [
       {
@@ -1398,7 +1398,7 @@ module.exports = [
       "Object oriented principle that states software entities should be open for extension but closed for modification. The base functionality shouldn't change but additional features can be added.",
     tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
-    number: 64,
+    number: 55,
     id: "fr08j5g",
     sources: [
       {
@@ -1424,7 +1424,7 @@ module.exports = [
       "Object oriented principle that states functions that use pointers to base classes must be able to use objects of derived classes without knowing it.",
     tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
-    number: 65,
+    number: 56,
     id: "l3aa7or",
     sources: [
       {
@@ -1449,7 +1449,7 @@ module.exports = [
     answer: "Object oriented design pattern that states no client should be forced to depend on methods it does not use.",
     tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
-    number: 66,
+    number: 57,
     id: "id38a",
     sources: [
       {
@@ -1475,7 +1475,7 @@ module.exports = [
       "Object oriented design pattern that states high level modules should not depend on low level modules. Both should depend on abstractions. These abstractions should not depend on details the details should depend on abstractions.",
     tags: ["object-oriented-programming", "design-patterns"],
     type: "definition",
-    number: 67,
+    number: 58,
     id: "68tbjwa",
     sources: [
       {
@@ -1501,7 +1501,7 @@ module.exports = [
       "KISS (Keep it Simple Stupid / Keep it Stupid Simple) is a design principle noted by the US Navy that states systems work best when they are kept simple wheras the YAGNI (You Aren't Gonna Need It) states that you shouldn't add extra functionality until it becomes a necessity to the application.",
     tags: ["software-engineering"],
     type: "comparison",
-    number: 68,
+    number: 59,
     id: "2gg7zgj",
     sources: [
       {
@@ -1527,7 +1527,7 @@ module.exports = [
       "React hooks allows us to only write function in JavaScript and removes the need for the class and this keywords.",
     tags: ["front-end", "javascript", "react-js", "javascript-libraries"],
     type: "definition",
-    number: 69,
+    number: 60,
     id: "5xgvj56",
     sources: [
       {
@@ -1553,7 +1553,7 @@ module.exports = [
       "The Context API is a feature of React itself, Redux is a predictable state container for JS apps in general. There is greater functionality behind Redux however it is not meant solely for React.",
     tags: ["react-js", "front-end", "javascript", "javascript-libraries"],
     type: "comparison",
-    number: 70,
+    number: 61,
     id: "be08gkk",
     sources: [
       {
@@ -1579,7 +1579,7 @@ module.exports = [
       "Behavior driven is a specialized form of test driven that focuses on the behavioral aspect of the system rather than the implementation aspect. Behavior gives a clearer understanding as to what the system should do from the perspective of both the developer and customer.",
     tags: ["software-engineering"],
     type: "comparison",
-    number: 71,
+    number: 62,
     id: "ebvqb8e",
     sources: [
       {
@@ -1604,7 +1604,7 @@ module.exports = [
     answer: "Number, String, Boolean, Object, Null, Undefined and Symbol",
     tags: ["javascript"],
     type: "list",
-    number: 72,
+    number: 63,
     id: "qpw4l0b",
     sources: [
       {
@@ -1629,7 +1629,7 @@ module.exports = [
     answer: "Brendan Eich from Netscape built JavaScript in 10 days.",
     tags: ["javascript"],
     type: "definition",
-    number: 73,
+    number: 64,
     id: "etjgjsd",
     sources: [
       {
@@ -1655,7 +1655,7 @@ module.exports = [
       "Void(0) can be used to prevent the page from refreshing because it calls another method instead.",
     tags: ["javascript"],
     type: "definition",
-    number: 75,
+    number: 65,
     id: "3kdsb9p",
     sources: [
       {
@@ -1681,7 +1681,7 @@ module.exports = [
       "A cookie is a small test file that gets created when a user visits a website. Cookies are sent to the back-end to be used to keep track of user sessions.",
     tags: ["front-end", "back-end"],
     type: "definition",
-    number: 76,
+    number: 66,
     id: "78k7tjt",
     sources: [
       {
@@ -1708,7 +1708,7 @@ module.exports = [
       "When we traverse up the lexical scope we are looking at the nesting of brackets {} but when we traverse up dynamic scope we are following the function call's scopes.",
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
-    number: 77,
+    number: 67,
     id: "swl1uaa",
     sources: [
       {
@@ -1734,7 +1734,7 @@ module.exports = [
       "Unlike innerText, innerHTML lets you work with HTML rich text and doesn't automatically encode and decode text. In other words, innerText retrieves and sets the content of the tag as plain text, whereas innerHTML retrieves and sets the content in HTML format.",
     tags: ["javascript", "dom", "html"],
     type: "comparison",
-    number: 78,
+    number: 68,
     id: "hunyfsa",
     sources: [
       {
@@ -1760,7 +1760,7 @@ module.exports = [
       "innerText returns the visible text contained in a node, while textContent returns the full text. innerText was non-standard, while textContent was standardized earlier.",
     tags: ["javascript", "dom", "html"],
     type: "comparison",
-    number: 78,
+    number: 69,
     id: "waw420c",
     sources: [
       {
@@ -1786,7 +1786,7 @@ module.exports = [
       "EvalError, InteernalError, RangeError, ReferenceError, SyntaxError, TypeError, and URIError.",
     tags: ["javascript"],
     type: "list",
-    number: 79,
+    number: 70,
     id: "10qgphm",
     sources: [
       {
@@ -1813,7 +1813,7 @@ module.exports = [
       "The ready event occurs after the HTML document has been loaded, while the onload event occurs later, when all content (e.g. images) also has been loaded.",
     tags: ["dom", "javascript"],
     type: "comparison",
-    number: 80,
+    number: 71,
     id: "lh4ywi9",
     sources: [
       {
@@ -1834,7 +1834,7 @@ module.exports = [
       "JSONPadding was used to circumvent the restriction that JavaScript files cannot make calls to domains that are not where that file originates from, (to avoid cross site scripting). Instead, JavaScript code is used to generate script tags with the domain of the server to fetch data from, thus the browser will call to the domain hoping to fetch a JavaScript file. The src file will include a parameter ?callback=variable which will execute JavaScript code that returns JSON and assigns it to that variable.",
     tags: ["javascript", "front-end"],
     type: "explanation",
-    number: 82,
+    number: 72,
     id: "9aobgwf",
     sources: [
       {
@@ -1861,7 +1861,7 @@ module.exports = [
       "A listener is an object that subscribes for events from a source, you can have many listeners subscribing for each type of event. A handler is an object that is responsible for handling certain events where you would only have one handler for each type of event.",
     tags: ["javascript"],
     type: "comparison",
-    number: 84,
+    number: 73,
     id: "3secxr",
     sources: [
       {
@@ -1888,7 +1888,7 @@ module.exports = [
       "The availWidth/height returns the height/width excluding the taskbar.",
     tags: ["javascript", "front-end"],
     type: "comparison",
-    number: 86,
+    number: 74,
     id: "l14kcv0d",
     sources: [
       {
@@ -1910,7 +1910,7 @@ module.exports = [
       'Escapes and unescapes are both used for removing traces of offending characters that could prevent interprelation. For example, when you call unescape("\thi") you will get the tab inserted, but when you call escape("\thi") you will see "\\thi"',
     tags: ["javascript"],
     type: "comparison",
-    number: 87,
+    number: 75,
     id: "drilbwi",
     sources: [
       {
@@ -1937,7 +1937,7 @@ module.exports = [
       "True private methods are very memory inefficient as a new copy of the method would be created for each instance.",
     tags: ["javascript"],
     type: "explanation",
-    number: 88,
+    number: 76,
     id: "wrrcv2n",
     sources: [
       {
@@ -1964,7 +1964,7 @@ module.exports = [
       "Run time var foo = function( ) means that if we call foo( ) before that statement we will receive and error. However if we use parse-time with function foo( ) then calling foo( ) above will not result in an error.",
     tags: ["javascript"],
     type: "comparison",
-    number: 89,
+    number: 77,
     id: "1jk19m",
     sources: [
       {
@@ -1980,7 +1980,7 @@ module.exports = [
       "Before run-time JavaScript looks for all variable and function declarations in the scope and then hoists them ot the top of the function before they are declared.",
     tags: ["javascript"],
     type: "definition",
-    number: 90,
+    number: 78,
     id: "c7mwo7",
     sources: [
       {
@@ -2007,7 +2007,7 @@ module.exports = [
       "Indexed arrays are the normal arrays we see in JavaScript where each element is identified by it's index, a number. An associative array (also known as maps) are not forced to use a number as the index.",
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
-    number: 91,
+    number: 79,
     id: "yuzewe",
     sources: [
       {
@@ -2033,7 +2033,7 @@ module.exports = [
       "HTML stands for Hyper Text Markup Language. It is used to markup webpages through nesting elements.",
     tags: ["html", "front-end"],
     type: "definition",
-    number: 92,
+    number: 80,
     id: "uzcquf",
     sources: [
       {
@@ -2059,7 +2059,7 @@ module.exports = [
       "HTML tags are composed of an opening tag, content, and an ending tag. Tags can be nested within other tags.",
     tags: ["html", "front-end"],
     type: "definition",
-    number: 93,
+    number: 81,
     id: "1nc5l0n",
     sources: [
       {
@@ -2084,7 +2084,7 @@ module.exports = [
     answer: "Void elements area, base, br, col, command, embed, hr, img, input, keygen, link, meta, param, source, track, wbr do not require and end tag. These are called void elements.",
     tags: ["html", "front-end"],
     type: "list",
-    number: 94,
+    number: 82,
     id: "pvesa7",
     sources: [
       {
@@ -2110,7 +2110,7 @@ module.exports = [
       "There are 6 headings ranging from <h1> to <h6>, with <h1> being the largest.",
     tags: ["html", "front-end"],
     type: "definition",
-    number: 95,
+    number: 83,
     id: "lgs7gei",
     sources: [
       {
@@ -2135,7 +2135,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/a61f53afbf1cc2a8988ea6a38c47c0d7",
     tags: ["html"],
     type: "code",
-    number: 96,
+    number: 84,
     id: "e37uqws",
     sources: [
       {
@@ -2161,7 +2161,7 @@ module.exports = [
       "<ul> : unordered list that displays items with a bullet, <ol> : ordered list that displays items with the number 1. 2. 3., <dl> : definition list displays elements like a dictionary with the definition tabbed over",
     tags: ["html", "front-end"],
     type: "list",
-    number: 97,
+    number: 85,
     id: "neozsrf",
     sources: [
       {
@@ -2187,7 +2187,7 @@ module.exports = [
       "HTML elements communicate to the browser to render text. When elements are enclosed by the brackets <> they form HTML tags.",
     tags: ["html", "front-end"],
     type: "comparison",
-    number: 98,
+    number: 86,
     id: "w22kcp",
     sources: [
       {
@@ -2214,7 +2214,7 @@ module.exports = [
       "Semantic elements describe the meaning to the user as to what content they contain. Examples of semantic elements are <form> <table> and <article> while non semantic are <div> and <span>. We don't know what is inside these span and div tags where as we know what to expect with semantic elements.",
     tags: ["html", "front-end"],
     type: "comparison",
-    number: 99,
+    number: 87,
     id: "rwqhyw",
     sources: [
       {
@@ -2240,7 +2240,7 @@ module.exports = [
       "An image map is an image with clickable areas. You can use the <map> and <area> tags to identify areas in an image that when clicked will navigate to a link.",
     tags: ["html", "front-end"],
     type: "definition",
-    number: 100,
+    number: 88,
     id: "p74hpso",
     sources: [
       {
@@ -2266,7 +2266,7 @@ module.exports = [
       "<iframe> is the HTML 5 standard for including resources from other domains or subdomains as well as content. <embed> was also standardized in HTML 5 but is used to embed content for browser plugins. <object> is more versatile and can handle the first 2",
     tags: ["html", "front-end"],
     type: "comparison",
-    number: 101,
+    number: 89,
     id: "ty28g8c",
     sources: [
       {
@@ -2292,7 +2292,7 @@ module.exports = [
       "The color of the bullet is always the color of the first text of the list. In order to change the color of the bullet you must change the color of the text.",
     tags: ["html", "front-end"],
     type: "explanation",
-    number: 102,
+    number: 90,
     id: "kwojsm",
     sources: [
       {
@@ -2318,7 +2318,7 @@ module.exports = [
       "In terms of CSS, div is a block element while span is inline. This means we should be using divs to wrap sections of a document while spans should be used to wrap small portions of text and images.",
     tags: ["html", "front-end"],
     type: "explanation",
-    number: 104,
+    number: 91,
     id: "h9e2tu4",
     sources: [
       {
@@ -2345,7 +2345,7 @@ module.exports = [
       "An expression is any reference to a variable or value, or a set of variables and values combined with operators. Statements are made up of expressions and are defined as a group of words, numbers, and operators that performs a specific task.",
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
-    number: 106,
+    number: 92,
     id: "nz6uigo",
     sources: [
       {
@@ -2371,7 +2371,7 @@ module.exports = [
       "Interpreting code means translating the commands from top to bottom, line by line, every time the program is run whereas compiling code means the translation is done ahead of time.",
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
-    number: 107,
+    number: 93,
     id: "8w2045j",
     sources: [
       {
@@ -2396,7 +2396,7 @@ module.exports = [
     answer: "CSS, Cascading Style Sheets is used to style HTML.",
     tags: ["css", "front-end"],
     type: "definition",
-    number: 108,
+    number: 94,
     id: "zuryx7t",
     sources: [
       {
@@ -2422,7 +2422,7 @@ module.exports = [
       '1. External : Written in separate style sheets (.css files) 2. Internal : Written at the top of HTML files (<style> tags) 3. Inline: Written inside the HTML tag (<p style=""></p>)',
     tags: ["css", "front-end"],
     type: "list",
-    number: 109,
+    number: 95,
     id: "w0md9j",
     sources: [
       {
@@ -2448,7 +2448,7 @@ module.exports = [
       "Selectors refer to the patterns used to select the elements to style. These include naming the element type, id, class, or * for all elements.",
     tags: ["css", "front-end"],
     type: "definition",
-    number: 110,
+    number: 96,
     id: "0f140i",
     sources: [
       {
@@ -2474,7 +2474,7 @@ module.exports = [
       "A collection of images put into a single image. A web page with many images can take a long time to load and generates multiple server requests so it saves bandwidth by combining images.",
     tags: ["css", "front-end"],
     type: "definition",
-    number: 112,
+    number: 97,
     id: "q2885b",
     sources: [
       {
@@ -2500,7 +2500,7 @@ module.exports = [
       "Variables maintained by CSS whose values maybe be incremented by CSS rules to track how many times they're used. You can access the value by calling the counter( ) function.",
     tags: ["css", "front-end"],
     type: "definition",
-    number: 113,
+    number: 98,
     id: "q3pygwk",
     sources: [
       {
@@ -2526,7 +2526,7 @@ module.exports = [
       "Setting the border-radius to a set value of pixels will round the corners.",
     tags: ["css", "front-end"],
     type: "code",
-    number: 114,
+    number: 99,
     id: "qjmpnhw",
     sources: [
       {
@@ -2552,7 +2552,7 @@ module.exports = [
       "A radial gradient differs in that it emanates outward while a linear gradient changes color in a straight line in one direction.",
     tags: ["css", "front-end"],
     type: "comparison",
-    number: 115,
+    number: 100,
     id: "0im5ofr",
     sources: [
       {
@@ -2578,7 +2578,7 @@ module.exports = [
       "Flexbox is a built in CSS layout that is used to align and distribute space among items in a container even when their size is unknown.",
     tags: ["css", "front-end"],
     type: "list",
-    number: 116,
+    number: 101,
     id: "5mn4ena",
     sources: [
       {
@@ -2604,7 +2604,7 @@ module.exports = [
       "Padding is the space between the contend and the border whereas margin is the space outside the border.",
     tags: ["css", "front-end"],
     type: "comparison",
-    number: 117,
+    number: 102,
     id: "ej0ew97",
     sources: [
       {
@@ -2630,7 +2630,7 @@ module.exports = [
       "Pseudo-classes act as simple selectors in a sequence of selectors and thereby classify elements on non-presentational characteristics, pseudo-elements create new virtual elements.",
     tags: ["css", "front-end"],
     type: "comparison",
-    number: 118,
+    number: 103,
     id: "pl8l5t",
     sources: [
       {
@@ -2655,7 +2655,7 @@ module.exports = [
     answer: "Static, Relative, Fixed, Absolute, Sticky",
     tags: ["css", "front-end"],
     type: "list",
-    number: 119,
+    number: 104,
     id: "h29l0ss",
     sources: [
       {
@@ -2681,7 +2681,7 @@ module.exports = [
       "Inline is subject to the vertical-align property while block are not.",
     tags: ["css", "front-end"],
     type: "comparison",
-    number: 120,
+    number: 105,
     id: "pibwqy",
     sources: [
       {
@@ -2706,7 +2706,7 @@ module.exports = [
     answer: "You can have several classes but only 1 id",
     tags: ["css", "front-end"],
     type: "comparison",
-    number: 121,
+    number: 106,
     id: "0afiemj",
     sources: [
       {
@@ -2732,7 +2732,7 @@ module.exports = [
       "The application of engineering to the development of software in a systematic method.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 122,
+    number: 107,
     id: "z69xlr",
     sources: [
       {
@@ -2758,7 +2758,7 @@ module.exports = [
       "Identify the Problem, Plan, Design, Build, Test, Deploy, and Maintain.",
     tags: ["software-engineering"],
     type: "list",
-    number: 123,
+    number: 108,
     id: "4auxcar",
     sources: [
       {
@@ -2784,7 +2784,7 @@ module.exports = [
       "Waterfall can be described as rigid where software development is divided into distinct phases whereas Agile separates the project into small sprints that act more like baby steps.",
     tags: ["software-engineering"],
     type: "comparison",
-    number: 124,
+    number: 109,
     id: "pl22qf",
     sources: [
       {
@@ -2810,7 +2810,7 @@ module.exports = [
       "Project manages an individual project. Program managers a number of projects that reach a common goal. Development are on the side ready to deploy engineers for projects whe managers request them so they are in charge of training/mentoring developers directly.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 125,
+    number: 110,
     id: "hndiub",
     sources: [
       {
@@ -2836,7 +2836,7 @@ module.exports = [
       "Essentially an experiment where two or more variants of a page are shown to users at random, and statistical analysis is used to determine which variation performs better for a given goal.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 128,
+    number: 111,
     id: "mg5vik",
     sources: [
       {
@@ -2862,7 +2862,7 @@ module.exports = [
       "A baseline is a reference point in the software development life cycle marked by the completion and formal approval of a set of predefined work products.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 129,
+    number: 112,
     id: "a2qk2ve",
     sources: [
       {
@@ -2887,7 +2887,7 @@ module.exports = [
     answer: "The task of tracking and controlling changes in the software.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 130,
+    number: 113,
     id: "3qzny1",
     sources: [
       {
@@ -2913,7 +2913,7 @@ module.exports = [
       "A systematic approach to managing all changes made to product or system. The purpose is to ensure that no unnecessary changes are made, that all changes are documentated, that services are not unnecessarily disrupted and that resources are used efficiently.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 131,
+    number: 114,
     id: "ba23y8g",
     sources: [
       {
@@ -2939,7 +2939,7 @@ module.exports = [
       "Software requirements are a description of features and funtionalities of the target system.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 132,
+    number: 115,
     id: "2cc5trs",
     sources: [
       {
@@ -2965,7 +2965,7 @@ module.exports = [
       "This refers to the practical extent to which a project can be performed successfully.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 133,
+    number: 116,
     id: "f43el8",
     sources: [
       {
@@ -2992,7 +2992,7 @@ module.exports = [
       "A functional requirement describes what a software system should do, while non-functional place constraints on how the system will do so.",
     tags: ["software-engineering"],
     type: "comparison",
-    number: 134,
+    number: 117,
     id: "nn69yl3",
     sources: [
       {
@@ -3018,7 +3018,7 @@ module.exports = [
       "A software metric is a measure of software characteristics which quantifiable or countable such as performance.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 135,
+    number: 118,
     id: "yyin0k9",
     sources: [
       {
@@ -3044,7 +3044,7 @@ module.exports = [
       "A technique to divide a software system into multiple discrete and independent modules which are expected to be capable of carrying out tasks independently.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 136,
+    number: 119,
     id: "cze3n2",
     sources: [
       {
@@ -3070,7 +3070,7 @@ module.exports = [
       "A measure of the degree to which the elements of the module are functionally related. Good software will have high cohesion.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 137,
+    number: 120,
     id: "5a4a1y",
     sources: [
       {
@@ -3096,7 +3096,7 @@ module.exports = [
       "The measure of the degree of interdependence between modules. Good software will have low coupling.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 138,
+    number: 121,
     id: "v1hikh8",
     sources: [
       {
@@ -3122,7 +3122,7 @@ module.exports = [
       "The Data Flow Diagram at Level 0, also known as the context diagram, shows a data system as a whole and emphasizes the way it interacts with external entities.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 139,
+    number: 122,
     id: "icj1v4l",
     sources: [
       {
@@ -3149,7 +3149,7 @@ module.exports = [
       "Black box refers to a method in which the internal structure / design / implementation of the item being tested is not known to the tester whereas whitebox is known to the tester.",
     tags: ["software-engineering"],
     type: "comparison",
-    number: 140,
+    number: 123,
     id: "o1nh53e",
     sources: [
       {
@@ -3174,7 +3174,7 @@ module.exports = [
     answer: "Adaptive, Perfective, Preventive, and Corrective",
     tags: ["software-engineering"],
     type: "list",
-    number: 141,
+    number: 124,
     id: "0e8et6s",
     sources: [
       {
@@ -3200,7 +3200,7 @@ module.exports = [
       "Class definitions, Properties, Methods, Accessors, and Parameters.",
     tags: ["typescript"],
     type: "list",
-    number: 143,
+    number: 125,
     id: "xmzbnwl",
     sources: [
       {
@@ -3226,7 +3226,7 @@ module.exports = [
       "When we have several elements we want to listen to, event delegation refers to assigning a handler to a common ancestor instead of a handler on each.",
     tags: ["dom", "javascript"],
     type: "definition",
-    number: 144,
+    number: 126,
     id: "e5newlv",
     sources: [
       {
@@ -3252,7 +3252,7 @@ module.exports = [
       "Since a prototype is a working object instance, objects can inherit directly from other objects.",
     tags: ["javascript"],
     type: "definition",
-    number: 145,
+    number: 127,
     id: "icpqd3f",
     sources: [
       {
@@ -3278,7 +3278,7 @@ module.exports = [
       "foreach executes a provided function once for each array element while map will create a new array with the results of calling a provided function on every element.",
     tags: ["javascript"],
     type: "comparison",
-    number: 146,
+    number: 128,
     id: "bb33agd",
     sources: [
       {
@@ -3304,7 +3304,7 @@ module.exports = [
       "Within a module you can use the export keyword to export functionality of a JavaScript file to other components that either require( ) or import.",
     tags: ["javascript"],
     type: "definition",
-    number: 147,
+    number: 129,
     id: "7eku06",
     sources: [
       {
@@ -3330,7 +3330,7 @@ module.exports = [
       "AJAX stands for Asynchronous JavaScript and XML and is a set of web development techniques using client side web technologies to create asynchronous web applications. With AJAX, web apps can send and retrieve data from a server asynchronously without interfering with the display and behavior of the existing page.",
     tags: ["javascript"],
     type: "definition",
-    number: 148,
+    number: 130,
     id: "v32zapv",
     sources: [
       {
@@ -3356,7 +3356,7 @@ module.exports = [
       "JavaScript templating is a fast and efficient technique to render client-side templates with JavaScript using a JSON data source. The template refers to an HTML file with special tags that get variables inserted within them using JavaScript.",
     tags: ["javascript", "html"],
     type: "definition",
-    number: 149,
+    number: 131,
     id: "1fa7dx",
     sources: [
       {
@@ -3383,7 +3383,7 @@ module.exports = [
       "When writing HTML source code, you can define attributes on your HTML elements. Then, once the browser parses your code, a corresponding DOM node will be created. This node is an object, and therefore it has properties.",
     tags: ["html", "dom"],
     type: "comparison",
-    number: 150,
+    number: 132,
     id: "gmmjlgj",
     sources: [
       {
@@ -3409,7 +3409,7 @@ module.exports = [
       "When we override built in JavaScript objects, we are creating new behaviors of the language that are not recognized. If a programmer tries to walkthrough our code they will have a harder time understanding because they need to learn our specific flavor of JavaScript.",
     tags: ["javascript"],
     type: "explanation",
-    number: 151,
+    number: 133,
     id: "4yowwya",
     sources: [
       {
@@ -3435,7 +3435,7 @@ module.exports = [
       "Critical security mechanism that restricts how a document or script loaded from one origin can interact wtih a resource from another origin.",
     tags: ["security", "front-end"],
     type: "definition",
-    number: 152,
+    number: 134,
     id: "b1d1rhr",
     sources: [
       {
@@ -3461,7 +3461,7 @@ module.exports = [
       "A simplified if else statement that takes 3 arguments, the condition, the code executed if false and the code to be executed if true. condition ? true : false.",
     tags: ["programming-fundamentals", "javascript"],
     type: "definition",
-    number: 153,
+    number: 135,
     id: "zmwho7",
     sources: [
       {
@@ -3487,7 +3487,7 @@ module.exports = [
       "One main reason we avoid creating variables in the global scope is we can have variables that contradict each other by name.",
     tags: ["programming-fundamentals", "javascript"],
     type: "explanation",
-    number: 154,
+    number: 136,
     id: "13pmbm",
     sources: [
       {
@@ -3513,7 +3513,7 @@ module.exports = [
       "A single-page application is a web application or web site that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from a server.",
     tags: ["front-end"],
     type: "definition",
-    number: 155,
+    number: 137,
     id: "hxzu33b",
     sources: [
       {
@@ -3539,7 +3539,7 @@ module.exports = [
       "Immutable objects have no fields that can be changed after the object is created while mutable allow such functionality.",
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
-    number: 156,
+    number: 138,
     id: "muv675d",
     sources: [
       {
@@ -3564,7 +3564,7 @@ module.exports = [
     answer: "The event loop allows JavaScript to use callbacks and promises. It waits for and dispatches events or messages in a program.",
     tags: ["javascript"],
     type: "definition",
-    number: 157,
+    number: 139,
     id: "c8s3phx",
     sources: [
       {
@@ -3590,7 +3590,7 @@ module.exports = [
       "Stack is LIFO and is used for static memory allocation whereas the heap is FIFO and is used for dynamic memory. The stack will also keep track of which functional call you are on, because it is a stack of functions.",
     tags: ["programming-fundamentals"],
     type: "comparison",
-    number: 158,
+    number: 140,
     id: "q932mxm",
     sources: [
       {
@@ -3617,7 +3617,7 @@ module.exports = [
       "Arrow functions do not bind their own this, they lexically bind their context so they refer to the originating context.",
     tags: ["javascript"],
     type: "explanation",
-    number: 159,
+    number: 141,
     id: "2zxjzh",
     sources: [
       {
@@ -3643,7 +3643,7 @@ module.exports = [
       "The spread operator or spread syntax allows an iterable such as an array expression or string to be expanded in places where arguments are expected. By using the ( ... ) syntax on an array for example, the array is destructed into their own elements.",
     tags: ["javascript"],
     type: "definition",
-    number: 160,
+    number: 142,
     id: "0dypif",
     sources: [
       {
@@ -3670,7 +3670,7 @@ module.exports = [
       "The test method executes a search for a match between a regular expression and a string and returns true or false whereas exec( ) will search for a match and return the result array or null.",
     tags: ["javascript"],
     type: "comparison",
-    number: 161,
+    number: 143,
     id: "s77x6ap",
     sources: [
       {
@@ -3696,7 +3696,7 @@ module.exports = [
       "The window.history object contains the browsers history. By calling history.back and history.forward you can traverse the user's history.",
     tags: ["javascript"],
     type: "definition",
-    number: 162,
+    number: 144,
     id: "93gy2j",
     sources: [
       {
@@ -3722,7 +3722,7 @@ module.exports = [
       "1. Object Literal 2. Creating an Instance (new) 3. Object Constructor",
     tags: ["javascript"],
     type: "list",
-    number: 163,
+    number: 145,
     id: "hb15iid",
     sources: [
       {
@@ -3749,7 +3749,7 @@ module.exports = [
       "Using JSON.parse(JSON.stringify(obj)) won't account for undefined and functions. There is not method of saving functions or undefined values in JSON.",
     tags: ["javascript"],
     type: "explanation",
-    number: 164,
+    number: 146,
     id: "rg8h0r9",
     sources: [
       {
@@ -3775,7 +3775,7 @@ module.exports = [
       "A list of expressions which help represent an array element, enclosed in a pair of square brackets []. Used instead of let myArr = new Array(1,2,3).",
     tags: ["javascript"],
     type: "definition",
-    number: 165,
+    number: 147,
     id: "uqsr0e5",
     sources: [
       {
@@ -3801,7 +3801,7 @@ module.exports = [
       "If its an array nested in another array [index1][index2] will suffice but if there is an array of objects with a nested array in one of the objects then object[index1].attribute[index2].",
     tags: ["javascript"],
     type: "explanation",
-    number: 166,
+    number: 148,
     id: "3a9p2lm",
     sources: [
       {
@@ -3826,7 +3826,7 @@ module.exports = [
     answer: '1. false 2. 0 3. "" 4. null 5. undefined 6. NaN',
     tags: ["javascript"],
     type: "list",
-    number: 167,
+    number: 149,
     id: "mzni5",
     sources: [
       {
@@ -3852,7 +3852,7 @@ module.exports = [
       "https://gist.github.com/masautt/dc3b9ee9e9fe1b40f9ad1f53f4158006",
     tags: ["javascript"],
     type: "code",
-    number: 168,
+    number: 150,
     id: "30mg3o8",
     sources: [
       {
@@ -3878,7 +3878,7 @@ module.exports = [
       "https://gist.github.com/masautt/2c83af1c919bf16f4dad21fe84d3f3aa",
     tags: ["javascript"],
     type: "code",
-    number: 169,
+    number: 151,
     id: "5qpt0yu",
     sources: [
       {
@@ -3903,7 +3903,7 @@ module.exports = [
     answer: "The modulus operator returns the division remainder 7 % 8 --> 7.",
     tags: ["programming-fundamentals"],
     type: "explanation",
-    number: 170,
+    number: 152,
     id: "vjcgpef",
     sources: [
       {
@@ -3929,7 +3929,7 @@ module.exports = [
       "isNaN( ) determines whether a value is an illegal number. Returns true if the value is equal to NaN and otherwise false.",
     tags: ["javascript"],
     type: "explanation",
-    number: 171,
+    number: 153,
     id: "q3npd",
     sources: [
       {
@@ -3956,7 +3956,7 @@ module.exports = [
       "isNaN checks whether a value is NaN whereas Number.isNaN checks if it is NaN and if its type is Number.",
     tags: ["javascript"],
     type: "comparison",
-    number: 172,
+    number: 154,
     id: "277zx1n",
     sources: [
       {
@@ -3982,7 +3982,7 @@ module.exports = [
       "The prefix (--num or ++num) will change the value by 1 and then return it whereas postfix (num-- or num++) will return the value and then change by 1.",
     tags: ["programming-fundamentals"],
     type: "comparison",
-    number: 173,
+    number: 155,
     id: "e7yexgf",
     sources: [
       {
@@ -4008,7 +4008,7 @@ module.exports = [
       "Instead of using the Object.create( ) method, the Object Literals encapsulate data in a scope { } and assign the key-value pairs inside to an object.",
     tags: ["javascript"],
     type: "definition",
-    number: 174,
+    number: 156,
     id: "1fcixm6",
     sources: [
       {
@@ -4033,7 +4033,7 @@ module.exports = [
     answer: "1. Alert. 2. Confirm 3. Prompt",
     tags: ["javascript", "Front End"],
     type: "list",
-    number: 175,
+    number: 157,
     id: "skcrblb",
     sources: [
       {
@@ -4058,7 +4058,7 @@ module.exports = [
     answer: "The operation of joining character strings end-to-end.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 176,
+    number: 158,
     id: "ryj3919",
     sources: [
       {
@@ -4083,7 +4083,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/9fd6d671232ced7a6dcebfd417e155f2",
     tags: ["javascript"],
     type: "code",
-    number: 177,
+    number: 159,
     id: "anc4mfc",
     sources: [
       {
@@ -4109,7 +4109,7 @@ module.exports = [
       "The bracket notation string[x] does not work in IE7 and below.",
     tags: ["javascript"],
     type: "comparison",
-    number: 178,
+    number: 160,
     id: "apkwlha",
     sources: [
       {
@@ -4136,7 +4136,7 @@ module.exports = [
       "font-weight sets how thick or thin the characters should be while font-style specifies the style such as italic or bold.",
     tags: ["css"],
     type: "comparison",
-    number: 180,
+    number: 161,
     id: "t518ngu9",
     sources: [
       {
@@ -4163,7 +4163,7 @@ module.exports = [
       "The attribute selector is used to select an element with some specific attribute like an id or class while element selectors are used to select specific tags like .div or .li .",
     tags: ["css"],
     type: "comparison",
-    number: 181,
+    number: 162,
     id: "qa8mnhn",
     sources: [
       {
@@ -4189,7 +4189,7 @@ module.exports = [
       "Child selectors are used to select child elements within parent elements. When we use the child combinator ( > ) the following style only matches cases where the second selector is found inside the first.",
     tags: ["css"],
     type: "definition",
-    number: 182,
+    number: 163,
     id: "gpgybc",
     sources: [
       {
@@ -4214,7 +4214,7 @@ module.exports = [
     answer: "1. > (Child combinator) where 2nd element is the child of the the 1st. 2. +  (Adjacent sibling combinator) where 2nd element immediately follows the 1st and both are children of the same parent. 3. ~ (General sibling combinator) where both elements are sibling of same parent but not directly adjacent.",
     tags: ["css"],
     type: "list",
-    number: 183,
+    number: 164,
     id: "3dveaxt",
     sources: [
       {
@@ -4240,7 +4240,7 @@ module.exports = [
       "The universal selector, ( * ) is used to apply a style to all elements of an HTML file.",
     tags: ["css"],
     type: "definition",
-    number: 184,
+    number: 165,
     id: "exo36m",
     sources: [
       {
@@ -4266,7 +4266,7 @@ module.exports = [
       "The div tag is the fundamental element in HTML that is used as a container for other HTML elements.",
     tags: ["html"],
     type: "definition",
-    number: 185,
+    number: 166,
     id: "qen6nq",
     sources: [
       {
@@ -4292,7 +4292,7 @@ module.exports = [
       "A hyperlink is a hypertext file to another location or file, typically activated by clicking on a highlighted word or image on the screen.",
     tags: ["front-end", "html"],
     type: "definition",
-    number: 186,
+    number: 167,
     id: "tqham1",
     sources: [
       {
@@ -4317,7 +4317,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/e6fc62dc2712f75ca054f582df407720",
     tags: ["javascript"],
     type: "code",
-    number: 187,
+    number: 168,
     id: "h0fs1xb",
     sources: [
       {
@@ -4342,7 +4342,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/d7ce557b65745b22cac71373ae1b723d",
     tags: ["javascript"],
     type: "code",
-    number: 188,
+    number: 169,
     id: "r460xpv",
     sources: [
       {
@@ -4367,7 +4367,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/76be367edee65ac1b5a87853fcef724e",
     tags: ["javascript"],
     type: "code",
-    number: 189,
+    number: 170,
     id: "otgvjxf",
     sources: [
       {
@@ -4393,7 +4393,7 @@ module.exports = [
       "The delete operator will allow you to remove an property from an object.",
     tags: ["javascript"],
     type: "code",
-    number: 190,
+    number: 171,
     id: "u0g7hrb",
     sources: [
       {
@@ -4419,7 +4419,7 @@ module.exports = [
       "If the object does not have any functions a simple conversion to JSON and back will deep clone --> JSON.parse(JSON.stringify(objectToClone)). But if there are functions in the object or the object is a function, you should look at external libraries such as underscore or lodash.",
     tags: ["javascript"],
     type: "code",
-    number: 191,
+    number: 172,
     id: "l40vui",
     sources: [
       {
@@ -4445,7 +4445,7 @@ module.exports = [
     answer: "Async Await, Callbacks, Promises",
     tags: ["javascript"],
     type: "list",
-    number: 192,
+    number: 173,
     id: "eyv6az",
     sources: [
       {
@@ -4470,7 +4470,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/a852fda69525b9671ba6a86df9a822cb",
     tags: ["javascript"],
     type: "code",
-    number: 193,
+    number: 174,
     id: "ncrmxrg",
     sources: [
       {
@@ -4495,7 +4495,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/288b7f172092d2196e8c58f8ee9f1ce3",
     tags: ["javascript", "dom"],
     type: "code",
-    number: 194,
+    number: 175,
     id: "ccv7qtn",
     sources: [
       {
@@ -4520,7 +4520,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/622e9742ec56f77e33124257ddce19c6",
     tags: ["javascript"],
     type: "code",
-    number: 195,
+    number: 176,
     id: "qvbghki",
     sources: [
       {
@@ -4546,7 +4546,7 @@ module.exports = [
       'A hash within a hyperlink specifies an html element id to which the window should be scrolled. So if the link has #some-id then the webpage knows to scroll to the element with the id="some-id".',
     tags: ["html"],
     type: "explanation",
-    number: 196,
+    number: 177,
     id: "uqtpw7f",
     sources: [
       {
@@ -4573,7 +4573,7 @@ module.exports = [
       "The purpose of using JavaScript.void(0) is to get the primitive value undefined to be used instead of a string. When we put the hashtag as a value, if the link is clicked, the page will still scroll to that link.",
     tags: ["javascript"],
     type: "comparison",
-    number: 197,
+    number: 178,
     id: "8ld9vff",
     sources: [
       {
@@ -4598,7 +4598,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/610242ad7a4f08972a6c05994580566a",
     tags: ["javascript"],
     type: "code",
-    number: 198,
+    number: 179,
     id: "irpqnt",
     sources: [
       {
@@ -4623,7 +4623,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/c95a8d98fadc2878a3fdcbdfb2c99e30",
     tags: ["javascript"],
     type: "code",
-    number: 199,
+    number: 180,
     id: "q72rjvf",
     sources: [
       {
@@ -4648,7 +4648,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/963203e3217f1e57d08ec36911a9b2ac",
     tags: ["javascript"],
     type: "code",
-    number: 201,
+    number: 181,
     id: "isy74qv",
     sources: [
       {
@@ -4673,7 +4673,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/0d1918dcaa0378fcdfcc724ef8facaab",
     tags: ["javascript"],
     type: "code",
-    number: 202,
+    number: 182,
     id: "kr0ns2b",
     sources: [
       {
@@ -4699,7 +4699,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/c371f6ad001e3cd5111019ac897c1f0f",
     tags: ["javascript"],
     type: "code",
-    number: 203,
+    number: 183,
     id: "js40uib",
     sources: [
       {
@@ -4725,7 +4725,7 @@ module.exports = [
       "The !! or NOT NOT operator is used to convert any value to a boolean. A single NOT operator ( ! ) will convert the value to a boolean and then get the opposite, whereas 2 will just get the value as a boolean.",
     tags: ["javascript"],
     type: "explanation",
-    number: 204,
+    number: 184,
     id: "8q6thep",
     sources: [
       {
@@ -4750,7 +4750,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/bf0c8a23589342ccfb0c483c4eaf1580",
     tags: ["javascript"],
     type: "code",
-    number: 205,
+    number: 185,
     id: "jwdkwj8",
     sources: [
       {
@@ -4775,7 +4775,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/66c498235ec24227eb2b63ded69f288c",
     tags: ["javascript"],
     type: "code",
-    number: 206,
+    number: 186,
     id: "atlqkai",
     sources: [
       {
@@ -4800,7 +4800,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/c3f5db7e027591343eef39046a4215cf",
     tags: ["javascript", "html", "css"],
     type: "code",
-    number: 207,
+    number: 187,
     id: "9awohc2",
     sources: [
       {
