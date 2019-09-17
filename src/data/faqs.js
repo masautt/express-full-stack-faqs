@@ -4804,19 +4804,19 @@ module.exports = [
     id: "9awohc2",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to change an element's class with JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/196038/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Change CSS Class Style className Toggle Tutorial",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=degwrcZeGF0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Set CSS styles with javascript",
+        site: "dev",
+        url: "https://dev.to/karataev/set-css-styles-with-javascript-3nl5"
       },
     ]
   },
@@ -4825,23 +4825,23 @@ module.exports = [
     answer: "https://gist.github.com/masautt/8733ba56b12bfa45d8dc45fe5a9dd712",
     tags: ["javascript"],
     type: "code",
-    number: 208,
+    number: 188,
     id: "10n1myo",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How do I test for an empty JavaScript object?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/32108184/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to check if an object is empty in JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=93nVK7o9ZTM"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Understanding JavaScript Objects",
+        site: "medium",
+        url: "https://blog.halolabs.io/understanding-javascript-objects-d31cd24ca60f"
       },
     ]
   },
@@ -4850,23 +4850,23 @@ module.exports = [
     answer: "https://gist.github.com/masautt/fe73908d0ccdde9a3e6df98ea884f108",
     tags: ["javascript"],
     type: "code",
-    number: 209,
+    number: 189,
     id: "hieewlp",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to sort an array of integers correctly",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1063027/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Sorting Arrays in JavaScript (Array.prototype.sort)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=BbuLjEqFlw0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Is Javascript Array.sort() Stable?",
+        site: "medium",
+        url: "https://medium.com/@fsufitch/is-javascript-array-sort-stable-46b90822543f"
       },
     ]
   },
@@ -4875,49 +4875,23 @@ module.exports = [
     answer: "https://gist.github.com/masautt/17931ce2f5efee67ab58f8a8331e9c49",
     tags: ["javascript"],
     type: "code",
-    number: 210,
+    number: 190
     id: "wioawyg",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Sorting an array of JavaScript objects by property",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/979289/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Custom Array Sorts in JavaScript",
+        site: "youtube",
+        url: "https://youtu.be/zVevl-K-m7Y?t=301"
       },
       {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
-  },
-  {
-    question: "Why are global and static objects not recommended?",
-    answer:
-      "Global variables have no access control. They can be modified by any part of the program.",
-    tags: ["programming-fundamentals"],
-    type: "explanation",
-    number: 211,
-    id: "rjbi72p",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
+        name: "Swift: Sort an array of objects, depending on a boolean property",
+        site: "medium",
+        url: "https://medium.com/@flxschmidt/sort-an-array-of-objects-depending-on-a-boolean-property-in-swift-544150965f14"
       },
     ]
   },
@@ -4927,23 +4901,23 @@ module.exports = [
       "This refers to the idea of removing dependencies from your code. Components should be able to operate on their own.",
     tags: ["design-patterns", "object-oriented-programming"],
     type: "explanation",
-    number: 212,
+    number: 192,
     id: "pkpevzg",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the inversion of control principle?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-inversion-of-control-principle"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Inversion of Control",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=vFzP2SaMyA0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Overview of Inversion of Control (IoC) and Dependency Injection (DI)",
+        site: "medium",
+        url: "https://medium.com/@mena.meseha/inversion-of-control-ioc-and-dependency-injection-di-cad15b9e6ab"
       },
     ]
   },
@@ -4953,101 +4927,75 @@ module.exports = [
       "Also known as the Principle of Least Knowledge, each unit should have only a limited knowledge about other units. These units they know little about should be related and not foreign.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 213,
+    number: 193,
     id: "629ynud",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Law of Demeter?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-Law-of-Demeter"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Law of Demeter",
+        site: "quora",
+        url: "https://www.youtube.com/watch?v=C139R2bLews"
       },
       {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
-  },
-  {
-    question: "What is the Principle of Least Knowledge?",
-    answer:
-      "Also known as the Law of Demeter, each unit should have only a limited knowledge about other units. These units they know little about should be related and not foreign.",
-    tags: ["design-patterns"],
-    type: "definition",
-    number: 214,
-    id: "stfkz6",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
+        name: "Law of Demeter",
+        site: "medium",
+        url: "https://medium.com/@bean00/law-of-demeter-68e98f5d2535"
       },
     ]
   },
   {
     question: "What is the Active Record pattern?",
     answer:
-      "A technique where software stores in-memory object data in relational databases. Thus an object instance is tied to a single row in the table. Every time the object is updated, a new row is added with details about the object.",
+      "An ORM pattern where the interface where we store in-memory object data in relational databases. Thus an object instance is tied to a single row in the table. Every time the object is updated, a new row is added with details about the object.",
     tags: ["design-patterns", "databases"],
     type: "definition",
-    number: 215,
+    number: 194,
     id: "t7ol12f",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Active Record",
+        site: "globe",
+        url: "https://www.martinfowler.com/eaaCatalog/activeRecord.html"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "v41 Active Record",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=UfIq6-C5HFQ"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "The Active Record and Data Mappers of ORM Pattern",
+        site: "medium",
+        url: "https://medium.com/oceanize-geeks/the-active-record-and-data-mappers-of-orm-pattern-eefb8262b7bb"
       },
     ]
   },
   {
     question: "What is the Data Mapper pattern?",
     answer:
-      "The interface of an object conforming to this pattern shold include functions such as Create, Read, Update, and Delete, that operate on objects in a data store. Specifically, this refers to the bidirectional transfer of data between a persistent data store and an in-memory data representation.",
+      "An ORM pattern where the interface of an object conforming to this pattern shold include functions such as Create, Read, Update, and Delete, that operate on objects in a data store. Specifically, this refers to the bidirectional transfer of data between a persistent data store and an in-memory data representation.",
     tags: ["design-patterns", "databases"],
     type: "definition",
-    number: 216,
+    number: 195,
     id: "9zjg24",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Data Mapper",
+        site: "globe",
+        url: "https://martinfowler.com/eaaCatalog/dataMapper.html"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Data Mapper Design Pattern",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=DWiupph7ezE"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "The Active Record and Data Mappers of ORM Pattern",
+        site: "medium",
+        url: "https://medium.com/oceanize-geeks/the-active-record-and-data-mappers-of-orm-pattern-eefb8262b7bb"
       },
     ]
   },
@@ -5057,23 +5005,23 @@ module.exports = [
       "A layer placed between systems that translates communications, allowing one system to remain unchanged while the other can avoid compromising its design and technological approach.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 217,
+    number: 196,
     id: "m5rd8",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is an Anti-Corruption layer, and how is it used?",
+        site: "stack-overflow",
+        url: "https://softwareengineering.stackexchange.com/questions/184464/what-is-an-anti-corruption-layer-and-how-is-it-used"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "7.5 Designing an Anti Corruption Layer Event Driven Microservices",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=7fT6B7lO9OU"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "The Anti-Corruption Layer Pattern",
+        site: "dev",
+        url: "https://dev.to/asarnaout/the-anti-corruption-layer-pattern-pcd"
       },
     ]
   },
@@ -5083,23 +5031,23 @@ module.exports = [
       "Pattern that restricts the instantiation of a class to one single instance. This is useful when exactly one object is needed to coordinate actions across the system.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 218,
+    number: 197,
     id: "lv50qyj",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is singleton design pattern?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-singleton-design-pattern-1"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Singleton Design Pattern - Beau teaches JavaScript",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=bgU7FeiWKzc"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Design patterns: Singleton",
+        site: "medium",
+        url: "https://medium.com/@sawomirkowalski/design-patterns-singleton-a343e5bdb47b"
       },
     ]
   },
@@ -5109,23 +5057,23 @@ module.exports = [
       "The first step in database design, this allows for the developer to start from essential elements -- data abstractions -- and incrementally add data detail to create the final system.",
     tags: ["databases", "design-patterns"],
     type: "definition",
-    number: 219,
+    number: 198,
     id: "x9opl2f",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What does data abstraction exactly mean?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/3635024/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Data Abstraction & It's Levels",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ADnzACd-E_c"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Critical Concept: Abstraction",
+        site: "medium",
+        url: "https://medium.com/@mattburgess/critical-concept-abstraction-ba9e9c0f225e"
       },
     ]
   },
@@ -5135,23 +5083,23 @@ module.exports = [
       "The Don't Repeat Yourself Principle refers to reducing repitition of information. Whether its assigning repeating values to a variable or factoring out repeated operations into separate funtions.",
     tags: ["design-patterns", "software-engineering"],
     type: "definition",
-    number: 220,
+    number: 199,
     id: "uflbl7a",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is DRY in Microservices architecture?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-DRY-in-Microservices-architecture"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Programming Terms: DRY (Don't Repeat Yourself)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=IGH4-ZhfVDk"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Step 30: Don’t Repeat Yourself ~ Steve Smith",
+        site: "medium",
+        url: "https://medium.com/@biratkirat/step-30-dont-repeat-yourself-steve-smith-ae98fe7943f"
       },
     ]
   },
@@ -5162,23 +5110,23 @@ module.exports = [
       "Goto statements have unconstrained use of memory addresses which provides too many opportunities to make easily avoidable mistakes. The more ways to arrive at a particular location in the code, the less confident one can be about what the state of the system is at that point.",
     tags: ["programming-fundamentals", "design-patterns"],
     type: "explanation",
-    number: 221,
+    number: 200,
     id: "8k82eig",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "GOTO still considered harmful? [closed]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/46789/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "C-20 goto statement (DANGEROUS)!!!",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=GqWseLqOdzM"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "GOTO has never gone (away)",
+        site: "medium",
+        url: "https://medium.com/eloquent-coding/goto-has-never-gone-away-f8c0f0851ce6"
       },
     ]
   },
@@ -5187,23 +5135,23 @@ module.exports = [
     answer: "Be conservative in what you send be liberal in what you accept.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 222,
+    number: 201,
     id: "8b2gso",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Postel's Law / Robustness principle: good or bad?",
+        site: "quora",
+        url: "https://www.quora.com/Postels-Law-Robustness-principle-good-or-bad"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the robustness principle?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=_KrCQPR2I4s"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "(Bonus) SOLID Series — 6/5 — Robustness principle",
+        site: "medium",
+        url: "https://medium.com/@ipapikas/bonus-solid-series-6-5-robustness-principle-b63a2fd1a4a0"
       },
     ]
   },
@@ -5213,23 +5161,23 @@ module.exports = [
       "The process of separating a program into destinct sections, so that each addresses a separate concern.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 223,
+    number: 202,
     id: "0htvje",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is the separation of concerns in software development?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-the-separation-of-concerns-in-software-development"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Software Architecture - Seperation of Concerns",
+        site: "youtube",
+        url: "https://youtu.be/GRTQ896UWaI?t=20"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Separation of Concerns",
+        site: "medium",
+        url: "https://medium.com/machine-words/separation-of-concerns-1d735b703a60"
       },
     ]
   },
@@ -5239,23 +5187,23 @@ module.exports = [
       "We need high cohesion to have all our related code be as close to each other as possible, however we need to minimize which related code depends on each other. This allows us to better maintain our code.",
     tags: ["design-patterns"],
     type: "explanation",
-    number: 224,
+    number: 203,
     id: "2brm8fg",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What does 'low in coupling and high in cohesion' mean",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/14000957/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Coupling and Cohesion",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw&"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What does Low Coupling and High Cohesion means?",
+        site: "medium",
+        url: "https://medium.com/@radinreth/what-does-low-coupling-and-high-cohesion-means-341498c3c97b"
       },
     ]
   },
@@ -5265,23 +5213,23 @@ module.exports = [
       "Cohesion refers to the degree to which elements of a module/class belong together whereas coupling refers to the degree to which the different modules/classes depend on each other.",
     tags: ["design-patterns"],
     type: "comparison",
-    number: 225,
+    number: 204,
     id: "sj2650p",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Difference Between Cohesion and Coupling",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/3085419/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Coupling and Cohesion",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=Df0WVO-c3Sw"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Software Engineering | Coupling and Cohesion",
+        site: "globe",
+        url: "https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/"
       },
     ]
   },
@@ -5291,76 +5239,49 @@ module.exports = [
       "Refactoring is the process of changing a software system in such a way that it does not alter the external behavior of the code yet improves its internal structure. It is a disciplined way to clean up code that minimizes the chances of introducing bugs.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 226,
+    number: 205,
     id: "3155i1d",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is code refactoring and what is it used for?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-code-refactoring-and-what-is-it-used-for"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Programming tutorial: What refactoring is | lynda.com",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=7VdSoCqrr8w"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Code Refactoring — How to Write Better Code",
+        site: "medium",
+        url: "https://medium.com/@fionnachan/code-refactoring-how-to-write-better-code-d1aeab549597"
       },
     ]
   },
   {
-    question:
-      "What's the difference between first-party and third-party cookies?",
-    answer:
-      "First-party cookies are the general definition we give to cookies, they originate from the primary domain visited by the user. Third-party cookies don't originate from the primary domain, they are the result from the services publisher takes to make their sites work better (social buttons or chat services).",
-    tags: ["front-end", "back-end"],
-    type: "comparison",
-    number: 227,
-    id: "2tu82q",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
-  },
-  {
-    question: "What is stateless?",
+    question: "What is stateless programming?",
     answer:
       "Stateless means there is no record of previous interactions and each interaction request has to be handled based entirely on information that comes with it.",
     tags: ["design-patterns"],
     type: "definition",
-    number: 228,
+    number: 206,
     id: "j9iazb",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Advantages of stateless programming?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/844548/9715166"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Stateless - Web Development",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=SkXbGKeQPGM"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Stateless Over Stateful Applications",
+        site: "medium",
+        url: "https://medium.com/@rachna3singhal/stateless-over-stateful-applications-73cbe025f07"
       },
     ]
   },
@@ -5370,23 +5291,23 @@ module.exports = [
       "A model used in distributed computing to achieve high availability that informally guarantees that, if no new updates are made to a given data item, eventually all accesses to that item will return the last udpdated value.",
     tags: ["databases", "back-end"],
     type: "definition",
-    number: 229,
+    number: 207,
     id: "ho9veyj",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is eventual consistency?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-eventual-consistency"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Eventual Consistency",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=fIfH-kUaX4c"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Strong consistency vs Eventual consistency",
+        site: "medium",
+        url: "https://medium.com/@sharmaNK/strong-consistency-vs-eventual-consistency-2d2ad35c003c"
       },
     ]
   },
@@ -5396,23 +5317,23 @@ module.exports = [
       "A concept of distributed database systems that states we can only have 2 of the 3: Consistency, Availability, and Partition Tolerance.",
     tags: ["databases", "back-end"],
     type: "definition",
-    number: 230,
+    number: 208,
     id: "qrwi1oa",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What Is CAP Theorem?",
+        site: "quora",
+        url: "https://www.quora.com/What-Is-CAP-Theorem-1"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "L16: The CAP Theorem",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=k-Yaq8AHlFA"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CAP theorem explained",
+        site: "medium",
+        url: "https://medium.com/@shankarvasudevan/cap-theorem-explained-a0f5f64af446"
       },
     ]
   },
@@ -5422,23 +5343,23 @@ module.exports = [
       "SQL is a type of relational database while NoSQL is a distributed database system. SQL is said to be vertically scalable while NoSQL is horizontally scalable. SQL has a predefined Schema whereas NoSQL has a dynamic schema.",
     tags: ["databases"],
     type: "comparison",
-    number: 231,
+    number: 209,
     id: "1nygprp",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are the differences between the SQL and NoSQL databases?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-the-differences-between-the-SQL-and-NoSQL-databases"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Difference Between SQL Vs NoSQL",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=9G5960c2EQ4"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "The SQL vs NoSQL",
+        site: "medium",
+        url: "https://medium.com/@sam20gh/the-sql-vs-nosql-713613cdac5c"
       },
     ]
   },
@@ -5448,48 +5369,48 @@ module.exports = [
       "Kubernetes is an open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.",
     tags: ["back-end"],
     type: "definition",
-    number: 232,
+    number: 210,
     id: "q1muolx",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Kubernetes in simple words?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-Kubernetes-in-simple-words"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Kubernetes in 5 mins",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=PH-2FfFD2PU"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Kubernetes 101: Pods, Nodes, Containers, and Clusters",
+        site: "medium",
+        url: "https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16"
       },
     ]
   },
   {
-    question: "Why are virtual machines important to back-end?",
+    question: "What is a virtual machine?",
     answer: "Virtual machines allow several instances of an operating system to be run at once. This means we can reduce the number of physical servers used by migrating applications and operating systems into virtual machines running on a single server.",
     tags: ["back-end"],
-    type: "explanation",
-    number: 233,
+    type: "definition",
+    number: 211,
     id: "1ssdyt",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a virtual machine?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-virtual-machine"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What's a Virtual Machine?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=2v_3f_jjLL4"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Containers and Virtual Machines: An Overview",
+        site: "medium",
+        url: "https://medium.com/better-programming/containers-and-virtual-machines-an-overview-94c558905b6"
       },
     ]
   },
@@ -5499,23 +5420,23 @@ module.exports = [
       "Linux is the most used open source operating system which was created by Linus Torvalds.",
     tags: ["back-end"],
     type: "definition",
-    number: 234,
+    number: 212,
     id: "p37q47j",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Linux?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-Linux-4"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Linux?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=zA3vmx0GaO8"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Linux?",
+        site: "medium",
+        url: "https://medium.com/@manujarvinen/what-is-linux-a80383275724"
       },
     ]
   },
@@ -5525,23 +5446,23 @@ module.exports = [
       "Linux is free and open source so you can look at the code to check for bugs. Since more developers are able to look at the source code and squash bugs, Linux is more secure. The Linux Kernel is very flexible and can be tuned to meet server needs across pretty much any device.",
     tags: ["linux", "operating-systems"],
     type: "explanation",
-    number: 235,
+    number: 213,
     id: "lgr33qb",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are the advantages of the Linux server over the Windows server? [closed]",
+        site: "stack-overflow",
+        url: "https://serverfault.com/a/11727"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Is Windows or Linux Better for Web Hosting?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=wjAPWtCadb0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "6 Reasons Why Linux is Better than Windows For Servers",
+        site: "globe",
+        url: "https://www.tecmint.com/why-linux-is-better-than-windows-for-servers/"
       },
     ]
   },
@@ -5551,75 +5472,75 @@ module.exports = [
       "Linux is an open sourced operating system while Windows was built and owned by Microsoft. Windows is an all encompassing term that refers to the Operating System and Graphical interface, Linux does not have an official GUI, it allows users to choose.",
     tags: ["linux", "operating-systems"],
     type: "explanation",
-    number: 236,
+    number: 214,
     id: "3q48k4v",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Which one is better: Linux or Windows?",
+        site: "quora",
+        url: "https://www.quora.com/Which-one-is-better-Linux-or-Windows"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Is Linux Finally Beating Windows? (Microsoft Windows vs Linux OS Battle)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=EB5hPlqrGU8"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "I switched from Windows to Linux. Here are the lessons I learned along the way.",
+        site: "free-code-camp",
+        url: "https://www.freecodecamp.org/news/i-switched-from-windows-to-linux-here-are-the-lessons-i-learned-along-the-way-434da84ab63f/"
       },
     ]
   },
   {
-    question: "What is Agile?",
+    question: "What is Agile Development?",
     answer:
       "A time boxed, interactive approach to software delivery that builds software incrementally from the start, instead of delivering all at once.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 237,
+    number: 215,
     id: "0hffi2",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is agile development?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-agile-development"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Agile Methodology?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=ZZ_vnqvW4DQ"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "An Introduction To: Agile Software Development",
+        site: "medium",
+        url: "https://medium.com/shecancode/an-introduction-to-agile-software-development-914339dcec66"
       },
     ]
   },
   {
-    question: "What is a Sprint?",
+    question: "What is a Sprint in Agile Development?",
     answer:
       "A set period of time during which specific work has to be completed and made ready for review. Each sprint begins with a planning meeting and then each workday, the team has stand-up meetings to discuss progress and brainstorm solutions to challenges.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 238,
+    number: 216,
     id: "26k5ne",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is sprint in agile?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-sprint-in-agile"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a Sprint?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=7wGQU37fyiI"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "A Short Introduction to the Scrum Methodology",
+        site: "medium",
+        url: "https://medium.com/chingu/a-short-introduction-to-the-scrum-methodology-7a23431b9f17"
       },
     ]
   },
@@ -5629,23 +5550,23 @@ module.exports = [
       "An Application Programming Interface is a list of operations that developers can use along with a description of what they do.",
     tags: ["APIs", "back-end"],
     type: "definition",
-    number: 239,
+    number: 217,
     id: "r0jowmd",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is an API?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-an-API-4"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is an API? (Application Programming Interface)",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=6STSHbdXQWI"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What exactly IS an API?",
+        site: "medium",
+        url: "https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f"
       },
     ]
   },
@@ -5655,48 +5576,48 @@ module.exports = [
       "The REpresentational State Transfer is a style for providing standards between computer systems on the web, making it easier to communicate with each other. ",
     tags: ["rest", "design-patterns"],
     type: "definition",
-    number: 240,
+    number: 218,
     id: "6pehq9o",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a REST API?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-REST-API"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are RESTful Services (RESTful APIs)? | Mosh",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=SLwpqD8n3d0"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a RESTful API?",
+        site: "medium",
+        url: "https://medium.com/@lazlojuly/what-is-a-restful-api-fabb8dc2afeb"
       },
     ]
   },
   {
-    question: "What are the 5 REST Methods?",
-    answer: "DELETE, GET, POST, PUT, PATCH",
+    question: "What are the 4 REST Methods?",
+    answer: "DELETE, GET, POST, PUT",
     tags: ["rest", "design-patterns"],
     type: "definition",
-    number: 241,
+    number: 219,
     id: "ojww2ff",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What are HTTP methods and what are they used for?",
+        site: "quora",
+        url: "https://www.quora.com/What-are-HTTP-methods-and-what-are-they-used-for"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Http Methods",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=guYMSP7JVTA"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Using HTTP Methods for RESTful Services",
+        site: "medium",
+        url: "https://medium.com/@kumaraksi/using-http-methods-for-restful-services-e6671cf70d4d"
       },
     ]
   },
