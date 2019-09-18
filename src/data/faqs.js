@@ -5627,7 +5627,7 @@ module.exports = [
       "JQuery is a small component library that allows for easier HTML document traversal and manipulation as well as a much simpler API for AJAX requests.",
     tags: ["javascript", "front-end", "javascript-libraries"],
     type: "definition",
-    number: 242,
+    number: 220,
     id: "uorwuur",
     sources: [
       {
@@ -5653,7 +5653,7 @@ module.exports = [
       "CoffeeScript is a programming language that compiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python, and Haskell in efort to enhance JavaScript's brevity and readability. ",
     tags: ["javascript", "javascript-libraries"],
     type: "definition",
-    number: 243,
+    number: 221,
     id: "ljdn42",
     sources: [
       {
@@ -5679,7 +5679,7 @@ module.exports = [
       "CoffeeScript is it's own programming language, it compiles down to JavaScript. JQuery is a library you import into JavaScript files to make use of their methods.",
     tags: ["javascript", "javascript-libraries"],
     type: "explanation",
-    number: 244,
+    number: 222,
     id: "cjax144",
     sources: [
       {
@@ -5705,7 +5705,7 @@ module.exports = [
       "One of the main reasons for jQuery was it's ability to parse the DOM with functions that worked across all browsers. Today, JavaScript's dom traversal is not only supported by most browsers, but it's faster than jQuery.s",
     tags: ["javascript", "javascript-libraries"],
     type: "explanation",
-    number: 245,
+    number: 223,
     id: "ao7slwl",
     sources: [
       {
@@ -5731,7 +5731,7 @@ module.exports = [
       "An error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 246,
+    number: 224,
     id: "0kovdkf",
     sources: [
       {
@@ -5757,7 +5757,7 @@ module.exports = [
       "The process of locating and correcting code errors in a computer program.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 247,
+    number: 225,
     id: "43f5llk",
     sources: [
       {
@@ -5783,34 +5783,8 @@ module.exports = [
       "code is a language understood by the computer. Programmers can use code to build software.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 248,
+    number: 225,
     id: "rtt06o",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
-  },
-  {
-    question: "What is a Data Structure?",
-    answer:
-      "A Data Structure is a particular way of organizing data in a computer so that it can be used effectively.",
-    tags: ["programming-fundamentals"],
-    type: "definition",
-    number: 249,
-    id: "9dmt7uk",
     sources: [
       {
         name: "",
@@ -5835,7 +5809,7 @@ module.exports = [
       "Deployment refers to preparing a software application to run and operate in a specific environment.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 250,
+    number: 226,
     id: "islr4q",
     sources: [
       {
@@ -5861,7 +5835,7 @@ module.exports = [
       "The umbrella term that encompasses all written documents and materials dealing with a software product's development and use.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 251,
+    number: 227,
     id: "54n8r5",
     sources: [
       {
@@ -5887,7 +5861,7 @@ module.exports = [
       "A domain name is a string of characters given to a IP address for easier lookups.",
     tags: ["networking"],
     type: "definition",
-    number: 252,
+    number: 228,
     id: "9dvpxk",
     sources: [
       {
@@ -5913,7 +5887,7 @@ module.exports = [
       "A framework is something that gives programmers most of the basic building blocks they need to make an application.",
     tags: ["javascript-libraries"],
     type: "definition",
-    number: 253,
+    number: 229,
     id: "tnc2dxj",
     sources: [
       {
@@ -5939,23 +5913,23 @@ module.exports = [
       "The front-end refers to anything involved with what the client sees, including design. For web development, front-end languages include HTML, CSS, and JavaScript.",
     tags: ["front-end"],
     type: "definition",
-    number: 254,
+    number: 230,
     id: "07fox7s",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a front-end developer?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-front-end-developer"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What front end development means",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=3VJItso0MsM"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Learn to become a modern Frontend Developer in 2019",
+        site: "medium",
+        url: "https://medium.com/@kamranahmedse/modern-frontend-developer-in-2018-4c2072fa2b9c"
       },
     ]
   },
@@ -5965,23 +5939,23 @@ module.exports = [
       "The front-end refers to anything involved with how the server operates. The back-end is not limited to the select few frontend languages.",
     tags: ["back-end"],
     type: "definition",
-    number: 255,
+    number: 231,
     id: "b2mkpu5",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is a back-end developer?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-a-back-end-developer"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What Is Back-End?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=WwbBOQaM0Zw"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What Is Back-End Development?",
+        site: "medium",
+        url: "https://medium.com/@larong2122/what-is-back-end-development-d93732c129e9"
       },
     ]
   },
@@ -5991,23 +5965,23 @@ module.exports = [
       "Full-stack refers to the combination of the front-end and back-end. What the client sees, and what is run on the server.",
     tags: ["front-end", "back-end"],
     type: "definition",
-    number: 256,
+    number: 232,
     id: "n22ljc3",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What does a Full Stack developer do, in simple terms?",
+        site: "quora",
+        url: "https://www.quora.com/What-does-a-Full-Stack-developer-do-in-simple-terms"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What Is a Full Stack Developer & How To Become a Full Stack Developer in 1 Year",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=UtDpYVf9jKU"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "How to become a full stack developer — Backend",
+        site: "medium",
+        url: "https://medium.com/datadriveninvestor/how-to-become-a-full-stack-developer-backend-53c0330eaa64"
       },
     ]
   },
@@ -6017,23 +5991,23 @@ module.exports = [
       "Git is the most widely used distributed version control system. It allows developers to clone code from repositories, edit, and push back into their code with pull-requests.",
     tags: ["git"],
     type: "definition",
-    number: 257,
+    number: 233,
     id: "dhrzz7h",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Git and why should I use it?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-Git-and-why-should-I-use-it"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is Git and Github?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=uUuTYDg9XoI"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Learn the Basics of Git in Under 10 Minutes",
+        site: "free-code-camp",
+        url: "https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/"
       },
     ]
   },
@@ -6042,23 +6016,23 @@ module.exports = [
     answer: "Github is like the google drive of git repositories. Users can create a github account and have their code be backed up as a private or public repo on the Github servers.",
     tags: ["git"],
     type: "definition",
-    number: 258,
+    number: 234,
     id: "6q7be0q",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is GitHub for a beginner and how do I get started with it?",
+        site: "quora",
+        url: "https://www.quora.com/What-is-GitHub-for-a-beginner-and-how-do-I-get-started-with-it"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What is GitHub?",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=w3jLJU7DT5E"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "A Beginner’s Guide to Github",
+        site: "medium",
+        url: "https://medium.com/swlh/a-beginners-guide-to-github-e4747a93765c"
       },
     ]
   },
@@ -6067,23 +6041,23 @@ module.exports = [
     answer: "https://gist.github.com/masautt/8cb604746c7dff090d0654759d1e19a7",
     tags: ["javascript"],
     type: "code",
-    number: 259,
+    number: 235,
     id: "7bbszl",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Longest Substring Without Repeating Characters in JS",
+        site: "stack-overflow",
+        url: "https://codereview.stackexchange.com/a/220231"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "CODING INTERVIEW PRACTICE | EP 2 | LONGEST SUBSTRING WITHOUT REPEATS",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=sZosU8JjVaA"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Longest Substring Without Repeating Characters",
+        site: "medium",
+        url: "https://medium.com/@dimko1/longest-substring-without-repeating-characters-997ded46e89d"
       },
     ]
   },
@@ -6092,23 +6066,23 @@ module.exports = [
     answer: "https://gist.github.com/masautt/715c78034f26aa6605ceaad32276b750",
     tags: ["javascript"],
     type: "code",
-    number: 260,
+    number: 236,
     id: "olq9ps",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Convert a string to an integer?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/1133814"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "Easily Convert JavaScript Strings to Numbers",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=nhOnfbAmebg"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JS String to Number",
+        site: "medium",
+        url: "https://medium.com/@cristi.nord/js-string-to-number-7d82010ef263"
       },
     ]
   },
@@ -6117,23 +6091,23 @@ module.exports = [
     answer: "https://gist.github.com/masautt/7e7a7645923bd673bca1ffe95393deb9",
     tags: ["javascript"],
     type: "code",
-    number: 261,
+    number: 237,
     id: "a3mjlio",
     sources: [
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "What's the best way to convert a number to a string in JavaScript?",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/5765401"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "JavaScript Strings",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=09BwruU4kiY"
       },
       {
-        name: "",
-        site: "",
-        url: ""
+        name: "5 Ways to Convert a Value to String in JavaScript",
+        site: "medium",
+        url: "https://medium.com/dailyjs/5-ways-to-convert-a-value-to-string-in-javascript-6b334b2fc778"
       },
     ]
   },
@@ -6142,7 +6116,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/239d93bfab41d9f37ef33017a8fec460",
     tags: ["javascript"],
     type: "code",
-    number: 262,
+    number: 238,
     id: "19k7g5",
     sources: [
       {
@@ -6167,7 +6141,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/36116cd6712763d2208cdd7160820c88",
     tags: ["javascript"],
     type: "code",
-    number: 263,
+    number: 239,
     id: "h74jep",
     sources: [
       {
@@ -6192,7 +6166,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/bc26c58dfc81a60c39ba731943b66a13",
     tags: ["javascript"],
     type: "code",
-    number: 264,
+    number: 240,
     id: "u7t2s1q",
     sources: [
       {
@@ -6217,7 +6191,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/bb551be4a59ef8080534cc91ca4785b8",
     tags: ["javascript"],
     type: "code",
-    number: 265,
+    number: 241,
     id: "4eqrzp8",
     sources: [
       {
@@ -6242,7 +6216,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/c7146f1f5daad173418ef871bc5343e8",
     tags: ["javascript"],
     type: "code",
-    number: 266,
+    number: 242,
     id: "trhvy6",
     sources: [
       {
@@ -6267,7 +6241,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/2e8d8d84fd8761889ed0fc9399b4d219",
     tags: ["javascript"],
     type: "code",
-    number: 267,
+    number: 243,
     id: "2fmdui8",
     sources: [
       {
@@ -6292,7 +6266,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/3033aea4a933ae26a3971263e71fc6dd",
     tags: ["javascript"],
     type: "code",
-    number: 268,
+    number: 244,
     id: "nq1zehe",
     sources: [
       {
@@ -6317,7 +6291,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/488736f2ec7d4cc2d68e258da54be37a",
     tags: ["javascript"],
     type: "code",
-    number: 270,
+    number: 245,
     id: "pdeg7lj",
     sources: [
       {
@@ -6342,7 +6316,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/7778c80230db544d0a8e0877b919c6ae",
     tags: ["javascript"],
     type: "code",
-    number: 271,
+    number: 246,
     id: "g3y4as9",
     sources: [
       {
@@ -6367,7 +6341,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/1c9732ad1ff32327d7b6cc7439d1a9af",
     tags: ["javascript"],
     type: "code",
-    number: 272,
+    number: 247,
     id: "j99xx3o",
     sources: [
       {
@@ -6392,7 +6366,7 @@ module.exports = [
     answer: "Responsive design refers to the accessibility of a website. If the site can change it's size and scale to meet other resolutions then it is said to be responsive.",
     tags: ["front-end"],
     type: "definition",
-    number: 273,
+    number: 248,
     id: "i2x0f9",
     sources: [
       {
@@ -6417,7 +6391,7 @@ module.exports = [
     answer: "This refers to the performance or complexity of an algorithm. The Big O refers to the worse case scenario when running a piece of code and can be used to describe the execution time required or the spaced used.",
     tags: ["algorithms", "programming-fundamentals"],
     type: "definition",
-    number: 274,
+    number: 249,
     id: "dg97u4",
     sources: [
       {
@@ -6442,7 +6416,7 @@ module.exports = [
     answer: "O(1) is the best runtime for Big O and it essentially means at an instant.",
     tags: ["algorithms"],
     type: "explanation",
-    number: 275,
+    number: 250,
     id: "2391eqr",
     sources: [
       {
@@ -6467,7 +6441,7 @@ module.exports = [
     answer: "Besides an infinite amount, O(n!) (O of n factorial) is the worst possible runtime. Ex, if n is 5 then the outcome will be 120.",
     tags: ["algorithms"],
     type: "explanation",
-    number: 276,
+    number: 251,
     id: "ziecsv8",
     sources: [
       {
@@ -6492,7 +6466,7 @@ module.exports = [
     answer: "A data structure that operates like a dictionary. You insert keys into the table and it spits back an associated value. Also known as a key-value storage.",
     tags: ["data-structures"],
     type: "definition",
-    number: 277,
+    number: 252,
     id: "05hyulk",
     sources: [
       {
@@ -6517,7 +6491,7 @@ module.exports = [
     answer: "A collection of independent components that work together to support the execution of an application. For fullstack development, stacks usually refer to the frameworks for handling the database, front-end, and back-end.",
     tags: ["back-end", "front-end"],
     type: "definition",
-    number: 278,
+    number: 253,
     id: "clmv0xn",
     sources: [
       {
@@ -6543,7 +6517,7 @@ module.exports = [
     answer: "SSL only has a data field and a next field whereas DLL has a data, next, and prev fields. This means a DLL can traverse backwards and forwards which brings down the complexity of insertion and deletion ot O(1) from O(n).",
     tags: ["data-structures"],
     type: "comparison",
-    number: 279,
+    number: 254,
     id: "wjmzlea",
     sources: [
       {
@@ -6568,7 +6542,7 @@ module.exports = [
     answer: "Hash tables have O(1) lookup which means when we try to get the value of a key it happens at an instant. We can use hash tables to store important information about an array or list without having to traverse them again.",
     tags: ["algorithms", "Data Structures"],
     type: "explanation",
-    number: 280,
+    number: 255,
     id: "vh5ikj2",
     sources: [
       {
@@ -6593,7 +6567,7 @@ module.exports = [
     answer: "UI or User Interface refers to how the application looks whereas UX or User Experience deals with how the user interacts with the user interface.",
     tags: ["front-end"],
     type: "comparison",
-    number: 281,
+    number: 256,
     id: "7bl2ums",
     sources: [
       {
@@ -6618,7 +6592,7 @@ module.exports = [
     answer: "Mobile apps are built using programming languages for building Android or iOS apps whereas web apps are built using HTML, CSS, and JavaScript but are responsive enough to work well on mobile.",
     tags: ["front-end", "back-end"],
     type: "comparison",
-    number: 282,
+    number: 257,
     id: "vkx3jr0r",
     sources: [
       {
@@ -6643,7 +6617,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/9748d1234ef146ae12901a68b4a55c33",
     tags: ["javascript"],
     type: "code",
-    number: 283,
+    number: 258,
     id: "c3bt8ij",
     sources: [
       {
@@ -6668,7 +6642,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/1109907cf23eaae3d9e981f190ff938d",
     tags: ["javascript"],
     type: "code",
-    number: 284,
+    number: 259,
     id: "j6epsxe",
     sources: [
       {
@@ -6693,7 +6667,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/65167ff69e94f2fc01b3a49b1d7ec846",
     tags: ["javascript"],
     type: "code",
-    number: 285,
+    number: 260,
     id: "daldhei",
     sources: [
       {
@@ -6718,7 +6692,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/6fcd34d2806a727aacbf6395d034eefa",
     tags: ["javascript"],
     type: "code",
-    number: 286,
+    number: 261,
     id: "bvl9h3f",
     sources: [
       {
@@ -6744,7 +6718,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/4ce6ca53bce681831d7fcba66c96d304",
     tags: ["javascript"],
     type: "code",
-    number: 287,
+    number: 262,
     id: "uwq5qpf",
     sources: [
       {
@@ -6769,7 +6743,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/76ac3c8e7e12ca605c843467765041dd",
     tags: ["javascript"],
     type: "code",
-    number: 288,
+    number: 263,
     id: "luglhko",
     sources: [
       {
@@ -6794,7 +6768,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/f1deaa07515d9cdfc1a306c8f99d1e21",
     tags: ["javascript"],
     type: "code",
-    number: 289,
+    number: 264,
     id: "i9hzdt",
     sources: [
       {
@@ -6819,7 +6793,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/c666b85dc77ba2b0d913162a5e55548a",
     tags: ["javascript"],
     type: "code",
-    number: 290,
+    number: 265,
     id: "8osyb4f",
     sources: [
       {
@@ -6844,7 +6818,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/c64cebd8b3d4503d6a65cf2dce6370a3",
     tags: ["javascript"],
     type: "code",
-    number: 292,
+    number: 266,
     id: "tb57y5j",
     sources: [
       {
@@ -6869,7 +6843,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/2ec67e0cd0c580a6336034a99f46ed6a",
     tags: ["javascript"],
     type: "code",
-    number: 293,
+    number: 267,
     id: "etqai3t",
     sources: [
       {
@@ -6894,7 +6868,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/9f149ed3ec221795efd0d6ae97854568",
     tags: ["javascript"],
     type: "code",
-    number: 294,
+    number: 268,
     id: "86526vu",
     sources: [
       {
@@ -6919,7 +6893,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/7c7766dc75bfd420df4d53c58133b866",
     tags: ["javascript"],
     type: "code",
-    number: 295,
+    number: 269,
     id: "6x0juy",
     sources: [
       {
@@ -6944,7 +6918,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/df672d72e0fa70e596c5a916944459aa",
     tags: ["javascript"],
     type: "code",
-    number: 296,
+    number: 270,
     id: "q2b43jv",
     sources: [
       {
@@ -6969,7 +6943,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/9caca1bb263eac04e77907a0c4e92a63",
     tags: ["javascript"],
     type: "code",
-    number: 297,
+    number: 271,
     id: "4kl7b58",
     sources: [
       {
@@ -7019,7 +6993,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/5e4b063c06153d6c82a02543aa89f541",
     tags: ["javascript"],
     type: "code",
-    number: 299,
+    number: 272,
     id: "pkjkh4p",
     sources: [
       {
@@ -7045,7 +7019,7 @@ module.exports = [
       "1. Tokenizing / Lexing: breaking up a string of characters into meaningful chunks, called tokens. 2. Parsing: taking an array of tokens and turning it into a tree of nested elements called the Abstract Syntax Tree. 3. code-Generation: Taking the AST and turning it into executable code.",
     tags: ["javascript"],
     type: "list",
-    number: 300,
+    number: 273,
     id: "hfv4gir",
     sources: [
       {
@@ -7071,7 +7045,7 @@ module.exports = [
       '1. eval ( ) : passing in a string like "var a = 3" will modify the lexical scope of where the eval statement is at runtime. 2. with ( ) : this statement takes an object, which has zero or more properties and threats that object as if it is a wholly separate lexical scope, and thus the object\'s properties are treated as lexically defined in that scope.',
     tags: ["javascript"],
     type: "list",
-    number: 301,
+    number: 274,
     id: "1kxmhgp",
     sources: [
       {
@@ -7098,7 +7072,7 @@ module.exports = [
       '1. They have no useful name to display in stack traces, which can make debugging difficult. 2. Without a name, the function needs to refer to itself for recursion which requires the deprecated "arguments.callee" reference. 3. Without a name it is difficult to determine the purpose of the function.',
     tags: ["javascript"],
     type: "list",
-    number: 302,
+    number: 275,
     id: "az6wgql",
     sources: [
       {
@@ -7124,7 +7098,7 @@ module.exports = [
       "A variable is a holder for a representation of a value. Consider {let a = 4}, a is the variable and 4 is the value.",
     tags: ["programming-fundamentals"],
     type: "comparison",
-    number: 304,
+    number: 276,
     id: "o1m8bh8",
     sources: [
       {
@@ -7150,7 +7124,7 @@ module.exports = [
       "A loop is a sequence of instructions that is continually repeated until a certain condition is reached.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 305,
+    number: 277,
     id: "1fn4aw5",
     sources: [
       {
@@ -7176,7 +7150,7 @@ module.exports = [
       "Troubleshooting is solving a problem while debugging refers to the process or steps to solve that problem.",
     tags: ["programming-fundamentals"],
     type: "comparison",
-    number: 306,
+    number: 278,
     id: "es2fym3s",
     sources: [
       {
@@ -7202,7 +7176,7 @@ module.exports = [
       "A data structure is a particular way of organizing data in a computer so that it can be used effectively. Arrays, Linked lists, Stacks...",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 307,
+    number: 279,
     id: "6bdumv6",
     sources: [
       {
@@ -7228,7 +7202,7 @@ module.exports = [
       "A function is a named section of a program that performs a specific task. This task can be jumped to by calling the name of that section.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 308,
+    number: 280,
     id: "uxyt91a",
     sources: [
       {
@@ -7254,7 +7228,7 @@ module.exports = [
       "Recursion refers to the process of a function calling itself directly or indirectly.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 309,
+    number: 281,
     id: "gg14f8e",
     sources: [
       {
@@ -7279,7 +7253,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/9057137469aa1519a3c9c668a28bfed5",
     tags: ["javascript"],
     type: "code",
-    number: 310,
+    number: 282,
     id: "y80wde7",
     sources: [
       {
@@ -7305,7 +7279,7 @@ module.exports = [
       "This refers to the altering of the front-end of software to fit the needs of the location it is being deploy. For example, amazon.uk's frontpage will look different than amazon.com's.",
     tags: ["software-engineering"],
     type: "definition",
-    number: 311,
+    number: 283,
     id: "jexkah",
     sources: [
       {
@@ -7331,7 +7305,7 @@ module.exports = [
       "Scope refers to the visibility of variables. Variables that are out of scope are not recognized. Only variables in scope can be accessed.",
     tags: ["programming-fundamentals"],
     type: "definition",
-    number: 312,
+    number: 284,
     id: "e1bejw9",
     sources: [
       {
@@ -7356,7 +7330,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/c27efdded65c976f7dc19cef9c6a8e2c",
     tags: ["javascript"],
     type: "code",
-    number: 313,
+    number: 285,
     id: "n679h6",
     sources: [
       {
