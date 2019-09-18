@@ -1,13 +1,17 @@
-//Fullstack backend
 const express = require("express");
+const cors = require('cors')
+const app = express();
+
 const faqsData = require("./data/faqs");
 const tagsData = require("./data/tags");
 const typesData = require("./data/types");
 const setsData = require("./data/sets");
 
-const cors = require('cors')
-const app = express();
+const PORT = 8080;
+const URL = process.env.NODE_ENV === "DEV" ? "http://localhost:8080/" : "https://8snib.sse.codesandbox.io/";
 
+
+// Middleware
 app.use(cors())
 
 // Just returns a general overview of what options are available
@@ -79,8 +83,9 @@ app.get("/tags", (req, res) => {
   }));
 });
 
-app.get("/tag/:str", (req, res) => {
-  return res.json(tagsData.filter(tag => tag.id === req.params.str.toLowerCase()));
+app.get("/tag/", (req, res) => {
+  //return res.json(faqsData.filter(faq => faq.tags.includes(req.params.str.toLowerCase())));
+  return "Hi";
 });
 
 app.get("/types", (req, res) => {
@@ -95,4 +100,4 @@ app.get("/sets", (req, res) => {
 });
 
 
-app.listen(3000, () => console.log(`Example app listening on port 3000!`));
+app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));

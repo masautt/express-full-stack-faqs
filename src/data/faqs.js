@@ -4875,7 +4875,7 @@ module.exports = [
     answer: "https://gist.github.com/masautt/17931ce2f5efee67ab58f8a8331e9c49",
     tags: ["javascript"],
     type: "code",
-    number: 190
+    number: 190,
     id: "wioawyg",
     sources: [
       {
