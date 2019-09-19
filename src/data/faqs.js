@@ -100,7 +100,7 @@ module.exports = [
     ]
   },
   {
-    question: "What is closure?",
+    question: "What is closure in JavaScript?",
     answer:
       "Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.",
     tags: ["javascript", "programming-fundamentals"],
@@ -772,7 +772,7 @@ module.exports = [
   },
   {
     question:
-      'What are the 4 rules for determining what "this" refers to in JavaScript?',
+      "What are the 4 rules for determining what \"this\" refers to in JavaScript?",
     answer:
       "1. Called with new? Use the newly constructed object. 2. Called with call, apply, or bind? Use that specified object. 3. Called with a context object owning the call? Use that context object. 4. Default: undefined in strict mode and global object otherwise.",
     tags: ["javascript"],
@@ -794,7 +794,7 @@ module.exports = [
   },
   {
     question:
-      'What are the 4 events that occur when a function is invoked with the "new" keyword?',
+    "What are the 4 events that occur when a function is invoked with the \"new\" keyword?",
     answer:
       "1. A brand new object is created (aka, constructed) out of thin air. 2. The newly constructed object is prototype linked. 3. The newly constructed object is set as the this binding for that function call. 4. Unless the function returns its own alternate object, the new invoked function call will automatically return the newly constructed object",
     tags: ["javascript"],
@@ -1975,7 +1975,7 @@ module.exports = [
     ],
   },
   {
-    question: "What is hoisting?",
+    question: "What is hoisting in JavaScript?",
     answer:
       "Before run-time JavaScript looks for all variable and function declarations in the scope and then hoists them ot the top of the function before they are declared.",
     tags: ["javascript"],

@@ -44,14 +44,20 @@ app.get("/data", (req, res) => {
         api: "https://8snib.sse.codesandbox.io/types",
         total: typesData.length,
       },
-      data: typesData,
+      data: typesData.map(type => {
+        type["total"] = faqsData.filter(faq => faq.type === type.id).length;
+        return type;
+      }),
     },
     tags: {
       about: {
         api: "https://8snib.sse.codesandbox.io/tags",
         total: tagsData.length,
       },
-      data: tagsData,
+      data: tagsData.map(tag => {
+        tag["total"] = faqsData.filter(faq => faq.tags.includes(tag.id)).length;
+        return tag;
+      }),
     },
     sets: {
       about: {
