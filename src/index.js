@@ -8,78 +8,58 @@ const typesData = require("./data/types");
 const setsData = require("./data/sets");
 
 const PORT = 8080;
-const URL = process.env.NODE_ENV === "DEV" ? "http://localhost:8080/" : "https://8snib.sse.codesandbox.io/";
+const URL = "http://localhost:8080";
 
-
-// Middleware
 app.use(cors())
 
-// Just returns a general overview of what options are available
-app.get("/about", (req, res) => {
+app.get("/", (req, res) => {
   return res.json({
     total: faqsData.length,
     unanswered: faqsData.filter(faq => faq.answer === "").length,
-    types: {
-      api: "https://8snib.sse.codesandbox.io/types",
-      total: typesData.length,
-    },
-    tags: {
-      api: "https://8snib.sse.codesandbox.io/tags",
-      total: tagsData.length,
-    },
-    sets: {
-      api: "https://8snib.sse.codesandbox.io/sets",
-      total: setsData.length,
+    data: {
+      types: {
+        about: {
+          api: `${URL}/types`,
+          total: typesData.length,
+        },
+        data: typesData.map(type => {
+          type["total"] = faqsData.filter(faq => faq.type === type.id).length;
+          return type;
+        }),
+      },
+      tags: {
+        about: {
+          api: `${URL}/tags`,
+          total: tagsData.length,
+        },
+        data: tagsData.map(tag => {
+          tag["total"] = faqsData.filter(faq => faq.tags.includes(tag.id)).length;
+          return tag;
+        }),
+      },
+      sets: {
+        about: {
+          api: `${URL}/sets`,
+          total: setsData.length,
+        },
+        data: setsData,
+      }
     }
   });
 });
 
-// Returns about + data for each option in about
-app.get("/data", (req, res) => {
-  return res.json({
-    total: faqsData.length,
-    unanswered: faqsData.filter(faq => faq.answer === "").length,
-    types: {
-      about: {
-        api: "https://8snib.sse.codesandbox.io/types",
-        total: typesData.length,
-      },
-      data: typesData.map(type => {
-        type["total"] = faqsData.filter(faq => faq.type === type.id).length;
-        return type;
-      }),
-    },
-    tags: {
-      about: {
-        api: "https://8snib.sse.codesandbox.io/tags",
-        total: tagsData.length,
-      },
-      data: tagsData.map(tag => {
-        tag["total"] = faqsData.filter(faq => faq.tags.includes(tag.id)).length;
-        return tag;
-      }),
-    },
-    sets: {
-      about: {
-        api: "https://8snib.sse.codesandbox.io/sets",
-        total: setsData.length,
-      },
-      data: setsData,
-    }
-  });
+app.get(["/rand/:arg", "/rand/", "/rand"], (req, res) => {
+  let arg = req.params.arg;
+  return (arg > 50 || arg <= 0 || arg === undefined) 
+    ? res.json(faqsData.sort(() => Math.random() - 0.5).slice(0, 1))
+    : res.json(faqsData.sort(() => Math.random() - 0.5).slice(0, arg))
 });
 
-//Return a list of random faqs (mainly for the marquees on the frontend)
-app.get(["/rand/:num", "/rand/", "/rand"], (req, res) => {
-  //If the limit is greater than 20, less than zero or not given then just return 10
-  let num = req.params.num;
-  let limit = num > 50 || num <= 0 || num === undefined ? 1 : num;
-  return (res.json(faqsData.sort(() => Math.random() - 0.5).slice(0, limit)));
-});
-
-//Return a faq based on an id, also generates related facts
-app.get(["/faq/:str", "/faq/", "/faq"], (req, res) => {
-  return res.json(faqsData.filter(faq => faq.id === req.params.str.toLowerCase()));
+app.get(["/faq/:arg", "/faq/", "/faq"], (req, res) => {
+  let arg = req.params.arg;
+  return (arg.split("").length == 7) 
+    ? res.json(faqsData.filter(faq => faq.id === arg.toLowerCase())) 
+    : res.json(faqsData.filter(faq => faq.number == arg))
 })
 
 app.get("/tags", (req, res) => {
@@ -89,20 +69,28 @@ app.get("/tags", (req, res) => {
   }));
 });
 
-app.get("/tag/", (req, res) => {
-  //return res.json(faqsData.filter(faq => faq.tags.includes(req.params.str.toLowerCase())));
-  return "Hi";
+app.get("/tag/:arg", (req, res) => {
+  let arg = req.params.arg;
+  return res.json(faqsData.filter(faq => faq.tags.includes(arg.toLowerCase())));
 });
 
 app.get("/types", (req, res) => {
   return res.json(typesData);
 });
 
-app.get("/type/:str", (req, res) => {
-  return res.json(typesData.filter(type => type.name.toLowerCase() === req.params.str.toLowerCase()));
+app.get("/type/:arg", (req, res) => {
+  let arg = req.params.arg;
+  return res.json(typesData.filter(type => type.name.toLowerCase() === arg.toLowerCase()));
 });
+
 app.get("/sets", (req, res) => {
   return res.json(setsData);
+});
+
+app.get("/set/:arg", (req, res) => {
+  let arg = req.params.arg;
+  let rawSet = setsData.filter(set => set.id == arg);
+  return res.json(rawSet);
 });
 
 
