@@ -4896,6 +4896,32 @@ module.exports = [
     ]
   },
   {
+    question: "What is debugging?",
+    answer:
+      "The process of locating and correcting code errors in a computer program.",
+    tags: ["programming-fundamentals"],
+    type: "definition",
+    number: 191,
+    id: "43f5llk",
+    sources: [
+        {
+          name: "What does it mean to 'debug' a code?",
+          site: "quora",
+          url: "https://www.quora.com/What-does-it-mean-to-debug-a-code"
+        },
+        {
+          name: "Debugging Tips - What is bug and debugging?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
+        },
+        {
+          name: "How Debugging Can Make You a Better Developer.",
+          site: "medium",
+          url: "https://medium.com/swlh/how-debugging-can-make-you-a-better-developer-93db511be8cb"
+        },
+      ]
+  },
+  {
     question: "What is Inversion of Control?",
     answer:
       "This refers to the idea of removing dependencies from your code. Components should be able to operate on their own.",
@@ -5630,22 +5656,22 @@ module.exports = [
     number: 220,
     id: "uorwuur",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What is jQuery?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-jQuery"
+        },
+        {
+          name: "jQuery Basics - What is jQuery?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=U4UZVbQ8md0"
+        },
+        {
+          name: "The Life and Death of jQuery",
+          site: "medium",
+          url: "https://medium.com/mayazine/the-life-and-death-of-jquery-9aca562c80b9"
+        },
+      ]
   },
   {
     question: "What is CoffeeScript?",
@@ -5656,22 +5682,22 @@ module.exports = [
     number: 221,
     id: "ljdn42",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What is Coffeescript ? Where is it used?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-Coffeescript-Where-is-it-used"
+        },
+        {
+          name: "What is CoffeeScript All About - An Introduction plus How You Can Benefit from Using it",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=bNpXerBejPg"
+        },
+        {
+          name: "Why CoffeeScript is still alive",
+          site: "medium",
+          url: "https://codeburst.io/why-coffeescript-is-still-alive-aeb369b91b85"
+        },
+      ]
   },
   {
     question: "What's the difference between JQuery and CoffeeScript?",
@@ -5682,22 +5708,22 @@ module.exports = [
     number: 222,
     id: "cjax144",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "Should I learn jQuery or CoffeeScript?",
+          site: "quora",
+          url: "https://www.quora.com/Should-I-learn-jQuery-or-CoffeeScript"
+        },
+        {
+          name: "Library vs Framework 1 - JavaScript Design Patterns",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=JRU-w8O2Ziw"
+        },
+        {
+          name: "Libraries vs. Frameworks",
+          site: "medium",
+          url: "https://medium.com/datafire-io/libraries-vs-frameworks-626cdde799a7"
+        },
+      ]
   },
   {
     question: "Why is JQuery no longer popular?",
@@ -5708,22 +5734,22 @@ module.exports = [
     number: 223,
     id: "ao7slwl",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "Is jQuery still popular for 2019?",
+          site: "quora",
+          url: "https://www.quora.com/Is-jQuery-still-popular-for-2019"
+        },
+        {
+          name: "Is jQuery Still Relevant in 2018?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=pk3tsynNZ0w"
+        },
+        {
+          name: "The Life and Death of jQuery",
+          site: "medium",
+          url: "https://medium.com/mayazine/the-life-and-death-of-jquery-9aca562c80b9"
+        },
+      ]
   },
   {
     question: "What is a bug?",
@@ -5734,48 +5760,22 @@ module.exports = [
     number: 224,
     id: "0kovdkf",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
-  },
-  {
-    question: "What is debugging?",
-    answer:
-      "The process of locating and correcting code errors in a computer program.",
-    tags: ["programming-fundamentals"],
-    type: "definition",
-    number: 225,
-    id: "43f5llk",
-    sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What is a computer bug?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-a-computer-bug"
+        },
+        {
+          name: "Debugging Tips - What is bug and debugging?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=kRL6hjWOKWI"
+        },
+        {
+          name: "How to find your first open source bug to fix",
+          site: "medium",
+          url: "https://medium.com/free-code-camp/finding-your-first-open-source-project-or-bug-to-work-on-1712f651e5ba"
+        },
+      ]
   },
   {
     question: "What is code?",
@@ -5786,22 +5786,22 @@ module.exports = [
     number: 225,
     id: "rtt06o",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What is coding?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-coding"
+        },
+        {
+          name: "What is Coding?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=N7ZmPYaXoic"
+        },
+        {
+          name: "Learning to code",
+          site: "medium",
+          url: "https://medium.com/swlh/learning-to-code-45f7e1657c1e"
+        },
+      ]
   },
   {
     question: "What is deployment?",
@@ -5812,22 +5812,22 @@ module.exports = [
     number: 226,
     id: "islr4q",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What is deployment generally mean in computer science?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-deployment-generally-mean-in-computer-science"
+        },
+        {
+          name: "03 L What Is Deployment-",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=nZ3BaTY8c9M"
+        },
+        {
+          name: "A Journey to Better Deployments",
+          site: "medium",
+          url: "https://medium.com/spaceapetech/a-journey-to-better-deployments-a255eb69bbf2"
+        },
+      ]
   },
   {
     question: "What is documentation?",
@@ -5838,22 +5838,22 @@ module.exports = [
     number: 227,
     id: "54n8r5",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What must software documentation contain?",
+          site: "quora",
+          url: "https://www.quora.com/What-must-software-documentation-contain"
+        },
+        {
+          name: "Software Documentation",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=ApqnZIWPw7s"
+        },
+        {
+          name: "Writing great documentation",
+          site: "medium",
+          url: "https://medium.com/@episod/writing-great-documentation-44d90367115a"
+        },
+      ]
   },
   {
     question: "What is a domain name?",
@@ -5864,22 +5864,22 @@ module.exports = [
     number: 228,
     id: "9dvpxk",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What does domain name mean?",
+          site: "quora",
+          url: "https://www.quora.com/What-does-domain-name-mean"
+        },
+        {
+          name: "DNS as Fast As Possible",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=Rck3BALhI5c"
+        },
+        {
+          name: "What Exactly Is DNS Anyways?",
+          site: "medium",
+          url: "https://medium.com/@maheshkariya/what-exactly-is-dns-anyways-4239278ab1b4"
+        },
+      ]
   },
   {
     question: "What is a framework?",
@@ -5890,22 +5890,22 @@ module.exports = [
     number: 229,
     id: "tnc2dxj",
     sources: [
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-      {
-        name: "",
-        site: "",
-        url: ""
-      },
-    ]
+        {
+          name: "What is a framework in programming?",
+          site: "quora",
+          url: "https://www.quora.com/What-is-a-framework-in-programming"
+        },
+        {
+          name: "What Is a Framework in Programming? | Why Is It Useful?",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=BfhSoFARn6w"
+        },
+        {
+          name: "JavaScript Frameworks, Performance Comparison",
+          site: "medium",
+          url: "https://medium.com/@ajmeyghani/javascript-frameworks-performance-comparison-c566d19ab65b"
+        },
+      ]
   },
   {
     question: "What is the front-end?",
@@ -6964,31 +6964,6 @@ module.exports = [
     ]
   },
   {
-    question: "How to remove the last element from an array?",
-    answer: "https://gist.github.com/masautt/298a6fefb1d8bbec65698db879e4c765",
-    tags: ["javascript"],
-    type: "code",
-    number: 298,
-    id: "mo1dpw",
-    sources: [
-      {
-        name: "Remove last item from array",
-        site: "stack-overflow",
-        url: "https://stackoverflow.com/a/19544478/9715166"
-      },
-      {
-        name: "JavaScript Array - 05 - Remove the last element",
-        site: "youtube",
-        url: "https://www.youtube.com/watch?v=RbrrOQEiotU"
-      },
-      {
-        name: "How to remove an element from a JavaScript array.",
-        site: "medium",
-        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
-      },
-    ]
-  },
-  {
     question: "How to shuffle an array in JavaScript?",
     answer: "https://gist.github.com/masautt/5e4b063c06153d6c82a02543aa89f541",
     tags: ["javascript"],
@@ -7347,6 +7322,31 @@ module.exports = [
         name: "How to replace all occurrences of a string in JavaScript",
         site: "globe",
         url: "https://flaviocopes.com/how-to-replace-all-occurrences-string-javascript/"
+      },
+    ]
+  },
+  {
+    question: "How to remove the last element from an array?",
+    answer: "https://gist.github.com/masautt/298a6fefb1d8bbec65698db879e4c765",
+    tags: ["javascript"],
+    type: "code",
+    number: 286,
+    id: "mo1dpw",
+    sources: [
+      {
+        name: "Remove last item from array",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/19544478/9715166"
+      },
+      {
+        name: "JavaScript Array - 05 - Remove the last element",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=RbrrOQEiotU"
+      },
+      {
+        name: "How to remove an element from a JavaScript array.",
+        site: "medium",
+        url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
       },
     ]
   },
