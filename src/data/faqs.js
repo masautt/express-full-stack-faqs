@@ -53,13 +53,13 @@ module.exports = [
     ],
   },
   {
-    question: "What is the this keyword in JavaScript?",
+    question: "What is the \"this\" keyword in JavaScript?",
     answer:
       '"this" refers to a binding that is made when a function is invoked, and what it references is determined entirely by the call-site where the function is called.',
     tags: ["javascript"],
     type: "definition",
     number: 3,
-    id: "0fg1g5",
+    id: "0fg1g5g",
     sources: [
       {
         name: "How does the \"this\" keyword work?",
@@ -149,7 +149,7 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 7,
-    id: "bnxjlb",
+    id: "bnxjlb1",
     sources: [
       {
         name: "What's the difference between using \"let\" and \"var\"?",
@@ -196,7 +196,7 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 9,
-    id: "6b1n3q",
+    id: "6b1n3qp",
     sources: [
       {
         name: "Which equals operator (== vs ===) should be used in JavaScript comparisons?",
@@ -249,7 +249,7 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 11,
-    id: "h6uz3x",
+    id: "h6uz3x9",
     sources: [
       {
         name: "variable === undefined vs. typeof variable === \"undefined\"",
@@ -303,7 +303,7 @@ module.exports = [
     tags: ["dom", "front-end", "javascript"],
     type: "definition",
     number: 13,
-    id: "66ks56",
+    id: "66ks56e",
     sources: [
       {
         name: "What is event bubbling and capturing?",
@@ -409,7 +409,7 @@ module.exports = [
     tags: ["react-js", "javascript", "front-end", "javascript-libraries"],
     type: "list",
     number: 17,
-    id: "tc14j9",
+    id: "tc14j9c",
     sources: [
       {
         name: "What's the purpose of using React.js?",
@@ -461,7 +461,7 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 19,
-    id: "p6js7e",
+    id: "p6js7et",
     sources: [
       {
         name: "What is the difference between visibility:hidden and display:none?",
@@ -538,7 +538,7 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 22,
-    id: "v3w9mj",
+    id: "v3w9mjh",
     sources: [
       {
         name: "What is the arrow function in ES6? Why are we using arrow function?",
@@ -724,7 +724,7 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 29,
-    id: "wbnjha",
+    id: "wbnjha9",
     sources: [
       {
         name: "What is the difference between typeof and instanceof and when should one be used vs. the other?",
@@ -827,7 +827,7 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 33,
-    id: "88x8ub",
+    id: "88x8ubo",
     sources: [
       {
         name: "Property Accessors - MDN Web Docs",
@@ -1005,7 +1005,7 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 40,
-    id: "1rqbpy",
+    id: "1rqbpy8",
     sources: [
       {
         name: "How to set-up a favicon?",
@@ -1240,7 +1240,7 @@ module.exports = [
     tags: ["front-end"],
     type: "comparison",
     number: 49,
-    id: "x2ux0c",
+    id: "x2ux0c6",
     sources: [
       {
         name: "Difference between HTML implementation for Art Direction and Resolution Switching (responsive images)",
@@ -1862,7 +1862,7 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 73,
-    id: "3secxr",
+    id: "3secxr9",
     sources: [
       {
         name: "What's the difference between Event Listeners & Handlers in Java?",
@@ -1965,7 +1965,7 @@ module.exports = [
     tags: ["javascript"],
     type: "comparison",
     number: 77,
-    id: "1jk19m",
+    id: "1jk19m6",
     sources: [
       {
         name: "In JavaScript, what code executes at runtime and what code executes at parsetime?",
@@ -1981,7 +1981,7 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 78,
-    id: "c7mwo7",
+    id: "c7mwo7b",
     sources: [
       {
         name: "Javascript function scoping and hoisting",
@@ -2008,7 +2008,7 @@ module.exports = [
     tags: ["programming-fundamentals", "javascript"],
     type: "comparison",
     number: 79,
-    id: "yuzewe",
+    id: "yuzewe4",
     sources: [
       {
         name: "What is the difference between indexed arrays and the associative arrays?",
@@ -2034,7 +2034,7 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "definition",
     number: 80,
-    id: "uzcquf",
+    id: "uzcquf2",
     sources: [
       {
         name: "What is HTML?",
@@ -2085,7 +2085,7 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "list",
     number: 82,
-    id: "pvesa7",
+    id: "pvesa7y",
     sources: [
       {
         name: "Do we still need end slashes in HTML5?",
@@ -2188,7 +2188,7 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "comparison",
     number: 86,
-    id: "w22kcp",
+    id: "w22kcp5",
     sources: [
       {
         name: "What is the difference between HTML tags and elements?",
@@ -2215,7 +2215,7 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "comparison",
     number: 87,
-    id: "rwqhyw",
+    id: "rwqhyw6",
     sources: [
       {
         name: "Semantic and non Semantic elements",
@@ -2293,7 +2293,7 @@ module.exports = [
     tags: ["html", "front-end"],
     type: "explanation",
     number: 90,
-    id: "kwojsm",
+    id: "kwojsm6",
     sources: [
       {
         name: "Is there an easy way to change the color of a bullet in a list?",
@@ -2423,7 +2423,7 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "list",
     number: 95,
-    id: "w0md9j",
+    id: "w0md9j5",
     sources: [
       {
         name: "Comparison of loading CSS inline, embedded and from external files",
@@ -2449,7 +2449,7 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 96,
-    id: "0f140i",
+    id: "0f140i6",
     sources: [
       {
         name: "What does CSS selector mean?",
@@ -2475,7 +2475,7 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "definition",
     number: 97,
-    id: "q2885b",
+    id: "q2885bg",
     sources: [
       {
         name: "What are CSS sprites? How is it useful?",
@@ -2631,7 +2631,7 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 103,
-    id: "pl8l5t",
+    id: "pl8l5t7",
     sources: [
       {
         name: "What is the difference between a pseudo-class and a pseudo-element in CSS?",
@@ -2682,7 +2682,7 @@ module.exports = [
     tags: ["css", "front-end"],
     type: "comparison",
     number: 105,
-    id: "pibwqy",
+    id: "pibwqy0",
     sources: [
       {
         name: "CSS display: inline vs inline-block [duplicate]",
@@ -2733,7 +2733,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 107,
-    id: "z69xlr",
+    id: "z69xlrm",
     sources: [
       {
         name: "What is software engineering?",
@@ -2785,7 +2785,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "comparison",
     number: 109,
-    id: "pl22qf",
+    id: "pl22qfu",
     sources: [
       {
         name: "What are the pros and cons of the waterfall and agile/scrum project management approach?",
@@ -2811,7 +2811,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 110,
-    id: "hndiub",
+    id: "hndiub8",
     sources: [
       {
         name: "Difference between these 3 manager roles [closed]",
@@ -2837,7 +2837,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 111,
-    id: "mg5vik",
+    id: "mg5vik9",
     sources: [
       {
         name: "What is A/B testing?",
@@ -2888,7 +2888,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 113,
-    id: "3qzny1",
+    id: "3qzny1h",
     sources: [
       {
         name: "What is software configuration management?",
@@ -2966,7 +2966,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 116,
-    id: "f43el8",
+    id: "f43el8y",
     sources: [
       {
         name: "What is a feasibility study? What are the main objectives?",
@@ -3045,7 +3045,7 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 119,
-    id: "cze3n2",
+    id: "cze3n2t",
     sources: [
       {
         name: "What is modularity?",
@@ -3071,7 +3071,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 120,
-    id: "5a4a1y",
+    id: "5a4a1ym",
     sources: [
       {
         name: "What is cohesion?",
@@ -3305,7 +3305,7 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 129,
-    id: "7eku06",
+    id: "7eku06v",
     sources: [
       {
         name: "What is Modular JavaScript?",
@@ -3357,7 +3357,7 @@ module.exports = [
     tags: ["javascript", "html"],
     type: "definition",
     number: 131,
-    id: "1fa7dx",
+    id: "1fa7dxg",
     sources: [
       {
         name: "Intro to JavaScript Template Engines",
@@ -3462,7 +3462,7 @@ module.exports = [
     tags: ["programming-fundamentals", "javascript"],
     type: "definition",
     number: 135,
-    id: "zmwho7",
+    id: "zmwho7e",
     sources: [
       {
         name: "How do I use the conditional operator?",
@@ -3488,7 +3488,7 @@ module.exports = [
     tags: ["programming-fundamentals", "javascript"],
     type: "explanation",
     number: 136,
-    id: "13pmbm",
+    id: "13pmbm9",
     sources: [
       {
         name: "Why are global variables considered bad practice?",
@@ -3618,7 +3618,7 @@ module.exports = [
     tags: ["javascript"],
     type: "explanation",
     number: 141,
-    id: "2zxjzh",
+    id: "2zxjzh5",
     sources: [
       {
         name: "Understanding \"this\" in javascript with arrow functions",
@@ -3644,7 +3644,7 @@ module.exports = [
     tags: ["javascript"],
     type: "definition",
     number: 142,
-    id: "0dypif",
+    id: "0dypif1",
     sources: [
       {
         name: "What do the three dots (...) mean in JavaScript?",
@@ -3691,13 +3691,13 @@ module.exports = [
     ]
   },
   {
-    question: "What is the purpose of the history object?",
+    question: "What is the purpose of the history object in JavaScript?",
     answer:
       "The window.history object contains the browsers history. By calling history.back and history.forward you can traverse the user's history.",
     tags: ["javascript"],
     type: "definition",
     number: 144,
-    id: "93gy2j",
+    id: "93gy2jh",
     sources: [
       {
         name: "History API - MDN",
@@ -4190,7 +4190,7 @@ module.exports = [
     tags: ["css"],
     type: "definition",
     number: 163,
-    id: "gpgybc",
+    id: "gpgybc8",
     sources: [
       {
         name: "What is a child selector in CSS?",
@@ -4241,7 +4241,7 @@ module.exports = [
     tags: ["css"],
     type: "definition",
     number: 165,
-    id: "exo36m",
+    id: "exo36mp",
     sources: [
       {
         name: "Universal selectors - MDN",
@@ -4267,7 +4267,7 @@ module.exports = [
     tags: ["html"],
     type: "definition",
     number: 166,
-    id: "qen6nq",
+    id: "qen6nq3",
     sources: [
       {
         name: "What is use of <div> tag?",
@@ -4293,7 +4293,7 @@ module.exports = [
     tags: ["front-end", "html"],
     type: "definition",
     number: 167,
-    id: "tqham1",
+    id: "tqham1b",
     sources: [
       {
         name: "What is a hyperlink?",
@@ -4420,7 +4420,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 172,
-    id: "l40vui",
+    id: "l40vuie",
     sources: [
       {
         name: "What is the most efficient way to deep clone an object in JavaScript?",
@@ -4433,20 +4433,20 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=duyshh9Fs1U"
       },
       {
-        name: "How to differentiate between deep and shallow copies in JavaScript",
-        site: "medium",
-        url: "https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/"
+        name: "Duplicating Objects - You Don't Know JS",
+        site: "github",
+        url: "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/this-object-prototypes/ch3.md#duplicating-objects"
       },
     ]
   },
   {
     question:
       "What are the 3 ways you can return responses from asynchronous calls in JavaScript?",
-    answer: "Async Await, Callbacks, Promises",
+    answer: "1. Callback Functions (1995): Traditonal method that can lead to callback hell - several nested blocks of data that are hard to follow. 2. Promises (2015): ES Methods that answer callback hell. 3. Async Await (2017): Syntactic sugar to promises that make them look more like synchronous code.",
     tags: ["javascript"],
     type: "list",
     number: 173,
-    id: "eyv6az",
+    id: "eyv6az6",
     sources: [
       {
         name: "How do I return the response from an asynchronous call?",
@@ -4599,7 +4599,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 179,
-    id: "irpqnt",
+    id: "irpqnt6",
     sources: [
       {
         name: "Create GUID / UUID in JavaScript?",
@@ -5006,7 +5006,7 @@ module.exports = [
     tags: ["design-patterns", "databases"],
     type: "definition",
     number: 195,
-    id: "9zjg24",
+    id: "9zjg24b",
     sources: [
       {
         name: "Data Mapper",
@@ -5162,7 +5162,7 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 201,
-    id: "8b2gso",
+    id: "8b2gso9",
     sources: [
       {
         name: "Postel's Law / Robustness principle: good or bad?",
@@ -5188,7 +5188,7 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 202,
-    id: "0htvje",
+    id: "0htvje6",
     sources: [
       {
         name: "What is the separation of concerns in software development?",
@@ -5292,7 +5292,7 @@ module.exports = [
     tags: ["design-patterns"],
     type: "definition",
     number: 206,
-    id: "j9iazb",
+    id: "j9iazb4",
     sources: [
       {
         name: "Advantages of stateless programming?",
@@ -5421,7 +5421,7 @@ module.exports = [
     tags: ["back-end"],
     type: "definition",
     number: 211,
-    id: "1ssdyt",
+    id: "1ssdyt5",
     sources: [
       {
         name: "What is a virtual machine?",
@@ -5525,7 +5525,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 215,
-    id: "0hffi2",
+    id: "0hffi2r",
     sources: [
       {
         name: "What is agile development?",
@@ -5551,7 +5551,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 216,
-    id: "26k5ne",
+    id: "26k5neb",
     sources: [
       {
         name: "What is sprint in agile?",
@@ -5680,7 +5680,7 @@ module.exports = [
     tags: ["javascript", "javascript-libraries"],
     type: "definition",
     number: 221,
-    id: "ljdn42",
+    id: "ljdn42b",
     sources: [
         {
           name: "What is Coffeescript ? Where is it used?",
@@ -5784,7 +5784,7 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 225,
-    id: "rtt06o",
+    id: "rtt06oc",
     sources: [
         {
           name: "What is coding?",
@@ -5810,7 +5810,7 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 226,
-    id: "islr4q",
+    id: "islr4qg",
     sources: [
         {
           name: "What is deployment generally mean in computer science?",
@@ -5836,7 +5836,7 @@ module.exports = [
     tags: ["programming-fundamentals"],
     type: "definition",
     number: 227,
-    id: "54n8r5",
+    id: "54n8r5r",
     sources: [
         {
           name: "What must software documentation contain?",
@@ -5862,7 +5862,7 @@ module.exports = [
     tags: ["networking"],
     type: "definition",
     number: 228,
-    id: "9dvpxk",
+    id: "9dvpxk6",
     sources: [
         {
           name: "What does domain name mean?",
@@ -6042,7 +6042,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 235,
-    id: "7bbszl",
+    id: "7bbszl6",
     sources: [
       {
         name: "Longest Substring Without Repeating Characters in JS",
@@ -6067,7 +6067,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 236,
-    id: "olq9ps",
+    id: "olq9ps4",
     sources: [
       {
         name: "Convert a string to an integer?",
@@ -6117,7 +6117,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 238,
-    id: "19k7g5",
+    id: "19k7g5p",
     sources: [
       {
         name: "Counting number of vowels in a string with JavaScript",
@@ -6142,7 +6142,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 239,
-    id: "h74jep",
+    id: "h74jep5",
     sources: [
       {
         name: "What is the most efficient way to reverse an array in Javascript?",
@@ -6217,7 +6217,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 242,
-    id: "trhvy6",
+    id: "trhvy6b",
     sources: [
       {
         name: "How can I test if a letter in a string is uppercase or lowercase using JavaScript?",
@@ -6367,7 +6367,7 @@ module.exports = [
     tags: ["front-end"],
     type: "definition",
     number: 248,
-    id: "i2x0f9",
+    id: "i2x0f9e",
     sources: [
       {
         name: "What is responsive web design",
@@ -6392,7 +6392,7 @@ module.exports = [
     tags: ["algorithms", "programming-fundamentals"],
     type: "definition",
     number: 249,
-    id: "dg97u4",
+    id: "dg97u4t",
     sources: [
       {
         name: "What's the best way to explain big-O notation in laymen's terms?",
@@ -6769,7 +6769,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 264,
-    id: "i9hzdt",
+    id: "i9hzdt2",
     sources: [
       {
         name: "Check if an array contains duplicate values",
@@ -6894,7 +6894,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 269,
-    id: "6x0juy",
+    id: "6x0juyv",
     sources: [
       {
         name: "Testing whether a value is odd or even",
@@ -7255,7 +7255,7 @@ module.exports = [
     tags: ["software-engineering"],
     type: "definition",
     number: 283,
-    id: "jexkah",
+    id: "jexkahg",
     sources: [
       {
         name: "What is Software Localization?",
@@ -7306,7 +7306,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 285,
-    id: "n679h6",
+    id: "n679h6b",
     sources: [
       {
         name: "How to replace all occurrences of a string?",
@@ -7331,7 +7331,7 @@ module.exports = [
     tags: ["javascript"],
     type: "code",
     number: 286,
-    id: "mo1dpw",
+    id: "mo1dpw7",
     sources: [
       {
         name: "Remove last item from array",
