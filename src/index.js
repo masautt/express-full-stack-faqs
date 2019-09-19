@@ -14,7 +14,7 @@ const URL = "http://localhost:8080";
 
 app.use(cors())
 
-app.get("/", (req, res) => {
+app.get(["/", "/about", "/info", "/api"], (req, res) => {
     return res.json({
         total: faqsData.length,
         unanswered: faqsData.filter(faq => faq.answer === "").length,
@@ -50,18 +50,18 @@ app.get("/", (req, res) => {
     });
 });
 
-app.get(["/rand/:arg"], (req, res) => {
+app.get("/rand/:arg", (req, res) => {
     let arg = req.params.arg;
     return (arg > 50 || arg <= 0 || arg === undefined)
         ? res.json(faqsData.sort(() => Math.random() - 0.5).slice(0, 1))
         : res.json(faqsData.sort(() => Math.random() - 0.5).slice(0, arg))
 });
 
-app.get(["/faq/:arg"], (req, res) => {
+app.get("/faq/:arg", (req, res) => {
     let arg = req.params.arg;
     return (arg.split("").length == 7)
-        ? res.json(faqsData.filter(faq => faq.id === arg.toLowerCase()))
-        : res.json(faqsData.filter(faq => faq.number == arg))
+        ? res.json(faqsData.filter(faq => faq.id === arg.toLowerCase())[0])
+        : res.json(faqsData.filter(faq => faq.number == arg)[0])
 })
 
 app.get("/tags", (req, res) => {
@@ -77,7 +77,10 @@ app.get("/tag/:arg", (req, res) => {
 });
 
 app.get("/types", (req, res) => {
-    return res.json(typesData);
+    return res.json(typesData.map(typeData => {
+        typeData["total"] = faqsData.filter(faqData => faqData.type === typeData.id).length
+        return typeData;
+    }));
 });
 
 app.get("/type/:arg", (req, res) => {
@@ -94,12 +97,5 @@ app.get("/set/:arg", (req, res) => {
     let rawSet = setsData.filter(set => set.id == arg)[0];
     return res.json(rawSet.faqs.map(faq => faqsData.filter(faqData => faqData.id === faq.slice(0,7))[0]));
 });
-
-app.get("/test", (req, res) => {
-    return res.json(faqsData.filter(elem => elem.id.length === 6))
-})
-
-
-
 
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
