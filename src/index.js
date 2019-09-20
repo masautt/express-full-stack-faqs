@@ -7,8 +7,6 @@ const tagsData = require("./data/tags");
 const typesData = require("./data/types");
 const setsData = require("./data/sets");
 
-const hfs = require("./helpers");
-
 const PORT = 8080;
 const URL = "http://localhost:8080";
 
@@ -58,10 +56,14 @@ app.get("/rand/:arg", (req, res) => {
 });
 
 app.get("/faq/:arg", (req, res) => {
-    let arg = req.params.arg;
-    return (arg.split("").length == 7)
-        ? res.json(faqsData.filter(faq => faq.id === arg.toLowerCase())[0])
-        : res.json(faqsData.filter(faq => faq.number == arg)[0])
+    let arg = req.params.arg.toLowerCase();
+    let returnFAQ =  (arg.split("").length == 7)
+        ? faqsData.filter(faq => faq.id === arg)[0]
+        : faqsData.filter(faq => faq.number == arg)[0]
+    console.log(returnFAQ);
+    return !!returnFAQ
+        ? res.json(returnFAQ) 
+        : res.json({error: `FAQ "${arg}" not found!`})
 })
 
 app.get("/tags", (req, res) => {
@@ -72,8 +74,14 @@ app.get("/tags", (req, res) => {
 });
 
 app.get("/tag/:arg", (req, res) => {
-    let arg = req.params.arg;
-    return res.json(faqsData.filter(faq => faq.tags.includes(arg.toLowerCase())));
+    let arg = req.params.arg.toLowerCase();
+    if (!(tagsData.filter(tagData => tagData.id === arg).length)) 
+        return res.json({error : `Could not find tag "${arg}"`});
+
+    let foundTag = faqsData.filter(faq => faq.tags.includes(arg));
+    return !!foundTag.length
+        ? res.json(foundTag) 
+        : res.json({msg: `No FAQS currently have tag "${arg}"`})
 });
 
 app.get("/types", (req, res) => {
@@ -84,18 +92,28 @@ app.get("/types", (req, res) => {
 });
 
 app.get("/type/:arg", (req, res) => {
-    let arg = req.params.arg;
-    return res.json(faqsData.filter(faq => faq.type === arg));
+    let arg = req.params.arg.toLowerCase();
+    if (!(typesData.filter(typeData => typeData.id === arg).length)) 
+        return res.json({error : `Could not find type "${arg}"`});
+
+    let foundType = faqsData.filter(faq => faq.type === arg);
+    return !!foundType.length
+        ?  res.json(foundType) 
+        :  res.json({msg: `No FAQS currently have type "${arg}"` })
+    
 });
 
 app.get("/sets", (req, res) => {
-    return res.json(setsData);
+    return res.json(setsData.map(setData => {
+        setData["total"] = setData.faqs.length
+        return setData;
+    }));
 });
 
 app.get("/set/:arg", (req, res) => {
-    let arg = req.params.arg;
+    let arg = req.params.arg.toLowerCase();
     let rawSet = setsData.filter(set => set.id == arg)[0];
     return res.json(rawSet.faqs.map(faq => faqsData.filter(faqData => faqData.id === faq.slice(0,7))[0]));
 });
 
-app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
+app.listen(PORT, () => console.log(`full-stack-faqs-back-end running on ${PORT}!`));
