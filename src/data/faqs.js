@@ -2182,7 +2182,7 @@ module.exports = [
     ],
   },
   {
-    question: "What is the difference between HTML elements and tags?",
+    question: "What's the difference between HTML elements and tags?",
     answer:
       "HTML elements communicate to the browser to render text. When elements are enclosed by the brackets <> they form HTML tags.",
     tags: ["html", "front-end"],
@@ -2366,7 +2366,7 @@ module.exports = [
     ],
   },
   {
-    question: "What is the difference between compiling and interpreting code?",
+    question: "What's the difference between compiling and interpreting code?",
     answer:
       "Interpreting code means translating the commands from top to bottom, line by line, every time the program is run whereas compiling code means the translation is done ahead of time.",
     tags: ["programming-fundamentals", "javascript"],
@@ -2547,7 +2547,7 @@ module.exports = [
     ],
   },
   {
-    question: "What is the difference between a Radial and Linear Gradient?",
+    question: "What's the difference between a Radial and Linear Gradient?",
     answer:
       "A radial gradient differs in that it emanates outward while a linear gradient changes color in a straight line in one direction.",
     tags: ["css", "front-end"],
@@ -2599,7 +2599,7 @@ module.exports = [
     ],
   },
   {
-    question: "What is the difference between padding and margin?",
+    question: "What's the difference between padding and margin?",
     answer:
       "Padding is the space between the contend and the border whereas margin is the space outside the border.",
     tags: ["css", "front-end"],
@@ -3585,7 +3585,7 @@ module.exports = [
     ]
   },
   {
-    question: "What is the difference between stack and heap?",
+    question: "What's the difference between stack and heap?",
     answer:
       "Stack is LIFO and is used for static memory allocation whereas the heap is FIFO and is used for dynamic memory. The stack will also keep track of which functional call you are on, because it is a stack of functions.",
     tags: ["programming-fundamentals"],
@@ -4104,7 +4104,7 @@ module.exports = [
     ]
   },
   {
-    question: "What is the difference between string.charAt(x) and string[x]?",
+    question: "What's the difference between string.charAt(x) and string[x] in JavaScript?",
     answer:
       "The bracket notation string[x] does not work in IE7 and below.",
     tags: ["javascript"],
@@ -4720,9 +4720,9 @@ module.exports = [
     ]
   },
   {
-    question: "What is the purpose of using the (!!) NOT NOT operator?",
+    question: "What is the purpose of using the (!!) NOT NOT operator in JavaScript?",
     answer:
-      "The !! or NOT NOT operator is used to convert any value to a boolean. A single NOT operator ( ! ) will convert the value to a boolean and then get the opposite, whereas 2 will just get the value as a boolean.",
+      "The !!, aka NOT NOT, aka BANG BANG operator is used to convert any value to a boolean. A single NOT operator ( ! ) will convert the value to a boolean and then get the opposite, whereas 2 will just get the value as a boolean.",
     tags: ["javascript"],
     type: "explanation",
     number: 184,
@@ -6939,7 +6939,7 @@ module.exports = [
     ]
   },
   {
-    question: "How to remove the first element from an array?",
+    question: "How to remove the first element from an array in JavaScript?",
     answer: "https://gist.github.com/masautt/9caca1bb263eac04e77907a0c4e92a63",
     tags: ["javascript"],
     type: "code",
@@ -6989,7 +6989,7 @@ module.exports = [
     ]
   },
   {
-    question: "What are the 3 steps of compilation?",
+    question: "What are the 3 steps of compilation in JavaScript?",
     answer:
       "1. Tokenizing / Lexing: breaking up a string of characters into meaningful chunks, called tokens. 2. Parsing: taking an array of tokens and turning it into a tree of nested elements called the Abstract Syntax Tree. 3. code-Generation: Taking the AST and turning it into executable code.",
     tags: ["javascript"],
@@ -7326,7 +7326,7 @@ module.exports = [
     ]
   },
   {
-    question: "How to remove the last element from an array?",
+    question: "How to remove the last element from an array in JavaScript?",
     answer: "https://gist.github.com/masautt/298a6fefb1d8bbec65698db879e4c765",
     tags: ["javascript"],
     type: "code",
@@ -7347,6 +7347,31 @@ module.exports = [
         name: "How to remove an element from a JavaScript array.",
         site: "medium",
         url: "https://medium.com/@enirate/how-to-remove-an-element-from-a-javascript-array-ce41d6ea259f"
+      },
+    ]
+  },
+  {
+    question: "What's the difference between unit tests and integreation tests?",
+    answer: "A unit test checks if a relatively small piece of code is doing what it is intended to do, whereas an integration test is done to demonstrate that different pieces of the system work together. These tend to cover whole applications rather than just one component.",
+    tags: ["software-engineering"],
+    type: "code",
+    number: 287,
+    id: "wmqw6kj",
+    sources: [
+      {
+        name: "What's the difference between unit tests and integration tests? [duplicate]",
+        site: "stack-overflow",
+        url: "https://stackoverflow.com/a/5357837/9715166"
+      },
+      {
+        name: "Unit vs Integration testing — what's the difference? | Code Walks 005",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=uCxL7NGEohI"
+      },
+      {
+        name: "Towards a robust testing future: Unit Vs Integration Testing",
+        site: "medium",
+        url: "https://medium.com/the-andela-way/towards-a-robust-testing-future-unit-vs-integration-tests-700f7a1f6a7f"
       },
     ]
   },

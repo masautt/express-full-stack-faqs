@@ -1,18 +1,28 @@
 {
   "name": "full-stack-faqs-back-end",
   "version": "1.0.0",
-  "description": "",
+  "author": "masautt",
+  "description": "Express app for full-stack-faqs",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "build": "node src/index.js"
+    "build": "node src/index.js",
+    "test" : "jest"
   },
   "dependencies": {
     "cors": "2.8.5",
     "express": "4.17.1"
   },
   "devDependencies": {
-    "nodemon": "1.18.4"
+    "jest": "^24.9.0",
+    "nodemon": "1.18.4",
+    "supertest": "^4.0.2"
   },
-  "keywords": []
+  "keywords": [],
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
 }
