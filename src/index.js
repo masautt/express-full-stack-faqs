@@ -1,25 +1,25 @@
 const express = require("express");
-const cors = require('cors')
-const app = express();
+const cors = require('cors');
+
+const SERVER = require("./env");
 
 const faqsData = require("./data/faqs");
 const tagsData = require("./data/tags");
 const typesData = require("./data/types");
 const setsData = require("./data/sets");
 
-const PORT = 8080;
-const URL = "http://localhost:8080";
+const app = express();
 
 app.use(cors())
 
-app.get(["/", "/about", "/info", "/api"], (req, res) => {
+app.get(["/", "/about", "/info"], (req, res) => {
     return res.json({
         total: faqsData.length,
         unanswered: faqsData.filter(faq => faq.answer === "").length,
         data: {
             types: {
                 about: {
-                    api: `${URL}/types`,
+                    api: `${SERVER.URL}/types`,
                     total: typesData.length,
                 },
                 data: typesData.map(type => {
@@ -29,7 +29,7 @@ app.get(["/", "/about", "/info", "/api"], (req, res) => {
             },
             tags: {
                 about: {
-                    api: `${URL}/tags`,
+                    api: `${SERVER.URL}/tags`,
                     total: tagsData.length,
                 },
                 data: tagsData.map(tag => {
@@ -39,7 +39,7 @@ app.get(["/", "/about", "/info", "/api"], (req, res) => {
             },
             sets: {
                 about: {
-                    api: `${URL}/sets`,
+                    api: `${SERVER.URL}/sets`,
                     total: setsData.length,
                 },
                 data: setsData,
@@ -57,13 +57,13 @@ app.get("/rand/:arg", (req, res) => {
 
 app.get("/faq/:arg", (req, res) => {
     let arg = req.params.arg.toLowerCase();
-    let returnFAQ =  (arg.split("").length == 7)
+    let returnFAQ = (arg.split("").length == 7)
         ? faqsData.filter(faq => faq.id === arg)[0]
         : faqsData.filter(faq => faq.number == arg)[0]
     console.log(returnFAQ);
     return !!returnFAQ
-        ? res.json(returnFAQ) 
-        : res.json({error: `FAQ "${arg}" not found!`})
+        ? res.json(returnFAQ)
+        : res.json({ error: `FAQ "${arg}" not found!` })
 })
 
 app.get("/tags", (req, res) => {
@@ -75,13 +75,13 @@ app.get("/tags", (req, res) => {
 
 app.get("/tag/:arg", (req, res) => {
     let arg = req.params.arg.toLowerCase();
-    if (!(tagsData.filter(tagData => tagData.id === arg).length)) 
-        return res.json({error : `Could not find tag "${arg}"`});
+    if (!(tagsData.filter(tagData => tagData.id === arg).length))
+        return res.json({ error: `Could not find tag "${arg}"` });
 
     let foundTag = faqsData.filter(faq => faq.tags.includes(arg));
     return !!foundTag.length
-        ? res.json(foundTag) 
-        : res.json({msg: `No FAQS currently have tag "${arg}"`})
+        ? res.json(foundTag)
+        : res.json({ msg: `No FAQS currently have tag "${arg}"` })
 });
 
 app.get("/types", (req, res) => {
@@ -93,14 +93,14 @@ app.get("/types", (req, res) => {
 
 app.get("/type/:arg", (req, res) => {
     let arg = req.params.arg.toLowerCase();
-    if (!(typesData.filter(typeData => typeData.id === arg).length)) 
-        return res.json({error : `Could not find type "${arg}"`});
+    if (!(typesData.filter(typeData => typeData.id === arg).length))
+        return res.json({ error: `Could not find type "${arg}"` });
 
     let foundType = faqsData.filter(faq => faq.type === arg);
     return !!foundType.length
-        ?  res.json(foundType) 
-        :  res.json({msg: `No FAQS currently have type "${arg}"` })
-    
+        ? res.json(foundType)
+        : res.json({ msg: `No FAQS currently have type "${arg}"` })
+
 });
 
 app.get("/sets", (req, res) => {
@@ -113,7 +113,7 @@ app.get("/sets", (req, res) => {
 app.get("/set/:arg", (req, res) => {
     let arg = req.params.arg.toLowerCase();
     let rawSet = setsData.filter(set => set.id == arg)[0];
-    return res.json(rawSet.faqs.map(faq => faqsData.filter(faqData => faqData.id === faq.slice(0,7))[0]));
+    return res.json(rawSet.faqs.map(faq => faqsData.filter(faqData => faqData.id === faq.slice(0, 7))[0]));
 });
 
-app.listen(PORT, () => console.log(`full-stack-faqs-back-end running on ${PORT}!`));
+app.listen(SERVER.PORT, () => console.log(`full-stack-faqs-back-end running on ${SERVER.PORT}!`));

@@ -4,7 +4,7 @@ module.exports = [
       "What's the difference between CSS Component Frameworks and CSS Utility Frameworks",
     answer:
       "Component Frameworks limit writing actual CSS because they offer prebuilt components that can be imported. Utility frameworks encourage inline styling by offering prebuilt classes that correlate to CSS attributes.",
-    tags: ["front-end", "css", "javascript-libraries"],
+    tags: ["css", "front-end"],
     type: "comparison",
     number: 1,
     id: "56h6vqe",
@@ -30,7 +30,7 @@ module.exports = [
     question: "What's the difference between TypeScript and JavaScript?",
     answer:
       "TypeScript is a SuperSet of JavaScript created by Microsoft in 2012. TypeScript is strongly-typed which helps identify compilation errors in development.",
-    tags: ["javascript", "typescript", "javascript-libraries"],
+    tags: ["javascript", "typescript"],
     type: "comparison",
     number: 2,
     id: "dcfqw4r",
@@ -79,7 +79,7 @@ module.exports = [
     ],
   },
   {
-    question: 'What does "use strict" do in JavaScript?',
+    question: 'What is strict mode in JavaScript?',
     answer:
       'The "use strict" string literal was introduced in ESCMScript 5. When included in a scope, errors are thrown for insecure coding practices like assigning values to undeclared variables. The this keyword does not traverse up the functional scope to the global object when it is undefined.',
     tags: ["javascript"],
@@ -91,6 +91,11 @@ module.exports = [
         name: "What does \"use strict\" do in JavaScript, and what is the reasoning behind it?",
         site: "stack-overflow",
         url: "https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it"
+      },
+      {
+          name: "Strict Mode — \"use strict\" - Beau teaches JavaScript",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=uqUYNqZx0qY"
       },
       {
         name: "Strict Mode - You Don't Know JS",
@@ -183,6 +188,11 @@ module.exports = [
         url: "https://www.youtube.com/watch?v=MrAnu4zdjjY"
       },
       {
+          name: "Learn CSS Box Model In 8 Minutes",
+          site: "youtube",
+          url: "https://www.youtube.com/watch?v=rIO5326FgPE"
+      },
+      {
         name: "Introduction to the CSS basic box model - MDN Web Docs",
         site: "firefox",
         url: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"
@@ -192,7 +202,7 @@ module.exports = [
   {
     question: "What's the difference between == and === in JavaScript?",
     answer:
-      'The double equals (==) uses implicit conversion when comparing values. If we compare the number 5 with the string "5" (5 == "5"), the string will be converted to a number and compared. The triple equals (===) does not implicitly convert so ("5" === 5) will return false.',
+      "The double equals (==) uses implicit conversion when comparing values. If we compare the number 5 with the string \"5\" (5 == \"5\"), the string will be converted to a number and compared. The triple equals (===) does not implicitly convert so (\"5\" === 5) will return false.",
     tags: ["javascript"],
     type: "comparison",
     number: 9,
@@ -350,7 +360,7 @@ module.exports = [
     ]
   },
   {
-    question: "What's the difference between a shallow copy and deep copy?",
+    question: "What's the difference between a shallow copy and deep copy in JavaScript?",
     answer:
       "Shallow copies do not consider the fields of an object that are references to other objects so it keeps the same memory addresses. Deep copies make a copy of dynamically allocated memory that is pointed to by the fields.",
     tags: ["javascript", "programming-fundamentals"],
@@ -376,10 +386,10 @@ module.exports = [
     ]
   },
   {
-    question: "What is immutable?",
+    question: "What is immutability in JavaScript?",
     answer:
-      "When we say something is immutable it means it we cannot modify it's value after assignment, we would need to create a copy of it. Numbers and strings are immutable while objects, arrays, functions, classes, sets, and maps are not.",
-    tags: ["programming-fundamentals", "javascript"],
+      "When we say something is immutable it means it we cannot modify it's value after assignment, we would need to create a copy of it. In JavaScript, numbers and strings are immutable while objects, arrays, functions, classes, sets, and maps are not.",
+    tags: [ "javascript", "programming-fundamentals"],
     type: "definition",
     number: 16,
     id: "aplmx6f",
@@ -406,7 +416,7 @@ module.exports = [
       "What are the 2 key features of React that set it apart from other frameworks?",
     answer:
       "React features JSX, a syntax extension to JavaScript that is similar to other templating languages but comes with the full power of JavaScript. React also uses a virtual dom which is a lightweight copy of the DOM that allows eliminates the need to constantly update the entire DOM which is slow.",
-    tags: ["react-js", "javascript", "front-end", "javascript-libraries"],
+    tags: ["react-js", "javascript", "front-end"],
     type: "list",
     number: 17,
     id: "tc14j9c",
@@ -481,10 +491,10 @@ module.exports = [
     ]
   },
   {
-    question: "What is a first class function?",
+    question: "What is a first class function in JavaScript?",
     answer:
-      "This means functions can be stored in a variable, object, or array and they can be passed into and returned from a function.",
-    tags: ["programming-fundamentals", "javascript"],
+      "JavaScript allows functions to be stored in a variable, object, or array and they can be passed into and returned from a other functions.",
+    tags: ["javascript", "functional-programming"],
     type: "definition",
     number: 20,
     id: "pclvevr",
@@ -507,35 +517,35 @@ module.exports = [
     ]
   },
   {
-    question: "What is a lambda function?",
-    answer: "These are essentially nameless functions.",
-    tags: ["python", "programming-fundamentals"],
+    question: "What is npm?",
+    answer: "npm (node package manager) is the default package manager for Node.js. It features a CLI for downloading packages from it's online repository at https://www.npmjs.com/.",
+    tags: ["node-js", "javascript"],
     type: "definition",
     number: 21,
     id: "kdt45mr",
     sources: [
       {
-        name: "What is a lambda (function)?",
-        site: "stack-overflow",
-        url: "https://stackoverflow.com/questions/16501/what-is-a-lambda-function"
+        name: "When and what is NPM used for?",
+        site: "quora",
+        url: "https://www.quora.com/When-and-what-is-NPM-used-for?"
       },
       {
-        name: "Python Programming Tutorial - Anonymous function | Lambda Function",
+        name: "What is npm? In 2 minutes - npm tutorial for beginners",
         site: "youtube",
-        url: "https://www.youtube.com/watch?v=1wjoljgubkM"
+        url: "https://www.youtube.com/watch?v=ZNbFagCBlwo"
       },
       {
-        name: "Understanding Lambda Expressions",
+        name: "What the heck is npm?",
         site: "medium",
-        url: "https://medium.com/@luijar/understanding-lambda-expressions-4fb7ed216bc5"
+        url: "https://medium.com/@tanya/what-the-heck-is-npm-b8168f61e3b5"
       }
     ]
   },
   {
     question: "What is an arrow function in JavaScript?",
     answer:
-      "Arrow functions, new to ES6, are ways to write Lambda functions. These functions however, do not have their own this value. They are bound to the enclosing scope.",
-    tags: ["javascript"],
+      "Arrow functions, new to ES6, are ways to write Lambda (nameless) functions. These functions however, do not have their own this value. They are bound to the enclosing scope.",
+    tags: ["javascript", "functional-programming"],
     type: "definition",
     number: 22,
     id: "v3w9mjh",
@@ -560,7 +570,7 @@ module.exports = [
   {
     question: "What are features of a functional programming language?",
     answer:
-      "1. First-class functions: functions can be stored in a variable object or array and can be passed in or returned from functions. 2. Higher Order Functions: (Factory Functions) functions that can build other functions by taking a function as an argument. 3. Lambda functions (arrow functions): A nameless function",
+      "1. First-class functions: functions can be stored in a variable object or array and can be passed in or returned from functions. 2. Higher Order Functions: (Factory Functions in JS) functions that can build other functions by taking a function as an argument. 3. Lambda functions (arrow functions in JS): A nameless function",
     tags: ["functional-programming", "javascript"],
     type: "list",
     number: 23,
@@ -584,10 +594,10 @@ module.exports = [
     ]
   },
   {
-    question: "What is a higher order function?",
+    question: "What is a higher order function in JavaScript?",
     answer:
       "These are functions that take a function as an argument and/or return a new function.",
-    tags: ["functional-programming", "javascript"],
+    tags: ["javascript", "functional-programming"],
     type: "definition",
     number: 24,
     id: "qlcklyn",
@@ -784,6 +794,11 @@ module.exports = [
         name: "How does the \"this\" keyword work?",
         site: "stack-overflow",
         url: "https://stackoverflow.com/a/17514482"
+      },
+      {
+        name: "JavaScript Tutorial For Beginners #29 - THIS Keyword",
+        site: "youtube",
+        url: "https://www.youtube.com/watch?v=yVdU2coJ1VQ"
       },
       {
         name: "this all Makes Sense Now! - You Don't Know JS",
@@ -1316,7 +1331,7 @@ module.exports = [
       "What's the difference between React.js and Angular.JS's approach on data binding? ",
     answer:
       "React.js uses a one-way data flow while Angular uses two-way binding. Two-way data binding means UI fields are bound to model data dynamically such that when a UI field changes, the model data changes with it and vice-versa. One-way data flow means the model is the single source of truth such that changes in the UI trigger measures that signal user intent to the model. Only the model has access to change the states app's state.",
-    tags: ["front-end", "javascript", "react-js", "javascript-libraries"],
+    tags: ["front-end", "javascript", "react-js", ],
     type: "comparison",
     number: 52,
     id: "aydefca",
@@ -1525,7 +1540,7 @@ module.exports = [
     question: "What are React Hooks?",
     answer:
       "React hooks allows us to only write function in JavaScript and removes the need for the class and this keywords.",
-    tags: ["front-end", "javascript", "react-js", "javascript-libraries"],
+    tags: ["front-end", "javascript", "react-js", ],
     type: "definition",
     number: 60,
     id: "5xgvj56",
@@ -1551,7 +1566,7 @@ module.exports = [
     question: "What's the difference between Context API and React Redux?",
     answer:
       "The Context API is a feature of React itself, Redux is a predictable state container for JS apps in general. There is greater functionality behind Redux however it is not meant solely for React.",
-    tags: ["react-js", "front-end", "javascript", "javascript-libraries"],
+    tags: ["react-js", "front-end", "javascript", ],
     type: "comparison",
     number: 61,
     id: "be08gkk",
@@ -5651,7 +5666,7 @@ module.exports = [
     question: "What is JQuery?",
     answer:
       "JQuery is a small component library that allows for easier HTML document traversal and manipulation as well as a much simpler API for AJAX requests.",
-    tags: ["javascript", "front-end", "javascript-libraries"],
+    tags: ["javascript", "front-end"],
     type: "definition",
     number: 220,
     id: "uorwuur",
@@ -5677,7 +5692,7 @@ module.exports = [
     question: "What is CoffeeScript?",
     answer:
       "CoffeeScript is a programming language that compiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python, and Haskell in efort to enhance JavaScript's brevity and readability. ",
-    tags: ["javascript", "javascript-libraries"],
+    tags: ["javascript"],
     type: "definition",
     number: 221,
     id: "ljdn42b",
@@ -5703,7 +5718,7 @@ module.exports = [
     question: "What's the difference between JQuery and CoffeeScript?",
     answer:
       "CoffeeScript is it's own programming language, it compiles down to JavaScript. JQuery is a library you import into JavaScript files to make use of their methods.",
-    tags: ["javascript", "javascript-libraries"],
+    tags: ["javascript"],
     type: "explanation",
     number: 222,
     id: "cjax144",
@@ -5729,7 +5744,7 @@ module.exports = [
     question: "Why is JQuery no longer popular?",
     answer:
       "One of the main reasons for jQuery was it's ability to parse the DOM with functions that worked across all browsers. Today, JavaScript's dom traversal is not only supported by most browsers, but it's faster than jQuery.s",
-    tags: ["javascript", "javascript-libraries"],
+    tags: ["javascript"],
     type: "explanation",
     number: 223,
     id: "ao7slwl",
@@ -5755,7 +5770,7 @@ module.exports = [
     question: "What is a bug?",
     answer:
       "An error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result.",
-    tags: ["programming-fundamentals"],
+    tags: ["programming-fundamentals", "software-engineering"],
     type: "definition",
     number: 224,
     id: "0kovdkf",
@@ -5781,7 +5796,7 @@ module.exports = [
     question: "What is code?",
     answer:
       "code is a language understood by the computer. Programmers can use code to build software.",
-    tags: ["programming-fundamentals"],
+    tags: ["programming-fundamentals", "software-engineering"],
     type: "definition",
     number: 225,
     id: "rtt06oc",
@@ -5807,7 +5822,7 @@ module.exports = [
     question: "What is deployment?",
     answer:
       "Deployment refers to preparing a software application to run and operate in a specific environment.",
-    tags: ["programming-fundamentals"],
+    tags: ["software-engineering"],
     type: "definition",
     number: 226,
     id: "islr4qg",
@@ -5833,7 +5848,7 @@ module.exports = [
     question: "What is documentation?",
     answer:
       "The umbrella term that encompasses all written documents and materials dealing with a software product's development and use.",
-    tags: ["programming-fundamentals"],
+    tags: ["software-engineering"],
     type: "definition",
     number: 227,
     id: "54n8r5r",
@@ -5885,7 +5900,7 @@ module.exports = [
     question: "What is a framework?",
     answer:
       "A framework is something that gives programmers most of the basic building blocks they need to make an application.",
-    tags: ["javascript-libraries"],
+    tags: ["javascript"],
     type: "definition",
     number: 229,
     id: "tnc2dxj",
