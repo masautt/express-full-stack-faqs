@@ -8,6 +8,6 @@ exports.getSetsList = ({setsData}) => {
 }
 
 exports.getNamedSet = ({arg, setsData, faqsData}) => {
-    let rawSet = setsData.filter(set => set.id == arg)[0];
+    let rawSet = setsData.filter(set => set.id.toLowerCase() == arg)[0];
     return rawSet.faqs.map(faq => faqsData.filter(faqData => faqData.id === faq.slice(0, 7))[0]);
 }
