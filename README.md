@@ -1,4 +1,4 @@
-# Welcome to Full-Stack-Faqs-Back-End!
+# Welcome my Full-Stack-Faqs Express App
 
 This is the REST API for Full-Stack-Faqs, [masautt](https://github.com/masautt)'s database of frequently asked question on full stack development. Check out the react-app for this project at [Full-Stack-Faqs-Front-End](https://github.com/masautt/full-stack-faqs-front-end)!
 
