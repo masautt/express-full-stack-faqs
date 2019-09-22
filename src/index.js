@@ -3,20 +3,22 @@ const cors = require('cors');
 
 const SERVER = require("./env");
 
-// const faqsData = require("./data/faqsData");
-// const tagsData = require("./data/tagsData");
-// const typesData = require("./data/typesData");
-// const setsData = require("./data/setsData");
-
-const faqsData = require("./tests/data/faqsTestData");
-const tagsData = require("./tests/data/tagsTestData");
-const typesData = require("./tests/data/typesTestData");
-const setsData = require("./tests/data/setsTestData");
-
 const faqsHelper = require("./helpers/faqsHelper");
 const tagsHelper = require("./helpers/tagsHelper");
 const typesHelper = require("./helpers/typesHelper");
 const setsHelper = require("./helpers/setsHelper");
+
+// To test with real data include the follow data sets
+const faqsData = require("./data/faqsData");
+const tagsData = require("./data/tagsData");
+const typesData = require("./data/typesData");
+const setsData = require("./data/setsData");
+
+// To test with mock data include the follow data sets
+// const faqsData = require("./tests/data/faqsTestData");
+// const tagsData = require("./tests/data/tagsTestData");
+// const typesData = require("./tests/data/typesTestData");
+// const setsData = require("./tests/data/setsTestData");
 
 const allData = {
     faqsData: faqsData,
