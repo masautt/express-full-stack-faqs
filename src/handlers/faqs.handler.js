@@ -53,8 +53,8 @@ exports.getRandFaq = ({arg, faqsData}) => {
     // If we don't find that faq by id or number we throw and error
 exports.getNamedFaq = ({arg, faqsData})  => {
     let returnFAQ = (arg.split("").length == 7)
-        ? faqsData.filter(faq => faq.id === arg)[0]
-        : faqsData.filter(faq => faq.number == arg)[0]
+        ? faqsData.find(faq => faq.id === arg)
+        : faqsData.find(faq => faq.number == arg)
     return !!returnFAQ
         ? returnFAQ
         : { error: `FAQ "${arg}" not found!` }

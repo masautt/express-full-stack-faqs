@@ -1,12 +1,8 @@
-const SERVER = require("../env");
-
 module.exports = [
   {
     name: "YDKJS Review",
     desc: "FAQ's based on Kyle Simpson's You Don't Know JS Series",
-    emoji: "💩",
     id: "you-dont-know-js-review",
-    url: `${SERVER.URL}/set/you-dont-know-js-review`,
     faqs: [
       "1kxmhgp-What are the 2 ways to cheat lexical scope in JavaScript",
       "swl1uaa-What is the difference between lexical scope and dynamic scope in JavaScript?",
@@ -36,9 +32,7 @@ module.exports = [
   {
     name: "Programming 101",
     desc: "Quick QnA for a Beginner Programmer",
-    emoji: "🍏",
     id: "programming-101",
-    url: `${SERVER.URL}/set/programming-101`,
     faqs: [
       "o1m8bh8-What's the difference between a variable and a value?",
       "1fn4aw5-What is a loop?",
@@ -52,9 +46,7 @@ module.exports = [
     name: "JavaScript Interview Questions - Strings",
     desc:
       "FAQ's for all those StackOverflow questions you've been digging through.",
-    emoji: "🌟",
     id: "javascript-interview-questions-strings",
-    url: `${SERVER.URL}/set/javascript-interview-questions-strings`,
     faqs: [
       "r460xpv-How to check if a string contains a substring in JavaScript?",
       "n679h6b-How to replace all occurrences of a string in JavaScript?",
@@ -82,9 +74,7 @@ module.exports = [
     name: "JavaScript Interview Questions - Arrays",
     desc:
       "FAQ's for all those StackOverflow questions you've been digging through.",
-    emoji: "🌟",
     id: "javascript-interview-questions-arrays",
-    url: `${SERVER.URL}/set/javascript-interview-questions-arrays`,
     faqs: [
       "otgvjxf-How to remove an element from an array in JavaScript?",
       "kr0ns2b-How to append to array in JavaScript?",

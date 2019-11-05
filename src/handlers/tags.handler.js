@@ -1,4 +1,3 @@
-const SERVER = require("../env");
 
 // Method for getting all tags
     // Loops through each tag

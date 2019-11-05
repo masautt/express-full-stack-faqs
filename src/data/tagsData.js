@@ -1,156 +1,122 @@
-const SERVER = require("../env");
-
 module.exports = [
   {
     name: "JavaScript",
-    emoji: "✨",
     id: "javascript",
-    url: `${SERVER.URL}/tag/javascript`
+    desc: "",
   },
   {
     name: "HTML",
     id: "html",
-    emoji: "✏️",
-    url: `${SERVER.URL}/tag/html`
+    desc : "",
   },
   {
     name: "CSS",
     id: "css",
-    emoji: "🖍️",
-    url: `${SERVER.URL}/tag/css`
+    desc : "",
   },
   {
     name: "Networking",
-    emoji: "📡",
     id: "networking",
-    url: `${SERVER.URL}/tag/networking`
+    desc : "",
   },
   {
     name: "Security",
-    emoji: "🔒",
     id: "securty",
-    url: `${SERVER.URL}/tag/security`
+    desc : "",
   },
   {
     name: "Programming Fundamentals",
     id: "programming-fundamentals",
-    emoji: "🌎",
-    url: `${SERVER.URL}/tag/programming-fundamentals`
+    desc : "",
   },
   {
     name: "Operating Systems",
-    emoji: "💽",
     id: "operating-systems",
-    url: `${SERVER.URL}/tag/operating-systems`
+    desc : "",
   },
   {
     name: "React.js",
-    emoji: "⚛️",
     id: "react-js",
-    url: `${SERVER.URL}/tag/react-js`
+    desc : "",
   },
   {
     name: "Front-End",
-    emoji: "💻",
     id: "front-end",
-    url: `${SERVER.URL}/tag/front-end`
+    desc : "",
   },
   {
     name: "Back-End",
-    emoji: "🖥️",
     id: "back-end",
-    url: `${SERVER.URL}/tag/back-end`
+    desc : "",
   },
   {
     name: "DOM",
-    emoji: "📝",
     id: "dom",
-    url: `${SERVER.URL}/tag/dom`
+    desc : "",
   },
   {
     name: "Software Engineering",
-    emoji: "🤝🏼",
     id: "software-engineering",
-    url: `${SERVER.URL}/tag/software-engineering`
+    desc : "",
   },
   {
     name: "Node.js",
-    emoji: "❇️",
     id: "node-js",
-    url: `${SERVER.URL}/tag/node-js`
+    desc : "",
   },
   {
     name: "Databases",
-    emoji: "🗂️",
     id: "databases",
-    url: `${SERVER.URL}/tag/databases`
+    desc : "",
   },
   {
     name: "Data Structures",
-    emoji: "🏗️",
     id: "data-structures",
-    url: `${SERVER.URL}/tag/data-structures`
+    desc : "",
   },
   {
     name: "Data Science",
-    emoji: "📊",
     id: "data-science",
-    url: `${SERVER.URL}/tag/data-science`
+    desc : "",
   },
   {
     name: "Algorithms",
-    emoji: "📐",
     id: "algorithms",
-    url: `${SERVER.URL}/tag/algorithms`
+    desc : "",
   },
   {
     name: "TypeScript",
-    emoji: "🗃️",
     id: "typescript",
-    url: `${SERVER.URL}/tag/typescript`
+    desc : "",
   },
   {
     name: "Git",
-    desc: "The most popular distributed version-control.",
-    emoji: "🔱",
     id: "git",
-    url: `${SERVER.URL}/tag/git`
+    desc : "",
   },
   {
     name: "REST",
-    desc:
-      "Representation State Transfer, the standard method for designing API's.",
-    emoji: "💤",
     id: "rest",
-    url: `${SERVER.URL}/tag/rest`
+    desc : "",
   },
   {
     name: "Design Patterns",
-    desc: "Blueprints for organizing code to solve particular problems.",
-    emoji: "🗺️",
     id: "design-patterns",
-    url: `${SERVER.URL}/tag/design-patterns`
+    desc : "",
   },
   {
     name: "Linux",
-    desc:
-      "The world's most popular operating system and the powerhouse of the internet.",
-    emoji: "🐧",
     id: "linux",
-    url: `${SERVER.URL}/tag/linux`
+    desc : "",
   },
   {
     name: "Object Oriented Programming",
-    desc: "Traditional Programming",
-    emoji: "👨‍👦",
     id: "object-oriented-programming",
-    url: `${SERVER.URL}/tag/object-oriented-programming`
+    desc : "",
   },
   {
     name: "Functional Programming",
-    desc : "New Programming",
-    emoji: "👩‍👧",
     id: "functional-programming",
-    url: `${SERVER.URL}/tag/functional-programming`
+    desc : "",
   }
 ]

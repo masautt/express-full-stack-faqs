@@ -20,11 +20,3 @@ const uploadFaqs = () => {
         })
     });
 }
-
-const downloadFaqs = () => {
-    MongoClient.connect(`mongodb://${username}:${password}@${url}:${port}/${dbName}`, function(err, client) {
-        if (err) {console.log(err)};
-    
-        
-    });
-}

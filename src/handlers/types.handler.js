@@ -1,4 +1,3 @@
-const SERVER = require("../env");
 
 // Method for getting all types
     // Loops through each type
